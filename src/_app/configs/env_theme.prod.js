@@ -5,7 +5,7 @@ module.exports = {
         CONTACT_LINK: JSON.stringify('mailto:webdev@gmail.com'),
     },
     extLinkConfig: {
-        extAlert: '_Alert',
-        extClass: 'ext'
+        extAlert: JSON.stringify('_Alert'),
+        extClass: JSON.stringify('ext')
     }
 };

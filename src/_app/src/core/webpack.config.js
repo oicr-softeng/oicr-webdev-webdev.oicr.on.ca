@@ -1,17 +1,16 @@
 require('babel-polyfill');
 const webpack = require('webpack');
 const path = require('path');
-const entries = require('./configs/entries');
-const configProd = require('./configs/env_theme.prod');
-const configDev = require('./configs/env_theme.dev');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const jquery = require('jquery');
+const entries = require('../../configs/entries');
+const configProd = require('../../configs/env_theme.prod');
+const configDev = require('../../configs/env_theme.dev');
 
 // Load custome webpack config
 var webpackConfig = (env, config) => config
 try {
-    webpackConfig = require('./config/webpack.config.js');
+    webpackConfig = require('../site/webpack.config.js');
 } catch (e) {}
 
 module.exports = env => {

@@ -1,11 +1,14 @@
 module.exports = {
-    core: [
-        './src/core',
+    base_styles: [
+        './src/core/_styles'
+    ],
+    base: [
+        './src/core/_base',
+    ],
+    ums: [
+        './src/core/_ums',
     ],
     site: [
         './src/site'
     ],
-    core_styles: [
-        './src/core/styles'
-    ]
 }

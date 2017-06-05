@@ -5,13 +5,6 @@ import thunk from 'redux-thunk';
 import { Router, hashHistory } from 'react-router';
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import { BaseRoutes, Provider as UMSProvider, reducers, setConfig, getUserInfo, Components } from 'oicr-ui-core/lib/ums';
-import { extLink } from 'wfui-react/lib/util';
-
-/**
- * Set external link
- */
-const ext = extLink(jQuery, extLinkConfig);
-ext.attach(document);
 
 /**
  * Set UMS 
