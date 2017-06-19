@@ -6,7 +6,7 @@
                         <div class="navbar-header">
 
                             <!-- Site info / Navbar brand -->
-                            <a href="/webdev-cr/" title="Home" rel="home" id="webdev-logo" class="logo navbar-brand"> <img src="/webdev-cr/webdev-cr/assets/images/webdev-logo.png" alt="OICR WebDev Team" /> </a>
+                            <a href="/webdev-cr/" title="Home" rel="home" id="webdev-logo" class="logo navbar-brand"> <img src="/webdev-cr/assets/images/webdev-logo.png" alt="OICR WebDev Team" /> </a>
                             <div id="OICR WebDev Team" class="element-invisible"><strong> <a href="/webdev-cr/" title="OICR WebDev Team" rel="home"><span>OICR WebDev Team</span></a> </strong></div>
                             <div class="region region-navbar-header">
                                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
