@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<link type="text/css" rel="stylesheet" media="all" href="{{ site.url }}{{ site.baseurl }}/assets/css/page/about-us.css" >
+<link type="text/css" rel="stylesheet" media="all" href="/webdev-cr/assets/css/page/about-us.css" >
 
 <!-- Main -->
 <div class="wrapper wrapper-main">
@@ -33,7 +33,7 @@ layout: default
                             <div class="our-aim-header">
                                 <h4>{{ page.our-aim.title }}</h4>
                             </div>
-                            <div class="our-aim-img"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/icon-about-team-grey.svg"></div>
+                            <div class="our-aim-img"><img src="/webdev-cr/assets/images/icon-about-team-grey.svg"></div>
                             <div class="our-aim-content">
                                 <p>
                                   {{ content }}
@@ -118,7 +118,7 @@ layout: default
                                           <img src="{{ member.image }}">
                                         </div>
                                         <div class="team-item-image2">
-                                            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/image-testing.png">
+                                            <img src="/webdev-cr/assets/images/image-testing.png">
                                         </div>
                                       </div>
 
