@@ -1,0 +1,326 @@
+/* Banner */
+.banner-title h1 {
+    color: #355470;
+}
+
+@media only screen and (min-width: 768px) {
+    .banner-content {
+        width: calc(100% - 254px);
+        margin-top: calc(3% - 20px);
+    }
+}
+
+
+/* Main Content */
+.row.careers {
+    background-image: url(../../images/background-hex.png);
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+@media only screen and (max-width: 767px) {
+    .row.careers {
+        background-size: 767px;
+        background-position: top center;
+    }
+}
+
+.row.careers-main {
+    padding: 55px 0px;
+}
+
+.job-postings-img, .job-postings {
+    float: left;
+}
+
+.job-postings-img {
+    width: calc(100% / 3);
+}
+
+.job-postings-img img {
+    width: 90%;
+}
+
+.job-postings {
+    padding-left: 5%;
+    width: calc(200% / 3);
+}
+
+.job-postings h2 {
+    text-align: left;
+}
+
+.job-postings ul {
+    padding-left: 0px;
+}
+
+.job-postings ul > li {
+    padding: 8px 0px 10px 0px;
+    border-bottom: 1px solid #dce1e5;
+}
+
+.job-postings ul > li:first-child {
+    border-top: 1px solid #dce1e5;
+}
+
+.job-item {
+    width: 100%;
+    display: table;
+}
+
+.job-information1, .job-information2, .job-information3 {
+    width: calc(100% / 3);
+    display: table-cell;
+}
+
+.job-information3 {
+    vertical-align: bottom;
+}
+
+.job-information1 p {
+    color: #355470;
+}
+
+.job-information1 p, .job-information1 a {
+    font-weight: 700;
+}
+
+.job-postings p {
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .job-postings {
+        padding-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .job-information1, .job-information2, .job-information3 {
+        width: 49%;
+        display: inline-block;
+    }
+    .job-information3 {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .row.careers-main {
+        padding-top: 25px;
+    }
+    .job-postings, .job-postings-img {
+        float: none;
+        width: 100%;
+    }
+    .job-postings-img {
+        text-align: center;
+    }
+    .job-postings-img img {
+        width: 25%;
+        margin: auto;
+    }
+    .job-postings {
+        padding-left: 0px;
+    }
+    .job-postings h2 {
+        text-align: center;
+    }
+    .job-postings ul {
+        width: 100%;
+    }
+    .job-postings ul > li {
+        padding: 10px 0px;
+        width: 100%;
+    }
+    .job-information1, .job-information2, .job-information3 {
+        display: table-cell;
+    }
+    .job-information1 {
+        width: 40%;
+    }
+    .job-information2 {
+        width: 30%;
+    }
+    .job-information3 {
+        width: 30%;
+        text-align: right;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 608px) {
+    .job-item {
+        font-size: 0px;
+    }
+    .job-information1, .job-information2, .job-information3 {
+        font-size: 14px;
+        width: 50%;
+        text-align: center;
+        display: inline-block;
+    }
+    .job-information3 {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .job-information1, .job-information2, .job-information3 {
+        width: 100%;
+    }
+}
+
+
+
+/* What We Offer */
+.what-we-offer {
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+
+
+.teaser-header {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-repeat: no-repeat;
+    background-position: right;
+    -webkit-background-size: 10%;
+    -moz-background-size: 10%;
+    -o-background-size: 10%;
+    background-size: 10%;
+}
+
+.what-we-offer h2 {
+    margin-bottom: 0.8em;
+}
+
+.what-we-offer p {
+    text-align: center;
+    color: #4d4d4d;
+}
+
+.what-we-offer p.description {
+    font-size: 18px;
+}
+
+.what-we-offer ul {
+    margin-top: 40px;
+    height: 100%;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.what-we-offer ul>li {
+    width: calc(100% / 3);
+    display: block;
+    margin-bottom: 30px;
+}
+
+.what-we-offer ul>li:nth-child(1) {
+    padding-right: 30px;
+}
+
+.what-we-offer ul>li:nth-child(2) {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.what-we-offer ul>li:nth-child(3) {
+    padding-left: 30px;
+}
+
+.what-we-offer ul>li .teaser {
+    height: 100%;
+    padding-bottom: 15px;
+}
+
+.what-we-offer ul>li .teaser p {
+    line-height: 1.8em;
+    margin-top: 0.8em;
+    text-align: left;
+}
+
+.what-we-offer ul>li:nth-child(1) .teaser {
+    border-bottom: 5px solid #63aa35;
+}
+
+.what-we-offer ul>li:nth-child(2) .teaser {
+    border-bottom: 5px solid #39a9d4;
+}
+
+.what-we-offer ul>li:nth-child(3) .teaser {
+    border-bottom: 5px solid #ff7c00;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .what-we-offer ul>li .teaser {
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .what-we-offer ul {
+        margin-top: 20px;
+        padding: 0px 0px;
+    }
+    .what-we-offer ul>li:nth-child(n) {
+        margin: 0%;
+        padding: 0%;
+        width: 47%;
+        margin-bottom: 30px;
+    }
+    .what-we-offer ul>li:nth-child(2) {
+        margin-left: 6%;
+    }   
+    .what-we-offer ul>li .teaser {
+    }
+    .what-we-offer ul>li .teaser {
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .what-we-offer ul {
+        padding: 0px 0px;
+    }
+    .what-we-offer ul>li .teaser {
+    }
+    .what-we-offer p.description {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 608px) {
+    .what-we-offer ul>li .teaser {
+    }
+}
+
+
+@media only screen and (max-width: 530px) {
+    .what-we-offer ul {
+        margin-top: 0px;
+    }
+    .what-we-offer ul>li:nth-child(n) {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .what-we-offer ul>li .teaser {
+    }
+    .what-we-offer ul>li .teaser h3 {
+        text-align: center;
+    }
+    .what-we-offer ul>li .teaser p {
+    }
+    .what-we-offer p.description {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+}
+
+

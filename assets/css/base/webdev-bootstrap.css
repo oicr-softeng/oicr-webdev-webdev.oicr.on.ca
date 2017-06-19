@@ -1,0 +1,760 @@
+/****************************/
+/* mytheme-bootstrap.css        */
+/****************************/
+/* For each, start with typography & colours, then move on to
+   other details. */
+
+/* Horizontal grid: ??px - The same as global line-height */
+/* Vertical grid: 15px */
+
+/* Colours*/
+/* List theme colours here */
+
+/* Basic Typography & Colors
+-------------------------------------------------------------- */
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('OpenSans-Bold-webfont.eot');
+    src: url('OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Bold-webfont.woff') format('woff'),
+         url('OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('OpenSans-ExtraBold-webfont.eot');
+    src: url('OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-ExtraBold-webfont.woff') format('woff'),
+         url('OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+         url('OpenSans-ExtraBold-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.eot');
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('OpenSans-Semibold-webfont.eot');
+    src: url('OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Semibold-webfont.woff') format('woff'),
+         url('OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+html * {
+	max-height: 999999px; /* Fix: Chrome/Android */
+}
+
+html,
+body {
+	-webkit-text-size-adjust: 100%;  /* Fix: iPhone and iPod touch */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+
+@-ms-viewport{
+	width: device-width; /* Fix: Win Phone */
+}
+
+
+.page-wrapper {
+    overflow: hidden;
+}
+
+a {
+    color: #138cba;
+    text-decoration: underline;
+}
+
+a.white-link {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #39a9d4;
+    text-decoration: underline;
+}
+
+a.white-link:hover {
+    color: #c6ecfb;
+}
+
+p {
+    color: #4d4d4d;
+}
+
+/* Headings */
+@media only screen and (max-width:479px) {
+    h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    h3 {
+        font-size: 18px;
+        margin: 5px 0px;
+    }
+    p {
+        font-size: 13px;
+    }
+}
+/* Anchors */
+
+/* Specific Typography
+-------------------------------------------------------------- */
+
+/* Temporary: Remove once start theming
+   Source: system.css & system.theme.css */
+.element-hidden {
+    display: none;
+}
+.element-invisible {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+}
+.element-invisible.element-focusable:active,
+.element-invisible.element-focusable:focus {
+    clip: auto;
+    height: auto;
+    overflow: visible;
+    position: static !important;
+}
+
+.form-item,
+.form-actions {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.webform-client-form  .modal-footer .form-actions {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.marker,
+.form-required {
+    color: #f00;
+}
+
+/* Source: External Links module */
+span.ext {
+	display: inline !important;
+	background-image: url(../images/extlink.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding-right:12px;
+}
+span.mailto {
+	display: inline !important;
+	background-image: url(../images/mailto.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding-right:12px;
+}
+
+span.ext + span.ext { display: none !important;}
+
+@media print {
+    span.ext, span.mailto {
+		display:none;
+		padding:0;
+    }
+}
+
+/* HTML Elements
+-------------------------------------------------------------- */
+
+/* Site Info
+-------------------------------------------------------------- */
+
+/* Containers & Regions
+-------------------------------------------------------------- */
+
+
+/* All Containers & Regions
+-------------------------------------------------------------- */
+
+/* HEADER Container & Regions
+-------------------------------------------------------------- */
+
+/* NAV Container & Regions
+-------------------------------------------------------------- */
+
+.navbar-static-top,
+.navbar-fixed-top {
+    z-index: 500; /* Override bootstrap.css */
+    background: transparent;
+    border: none;
+}
+
+nav.navbar {
+    background-color: #fff;
+    margin-bottom: 0;
+    background: transparent;
+}
+
+
+.navbar-toggle {
+  margin-top: 3.5em;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+
+/* Navbar header */
+/* Navbar brand */
+.navbar-header .navbar-brand {
+    height: auto;
+    padding: 0px;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+
+.navbar-brand>img {
+    margin: 10px;
+    width: 280px;
+    margin-left: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand>img {
+        margin-left: 35px;
+    }
+}
+@media screen and (max-width: 660px) {
+    .navbar-brand>img {
+        margin-left: 15px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .navbar-brand>img {
+        margin-left: 25px;
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .navbar-brand>img {
+        margin-left: 10px;
+        width: 180px;
+    }
+}
+
+/* Navbar toggle */
+.navbar-default .navbar-toggle {
+    margin-top: 37px;
+    padding: 25px;
+    border: none;
+    background-image: url(../../images/icon-mobile-menu-on.svg);
+    background-repeat: no-repeat;
+}
+
+
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+    background-image: url(../../images/icon-mobile-menu-on.svg);
+}
+
+.navbar-default .navbar-toggle.collapsed {
+    background-image: url(../../images/icon-mobile-menu-off.svg);
+}
+
+@media screen and (max-width: 520px) {
+     .navbar-default .navbar-toggle {
+        margin-top: 1.9em;
+    }
+}
+
+@media screen and (max-width: 440px) {
+     .navbar-default .navbar-toggle {
+         margin-top: 1.8em;
+         padding: 20px;
+    }
+}
+
+
+/* Navbar collapse */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    overflow: hidden;
+}
+
+/* Navbar header region */
+@media screen and (max-width: 767px) {
+    .navbar-header {
+        background-color: transparent;
+    }
+}
+/* Navbar region */
+
+/* Jumbotron Container & Regions
+-------------------------------------------------------------- */
+.jumbotron .container {
+    padding: 0px 10px;
+}
+
+.jumbotron-content {
+    padding-left: 0px;
+}
+.jumbotron h1, .jumbotron .h1 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 1em;
+}
+
+@media only screen and (min-width:479px) {
+    .jumbotron h1, .jumbotron .h1 {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    .jumbotron h1, .jumbotron .h1 {
+        font-size: 42px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .jumbotron h1, .jumbotron .h1 {
+        font-size: 44px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .jumbotron h1, .jumbotron .h1 {
+        font-size: 56px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .jumbotron h1, .jumbotron .h1 {
+        font-size: 70px;
+    }
+}
+
+
+
+.jumbotron-content p, .jumbotron-conten .p {
+    font-weight: 700;
+    line-height: 2em;
+    margin-top: 25px;
+    line-height: 1.8em;
+}
+
+
+@media only screen and (min-width: 767px) {
+    .jumbotron-content p, .jumbotron-conten .p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .jumbotron-content p, .jumbotron-conten .p {
+        font-size: 18px;
+    }
+}
+
+.col-md-1 {
+    width: 8.33333333%;
+}
+
+/* Preface top region*/
+
+/* Main Container & Regions
+-------------------------------------------------------------- */
+ul, li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* ASIDE */
+/* SECTION */
+/* Preface bottom region */
+/* Sidebar first region */
+/* Sidebar second region */
+/* Postscript top region */
+
+/* Content Region
+-------------------------------------------------------------- */
+
+/* Content: Place content type name here*/
+
+/* Postscript bottom container and regions
+-------------------------------------------------------------- */
+.region-postscript-bottom {
+    text-align: center;
+    background-color: #f1f4f6;
+    padding: 40px 50px;
+    border-top: 1px solid #dce1e5;
+    border-bottom: 1px solid #dce1e5;
+    line-height: 1.5em;
+}
+
+.region-postscript-bottom p {
+    color: #4d4d4d;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.region-postscript-bottom a {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .region-postscript-bottom a {
+        display: block;
+        position: relative;
+        margin-left: calc(50% - 90px);
+        width: 180px;
+        margin-top: 1em;
+    }
+}
+
+
+@media only screen and (max-width: 479px) {
+    .region-postscript-bottom {
+        padding: 25px 25px;
+    }
+    .region-postscript-bottom p,a {
+        font-size: 13px;
+    }
+}
+/* Postscript bottom region */
+
+/*  FOOTER container and regions
+-------------------------------------------------------------- */
+
+/* Footer region */
+
+.menu-fine-print{
+    background-color: #343b3f;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.5em;
+    font-size: 13px;
+}
+
+.menu-fine-print img{
+    display: inline-block;
+    height: 110px;
+    padding: 20px 15px;
+}
+
+.menu-fine-print p {
+    color: #ffffff;
+    margin: 0px;
+}
+
+.menu-fine-print span {
+    display: inline-block;
+}
+
+.menu-fine-print a {
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: underline;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.menu-fine-print a:hover {
+    color: #c6ecfb;
+}
+
+.menu-fine-print #privacy{
+    border-left: 1px solid #f1f4f6;
+}
+
+
+@media only screen and (max-width: 796px) {
+    .menu-fine-print {
+        padding-bottom: 30px;
+    }
+    .menu-fine-print img{
+        display: block;
+        margin-left: calc(50% - 75px);
+    }
+    .menu-fine-print #fine-print-image {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+    .menu-fine-print a {
+        text-decoration: underline;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .menu-fine-print img {
+        width: 110px;
+        margin-left: calc(50% - 55px);
+        padding: 10px 10px;
+    }
+}
+
+/* Menus
+/-------------------------------------------------------------- */
+.menu-main-menu .navbar-nav {
+    list-style: none;
+    float: right;
+    margin-bottom: 0px;
+    position: relative;
+    margin-top: calc(5% - 26px);
+    padding: 0px;
+    min-width: 700px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .menu-main-menu .navbar-nav {
+        margin-top: 0px;
+        margin-right: calc(50% - 360px)
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .menu-main-menu .navbar-nav {
+        float: none;
+        line-height: 2.5em;
+        padding-left: 0em;
+        background-color: #ffffff;
+    }
+}
+
+.menu-main-menu .navbar-nav>ul {
+    list-style: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.menu-main-menu .navbar-nav>li {
+    margin-bottom: 0;
+    padding: 0px;
+    margin: 0px 10px;
+  }
+
+.menu-main-menu .navbar-nav>li:nth-child(5) {
+    margin-right: 0px;
+}
+
+.menu-main-menu .navbar-nav>li:link,
+.menu-main-menu .navbar-nav>li:visited {
+    color: #1d3d59;
+    text-decoration: none;
+}
+
+.menu-main-menu .navbar-nav>li>a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px; /* 16px/14px */
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #1d3d59;
+    display: block;
+}
+
+.menu-main-menu .navbar-nav>li:nth-child(1)>a:hover, .menu-main-menu .navbar-nav>li:nth-child(1)>a:active {
+    background-color: #39a9d4;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu-main-menu .navbar-nav>li:nth-child(2)>a:hover, .menu-main-menu .navbar-nav>li:nth-child(2)>a:active {
+    background-color: #63aa35;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu-main-menu .navbar-nav>li:nth-child(3)>a:hover, .menu-main-menu .navbar-nav>li:nth-child(3)>a:active {
+    background-color: #f87b02;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu-main-menu .navbar-nav>li:nth-child(4)>a:hover, .menu-main-menu .navbar-nav>li:nth-child(4)>a:active {
+    background-color: #355470;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu-main-menu .navbar-nav>li:nth-child(5)>a:hover, .menu-main-menu .navbar-nav>li:nth-child(5)>a:active {
+    background-color: #1d9bcb;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 1199px) {
+    .menu-main-menu .navbar-nav>li {
+        margin: 0px 5px;
+    }
+    .menu-main-menu .navbar-nav {
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .menu-main-menu .navbar-nav {
+        position: inherit;
+        width: 100%;
+        margin-right: 0px;
+    }
+    .menu-main-menu .navbar-nav > li:first-child {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .menu-main-menu .navbar.navbar-nav {
+        border-bottom: 2px solid #ccd4dc;
+    }
+    .menu-main-menu .navbar-nav>li {
+        border-bottom: 1px solid #ccd4dc;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .menu-main-menu .navbar-nav>li:last-child {
+        border-bottom: none;
+    }
+    .menu-main-menu .navbar-nav>li>a {
+        width: 100%;
+        width: auto;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .menu-main-menu .navbar.navbar-nav {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .menu-main-menu .navbar-nav>li>a {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .menu-main-menu .navbar-nav>li>a {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .menu-main-menu .navbar-nav>li>a {
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+}
+<!-- need to add mediaquery -->
+
+
+/* Forms
+/-------------------------------------------------------------- */
+
+/* Tables
+/-------------------------------------------------------------- */
+
+/* Pagers
+-------------------------------------------------------------- */
+
+/* Forms
+/-------------------------------------------------------------- */
+
+/* Forum
+/-------------------------------------------------------------- */
+
+/* Book
+/-------------------------------------------------------------- */
+
+/* Poll
+/-------------------------------------------------------------- */
+
+/* Nodes
+/-------------------------------------------------------------- */
+
+/* Node: Place node name here*/
+
+/* Views - See view-*.tpl.php
+/-------------------------------------------------------------- */
+
+/* View: Place view name here*/
+
+
+/* Breadcrumbs
+/-------------------------------------------------------------- */
+
+/* Tab Menus
+/-------------------------------------------------------------- */
+
+/* Clearfixes
+/-------------------------------------------------------------- */
+/* ADD AS NEEDED*/
+/* :after {
+	clear: both;
+	content: ".";
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+} */
+
+/* Breakpoint specific styles
+/-------------------------------------------------------------- */
+
+/* Medium Devices, Desktop */
+@media only screen and (max-width: 1199px) { }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 991px) { }
+
+/* XS Devices, Small tablets */
+@media only screen and (max-width: 767px) { }
+
+/* 2XS Devices, Phones */
+@media only screen and (max-width:479px) { }
+
+/* 3XS Devices, Phones - Optional */
+@media only screen and (max-width:319px) { }
+
+/* Core, Contrib & Custom Module style overrides
+/-------------------------------------------------------------- */
+/* For each, start with typography & colours, then move on to
+   other details. */
+
+/* Module: Place module name here*/

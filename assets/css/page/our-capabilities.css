@@ -1,0 +1,185 @@
+.banner-title h1 {
+    color: #f87b02;
+}
+
+@media only screen and (min-width: 768px) {
+    .banner-content {
+        width: calc(100% - 460px);
+        margin-top: calc(3% - 20px);
+    }
+}
+
+/* Main Content */
+.row.our-capabilities {
+    background-image: url(../../images/background-hex-side.png);
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .row.our-capabilities {
+        background-size: 767px;
+        background-position: top center;
+    }
+}
+
+.main-content .row .container {
+    padding: 20px 15px 55px;
+
+}
+
+.main-content .row.our-capabilities-header .container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.out-capabilities-header . container {
+    padding: 0px;
+}
+
+.section-content, .section-img {
+    width: 50%;
+}
+
+.section-content ul{
+    padding-left: 0px;
+    margin: 15px 0px;
+}
+
+.section-content ul li {
+    padding-left: 20px;
+    background-image: url(../../images/list-bullet.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 5px;
+    -moz-background-size: 5px;
+    -o-background-size: 5px;
+    background-size: 5px;
+    background-position-x: 5px;
+    background-position-y: 12px;
+    line-height: 2em;
+}
+
+.section-content h2 {
+    font-size: 48px;
+    text-align: initial;
+    margin-bottom: 10px;
+}
+
+.health-science-research-domain .section-content h2 {
+    color: #355470;
+    margin-top: 0px;
+}
+
+.planning-strategy .section-content h2 {
+    color: #63aa35;
+}
+
+.design-ux .section-content h2 {
+    color: #39a9d4;
+}
+
+.development .section-content h2 {
+    color: #ff7c00;
+}
+
+.health-science-research-domain .section-img, .health-science-research-domain .section-content,
+.design-ux .section-content, .design-ux .section-img {
+    float: right;
+}
+
+.planning-strategy .section-content, .planning-strategy .section-img,
+.development .section-content, .development .section-img {
+    float: left;
+}
+
+.health-science-research-domain .section-img, .design-ux .section-img {
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.planning-strategy .section-img, .development .section-img {
+    padding-top: 25px;
+    text-align: right;
+    padding-right: 70px;
+}
+
+.section-img img {
+    width: 70%;
+}
+
+@media only screen and (max-width: 1199px) {
+    .section-img img {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section-img {
+        width: 30%;
+        min-width: 150px;
+    }
+    .health-science-research-domain .section-img, .design-ux .section-img {
+        padding-left: 20px;
+    }
+
+    .planning-strategy .section-img, .development .section-img {
+        padding-right: 40px;
+    }
+    .section-content {
+        width: 70%;
+    }
+    .section-img img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .health-science-research-domain .section-img, .health-science-research-domain .section-content,
+    .design-ux .section-content, .design-ux .section-img, .planning-strategy .section-content, .planning-strategy .section-img,
+    .development .section-content, .development .section-img {
+        float: none;
+    }
+    .main-content .row .container {
+        padding-top: 0px;
+    }
+    .section-content {
+        width: 100%;
+        padding: 0px 40px;
+    }
+    .section-content h2 {
+        text-align: center;
+        margin-top: 0px;
+    }
+    .health-science-research-domain h4 {
+        text-align: center;
+    }
+    .section-img img{
+        padding: 0px;
+        margin: auto;
+    }
+    .health-science-research-domain .section-img, .design-ux .section-img {
+        padding: 0px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .planning-strategy .section-img, .development .section-img {
+        padding: 0px;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .section-content {
+        padding: 0px;
+    }
+    .section-content ul, .section-content p {
+        padding: 0px 15px;
+    }
+    .section-content h2 {
+        font-size: 26px;
+    }
+}

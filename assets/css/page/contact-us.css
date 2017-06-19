@@ -1,0 +1,389 @@
+/* Banner */
+.banner-title h1 {
+    color: #1d9bcb;
+}
+
+@media only screen and (min-width: 768px) {
+    .banner-content {
+        width: calc(100% - 331px);
+        margin-top: calc(3% - 20px);
+    }
+}
+
+h4 {
+    font-size: 18px;
+}
+
+
+/* Main Content */
+.row.contact-us {
+    background-image: url(../../images/background-hex.png);
+    -webkit-background-size: 100%;
+-moz-background-size: 100%;
+-o-background-size: 100%;
+    background-size: 100%;
+    padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+    .row.contact-us {
+        background-size: 767px;
+        background-position: top center;
+    }
+}
+
+.content1, .content-img, .content2 {
+    float: left;
+    position: relative;
+}
+
+.contact-us-content {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+@media only screen and (max-width: 991px) {
+    .contact-us-content {
+        display: block;
+    }
+    .content1, .content-img, .content2 {
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .row.contact-us {
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .row.contact-us {
+        padding-bottom: 50px;
+    }
+}
+
+/* Content 1 */
+.content1 {
+    position: relative;
+    width:34%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    line-height: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #1d9bcb;
+}
+
+.content1 div {
+    margin: 8px 0px;
+}
+
+.content1 .input-name {
+    margin-top: 30px;
+}
+
+.content1 input, .content1 select, .content1 textarea {
+    width: 70%;
+    position: absolute;
+    right: 0px;
+    border: 1px solid #9da7b3;
+    border-radius: 5px;
+    height: 37px;
+    background-color: #ffffff;
+    padding-left: 10px;
+}
+
+.content1 select {
+    color: #6e6e6e;
+    -webkit-appearance: none;
+    padding-left: 10px;
+    background-image: url(../../images/dropdown-arrow.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 5px) center;
+}
+
+.input-comment textarea {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    -webkit-appearance: none;
+    line-height: 1.6em;
+    resize: none;
+}
+
+.content1 span {
+    color: #1d9bcb;
+}
+
+.content1 .input-comment {
+    margin-bottom: 0px;
+}
+
+.content1 .input-submit {
+    margin-top: 0px;
+}
+
+.input-submit input {
+    text-transform: uppercase;
+    position: relative;
+    width: auto;
+    line-height: 1.6em;
+    padding: 6px 35px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 7px;
+    background-color: #63aa35;
+    border-bottom: 2px solid #b3e077;
+    outline: none;
+}
+
+.input-submit input:hover, .input-submit input:active {
+    background-color: #549a27;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 2px solid #99c85a;
+}
+
+@media only screen and (max-width: 991px) {
+    .content1 {
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .content1 {
+        width: 100%;
+    }
+    .content1 h4 {
+        text-align: center;
+    }
+    .content1 .input-submit {
+        text-align: center;
+    }
+    .input-submit input {
+        width: 66%;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .content1 input, .content1 select {
+        width: 65%;
+    }
+}
+
+/* Content img */
+.content-img {
+    margin-left: 2%;
+    width: 38%;
+}
+
+.content-circle {
+    position: absolute;
+    right: 0px;
+    bottom: 5%;
+    text-align: -webkit-right;
+    width: 88%;
+}
+
+.content-circle, .content-circle2 {
+    float: left;
+}
+
+.circle1 {
+    position: relative;
+    width: 100%;
+}
+
+.circle1:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.circle1-inner {
+    border-radius: 50%;
+    border: 4px solid #eeeeee;
+    background-image: url(../../images/contact-us-bg.png);
+    -webkit-background-size: 100%;
+-moz-background-size: 100%;
+-o-background-size: 100%;
+    background-size: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.content-circle2 {
+    width: 49%;
+    position: absolute;
+    bottom: 53%;
+    float: left;
+}
+
+.circle2 {
+    position: relative;
+    width: 100%;
+    margin-top: 30%;
+}
+
+.circle2:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.circle2-inner {
+    border-radius: 50%;
+    border: 4px solid #eeeeee;
+    background-color: #355470;
+    background-image: url(../../images/icon-about-team-white.svg);
+    -webkit-background-size: 70%;
+-moz-background-size: 70%;
+-o-background-size: 70%;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 42% 42%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .content-circle {
+        bottom: 16%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .content-img {
+        width: 47%;
+        float: right;
+        position: absolute;
+        right: 0px;
+        top: 56%;
+    }
+    .content-circle2 {
+        margin-bottom: 55%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .content-img {
+        position: relative;
+        float: none;
+        margin: 0px;
+        left: 0px;
+        top: 180%;
+        margin-top: 10%;
+        padding-bottom: 16%;
+    }
+    .content-circle, .content-circle2 {
+        position: relative;
+        float: none;
+    }
+    .content-circle {
+        width: 68%;
+        margin-left: 70%;
+    }
+    .content-circle2 {
+        margin-top: -92%;
+        margin-left: 58%;
+        width: 45%;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .content-img {
+        margin-top: 15%;
+    }
+}
+
+
+
+/* Content2 */
+.content2 {
+    margin-left: 3%;
+    width: 23%;
+    line-height: 1.8em;
+}
+
+.content2 a {
+    font-weight: 700;
+}
+
+.content2 h4 {
+    margin-bottom: 20px;
+}
+
+.content2 .location, .content2 .point-of-contact {
+    padding-bottom: 15px;
+}
+
+.content2 .location {
+    border-bottom: 5px solid #63aa35;
+}
+
+.content2 .point-of-contact {
+    border-bottom: 5px solid #ff7c00;
+}
+
+.content2 .point-of-contact {
+    position: absolute;
+    bottom: 0px;
+}
+
+.content2 .point-of-contact span {
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 991px) {
+    .content2 {
+        margin-top: 40px;
+        float: none;
+        width: 100%;
+        position: relative;
+        margin-left: 0px;
+        display: flex;
+    }
+    .content2 .point-of-contact, .content2 .location {
+        width: 48%;
+        float: left;
+    }
+    .content2 .point-of-contact {
+        margin-left: 4%;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .content2 {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+    }
+    .content2 .location, .content2 .point-of-contact {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .content2 {
+        display: block;
+        text-align: center;
+    }
+    .content2 .location, .content2 .point-of-contact {
+        float: none;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

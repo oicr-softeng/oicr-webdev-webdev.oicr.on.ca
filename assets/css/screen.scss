@@ -1,0 +1,13 @@
+---
+---
+@import '../_sass/bootstrap';
+@import '../_sass/syntax-highlighting';
+
+body {   
+    &.page-default{
+        padding-top: 51px;
+    }
+    main {
+        padding: 20px 0;
+    }
+}
