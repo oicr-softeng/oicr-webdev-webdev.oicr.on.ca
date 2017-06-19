@@ -14,7 +14,7 @@
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
 <!-- Simple Pass only, just used to protect against peeking, not secured  -->
-<script src="https://github.com/carhartl/jquery-cookie/blob/master/src/jquery.cookie.js"></script>
+<script src="https://raw.githubusercontent.com/carhartl/jquery-cookie/master/src/jquery.cookie.js"></script>
 <script>
   if ($.cookie('name') != "webdev") { 
      var password = prompt("Please enter the password to continue", "");
