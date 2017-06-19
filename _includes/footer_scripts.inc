@@ -12,3 +12,10 @@
 
 
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+<script>
+  var password = prompt("Please enter the password to continue", "");
+if (password != "webdev") {
+   $("a").click(function() { return false; });
+}
+</script>
