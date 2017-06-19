@@ -30,35 +30,35 @@ meet_the_team:
 
 team:
   - name: "Joseph Yamada"
-    image: "/webdev-cr/assets/images/photo-joseph.png"
+    image: "{{ site.url }}{{ site.baseurl }}/assets/images/photo-joseph.png"
     role: "Manager, Web Development Team"
     focus:
     expertise:
     fun_fact:
     tag: "joseph-yamada"
   - name: "Kaman Wu"
-    image: "/webdev-cr/assets/images/photo-kaman.png"
+    image: "{{ site.url }}{{ site.baseurl }}/assets/images/photo-kaman.png"
     role: "Back-End Web Developer"
     focus:
     expertise:
     fun_fact:
     tag: "kaman-wu"
   - name: "Koji Miyauchi"
-    image: "/webdev-cr/assets/images/photo-koji.png"
+    image: "{{ site.url }}{{ site.baseurl }}/assets/images/photo-koji.png"
     role: "Front-End Web Developer"
     focus:
     expertise:
     fun_fact:
     tag: "koji-miyauchi"
   - name: "Kim Cullion"
-    image: "/webdev-cr/assets/images/photo-kim.png"
+    image: "{{ site.url }}{{ site.baseurl }}/assets/images/photo-kim.png"
     role: "Senior Visual Designer"
     focus: "Specializes in UX Design, Visual Design, Responsive & Mobile Design"
     expertise: "Enjoys creating meaningful digital experiences"
     fun_fact: "Loves movies, concerts, travelling and drawing"
     tag: "kim-cullion"
   - name: "Miyuki Fukuma"
-    image: "/webdev-cr/assets/images/photo-miyuki.png"
+    image: "{{ site.url }}{{ site.baseurl }}/assets/images/photo-miyuki.png"
     role: "Senior Web Designer"
     focus:
     expertise:
@@ -72,14 +72,14 @@ team:
     fun_fact:
     tag: "melanie-burger"
   - name: "Kyle Kim"
-    image: "/webdev-cr/assets/images/photo-kyle.png"
+    image: "{{ site.url }}{{ site.baseurl }}/assets/images/photo-kyle.png"
     role: "Front-End Web Developer"
     focus:
     expertise:
     fun_fact:
     tag: "kyle-kim"
   - name: "George Shewchuk"
-    image: "/webdev-cr/assets/images/photo-george.png"
+    image: "{{ site.url }}{{ site.baseurl }}/assets/images/photo-george.png"
     role: "Senior Graphic Designer, Branding"
     focus:
     expertise:

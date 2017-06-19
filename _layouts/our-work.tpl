@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<link type="text/css" rel="stylesheet" media="all" href="/webdev-cr/assets/css/page/our-work.css">
+<link type="text/css" rel="stylesheet" media="all" href="{{ site.url }}{{ site.baseurl }}/assets/css/page/our-work.css">
 <div id="black-overlay" class="color-overlay"> </div>
 
 <!-- Light Boxes-->
@@ -72,7 +72,7 @@ layout: default
             </div>
             <!-- Spaceholder of the carousel border, the content is not visible, don't need to change-->
             <div class="slide-border">
-              <img class="carousel-img" src="/webdev-cr/assets/images/01.Collab-homepage-gallery1.jpg" alt="First slide">
+              <img class="carousel-img" src="{{ site.url }}{{ site.baseurl }}/assets/images/01.Collab-homepage-gallery1.jpg" alt="First slide">
             </div>
             </div>
           </div>
@@ -132,10 +132,10 @@ layout: default
                         </div>
                         <div class="teaser-button">
                           <div class="teaser-button-inner">
-                            <a href="/webdev-cr/our-work/case-studies/{{ d.alias }}">CASE STUDY<img src="/webdev-cr/assets/images/icon-arrow-white.svg"></a>
+                            <a href="{{ site.url }}{{ site.baseurl }}/our-work/case-studies/{{ d.alias }}">CASE STUDY<img src="{{ site.url }}{{ site.baseurl }}/assets/images/icon-arrow-white.svg"></a>
                           </div>
                         </div>
-                        <a class="teaser-hover" href="/webdev-cr/our-work/case-studies/{{ d.alias }}">
+                        <a class="teaser-hover" href="{{ site.url }}{{ site.baseurl }}/our-work/case-studies/{{ d.alias }}">
                           <span>VIEW CASE STUDY &raquo</span>
                         </a>
                       </div>
