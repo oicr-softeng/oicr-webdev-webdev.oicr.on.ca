@@ -68,3 +68,5 @@ exclude:
   - package.json
   - npm-debug.log
   - vendor
+
+theme: jekyll-theme-minimal
