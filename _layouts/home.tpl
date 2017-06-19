@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<link type="text/css" rel="stylesheet" media="all" href="/assets/css/page/homepage.css" >
+<link type="text/css" rel="stylesheet" media="all" href="/webdev-cr/assets/css/page/homepage.css" >
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron wrapper">
