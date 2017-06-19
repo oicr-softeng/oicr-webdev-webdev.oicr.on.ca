@@ -39,7 +39,7 @@
       <div class="container-fluid container-footer">
         <div class="row">
           <div class="menu-fine-print">
-              <p><a id="fine-print-image" href="http://oicr.on.ca/" target="_blank"><img src="/assets/images/logo-oicr-white.svg"></a>&copy; 2017 OICR Web Development Team. <span>All rights reserved.</span>
+              <p><a id="fine-print-image" href="http://oicr.on.ca/" target="_blank"><img src="/webdev-cr/assets/images/logo-oicr-white.svg"></a>&copy; 2017 OICR Web Development Team. <span>All rights reserved.</span>
                   <span class="menu-fine-print-links">
                   <a id="term" href="http://oicr.on.ca/terms-and-conditions" target="_blank">Terms &amp; Conditions</a><a id="privacy" href="http://oicr.on.ca/website-privacy-statement" target="_blank">Privacy</a>
                 </span>
