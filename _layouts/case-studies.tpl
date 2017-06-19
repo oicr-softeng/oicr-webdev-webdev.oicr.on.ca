@@ -11,7 +11,7 @@ layout: default
               <div class="container">
                 <div class="banner-title">
                     <h1>{{ page.title }}</h1>
-                    <a class="list-btn" href="/our-work">BACK TO LIST</a>
+                    <a class="list-btn" href="/webdev-cr/our-work">BACK TO LIST</a>
                 </div>
                 <div class="banner-content">
                     <p class="case-study-description">{{ page.project }}</p>

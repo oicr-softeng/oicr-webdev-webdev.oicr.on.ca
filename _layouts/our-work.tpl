@@ -132,10 +132,10 @@ layout: default
                         </div>
                         <div class="teaser-button">
                           <div class="teaser-button-inner">
-                            <a href="/our-work/case-studies/{{ d.alias }}">CASE STUDY<img src="/webdev-cr/assets/images/icon-arrow-white.svg"></a>
+                            <a href="/webdev-cr/our-work/case-studies/{{ d.alias }}">CASE STUDY<img src="/webdev-cr/assets/images/icon-arrow-white.svg"></a>
                           </div>
                         </div>
-                        <a class="teaser-hover" href="/our-work/case-studies/{{ d.alias }}">
+                        <a class="teaser-hover" href="/webdev-cr/our-work/case-studies/{{ d.alias }}">
                           <span>VIEW CASE STUDY &raquo</span>
                         </a>
                       </div>
