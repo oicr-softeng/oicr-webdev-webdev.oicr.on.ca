@@ -14,14 +14,13 @@
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
 <!-- Simple Pass only, just used to protect against peeking, not secured  -->
-<script src="{{ site.url }}{{ site.baseurl }}/assets/js/jquery.cookie.js"></script>
 <script>
-  if ($.cookie('name') != "webdev") { 
+  if (localStorage.password != "webdev") { 
      var password = prompt("Please enter the password to continue", "");
      if (password != "webdev") {
        $("a").click(function() { return false; });
      } else {
+       localStorage.setItem("password", password);
      }
-     $.cookie('password', password, { expires: 1 });
   }
 </script>
