@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<link type="text/css" rel="stylesheet" media="all" href="/webdev-cr/assets/css/page/careers.css" >
+<link type="text/css" rel="stylesheet" media="all" href="/assets/css/page/careers.css" >
 
 <!-- Main -->
 <div class="wrapper wrapper-main">
@@ -32,7 +32,7 @@ layout: default
                             <div class="row careers-main">
                                 <div class="container">
                                     <div class="job-postings-img">
-                                        <img src="/webdev-cr/assets/images/illustration-careers.svg">
+                                        <img src="/assets/images/illustration-careers.svg">
                                     </div>
                                     <div class="job-postings">
                                         <h2>{{ page.job_postings.title }}</h2>

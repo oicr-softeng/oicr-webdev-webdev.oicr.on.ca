@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<link type="text/css" rel="stylesheet" media="all" href="/webdev-cr/assets/css/page/contact-us.css" >
+<link type="text/css" rel="stylesheet" media="all" href="/assets/css/page/contact-us.css" >
 
       <!-- Main -->
       <div class="wrapper wrapper-main">
