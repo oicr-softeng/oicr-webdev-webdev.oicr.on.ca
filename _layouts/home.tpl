@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<link type="text/css" rel="stylesheet" media="all" href="//assets/css/page/homepage.css" >
+<link type="text/css" rel="stylesheet" media="all" href="/webdev-cr/assets/css/page/homepage.css" >
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron wrapper">
@@ -16,7 +16,7 @@ layout: default
                         <h1>{{ page.title }}</h1>
                             <div class="caption-thumb-content">
                                 <p>{{ page.description }}</p>
-                                <a class="btn" href="//our-work/">{{ page.btn_banner }}</a>
+                                <a class="btn" href="/webdev-cr/our-work/">{{ page.btn_banner }}</a>
                             </div>
                         </div>
                         <div id="webdev-carousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -166,7 +166,7 @@ layout: default
                                 </a>
                             </li>
                             <li>
-                                <a class="teaser teaser-block" href="//our-capabilities/#design">
+                                <a class="teaser teaser-block" href="/webdev-cr/our-capabilities/#design">
                                     <div class="teaser-image">
                                         <img src="assets/images/icon-design-and-ux.svg">
                                     </div>
@@ -181,7 +181,7 @@ layout: default
                                 </a>
                             </li>
                             <li>
-                                <a class="teaser teaser-block" href="//our-capabilities/#development">
+                                <a class="teaser teaser-block" href="/webdev-cr/our-capabilities/#development">
                                     <div class="teaser-image">
                                         <img src="assets/images/icon-development.svg">
                                     </div>
@@ -213,7 +213,7 @@ layout: default
                             <div class="about-us-content">
                                 <div class="about-us-main-content">
                                     <p>{{ page.about.content }}</p>
-                                    <a class="btn" href="//about-us/">{{ page.about.btn }}</a>
+                                    <a class="btn" href="/webdev-cr/about-us/">{{ page.about.btn }}</a>
                                 </div>
                                 <div class="about-us-join">
                                     <div class="about-us-join-content">
@@ -224,7 +224,7 @@ layout: default
 
                                         </ul>
                                     </div>
-                                    <a class="btn" href="//careers/">{{ page.join_the_team.btn }}</a>
+                                    <a class="btn" href="/webdev-cr/careers/">{{ page.join_the_team.btn }}</a>
                                 </div>
                             </div>
                         </div>

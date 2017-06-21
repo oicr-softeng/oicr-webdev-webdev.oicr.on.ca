@@ -30,7 +30,7 @@ description: > # this means to ignore newlines until "baseurl:"
 email: webdev@oicr.on.ca
 
 # the subpath of your site, e.g. /blog
-baseurl: "/"
+baseurl: "/webdev-cr"
 
 # Default permalink for posts
 permalink: /node/:year-:month-:day-:title.html
