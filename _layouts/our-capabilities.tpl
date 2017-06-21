@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<link type="text/css" rel="stylesheet" media="all" href="/webdev-cr/assets/css/page/our-capabilities.css" >
+<link type="text/css" rel="stylesheet" media="all" href="//assets/css/page/our-capabilities.css" >
 
       <!-- Main -->
       <div class="wrapper wrapper-main">
@@ -34,7 +34,7 @@ layout: default
                                   <div class="container">
                                       <h4>{{ page.our_expertise }}</h4>
                                       <div class="section-img">
-                                          <img src="/webdev-cr/assets/images/illustration-health-sciences.svg">
+                                          <img src="//assets/images/illustration-health-sciences.svg">
                                       </div>
                                       <div class="section-content"><a name="health_science"></a>
                                           <h2>{{ page.health_science.title }}</h2>
@@ -51,7 +51,7 @@ layout: default
                               <div class="row planning-strategy">
                                   <div class="container">
                                       <div class="section-img">
-                                          <img src="/webdev-cr/assets/images/illustration-planning.svg">
+                                          <img src="//assets/images/illustration-planning.svg">
                                       </div>
                                       <div class="section-content"><a name="planning"></a>
                                           <h2>{{ page.planning.title }}</h2>
@@ -66,7 +66,7 @@ layout: default
                               <div class="row design-ux">
                                   <div class="container">
                                       <div class="section-img">
-                                          <img src="/webdev-cr/assets/images/illustration-design-and-ux.svg">
+                                          <img src="//assets/images/illustration-design-and-ux.svg">
                                       </div>
                                        <div class="section-content"><a name="design"></a>
                                           <h2>{{ page.design.title }}</h2>
@@ -82,7 +82,7 @@ layout: default
                               <div class="row development">
                                   <div class="container">
                                       <div class="section-img">
-                                          <img src="/webdev-cr/assets/images/illustration-development.svg">
+                                          <img src="//assets/images/illustration-development.svg">
                                       </div>
                                       <div class="section-content"><a name="development"></a>
                                           <h2>{{ page.development.title }}</h2>
