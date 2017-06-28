@@ -19,6 +19,7 @@
      var password = prompt("Please enter the password to continue", "");
      if (password != "webdev") {
        $("a").click(function() { return false; });
+       $( "body" ).empty();
      } else {
        localStorage.setItem("password", password);
      }
