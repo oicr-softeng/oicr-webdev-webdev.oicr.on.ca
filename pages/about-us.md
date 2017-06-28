@@ -26,7 +26,7 @@ stats:
 
 meet_the_team:
   title: "Meet the Team"
-  description: Under the direction of **Vincent Ferretti**, Director, Genome Informatics, the WebDev team includes a full-time core, contractors and co-op students who continue to innovate, stay creative and develop with a platform of technologies that scale to enable high performance.
+  description: "Under the direction of **Vincent Ferretti**, Director, Genome Informatics, the WebDev team includes a full-time core, contractors and co-op students who continue to innovate, stay creative and develop with a platform of technologies that scale to enable high performance."
 
 team:
   - name: "Joseph Yamada"
@@ -36,7 +36,7 @@ team:
     expertise:
     fun_fact:
     tag: "joseph-yamada"
-    - name: "George Shewchuk"
+   - name: "George Shewchuk"
     image: "/assets/images/photo-george.png"
     role: "Senior Graphic Designer (Contractor), Communications and Branding"
     focus:
