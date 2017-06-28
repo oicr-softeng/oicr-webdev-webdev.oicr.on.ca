@@ -26,7 +26,7 @@ stats:
 
 meet_the_team:
   title: "Meet the Team"
-  description: "Under the direction of *Vincent Ferretti*, Director, Genome Informatics and *Joseph Yamada*, Senior Manager, Genome Informatics, the WebDev team includes FTEs, contractors and students who continue to innovate, stay creative and develop with a platform of technologies that scale to enable high performance."
+  description: "Under the direction of **Vincent Ferretti**, Director, Genome Informatics and **Joseph Yamada**, Senior Manager, Genome Informatics, the WebDev team includes a full-time core, contractors and co-op students who continue to innovate, stay creative and develop with a platform of technologies that scale to enable high performance."
 
 team:
   - name: "Joseph Yamada"
