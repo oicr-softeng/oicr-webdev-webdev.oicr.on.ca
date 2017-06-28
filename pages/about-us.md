@@ -38,14 +38,14 @@ team:
     tag: "joseph-yamada"
   - name: "Kaman Wu"
     image: "/assets/images/photo-kaman.png"
-    role: "Back-End Web Developer, Genome Informatics"
+    role: "Back-End Web Developer"
     focus:
     expertise:
     fun_fact:
     tag: "kaman-wu"
   - name: "Koji Miyauchi"
     image: "/assets/images/photo-koji.png"
-    role: "Front-End Web Developer, Genome Informatics"
+    role: "Front-End Web Developer"
     focus:
     expertise:
     fun_fact:
@@ -59,7 +59,7 @@ team:
     tag: "kim-cullion"
   - name: "Kyle Kim"
     image: "/assets/images/photo-kyle.png"
-    role: "Front-End Web Developer (Contractor), Genome Informatics"
+    role: "Front-End Web Developer (Contractor)"
     focus:
     expertise:
     fun_fact:
