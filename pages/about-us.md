@@ -26,7 +26,7 @@ stats:
 
 meet_the_team:
   title: "Meet the Team"
-  description: "Under the direction of **Vincent Ferretti**, Director, Genome Informatics, the WebDev team includes a full-time core, contractors and co-op students who continue to innovate, stay creative and develop with a platform of technologies that scale to enable high performance."
+  description: "Under the direction of Vincent Ferretti, Director, Genome Informatics and Joseph Yamada, Senior Manager, Genome Informatics, the WebDev team includes FTEs, contractors and students who continue to innovate, stay creative and develop with a platform of technologies that scale to enable high performance."
 
 team:
   - name: "Joseph Yamada"
@@ -36,42 +36,41 @@ team:
     expertise:
     fun_fact:
     tag: "joseph-yamada"
-   - name: "George Shewchuk"
+  - name: "Kaman Wu"
+    image: "/assets/images/photo-kaman.png"
+    role: "Back-End Web Developer, Genome Informatics"
+    focus:
+    expertise:
+    fun_fact:
+    tag: "kaman-wu"
+  - name: "Koji Miyauchi"
+    image: "/assets/images/photo-koji.png"
+    role: "Front-End Web Developer, Genome Informatics"
+    focus:
+    expertise:
+    fun_fact:
+    tag: "koji-miyauchi"
+  - name: "Kim Cullion"
+    image: "/assets/images/photo-kim.png"
+    role: "Senior Visual Designer, Genome Informatics"
+    focus: "Specializes in UX Design, Visual Design, Responsive & Mobile Design"
+    expertise: "Enjoys creating meaningful digital experiences"
+    fun_fact: "Loves movies, concerts, travelling and drawing"
+    tag: "kim-cullion"
+  - name: "Kyle Kim"
+    image: "/assets/images/photo-kyle.png"
+    role: "Front-End Web Developer (Contractor), Genome Informatics"
+    focus:
+    expertise:
+    fun_fact:
+    tag: "kyle-kim"
+  - name: "George Shewchuk"
     image: "/assets/images/photo-george.png"
     role: "Senior Graphic Designer (Contractor), Communications and Branding"
     focus:
     expertise:
     fun_fact:
     tag: "george-shewchuk"
-  - name: "Kaman Wu"
-    image: "/assets/images/photo-kaman.png"
-    role: "Back-End Web Developer"
-    focus:
-    expertise:
-    fun_fact:
-    tag: "kaman-wu"
-   - name: "Kim Cullion"
-    image: "/assets/images/photo-kim.png"
-    role: "Senior Visual Designer"
-    focus: "Specializes in UX Design, Visual Design, Responsive & Mobile Design"
-    expertise: "Enjoys creating meaningful digital experiences"
-    fun_fact: "Loves movies, concerts, travelling and drawing"
-    tag: "kim-cullion"
-  - name: "Koji Miyauchi"
-    image: "/assets/images/photo-koji.png"
-    role: "Front-End Web Developer"
-    focus:
-    expertise:
-    fun_fact:
-    tag: "koji-miyauchi"
-  - name: "Kyle Kim"
-    image: "/assets/images/photo-kyle.png"
-    role: "Front-End Web Developer (Contractor)"
-    focus:
-    expertise:
-    fun_fact:
-    tag: "kyle-kim"
-  
 
 our-students:
   title: "Our Talented Students from Winter 2017"
