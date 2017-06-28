@@ -36,6 +36,13 @@ team:
     expertise:
     fun_fact:
     tag: "joseph-yamada"
+    - name: "George Shewchuk"
+    image: "/assets/images/photo-george.png"
+    role: "Senior Graphic Designer (Contractor), Communications and Branding"
+    focus:
+    expertise:
+    fun_fact:
+    tag: "george-shewchuk"
   - name: "Kaman Wu"
     image: "/assets/images/photo-kaman.png"
     role: "Back-End Web Developer"
@@ -43,6 +50,13 @@ team:
     expertise:
     fun_fact:
     tag: "kaman-wu"
+   - name: "Kim Cullion"
+    image: "/assets/images/photo-kim.png"
+    role: "Senior Visual Designer"
+    focus: "Specializes in UX Design, Visual Design, Responsive & Mobile Design"
+    expertise: "Enjoys creating meaningful digital experiences"
+    fun_fact: "Loves movies, concerts, travelling and drawing"
+    tag: "kim-cullion"
   - name: "Koji Miyauchi"
     image: "/assets/images/photo-koji.png"
     role: "Front-End Web Developer"
@@ -50,13 +64,6 @@ team:
     expertise:
     fun_fact:
     tag: "koji-miyauchi"
-  - name: "Kim Cullion"
-    image: "/assets/images/photo-kim.png"
-    role: "Senior Visual Designer, Genome Informatics"
-    focus: "Specializes in UX Design, Visual Design, Responsive & Mobile Design"
-    expertise: "Enjoys creating meaningful digital experiences"
-    fun_fact: "Loves movies, concerts, travelling and drawing"
-    tag: "kim-cullion"
   - name: "Kyle Kim"
     image: "/assets/images/photo-kyle.png"
     role: "Front-End Web Developer (Contractor)"
@@ -64,13 +71,7 @@ team:
     expertise:
     fun_fact:
     tag: "kyle-kim"
-  - name: "George Shewchuk"
-    image: "/assets/images/photo-george.png"
-    role: "Senior Graphic Designer (Contractor), Communications and Branding"
-    focus:
-    expertise:
-    fun_fact:
-    tag: "george-shewchuk"
+  
 
 our-students:
   title: "Our Talented Students from Winter 2017"
