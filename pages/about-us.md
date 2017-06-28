@@ -57,20 +57,6 @@ team:
     expertise: "Enjoys creating meaningful digital experiences"
     fun_fact: "Loves movies, concerts, travelling and drawing"
     tag: "kim-cullion"
-  - name: "Miyuki Fukuma"
-    image: "/assets/images/photo-miyuki.png"
-    role: "Senior Web Designer"
-    focus:
-    expertise:
-    fun_fact:
-    tag: "miyuki-fukuma"
-  - name: "Melanie Burger"
-    image: /assets/images/photo-melanie.png""
-    role: "Front-End Web Developer"
-    focus:
-    expertise:
-    fun_fact:
-    tag: "melanie-burger"
   - name: "Kyle Kim"
     image: "/assets/images/photo-kyle.png"
     role: "Front-End Web Developer"
