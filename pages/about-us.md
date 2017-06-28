@@ -26,68 +26,54 @@ stats:
 
 meet_the_team:
   title: "Meet the Team"
-  description: "Under the direction of David Sutton, Director, IT and Information Security Officer, the WebDev team includes FTEs, contractors and students who continue to innovate, stay creative and develop with a platform of technologies that scale to enable high performance."
+  description: "Under the direction of Vincent Ferretti, Director, Genome Informatics and Joseph Yamada, Senior Manager, Genome Informatics, the WebDev team includes FTEs, contractors and students who continue to innovate, stay creative and develop with a platform of technologies that scale to enable high performance."
 
 team:
   - name: "Joseph Yamada"
     image: "/assets/images/photo-joseph.png"
-    role: "Manager, Web Development Team"
+    role: "Senior Manager, Web Development, Genome Informatics"
     focus:
     expertise:
     fun_fact:
     tag: "joseph-yamada"
   - name: "Kaman Wu"
     image: "/assets/images/photo-kaman.png"
-    role: "Back-End Web Developer"
+    role: "Back-End Web Developer, Genome Informatics"
     focus:
     expertise:
     fun_fact:
     tag: "kaman-wu"
   - name: "Koji Miyauchi"
     image: "/assets/images/photo-koji.png"
-    role: "Front-End Web Developer"
+    role: "Front-End Web Developer, Genome Informatics"
     focus:
     expertise:
     fun_fact:
     tag: "koji-miyauchi"
   - name: "Kim Cullion"
     image: "/assets/images/photo-kim.png"
-    role: "Senior Visual Designer"
+    role: "Senior Visual Designer, Genome Informatics"
     focus: "Specializes in UX Design, Visual Design, Responsive & Mobile Design"
     expertise: "Enjoys creating meaningful digital experiences"
     fun_fact: "Loves movies, concerts, travelling and drawing"
     tag: "kim-cullion"
-  - name: "Miyuki Fukuma"
-    image: "/assets/images/photo-miyuki.png"
-    role: "Senior Web Designer"
-    focus:
-    expertise:
-    fun_fact:
-    tag: "miyuki-fukuma"
-  - name: "Melanie Burger"
-    image: /assets/images/photo-melanie.png""
-    role: "Front-End Web Developer"
-    focus:
-    expertise:
-    fun_fact:
-    tag: "melanie-burger"
   - name: "Kyle Kim"
     image: "/assets/images/photo-kyle.png"
-    role: "Front-End Web Developer"
+    role: "Front-End Web Developer (Contractor), Genome Informatics"
     focus:
     expertise:
     fun_fact:
     tag: "kyle-kim"
   - name: "George Shewchuk"
     image: "/assets/images/photo-george.png"
-    role: "Senior Graphic Designer, Branding"
+    role: "Senior Graphic Designer (Contractor), Communications and Branding"
     focus:
     expertise:
     fun_fact:
     tag: "george-shewchuk"
 
 our-students:
-  title: "Our Talented Students"
+  title: "Our Talented Students from Winter 2017"
   students:
     - name: "Samantha Feng"
       program: "2nd year Biomedical Engineering"
