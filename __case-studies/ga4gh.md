@@ -28,7 +28,7 @@ challenge:
     - "/assets/images/case-studies/ga/GA-the-challenge4.jpg"
 
 testimonial:
-  quote: "Foo."
+  quote: "Donut jelly brownie gingerbread jujubes carrot cake oat cake lollipop donut. Brownie sesame snaps icing jujubes gummies biscuit donut icing icing. Marshmallow tootsie roll gingerbread lollipop powder biscuit marshmallow candy canes. Pastry jelly oat cake jelly. Muffin lemon drops candy tiramisu sweet bear claw sweet roll sesame snaps lollipop. Chocolate cake ice cream muffin pie. Candy canes marzipan cake tiramisu carrot cake. Icing macaroon tart. Powder sweet jelly-o lemon drops gingerbread dessert danish. Cake cheesecake cake. Oat cake jelly-o marzipan cupcake bear claw jelly beans chocolate pie jelly beans. Jelly tiramisu tiramisu tootsie roll."
   title: "Ashley Hobb, Operations Lead"
   institution: "Global Alliance for Genomics & Health"
 
