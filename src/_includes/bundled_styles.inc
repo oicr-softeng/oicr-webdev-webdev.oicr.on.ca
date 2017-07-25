@@ -1,1 +1,0 @@
-<head><link href="/assets/dist/js/../css/core.bundle.css" rel="stylesheet"></head><script type="text/javascript" src="/assets/dist/js/core_styles.6689c718eb27c53a39bd.bundle.js"></script>
