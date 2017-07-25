@@ -10,7 +10,7 @@ const options = {
     },
 }
 
-ncp('./node_modules/static-cms-baseline', './', options, (err) => {
+ncp('./node_modules/static-cms-baseline/src', './', options, (err) => {
   if (err) {
     return console.error(err);
   }

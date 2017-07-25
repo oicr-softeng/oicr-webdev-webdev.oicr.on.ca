@@ -12,7 +12,7 @@ var options = {
     }
 };
 
-ncp('./node_modules/static-cms-baseline', './', options, function (err) {
+ncp('./node_modules/static-cms-baseline/src', './', options, function (err) {
     if (err) {
         return console.error(err);
     }
