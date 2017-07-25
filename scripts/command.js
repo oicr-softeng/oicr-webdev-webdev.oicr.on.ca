@@ -1,20 +1,18 @@
 #!/usr/bin/env node
+const chalk = require('chalk');
 const ncp = require('./ncp').ncp;
 const cpy = require('cpy');
 
 const options = {
-    clobber: true,
+    clobber: false,
     filter: (filepath) => {
-        return !filepath.includes('/node_modules') 
+        return !filepath.includes('app/node_modules') 
     },
-    transform: (read, write) => {
-        console.log(write);
-        read.pipe(write);
-    }
 }
 
-ncp('./node_modules/static-cms-baseline/src/', './', options, (err) => {
- if (err) {
-   return console.error(err);
- }
+ncp('./node_modules/static-cms-baseline', './', options, (err) => {
+  if (err) {
+    return console.error(err);
+  }
+  console.log(chalk.green('Done!'));
 });

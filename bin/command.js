@@ -1,22 +1,20 @@
 #!/usr/bin/env node
 'use strict';
 
+var chalk = require('chalk');
 var ncp = require('./ncp').ncp;
 var cpy = require('cpy');
 
 var options = {
-    clobber: true,
+    clobber: false,
     filter: function filter(filepath) {
-        return !filepath.includes('/node_modules');
-    },
-    transform: function transform(read, write) {
-        console.log(write);
-        read.pipe(write);
+        return !filepath.includes('app/node_modules');
     }
 };
 
-ncp('./node_modules/static-cms-baseline/src/', './', options, function (err) {
+ncp('./node_modules/static-cms-baseline', './', options, function (err) {
     if (err) {
         return console.error(err);
     }
+    console.log(chalk.green('Done!'));
 });

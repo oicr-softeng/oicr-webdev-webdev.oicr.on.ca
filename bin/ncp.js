@@ -7,6 +7,8 @@
  * ncp.js: https://github.com/AvianFlu/ncp/blob/master/lib/ncp.js
  */
 
+var chalk = require('chalk');
+
 var fs = require('fs'),
     path = require('path');
 
@@ -223,9 +225,14 @@ function ncp(source, dest, options, callback) {
   function isWritable(path, done) {
     fs.lstat(path, function (err) {
       if (err) {
-        if (err.code === 'ENOENT') return done(true);
+        if (err.code === 'ENOENT') {
+          console.log(chalk.green('Copied: ') + path);
+          return done(true);
+        }
+        console.log(chalk.yellow('Skipped: ') + path);
         return done(false);
       }
+      console.log(chalk.yellow('Skipped: ') + path);
       return done(false);
     });
   }
