@@ -5,6 +5,17 @@ import thunk from 'redux-thunk';
 import { Router, hashHistory } from 'react-router';
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import { BaseRoutes, Provider as UMSProvider, reducers, setConfig, getUserInfo, Components } from 'oicr-ui-core/lib/ums';
+import { extLink } from 'wfui-react/lib/util';
+
+/**
+ * Set external link
+ */
+const ext = extLink(jQuery, extLinkConfig);
+ext.attach(document);
+
+/**
+ * Set UMS 
+ */
 
 // Override default user configuration
 setConfig(UMS_CONFIG);
@@ -15,9 +26,7 @@ const store = require('./store').default;
 // Get User Session, Invoke once
 getUserInfo()(store.dispatch);
 
-/**
- * Render UMS
- */
+// Render UMS
 const target = document.getElementById('app-user-services');
 if (target) {
   ReactDOM.render((
@@ -29,9 +38,7 @@ if (target) {
   ), target);
 }
 
-/**
- * Render User Menu
- */
+// Render User Menu
 const targetUserMenu = document.getElementById('app-user-nav');
 if (targetUserMenu) {
     ReactDOM.render((

@@ -40,16 +40,9 @@ module.exports = env => {
         new HtmlWebpackPlugin({
             chunks: ['core', 'site'],
             minify: false,
-            filename: '../../../_includes/footer_bundled_scripts.inc',
+            filename: '../../../_includes/dist/footer_scripts.inc',
             template: '.empty'
         }),
-        new HtmlWebpackPlugin({
-            chunks: ['core_styles'],
-            minify: false,
-            inject: true,
-            filename: '../../../_includes/bundled_styles.inc',
-            template: '.empty'
-        })
     ];
     // Production
     if (env.prod) {

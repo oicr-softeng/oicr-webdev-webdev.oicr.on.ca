@@ -21,3 +21,10 @@
 ```
 4. ```npm install```
 5. ```npm run init```
+
+# Compile files with UMS
+
+1. ```cd _app```
+2. ```npm install```
+3. ```npm start``` or ```npm build``` to compile files.
+4. Go back to your root folder and run ```jekyll serve```
