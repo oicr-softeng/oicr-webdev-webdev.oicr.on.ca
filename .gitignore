@@ -1,0 +1,10 @@
+_site
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
+.DS_Store
+node_modules
+._.*
+._*
+npm-debug.log
+*.map
