@@ -26,8 +26,7 @@
 
 1. Make ```pages/ums.md``` published.
 2. Comment in the ums entry in ```_app/configs/entries.js```
-3. Comment in the include statement for footer_scripts in ```_layout/default.tpl```
-4. Comment in the stylesheet link for ```core.bundle.css```
+3. Comment in the include statement for footer_scripts in ```_layouts/default.tpl```
 
 # Compile javascript App
 
