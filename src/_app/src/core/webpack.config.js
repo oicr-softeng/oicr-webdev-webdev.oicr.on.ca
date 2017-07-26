@@ -15,6 +15,9 @@ try {
 
 module.exports = env => {
 
+    console.log(__dirname);
+    console.log(path.resolve(__dirname, '../assets/dist/js/'));
+
     /**
      * Augument entries with 'whatwg-fetch' and 'babel-polyfill'
      */
@@ -39,7 +42,8 @@ module.exports = env => {
         new HtmlWebpackPlugin({
             chunks: ['core', 'site'],
             minify: false,
-            filename: '../../../_includes/dist/footer_scripts.inc',
+            // filename: '../../../_includes/dist/footer_scripts.inc',
+            filename: path.resolve(__dirname, '../../../../../'),
             template: '.empty'
         }),
     ];

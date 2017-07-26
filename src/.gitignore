@@ -8,3 +8,5 @@ node_modules
 ._*
 npm-debug.log
 *.map
+assets/dist
+_includes/dist
