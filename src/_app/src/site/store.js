@@ -1,4 +1,4 @@
-import { createStore } from 'redux';
+import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import coreReducers from '../core/reducers';
 import coreMiddlewares from '../core/middlewares';
 
@@ -6,14 +6,12 @@ const initialState = {
     // Initial Values
 }
 
-const combinedReducers = combineReducers(Object.assign({}, reducers, {
+const combinedReducers = combineReducers(Object.assign({}, coreReducers, {
     // Custom reducers
 }))
 
 const composedMiddlewares = compose(
-    applyMiddleware(...middlewares, [
-        // Custom middlewares
-    ]),
+    applyMiddleware(...coreMiddlewares),
     process.env.NODE_ENV === 'production' ? f => f : window.devToolsExtension ? window.devToolsExtension() : f => f
 );
 

@@ -14,7 +14,7 @@ import { BaseRoutes, Provider as UMSProvider, reducers, setConfig, getUserInfo, 
 setConfig(UMS_CONFIG);
 
 // Load store.
-const store = require('./store').default;
+const store = require('../site/store').default;
 
 // Get User Session, Invoke once
 getUserInfo()(store.dispatch);

@@ -4,6 +4,6 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
 permalink: /user/
-published: true
+published: false
 ---
 <div id="app-user-services"></div>

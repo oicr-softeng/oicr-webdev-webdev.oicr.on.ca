@@ -15,9 +15,6 @@ try {
 
 module.exports = env => {
 
-    console.log(__dirname);
-    console.log(path.resolve(__dirname, '../assets/dist/js/'));
-
     /**
      * Augument entries with 'whatwg-fetch' and 'babel-polyfill'
      */
@@ -40,11 +37,10 @@ module.exports = env => {
             minChunks: Infinity,
         }),
         new HtmlWebpackPlugin({
-            chunks: ['core', 'site'],
+            excludeChunks: ['base_styles'],
             minify: false,
-            // filename: '../../../_includes/dist/footer_scripts.inc',
-            filename: path.resolve(__dirname, '../../../../../'),
-            template: '.empty'
+            filename: path.resolve('../_includes/dist/footer_scripts.inc'),
+            template: 'src/core/.empty'
         }),
     ];
     // Production
@@ -83,7 +79,7 @@ module.exports = env => {
         entry: _entries,
         output: {
             filename: '[name].[chunkhash].bundle.js',
-            path: path.resolve(__dirname, '../assets/dist/js/'),
+            path: path.resolve('../assets/dist/js/'),
             publicPath: '/assets/dist/js/',
         },
         resolve: {

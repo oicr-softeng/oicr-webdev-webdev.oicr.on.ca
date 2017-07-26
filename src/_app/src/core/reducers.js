@@ -1,2 +1,2 @@
 import { reducers } from 'oicr-ui-core/lib/ums';
-export default coreReducers;
+export default reducers;

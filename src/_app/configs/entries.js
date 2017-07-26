@@ -5,10 +5,7 @@ module.exports = {
     base: [
         './src/core/_base',
     ],
-    ums: [
-        './src/core/_ums',
-    ],
-    site: [
-        './src/site'
-    ],
+    // ums: [
+    //     './src/core/_ums',
+    // ],
 }
