@@ -22,9 +22,14 @@
 4. ```npm install```
 5. ```npm run init```
 
-# Compile files with UMS
+# Enable UMS
+
+1. Make ```pages/ums.md``` published.
+2. Comment in the ums entry in ```_app/configs/entries.js```
+3. Include ```dist/footer_scripts.inc``` in ```_layout/default.tpl```
+
+# Compile javascript App
 
 1. ```cd _app```
 2. ```npm install```
 3. ```npm start``` or ```npm build``` to compile files.
-4. Go back to your root folder and run ```jekyll serve```
