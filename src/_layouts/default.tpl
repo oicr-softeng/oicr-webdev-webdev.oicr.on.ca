@@ -9,7 +9,7 @@
     {{ content }}
     {% include site/footer.inc %}
     {% include core/footer_scripts.inc %}
-    {% include dist/footer_scripts.inc %}
+    {% comment %}{% include dist/footer_scripts.inc %}{% endcomment %}
     {% comment %}{% include site/footer_scripts.inc %}{% endcomment %}
 </body>
 </html>
