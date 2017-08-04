@@ -1,10 +1,8 @@
-/* global document, window */
+/* global document, window UMS_CONFIG */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import thunk from 'redux-thunk';
 import { Router, hashHistory } from 'react-router';
-import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
-import { BaseRoutes, Provider as UMSProvider, reducers, setConfig, getUserInfo, Components } from 'oicr-ui-core/lib/ums';
+import { BaseRoutes, Provider as UMSProvider, setConfig, getUserInfo, Components } from 'oicr-ui-core/lib/ums';
 
 /**
  * Set UMS 

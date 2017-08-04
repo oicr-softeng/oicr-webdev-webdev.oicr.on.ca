@@ -1,3 +1,4 @@
+/* global jQuery, extLinkConfig, document */
 import { extLink } from 'wfui-react/lib/util';
 
 /**

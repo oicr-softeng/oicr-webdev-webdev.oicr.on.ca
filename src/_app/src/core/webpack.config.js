@@ -27,6 +27,12 @@ module.exports = env => {
         }
     });
 
+    // 
+    const entriesOrder = { core: 0 };
+    Object.keys(entries).forEach((key, i) => {
+        entriesOrder[key] = i+1;
+    });
+
     /**
      * Plugin setting
      */
@@ -39,8 +45,9 @@ module.exports = env => {
         new HtmlWebpackPlugin({
             excludeChunks: ['base_styles'],
             minify: false,
+            chunksSortMode: (e1, e2) => (entriesOrder[e1.names[0]] - entriesOrder[e2.names[0]]),
             filename: path.resolve('../_includes/dist/footer_scripts.inc'),
-            template: 'src/core/.empty'
+            template: 'src/core/.empty',
         }),
     ];
     // Production
@@ -78,7 +85,7 @@ module.exports = env => {
     return webpackConfig(env, {
         entry: _entries,
         output: {
-            filename: '[name].[chunkhash].bundle.js',
+            filename: env.prod ? '[name].[chunkhash].bundle.js' : '[name].[chunkhash].dev.bundle.js',
             path: path.resolve('../assets/dist/js/'),
             publicPath: '/assets/dist/js/',
         },
