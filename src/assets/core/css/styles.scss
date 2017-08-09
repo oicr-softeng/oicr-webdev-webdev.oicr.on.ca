@@ -3,12 +3,3 @@
 @import '../_sass/site/bootstrap-variables';
 @import '../_sass/core/bootstrap';
 @import '../_sass/core/syntax-highlighting';
-
-body {   
-    &.page-default{
-        padding-top: 51px;
-    }
-    main {
-        padding: 20px 0;
-    }
-}
