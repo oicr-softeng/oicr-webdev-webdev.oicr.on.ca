@@ -60,9 +60,12 @@ about:
 
 join_the_team:
   title: "Join the Team"
-  content: "We are always on the lookout for talented co-op students who help us out for 4-month terms. We also have the following positions open:"
+  content: "We are always on the lookout for talented co-op students who help us out for 4-month terms. We have the following positions open:"
   jobs:
     - "Front-End Web Developer - Toronto, Ontario"
+    - "Web+Technologies Developer - Toronto, Ontario"
+    - "Visual Designer + Themer - Toronto, Ontario"
+    - "Content Editor + Themer - Toronto, Ontario"
   btn: "MORE ABOUT CAREERS"
 
 work: "Who We Work With"
