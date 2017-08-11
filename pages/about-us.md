@@ -32,24 +32,10 @@ team:
   - name: "Joseph Yamada"
     image: "/assets/images/photo-joseph.png"
     role: "Manager, Web Development Team"
-    focus:
-    expertise:
-    fun_fact:
+    focus: "Specializes in Management (Project and Product) and High-Performance Team Development, Software Engineering & Operations."
+    expertise: "High-Performance Team Development, UX Product Design, Agile/Lean/Continuous Learning, Efficient Product Delivery"
+    fun_fact: "Loves to work on meaningful outcomes.  Tenure - hired 40 students who've become great.  Worked on 5K+ tasks over 50+ OICR projects."
     tag: "joseph-yamada"
-  - name: "Kaman Wu"
-    image: "/assets/images/photo-kaman.png"
-    role: "Back-End Web Developer"
-    focus:
-    expertise:
-    fun_fact:
-    tag: "kaman-wu"
-  - name: "Koji Miyauchi"
-    image: "/assets/images/photo-koji.png"
-    role: "Front-End Web Developer"
-    focus:
-    expertise:
-    fun_fact:
-    tag: "koji-miyauchi"
   - name: "Kim Cullion"
     image: "/assets/images/photo-kim.png"
     role: "Senior Visual Designer"
@@ -57,6 +43,20 @@ team:
     expertise: "Enjoys creating meaningful digital experiences"
     fun_fact: "Loves movies, concerts, travelling and drawing"
     tag: "kim-cullion"
+  - name: "Kaman Wu"
+    image: "/assets/images/photo-kaman.png"
+    role: "Back-End Web Developer"
+    focus: "Specializes in correct management of information witin Web Services (WS) and dynamic application workflows to enable better comprehension and constant productivity."
+    expertise: "PHP; NodeJS; MySQL; MongoDB"
+    fun_fact: "Ask me where my name comes from"
+    tag: "kaman-wu"
+  - name: "Koji Miyauchi"
+    image: "/assets/images/photo-koji.png"
+    role: "Front-End Web Developer"
+    focus: "Specializes in high-quality user interfaces (UI) to facilitate interactions to visualize and manage information enabling better UX with modern web browser technologies."
+    expertise: "JavaScript; ReactJS; Redux"
+    fun_fact: ""
+    tag: "koji-miyauchi"
   - name: "Kyle Kim"
     image: "/assets/images/photo-kyle.png"
     role: "Front-End Web Developer"
