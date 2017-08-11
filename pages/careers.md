@@ -14,10 +14,9 @@ job_postings:
   jobs:
     - title: "Visual Designer + Themer" 
       location: MaRS Centre Toronto, Ontario
-      contract: UW Co-op Position 
+      contract: UW Co-op Position
       posted: 2017-07-24 10:00:00 -0500
-      btn: APPLY ON WATERLOO WORKS 29459
-      
+      btn: APPLY ON WATERLOO WORKS
 what_we_offer: "What We Offer"
 
 opportunities:
