@@ -12,24 +12,40 @@ description: "Join a team of experienced professionals with capabilities that ra
 job_postings:
   title: "Job Postings"
   jobs:
-    - title: Front-End Web Developer
+    - title: Visual Designer + Themer 
       location: Toronto, Ontario
-      contract: Contract Position
-      posted: 2017-01-27 10:00:00 -0500
-      btn: APPLY NOW
+      contract: UW Co-op Position 
+      posted: 2017-07-24 10:00:00 -0500
+      btn: APPLY ON WATERLOO WORKS (Job ID : 29459)
+     - title: Front-End Web Developer
+      location: Toronto, Ontario
+      contract: UW Co-op Position 
+      posted: 2017-07-24 10:00:00 -0500
+      btn: APPLY ON WATERLOO WORKS (Job ID : 29251)
+     - title: Content Editor + Themer	
+      location: Toronto, Ontario
+      contract: UW Co-op Position 
+      posted: 2017-07-24 10:00:00 -0500
+      btn: APPLY ON WATERLOO WORKS (Job ID : 29576)
+       - title: Web + Technologies Developer
+      location: Toronto, Ontario
+      contract: UW Co-op Position 
+      posted: 2017-07-24 10:00:00 -0500
+      btn: APPLY ON WATERLOO WORKS (Job ID : 29246)
 
 what_we_offer: "What We Offer"
 
 opportunities:
   title: "Opportunities for Personal Growth"
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit nibh ac nisl eleifend, nec congue felis lacinia. Donec ac erat velit. Aliquam erat."
+  content: "Developer will have an active role within the team to build high-quality web services, used within Single Page Applications on modern web browsers and mobile devices.  Designers will have an active role within the team to build high-quality web pages and user interfaces for web applications used within modern web browsers and mobile devices. Learn UX/UI Design Deliverables and UCD approaches and practices.  Learn MERN+J (Mongo, Express, ReactJS/Redux, NodeJS/Koa/ExpressJS, Static - Jekyll), LAMP+D (Linux,Apache, MySQL, PHP, CMS - Drupal); Invision, Slack, Jira, Confluence, GitHub, Docker, Apache Solr."
 
 projects:
   title: "Meaningful Projects"
-  content: "We are passionate about the meaningful projects we work on that empower the cancer research community with high-quality tools and websites that engage their target users."
+  content: "We are passionate about the meaningful projects we work on that empower the cancer research community with high-quality tools and websites that engage their target users. An estimated 1 in 2 Canadians will develop cancer in their lifetime, and about 1 in 4 Canadians will die of cancer. We use technologies to assist in understanding the disease that affects us all. "
 
 co-op:
   title: "Co-Op Placements"
-  content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit nibh ac nisl eleifend, nec congue felis lacinia. Donec ac erat velit. Aliquam erat."
+  content: "Joseph and his team has hired over 40 Students from the University of Waterloo since 2014. As a graduate from the University of Waterloo, he aims to provide co-op students practical experiences and practices that enable students to become useful and effectively, quickly delivering solutions that are often released during their term.  He seeks students who perform responsibly and effectively with mentorship and team resources to support learning and growth. 
+"
 
 ---
