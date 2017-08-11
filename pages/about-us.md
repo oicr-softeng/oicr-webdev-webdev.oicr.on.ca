@@ -20,7 +20,7 @@ how-we-work:
 
 stats:
   team: "12 People"
-  work: "20+ Projects"
+  work: "50+ Projects"
   productivity: "~4000 Tasks"
   outreach: "70K+ Users"
 
