@@ -34,7 +34,7 @@ team:
     role: "Manager, Web Development Team"
     focus: "Specializes in Management (Project and Product) and High-Performance Team Development, Software Engineering & Operations."
     expertise: "High-Performance Team Development, UX Product Design, Agile/Lean/Continuous Learning, Efficient Product Delivery"
-    fun_fact: "Loves to work on meaningful outcomes.  Tenure - hired 40 students who've become great.  Worked on 5K+ tasks over 50+ OICR projects."
+    fun_fact: "Loves to work on meaningful outcomes. While at the OICR, hired 40 students, worked on 5K+ tasks, 50+ OICR projects and still loving it."
     tag: "joseph-yamada"
   - name: "Kim Cullion"
     image: "/assets/images/photo-kim.png"
