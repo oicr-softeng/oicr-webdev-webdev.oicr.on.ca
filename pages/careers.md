@@ -22,11 +22,11 @@ what_we_offer: "What We Offer"
 
 opportunities:
   title: "Opportunities for Personal Growth"
-  content: "Developer will have an active role within the team to build high-quality web services, used within Single Page Applications on modern web browsers and mobile devices.  Designers will have an active role within the team to build high-quality web pages and user interfaces for web applications used within modern web browsers and mobile devices. Learn UX/UI Design Deliverables and UCD approaches and practices.  Learn MERN+J (Mongo, Express, ReactJS/Redux, NodeJS/Koa/ExpressJS, Static - Jekyll), LAMP+D (Linux,Apache, MySQL, PHP, CMS - Drupal); Invision, Slack, Jira, Confluence, GitHub, Docker, Apache Solr."
+  content: "Learn UX/UI Design Deliverables and UCD approaches and practices.  Learn MERN+J (Mongo, Express, ReactJS/Redux, NodeJS/Koa/ExpressJS, Static - Jekyll), LAMP+D (Linux,Apache, MySQL, PHP, CMS - Drupal); Invision, Slack, Jira, Confluence, GitHub, Docker, Apache Solr."
 
 projects:
   title: "Meaningful Projects"
-  content: "We are passionate about the meaningful projects we work on that empower the cancer research community with high-quality tools and websites that engage their target users."
+  content: "We are passionate about the meaningful projects we work on that empower the cancer research community with high-quality tools and websites that engage their target users. An estimated 1 in 2 Canadians will develop cancer in their lifetime, and about 1 in 4 Canadians will die of cancer. We use technologies to assist in understanding the disease that affects us all. "
 
 co-op:
   title: "Co-Op Placements"
