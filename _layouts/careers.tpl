@@ -49,7 +49,7 @@ layout: default
                                                     <p class="job-posted">Posted: {{ job.posted | date: "%B %e"}}, {{ job.posted | date: "%Y" }}</p>
                                                 </div>
                                                 <div class="job-information3">
-                                                    <a class="btn">{{ job.btn }}</a>
+                                                    <a target=_blank href="{{ job.btn_url }}" class="btn">{{ job.btn }}</a>
                                                 </div>
                                             </li>
                                             {% endfor %}
