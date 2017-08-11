@@ -12,11 +12,11 @@ description: "Join a team of experienced professionals with capabilities that ra
 job_postings:
   title: "Job Postings"
   jobs:
-    - title: Front-End Web Developer
+    - title: "Visual Designer + Themer" 
       location: Toronto, Ontario
-      contract: Contract Position
-      posted: 2017-01-27 10:00:00 -0500
-      btn: APPLY NOW
+      contract: UW Co-op Position 
+      posted: 2017-07-24 10:00:00 -0500
+      btn: APPLY ON WATERLOO WORKS (Job ID : 29459)
 
 what_we_offer: "What We Offer"
 
