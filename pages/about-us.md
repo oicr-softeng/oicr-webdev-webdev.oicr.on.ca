@@ -53,23 +53,23 @@ team:
   - name: "Koji Miyauchi"
     image: "/assets/images/photo-koji.png"
     role: "Front-End Web Developer"
-    focus: "Specializes in high-quality user interfaces (UI) to facilitate interactions to visualize and manage information enabling better UX with modern web browser technologies."
-    expertise: "JavaScript; ReactJS; Redux"
+    focus: "Specializes in high-quality user interfaces (UI) design and development to facilitate interactions to visualize and manage information enabling better UX with modern web browser technologies."
+    expertise: "JavaScript; ReactJS; Redux; Php"
     fun_fact: ""
     tag: "koji-miyauchi"
   - name: "Kyle Kim"
     image: "/assets/images/photo-kyle.png"
     role: "Front-End Web Developer"
-    focus:
-    expertise:
+    focus: "Specializes in high-quality user interface (UI) development to facilitate interactions to visualize and manage information enabling better UX with modern web browser technologies."
+    expertise: "JavaScript; ReactJS; Redux; Php"
     fun_fact:
     tag: "kyle-kim"
   - name: "George Shewchuk"
     image: "/assets/images/photo-george.png"
     role: "Senior Graphic Designer, Branding"
-    focus:
-    expertise:
-    fun_fact:
+    focus: "Specializes in designing custom visualization of Scientific Subjects"
+    expertise: "Graphics Illustrations and Branding"
+    fun_fact: "Loves a warm fire"
     tag: "george-shewchuk"
 
 our-students:
