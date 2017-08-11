@@ -17,21 +17,6 @@ job_postings:
       contract: UW Co-op Position 
       posted: 2017-07-24 10:00:00 -0500
       btn: APPLY ON WATERLOO WORKS (Job ID : 29459)
-     - title: Front-End Web Developer
-      location: Toronto, Ontario
-      contract: UW Co-op Position 
-      posted: 2017-07-24 10:00:00 -0500
-      btn: APPLY ON WATERLOO WORKS (Job ID : 29251)
-     - title: "Content Editor + Themer"
-      location: Toronto, Ontario
-      contract: UW Co-op Position 
-      posted: 2017-07-24 10:00:00 -0500
-      btn: APPLY ON WATERLOO WORKS (Job ID : 29576)
-       - title: Web + Technologies Developer
-      location: Toronto, Ontario
-      contract: UW Co-op Position 
-      posted: 2017-07-24 10:00:00 -0500
-      btn: APPLY ON WATERLOO WORKS (Job ID : 29246)
 
 what_we_offer: "What We Offer"
 
