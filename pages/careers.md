@@ -12,11 +12,11 @@ description: "Join a team of experienced professionals with capabilities that ra
 job_postings:
   title: "Job Postings"
   jobs:
-    - title: "Visual Designer + Themer" 
+    - title: Front-End Web Developer
       location: Toronto, Ontario
-      contract: UW Co-op Position 
-      posted: 2017-07-24 10:00:00 -0500
-      btn: APPLY ON WATERLOO WORKS (Job ID : 29459)
+      contract: Contract Position
+      posted: 2017-01-27 10:00:00 -0500
+      btn: APPLY NOW
 
 what_we_offer: "What We Offer"
 
@@ -26,7 +26,7 @@ opportunities:
 
 projects:
   title: "Meaningful Projects"
-  content: "We are passionate about the meaningful projects we work on that empower the cancer research community with high-quality tools and websites that engage their target users. An estimated 1 in 2 Canadians will develop cancer in their lifetime, and about 1 in 4 Canadians will die of cancer. We use technologies to assist in understanding the disease that affects us all. "
+  content: "We are passionate about the meaningful projects we work on that empower the cancer research community with high-quality tools and websites that engage their target users."
 
 co-op:
   title: "Co-Op Placements"
