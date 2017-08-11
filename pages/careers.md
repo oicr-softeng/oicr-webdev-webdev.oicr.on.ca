@@ -12,7 +12,7 @@ description: "Join a team of experienced professionals with capabilities that ra
 job_postings:
   title: "Job Postings"
   jobs:
-    - title: Visual Designer + Themer 
+    - title: "Visual Designer + Themer" 
       location: Toronto, Ontario
       contract: UW Co-op Position 
       posted: 2017-07-24 10:00:00 -0500
@@ -22,7 +22,7 @@ job_postings:
       contract: UW Co-op Position 
       posted: 2017-07-24 10:00:00 -0500
       btn: APPLY ON WATERLOO WORKS (Job ID : 29251)
-     - title: Content Editor + Themer	
+     - title: "Content Editor + Themer"
       location: Toronto, Ontario
       contract: UW Co-op Position 
       posted: 2017-07-24 10:00:00 -0500
@@ -45,7 +45,6 @@ projects:
 
 co-op:
   title: "Co-Op Placements"
-  content: "Joseph and his team has hired over 40 Students from the University of Waterloo since 2014. As a graduate from the University of Waterloo, he aims to provide co-op students practical experiences and practices that enable students to become useful and effectively, quickly delivering solutions that are often released during their term.  He seeks students who perform responsibly and effectively with mentorship and team resources to support learning and growth. 
-"
+  content: "We aim to provide co-op students practical experiences and practices that enable then to become quickly knowledge and useful, delivering real solutions and deliverables that are valued and used within a web-based software engineering approach to deliver quaility UX software results.  He seeks students who perform responsibly and effectively with mentorship and team resources to support learning and growth. "
 
 ---
