@@ -17,11 +17,25 @@ job_postings:
       contract: UW Co-op Position
       posted: 2017-07-24 10:00:00 -0500
       btn: "APPLY ON WATERLOO WORKS (Job ID : 29459)"
+      btn_url: "https://waterlooworks.uwaterloo.ca"
     - title: "Front-End Web Developer" 
       location: MaRS Centre Toronto, Ontario
       contract: UW Co-op Position
       posted: 2017-07-24 10:00:00 -0500
       btn: "APPLY ON WATERLOO WORKS (Job ID : 29251)"
+      btn_url: "https://waterlooworks.uwaterloo.ca"
+    - title: "Content Editor + Themer" 
+      location: MaRS Centre Toronto, Ontario
+      contract: UW Co-op Position
+      posted: 2017-07-24 10:00:00 -0500
+      btn: "APPLY ON WATERLOO WORKS (Job ID : 29576)"
+      btn_url: "https://waterlooworks.uwaterloo.ca"
+    - title: "Web + Technologies Developer" 
+      location: MaRS Centre Toronto, Ontario
+      contract: UW Co-op Position
+      posted: 2017-07-24 10:00:00 -0500
+      btn: "APPLY ON WATERLOO WORKS (Job ID : 29246)"
+      btn_url: "https://waterlooworks.uwaterloo.ca"
       
 what_we_offer: "What We Offer"
 
