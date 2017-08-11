@@ -220,7 +220,7 @@ layout: default
                                         <h3>{{ page.join_the_team.title }}</h3>
                                         <p>{{ page.join_the_team.content }}</p>
                                         <ul> {% for list in page.join_the_team.jobs %}
-                                            <li><a class="white-link">{{ list }}  &raquo;</a></li>{% endfor %}
+                                            <li><a class="white-link" href="/careers/">{{ list }}  &raquo;</a></li>{% endfor %}
 
                                         </ul>
                                     </div>
