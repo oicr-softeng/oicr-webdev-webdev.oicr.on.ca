@@ -19,7 +19,7 @@ how-we-work:
     - "Our team applies rapid and intelligent design analysis, and agile project implementation thereby enabling programs to focus on the high-value benefits for their users.  And this team has software engineering experience with products that meet enterprise risk (strategic, operational/internal, regulatory compliance, financial) for both big and small projects."
 
 stats:
-  team: "12 People"
+  team: "6-10 People"
   work: "50+ Projects"
   productivity: "~4000 Tasks"
   outreach: "70K+ Users"
