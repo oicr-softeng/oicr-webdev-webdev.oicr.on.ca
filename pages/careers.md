@@ -30,6 +30,6 @@ projects:
 
 co-op:
   title: "Co-Op Placements"
-  content: "We aim to provide co-op students practical experiences and practices that enable then to become quickly knowledge and useful, delivering real solutions and deliverables that are valued and used within a web-based software engineering approach to deliver quaility UX software results.  He seeks students who perform responsibly and effectively with mentorship and team resources to support learning and growth. "
+  content: "We aim to provide co-op students practical experiences and practices that enable them to become quickly knowledge and useful, delivering real solutions and deliverables that are valued and used within a web-based software engineering approach to deliver quaility UX software results.  He seeks students who perform responsibly and effectively with mentorship and team resources to support learning and growth. "
 
 ---
