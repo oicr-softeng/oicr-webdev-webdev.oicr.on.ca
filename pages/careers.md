@@ -1,8 +1,8 @@
 ---
 layout: careers
 title: "Careers"
-date:   2017-03-06 10:00:00 -0500
-author: Stephanie Lin
+date:   2017-08-11 10:00:00 -0500
+author: Joseph Yamada
 permalink: /careers/
 
 ########################################
@@ -13,7 +13,7 @@ job_postings:
   title: "Job Postings"
   jobs:
     - title: "Visual Designer + Themer" 
-      location: Toronto, Ontario
+      location: MaRS Centre Toronto, Ontario
       contract: UW Co-op Position 
       posted: 2017-07-24 10:00:00 -0500
       btn: APPLY ON WATERLOO WORKS (Job ID : 29459)
