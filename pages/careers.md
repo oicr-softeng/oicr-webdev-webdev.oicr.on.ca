@@ -17,6 +17,11 @@ job_postings:
       contract: UW Co-op Position 
       posted: 2017-07-24 10:00:00 -0500
       btn: APPLY ON WATERLOO WORKS (29459)
+        - title: "Front-End Web Developer" 
+      location: MaRS Centre Toronto, Ontario
+      contract: UW Co-op Position 
+      posted: 2017-07-24 10:00:00 -0500
+      btn: APPLY ON WATERLOO WORKS (29459)
 
 what_we_offer: "What We Offer"
 
