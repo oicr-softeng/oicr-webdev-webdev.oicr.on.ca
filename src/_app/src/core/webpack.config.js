@@ -4,8 +4,6 @@ const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const entries = require('../../configs/entries');
-const configProd = require('../../configs/env_theme.prod');
-const configDev = require('../../configs/env_theme.dev');
 
 // Load custome webpack config
 var webpackConfig = (env, config) => config
@@ -59,7 +57,7 @@ module.exports = env => {
             }),
             new webpack.DefinePlugin(
                 Object.assign({},
-                    configProd,
+                    {},
                     {
                         'process.env': {
                             NODE_ENV: JSON.stringify('production'),
@@ -78,7 +76,7 @@ module.exports = env => {
     // Dev
     else if (env.dev) {
         plugins = plugins.concat([
-            new webpack.DefinePlugin(configDev)
+            new webpack.DefinePlugin({})
         ])
     }
 

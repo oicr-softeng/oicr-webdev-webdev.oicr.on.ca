@@ -6,3 +6,4 @@
 <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/core/css/styles.css?{{ "now" | date: "%s" }}">
 <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/dist/css/core.bundle.css?{{ "now" | date: "%s" }}">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<script src="{{ site.url }}{{ site.baseurl }}/assets/site/js/env_theme.js?{{ "now" | date: "%s" }}"></script>
