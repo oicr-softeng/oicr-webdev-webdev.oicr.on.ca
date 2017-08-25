@@ -36,8 +36,8 @@ location:
 contact:
   title: "Point of Contact"
   description: "For further information about working with the WebDev team: "
-  name: "Ms. Elliann Fairbairn"
-  position: "Project Manager, Technology Access"
+  name: "Mr. Joseph Yamada"
+  position: "Senior Manager, Web Development"
   btn: "Send Email"
 
 ---
