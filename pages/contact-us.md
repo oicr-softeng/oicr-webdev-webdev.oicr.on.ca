@@ -36,7 +36,7 @@ location:
 contact:
   title: "Point of Contact"
   description: "For further information about working with the WebDev team: "
-  name: "Mr. Joseph Yamada"
+  name: "Joseph Yamada"
   position: "Senior Manager, Web Development"
   btn: "Send Email"
 
