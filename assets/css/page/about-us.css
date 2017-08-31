@@ -443,49 +443,59 @@ section.about-us {
 
 
 /* our students */
-.our-student {
+.our-student , .past-student {
     margin-top: 30px;
     margin-bottom: 80px;
 }
 
-.our-student .student-list {
+.student-list {
     margin: auto;
     width: 75%;
 }
 
+.student-list h3 {
+    text-align: center;
+    margin-bottom: 18px;
+    color: #355470;
+    color: #63aa35;
+    font-weight: 800;
+}
+
 @media only screen and (max-width: 1199px) {
-    .our-student .student-list {
+    .student-list {
         width: 100%;
     }
 }
 
-.our-student .student-list .student {
+.student-list .student {
     padding: 13px 20px;
     border-bottom: 1px solid #d2d7dd;
     vertical-align: middle;
 }
 
-.our-student .student-list .student:first-child {
+.student-list > .student:first-of-type {
     border-top: 1px solid #d2d7dd;
 }
 
-.our-student .student-list .student h4 {
+.student-list .student h4 {
     margin: 0px;
     display: inline-block;
     width: 18%;
     vertical-align: text-top;
 }
 
-.our-student .student-list .student ul {
-    display: inline-block;
+.student-list .student ul {
+    /*display: inline-block;*/
+    display: inline-flex;
     width: 81%;
     list-style: none;
     overflow: hidden;
     margin-bottom: 0px;
     padding-left: 0px;
+    margin: 7.5px 0;
 }
 
-.our-student .student-list .student li {
+.student-list .student li {
     font-weight: 600;
     float: left;
     list-style: none;
@@ -500,74 +510,74 @@ section.about-us {
     padding-left: 13px;
 }
 
-.our-student .student-list .student li span.super {
+.student-list .student li span.super {
     vertical-align: super;
     font-size: 10px;
 }
 
-.our-student .student-list .student li:nth-child(1) {
+.student-list .student li:nth-child(1) {
     width: 36%;
 }
 
-.our-student .student-list .student li:nth-child(2) {
+.student-list .student li:nth-child(2) {
     width: 32%;
 }
 
 @media only screen and (max-width: 991px) {
-    .our-student .student-list .student h4 {
+    .student-list .student h4 {
         display: block;
         float: left;
         width: 30%;
         margin: 7px 0px;
     }
-    .our-student .student-list .student ul {
+    .student-list .student ul {
         float: left;
         display: block;
         width: 70%;
     }
-    .our-student .space-holder {
+    .space-holder {
         clear: both;
     }
-    .our-student .student-list .student li:nth-child(1) {
+    .student-list .student li:nth-child(1) {
         width: 50%;
     }
 
-    .our-student .student-list .student li:nth-child(2) {
+    .student-list .student li:nth-child(2) {
         width: 50%;
     }
-    .our-student .student-list .student li:nth-child(3) {
+    .student-list .student li:nth-child(3) {
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 740px) {
-    .our-student .student-list .student h4{
+    .student-list .student h4{
         width: 45%;
     }
-    .our-student .student-list .student ul {
+    .student-list .student ul {
         width: 55%;
     }
-    .our-student .student-list .student li {
+    .student-list .student li {
         display: block;
     }
-    .our-student .student-list .student li:nth-child(1) {
+    .student-list .student li:nth-child(1) {
         width: 100%;
     }
 
-    .our-student .student-list .student li:nth-child(2) {
+    .student-list .student li:nth-child(2) {
         width: 100%;
     }
-    .our-student .student-list .student li:nth-child(3) {
+    .student-list .student li:nth-child(3) {
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 525px) {
-    .our-student .student-list .student h4, .our-student .student-list .student ul {
+    .student-list .student h4, .our-student .student-list .student ul {
         float: none;
         width: 100%;
     }
-    .our-student .student-list .student h4 {
+    .student-list .student h4 {
         text-align: left;
     }
 }

@@ -75,6 +75,31 @@ team:
 our-students:
   title: "Our Talented Students"
   students:
+    - name: "Luke Hudson"
+      program: "1st year Mathematics"
+      school: "University of Waterloo"
+      role: "Content Editor and Themer"
+    - name: "Dhron Joshi"
+      program: "2nd year Computer Science"
+      school: "University of Waterloo"
+      role: "Web + Technology Developer"
+    - name: "Felix Mangundap"
+      program: "1st year Computer Science"
+      school: "University of Waterloo"
+      role: "Visual Designer and Themer"
+    - name: "Yixuan Wang"
+      program: "1st year Software Engineering"
+      school: "University of Waterloo"
+      role: "Web + Technology Developer"
+    - name: "Jason Zhang"
+      program: "2nd year Mathematics"
+      school: "University of Waterloo"
+      role: "Javascript Developer"
+
+past-students:
+  title: "Credits to Our Team Alumni"
+  winterTerm: Winter 2017
+  students:
     - name: "Samantha Feng"
       program: "2nd year Biomedical Engineering"
       school: "University of Waterloo"

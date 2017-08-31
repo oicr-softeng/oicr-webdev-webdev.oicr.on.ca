@@ -155,6 +155,25 @@ layout: default
                             </div>
                         </div>
                     </div>
+                    <div class="row past-student">
+                        <div class="container">
+                            <h2>{{ page.past-students.title }}</h2>
+                            <div class="student-list">
+                                <h3>{{page.past-students.winterTerm}}</h3>
+                                {% for student in page.past-students.students %}
+                                <div class="student">
+                                    <h4>{{ student.name }}</h4>
+                                    <ul>
+                                        <li>{{ student.program }}</li>
+                                        <li>{{ student.school }}</li>
+                                        <li>{{ student.role }}</li>
+                                    </ul>
+                                    <div class="space-holder"></div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </section>
