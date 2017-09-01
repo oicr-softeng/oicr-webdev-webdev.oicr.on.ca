@@ -5,7 +5,8 @@
   "author": "Koji Miyauchi",
   "license": "MIT",
   "scripts": {
-    "develop": "node_modules/.bin/webpack --watch"
+    "develop": "node_modules/.bin/webpack --watch",
+    "build:prod": "node_modules/.bin/webpack --env.prod"
   },
   "dependencies": {
     "babel-polyfill": "^6.23.0",
@@ -16,8 +17,8 @@
     "redux": "^3.5.2",
     "redux-form": "^6.2.1",
     "redux-thunk": "^2.1.0",
-    "oicr-ui-core": "git+ssh://git@bitbucket.org/jyamada/oicr-ui-core.git",
-    "wfui-react": "git+ssh://git@bitbucket.org/jyamada/wfui-react.git"
+    "oicr-ui-core": "git+ssh://git@github.com/bioinformaticsdotca/webdev_oicr-ui-core.git",
+    "wfui-react": "git+ssh://git@github.com/bioinformaticsdotca/webdev_wfui-react.git"
   },
   "devDependencies": {
     "babel-cli": "^6.3.17",

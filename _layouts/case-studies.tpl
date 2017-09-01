@@ -2,6 +2,112 @@
 layout: default
 ---
 <link type="text/css" rel="stylesheet" media="all" href="/assets/css/page/case-studies.css" >
+<div id="black-overlay" class="color-overlay"> </div>
+
+<!-- Light Boxes-->
+<div class="container gallery-container">
+  <div id="gallery-challenge" class="lightbox">
+    <div class="lightbox-inner">
+      <div class="lightbox-title">
+        <h2>{{ page.project }}</h2>
+        <a class="btn" href="{{ page.btn_link }}">{{ page.proj_btn }}</a>
+        <a class="lightbox-title-close"></a>
+      </div>
+      <div class="lightbox-carousel">
+        {% assign challenge-slides = page.challenge.slides.size %}
+        <div id="webdev-carousel-sub" class="carousel slide carousel-fade carousel-challenge" data-ride="carousel" data-interval="false">
+            {% assign i = 0 %}
+            <ol class="carousel-indicators">
+              {% for slides in page.challenge.slides limit:challenge-slides %}
+              {% if i == 0 %}
+                <li class="carousel-indicator active" data-target="#webdev-carousel-sub" data-slide-to="{{ i }}"></li>
+              {% else %}
+                <li class="carousel-indicator" data-target="#webdev-carousel-sub" data-slide-to="{{ i }}"></li>
+              {% endif %}
+              {% assign i = i | plus: 1 %}
+              {% endfor %}
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              {% assign i = 1 %}
+              {% for item in page.challenge.slides limit:challenge-slides %}
+                {% if i == 1 %}
+                  <div class="item slide{{ i }} active first-slide">
+                {% elsif i == challenge-slides %}
+                  <div class="item last-child slide{{ i }} last-slide">
+                {% else %}
+                  <div class="item slide{{ i }}">
+                {% endif %}
+                    <div class="slides">
+                      <img class="carousel-img" src="{{ item }}" alt="slide{{ i }}">
+                    </div>
+                  </div>
+              {% assign i = i | plus: 1 %}
+              {% endfor %}
+            </div>
+            <a class="shared-control carousel-control-prev" href="#webdev-carousel-sub" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="shared-control carousel-control-next" href="#webdev-carousel-sub" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="gallery-solution" class="lightbox">
+      <div class="lightbox-inner">
+        <div class="lightbox-title">
+          <h2>{{ page.project }}</h2>
+          <a class="btn" href="{{ page.btn_link }}">{{ page.proj_btn }}</a>
+          <a class="lightbox-title-close"></a>
+        </div>
+        <div class="lightbox-carousel">
+          {% assign solution-slides = page.solution.slides.size %}
+          <div id="webdev-carousel-2-sub" class="carousel slide carousel-fade carousel-solution" data-ride="carousel" data-interval="false">
+              {% assign i = 0 %}
+              <ol class="carousel-indicators">
+                {% for slides in page.solution.slides limit:solution-slides %}
+                {% if i == 0 %}
+                  <li class="carousel-indicator active" data-target="#webdev-carousel-2-sub" data-slide-to="{{ i }}"></li>
+                {% else %}
+                  <li class="carousel-indicator" data-target="#webdev-carousel-2-sub" data-slide-to="{{ i }}"></li>
+                {% endif %}
+                {% assign i = i | plus: 1 %}
+                {% endfor %}
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                {% assign i = 1 %}
+                {% for item in page.solution.slides limit:solution-slides %}
+                  {% if i == 1 %}
+                    <div class="item slide{{ i }} active first-slide">
+                  {% elsif i == solution-slides %}
+                    <div class="item last-child slide{{ i }} last-slide">
+                  {% else %}
+                    <div class="item slide{{ i }}">
+                  {% endif %}
+                      <div class="slides">
+                        <img class="carousel-img" src="{{ item }}" alt="slide{{ i }}">
+                      </div>
+                    </div>
+                {% assign i = i | plus: 1 %}
+                {% endfor %}
+              </div>
+              <a class="shared-control carousel-control-prev" href="#webdev-carousel-2-sub" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="shared-control carousel-control-next" href="#webdev-carousel-2-sub" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
   <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="row banner">
       <div class="banner-background">
@@ -38,20 +144,20 @@ layout: default
                 <div class="container">
                   <div class="challenge-carousel">
                     {% assign challenge-slides = page.challenge.slides.size %}
-                    <div id="webdev-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                    <div id="webdev-carousel" class="carousel slide carousel-fade carousel-challenge" data-ride="carousel" data-interval="false">
                       {% assign i = 0 %}
                       <ol class="carousel-indicators">
                         {% for slides in page.challenge.slides limit:challenge-slides %}
                         {% if i == 0 %}
-                          <li data-target="#webdev-carousel" data-slide-to="{{ i }}" class="active"></li>
+                          <li class="carousel-indicator active" data-target="#webdev-carousel" data-slide-to="{{ i }}"></li>
                         {% else %}
-                          <li data-target="#webdev-carousel" data-slide-to="{{ i }}"></li>
+                          <li class="carousel-indicator" data-target="#webdev-carousel" data-slide-to="{{ i }}"></li>
                         {% endif %}
                         {% assign i = i | plus: 1 %}
                         {% endfor %}
                       </ol>
 
-                    <div class="carousel-inner" role="listbox">
+                    <div id="challenge" class="carousel-clickable carousel-inner" role="listbox">
                         <!-- Indicators -->
 
                         <!-- Wrapper for slides -->
@@ -74,11 +180,11 @@ layout: default
 
                     </div>
 
-                      <a class="carousel-control-prev" href="#webdev-carousel" role="button" data-slide="prev">
+                      <a class="shared-control carousel-control-prev" href="#webdev-carousel" role="button" data-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                           <span class="sr-only">Previous</span>
                       </a>
-                      <a class="carousel-control-next" href="#webdev-carousel" role="button" data-slide="next">
+                      <a class="shared-control carousel-control-next" href="#webdev-carousel" role="button" data-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="sr-only">Next</span>
                       </a>
@@ -126,15 +232,15 @@ layout: default
                             <ol class="carousel-indicators">
                               {% for slides in page.solution.slides limit:solution-slides %}
                               {% if i == 0 %}
-                                <li data-target="#webdev-carousel-2" data-slide-to="{{ i }}" class="active"></li>
+                                <li data-target="#webdev-carousel-2" data-slide-to="{{ i }}" class="carousel-indicator active"></li>
                               {% else %}
-                                <li data-target="#webdev-carousel-2" data-slide-to="{{ i }}"></li>
+                                <li data-target="#webdev-carousel-2" data-slide-to="{{ i }}" class="carousel-indicator"></li>
                               {% endif %}
                               {% assign i = i | plus: 1 %}
                               {% endfor %}
                             </ol>
 
-                          <div class="carousel-inner" role="listbox">
+                          <div id="solution" class="carousel-clickable carousel-inner" role="listbox">
                               <!-- Indicators -->
 
                               <!-- Wrapper for slides -->
@@ -157,11 +263,11 @@ layout: default
 
                           </div>
 
-                          <a class="carousel-control-prev" href="#webdev-carousel-2" role="button" data-slide="prev">
+                          <a class="shared-control carousel-control-prev" href="#webdev-carousel-2" role="button" data-slide="prev">
                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                               <span class="sr-only">Previous</span>
                           </a>
-                          <a class="carousel-control-next" href="#webdev-carousel-2" role="button" data-slide="next">
+                          <a class="shared-control carousel-control-next" href="#webdev-carousel-2" role="button" data-slide="next">
                               <span class="carousel-control-next-icon" aria-hidden="true"></span>
                               <span class="sr-only">Next</span>
                           </a>

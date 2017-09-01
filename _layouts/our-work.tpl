@@ -5,7 +5,7 @@ layout: default
 <div id="black-overlay" class="color-overlay"> </div>
 
 <!-- Light Boxes-->
-<div class="container gallery-container">
+<div class="container gallery-container our-work-container">
   {% assign projects = site._projects | where: 'categories', 'gallery' %}
   {% for d in projects %}
   {% assign size = "" %}
