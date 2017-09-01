@@ -355,7 +355,7 @@ section.case-study{
 }
 
 .carousel-indicators {
-    z-index: 2000;
+    /*z-index: 2000;*/
     bottom: -50px;
 }
 
@@ -406,7 +406,7 @@ section.case-study{
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: center center;
-    z-index: 2000;
+    /*z-index: 2000;*/
 }
 
 .carousel-control-prev:hover {
@@ -422,7 +422,7 @@ section.case-study{
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: center center;
-    z-index: 2000;
+    /*z-index: 2000;*/
 }
 
 .carousel-control-next:hover {
@@ -825,5 +825,138 @@ section.case-study{
 -moz-background-size: 30px;
 -o-background-size: 30px;
   background-size: 30px;
+    }
+}
+
+.page-wrapper {
+    overflow: hidden;
+}
+.color-overlay {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+}
+
+.gallery-container {
+    position: relative;
+    height: 0px;
+}
+
+.lightbox {
+    display: none;
+    border-radius: 5px;
+    align-self: center;
+    width: 960px;
+    background-color: #ffffff;
+    position: fixed;
+    left: calc(50% - 480px);
+    top: 3vw;
+    z-index: 1002;
+    margin: auto;
+    padding: 30px;
+    height: 94vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+}
+
+.lightbox-inner {
+    position: relative;
+}
+
+.lightbox-title {
+    padding: 0px 40px 10px 0px;
+    position: relative;
+    border-bottom: 1px solid #dce1e5;
+    background-image: url(../../images/icon-round-close.svg);
+    -webkit-background-size: 30px;
+    -moz-background-size: 30px;
+    -o-background-size: 30px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.lightbox-title h2 {
+    display: inline-block;
+    text-align: left;
+    margin: 0px 0px;
+}
+
+.lightbox-title a.btn {
+    vertical-align: bottom;
+    margin-left: 20px;
+}
+
+.lightbox-title a.lightbox-title-close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.lightbox-carousel {
+    overflow: hidden;
+    position: relative;
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .lightbox {
+        width: 80vw;
+        left: 10vw;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .lightbox-title a.btn {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .lightbox {
+        width: 88vw;
+        left: 6vw;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .lightbox-title {
+        text-align: center;
+        padding-right: 0px;
+        -webkit-background-size: 25px;
+        -moz-background-size: 25px;
+        -o-background-size: 25px;
+        background-size: 25px;
+    }
+    .lightbox-title h2 {
+        text-align: center;
+        padding-right: 30px;
+        padding-left: 15px;
+        font-size: 22px;
+    }
+    .lightbox-title a.lightbox-title-close {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .lightbox {
+        padding: 10px;
+        width: 94vw;
+        left: 3vw;
     }
 }
