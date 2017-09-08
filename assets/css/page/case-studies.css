@@ -318,10 +318,10 @@ section.case-study{
 
 .challenge-carousel {
     position: relative;
-  float:left;
-  width: 55%;
-  margin-right: 3%;
-  z-index: 500;
+    float:left;
+    width: 55%;
+    margin-right: 3%;
+    z-index: 500;
     margin-top: -70px;
     border-radius: 20px;
     border: 5px solid #e8ecf0;
@@ -336,6 +336,53 @@ section.case-study{
 .carousel-inner {
     height: 100%;
     overflow: hidden;
+}
+
+.carousel-clickable {
+    cursor: pointer;
+}
+
+.carousel-clickable .slide-image {
+    position: relative;
+}
+
+.carousel-clickable .slide-image .slide-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: block;
+    background-color: #fff;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.carousel-clickable:hover .slide-image .slide-overlay {
+    opacity: 0.7;
+}
+
+.carousel-clickable .slide-overlay-icon {
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    line-height: 80px;
+    left: 50%;
+    top:50%;
+    margin: -40px 0 0 -40px;
+    z-index: 500;
+    text-align: center;
+    background-color: #63aa35;
+    transform: scale(0) rotate(-90deg);
+    transition: all 0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
+
+.carousel-clickable:hover .slide-overlay-icon {
+    transform: scale(1) rotate(0);
 }
 
 .slides img {
@@ -377,8 +424,7 @@ section.case-study{
 
 .carousel-control-next, .carousel-control-prev {
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 50%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -391,7 +437,8 @@ section.case-study{
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 60px;
+    width: 50px;
+    height: 50px;
     color: #fff;
     text-align: center;
     opacity: .9;
@@ -851,21 +898,32 @@ section.case-study{
 }
 
 .lightbox {
-    display: none;
+    display: block;
     border-radius: 5px;
     align-self: center;
-    width: 960px;
+    width: 80vw;
+    max-width: 1500px;
     background-color: #ffffff;
     position: fixed;
-    left: calc(50% - 480px);
-    top: 3vw;
+    left: calc(50% - 750px);
+    top: 3vh;
     z-index: 1002;
     margin: auto;
     padding: 30px;
-    height: 94vh;
+    max-height: 94vh;
     overflow-x: hidden;
     overflow-y: scroll;
     padding-bottom: 10px;
+    transform: scale(0);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.lightbox.active {
+    transform: scale(1);
 }
 
 .lightbox-inner {
@@ -876,13 +934,6 @@ section.case-study{
     padding: 0px 40px 10px 0px;
     position: relative;
     border-bottom: 1px solid #dce1e5;
-    background-image: url(../../images/icon-round-close.svg);
-    -webkit-background-size: 30px;
-    -moz-background-size: 30px;
-    -o-background-size: 30px;
-    background-size: 30px;
-    background-repeat: no-repeat;
-    background-position: top right;
 }
 
 .lightbox-title h2 {
@@ -897,12 +948,29 @@ section.case-study{
 }
 
 .lightbox-title a.lightbox-title-close {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     top: 0px;
     right: 0px;
+    background-image: url(../../images/icon-close.svg);
+    -webkit-background-size: 40px;
+    -moz-background-size: 40px;
+    -o-background-size: 40px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
     cursor: pointer;
+    border-radius: 100px;
+    border: 2px solid transparent;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.lightbox-title a.lightbox-title-close:hover {
+    border: 2px solid #d2d2d2;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8) rotateZ(90deg);
 }
 
 .lightbox-carousel {
@@ -910,6 +978,11 @@ section.case-study{
     position: relative;
 }
 
+@media only screen and (max-width: 1875px) {
+    .lightbox {
+        left: calc(50% - 40vw);
+    }
+}
 
 @media only screen and (max-width: 1199px) {
     .lightbox {

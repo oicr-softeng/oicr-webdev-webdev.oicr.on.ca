@@ -9466,7 +9466,6 @@
 	        carouselList.each(function (index, element) {
 	            var firstSlide = $(this).find('.item.first-slide');
 	            var lastSlide = $(this).find('.item.last-slide');
-	            console.log($(this), firstSlide, lastSlide);
 	            if (firstSlide.hasClass("active")) {
 	                $(this).children(".carousel-control-prev").hide();
 	                $(this).children(".carousel-control-next").show();
@@ -9485,7 +9484,8 @@
 	        x.show();
 	        var projectName = "#gallery-" + project;
 	        var y = $(projectName);
-	        y.show();
+	        y.addClass('active');
+	        // y.show();
 	        $("#webdev-carousel").carousel(0);
 	        carouselReposition(project);
 	    }
@@ -9495,7 +9495,8 @@
 	        x.show();
 	        var projectName = "#gallery-" + project;
 	        var y = $(projectName);
-	        y.show();
+	        y.addClass('active');
+	        // y.show();
 	        carouselReposition(project);
 	    }
 
@@ -9504,7 +9505,8 @@
 	        x.hide();
 	        var projectName = "#" + project;
 	        var y = $(projectName);
-	        y.hide();
+	        y.removeClass('active');
+	        //y.hide();
 	    }
 
 	    function show() {
@@ -9547,8 +9549,8 @@
 	        var prev = carousel.find(".carousel-control-prev");
 	        var next = carousel.find(".carousel-control-next");
 	        indicator.css("top", carousel.width() * 0.712 + 45 + "px");
-	        prev.css("background-position-y", carousel.width() * 0.36 + "px");
-	        next.css("background-position-y", carousel.width() * 0.36 + "px");
+	        prev.css("top", carousel.width() * 0.36 + "px");
+	        next.css("top", carousel.width() * 0.36 + "px");
 	    }
 
 	    $(document).ready(function () {
@@ -9592,7 +9594,6 @@
 	                } else {
 	                    $('.work-grid').isotope({ filter: '.' + filters });
 	                }
-	                console.log(filters);
 	            });
 	        });
 

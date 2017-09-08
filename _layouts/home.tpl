@@ -233,58 +233,15 @@ layout: default
 
                 <div class="row partner">
                     <div class="container">
-                        <h2>{{ work }}</h2>
+                        <h2>{{ page.work }}</h2>
                         <div class="grid-board">
-                            <a class="grid-item logo-oicr" href="http://oicr.on.ca/" target="_blank">
-                                <img src="assets/images/logo-oicr.svg">
-                            </a>
-                            <a class="grid-item logo-ga" href="http://genomicsandhealth.org/" target="_blank">
-                                <img src="assets/images/logo-ga.svg">
-                            </a>
-                            <a class="grid-item logo-omprn" href="https://ontariomolecularpathology.ca/" target="_blank">
-                                <img src="assets/images/logo-omprn.svg">
-                            </a>
-                            <a class="grid-item logo-gdc" href="https://gdc.cancer.gov/" target="_blank">
-                                <img src="assets/images/logo-gdc.svg">
-                            </a>
-                            <a class="grid-item logo-icgc" href="http://icgc.org/" target="_blank">
-                                <div class="grid-item-space-holder"></div>
-                                <img src="assets/images/logo-icgc.png">
-                            </a>
-                            <a class="grid-item logo-facit" href="https://facit.ca/" target="_blank">
-                                <img src="assets/images/logo-facit.svg">
-                            </a>
-                            <a class="grid-item logo-collab" href="https://www.cancercollaboratory.org/" target="_blank">
-                                <img src="assets/images/logo-collab.svg">
-                            </a>
-                            <a class="grid-item logo-cbw" href="https://bioinformatics.ca/" target="_blank">
-                                <img src="assets/images/logo-cbw.svg">
-                            </a>
-                            <a class="grid-item logo-cag" href="https://participants.cartagene.qc.ca/" target="_blank">
-                                <img src="assets/images/logo-cag.svg">
-                            </a>
-                            <a class="grid-item logo-mael" href="https://www.maelstrom-research.org/" target="_blank">
-                                <img src="assets/images/logo-mael.svg">
-                            </a>
-                            <a class="grid-item logo-ohs" href="https://www.ontariohealthstudy.ca/" target="_blank">
-                                <div class="grid-item-space-holder"></div>
-                                <img src="assets/images/logo-ohs.png">
-                            </a>
-                            <a class="grid-item logo-otb" href="http://ontariotumourbank.ca/" target="_blank">
-                                <div class="grid-item-space-holder"></div>
-                                <img src="assets/images/logo-otb.png">
-                            </a>
-                            <a class="grid-item logo-cdic" href="http://genome-cdic.ca/" target="_blank">
-                                <img src="assets/images/logo-cdic.svg">
-                            </a>
-                            <a class="grid-item logo-3ctn" href="http://3ctn.ca/" target="_blank">
-                                <div class="grid-item-space-holder"></div>
-                                <img src="assets/images/logo-3ctn.png">
-                            </a>
-                            <a class="grid-item logo-torbug" href="https://torbug.org/" target="_blank">
-                                <div class="grid-item-space-holder"></div>
-                                <img src="assets/images/logo-torbug.png">
-                            </a>
+                            {% for partner in page.partners %}
+                                <a class="grid-item" href="{{ partner.website }}" target="_blank">
+                                    <div class="partner-logo logo-{{ partner.abbr }}">
+                                        <img src="{{ partner.logo }}"/>
+                                    </div>
+                                </a>
+                            {% endfor %}
                         </div>
                     </div>
                 </div>

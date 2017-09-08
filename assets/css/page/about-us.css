@@ -341,8 +341,6 @@ section.about-us {
     width: 31%;
     margin-right: 3.5%;
     margin-bottom: 40px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .team-item:nth-child(3n) {
@@ -354,17 +352,11 @@ section.about-us {
     display: flex;
 }
 
-.team-item-photo,
-.team-item-image2 {
-    width: calc(50% - 3px);
-}
-
 .team-item-photo {
-    margin-right: 6px;
+    width: 100%;
 }
 
-.team-item-photo img,
-.team-item-image2 img {
+.team-item-photo img{
     width: 100%;
 }
 
