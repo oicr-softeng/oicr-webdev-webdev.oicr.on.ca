@@ -136,7 +136,9 @@ layout: default
                           </div>
                         </div>
                         <a class="teaser-hover" href="/our-work/case-studies/{{ d.alias }}">
-                          <span>VIEW CASE STUDY &raquo</span>
+                          <div class="teaser-hover-inner">
+                            <span class="description">VIEW CASE STUDY &raquo</span>
+                          </div>
                         </a>
                       </div>
                       {% else %}
@@ -146,7 +148,10 @@ layout: default
                           <p>{{ d.description }}</p>
                         </div>
                         <a class="teaser-hover">
-                          <span>VIEW GALLERY &raquo</span>
+                          <div class="teaser-hover-inner">
+                            <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>
+                            <span class="description">VIEW GALLERY &raquo</span>
+                          </div>
                         </a>
                       </div>
                       {% endif %}

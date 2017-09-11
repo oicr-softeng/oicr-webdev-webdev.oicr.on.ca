@@ -1075,36 +1075,62 @@ a.grid-item {
     height: 130px;
     width: 20%;
     float: left;
-    padding: 30px 15px;
+    padding: 30px 20px;
     border-bottom: 1px solid #dce1e5;
     vertical-align: middle;
     display: flex;
+    position: relative;
 }
 
+.partner .grid-item:hover {
+    border-bottom: none;
+}
 
+.partner .grid-item:after {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    -webkit-transform: scale(0);
+    transform: scaleX(0);  
+    border-bottom: 1px solid #019fb6;
+    transition: 0.3s;
+    
+}
 
-.partner .grid-item.logo-icgc, .partner .grid-item.logo-ohs, .partner .grid-item.logo-otb, .partner .grid-item.logo-3ctn, .partner .grid-item.logo-torbug {
-    display: table-cell;
+.partner .grid-item:hover:after {
+    transform: scaleX(1);
+    transform-origin:  50% 100%;
+}
+
+.partner .grid-item .partner-logo {
+    opacity: 0.8;
+    width: 100%;
+    transition: opacity .3s,-webkit-transform .3s;
+    transition: transform .3s,opacity .3s;
+    transition: transform .3s,opacity .3s,-webkit-transform .3s;
+}
+
+.partner .grid-item:hover .partner-logo {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+.partner .grid-item .logo-icgc, .partner .grid-item .logo-ohs, .partner .grid-item .logo-otb, .partner .grid-item .logo-3ctn, .partner .grid-item .logo-torbug {
+    display: flex;
+    align-items: center;
     text-align: center;
-    vertical-align: middle;
-    font-size: 0;
 } 
 
-.partner .grid-item-space-holder {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-
-.partner .grid-item.logo-icgc img, .partner .grid-item.logo-ohs img, .partner .grid-item.logo-otb img, .partner .grid-item.logo-3ctn img, .partner .grid-item.logo-torbug img {
+.partner .grid-item .logo-icgc img, .partner .grid-item .logo-ohs img, .partner .grid-item .logo-otb img, .partner .grid-item .logo-3ctn img, .partner .grid-item .logo-torbug img {
     vertical-align: middle;
     width: auto;
     height: auto;
     max-width: 100%;
-}
-
-.partner .grid-item:hover {
-    border-bottom: 1px solid #9da7b2;
 }
 
 @media only screen and (max-width: 1200px) {

@@ -115,13 +115,9 @@ layout: default
                                 <div class="team-item teaser-{{ member.tag }}">
                                     <div class="team-item-image">
                                         <div class="team-item-photo">
-                                          <img src="{{ member.image }}">
-                                        </div>
-                                        <div class="team-item-image2">
-                                            <img src="/assets/images/image-testing.png">
-                                        </div>
-                                      </div>
-
+                                            <img src="{{ member.image }}">
+                                        </div>    
+                                    </div>
                                     <div class="team-item-content">
                                         <h3 class="name">{{ member.name }}</h3>
                                         <h4 class="title">{{ member.role }}</h4>

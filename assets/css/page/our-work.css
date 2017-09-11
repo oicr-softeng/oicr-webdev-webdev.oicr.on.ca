@@ -34,21 +34,32 @@
 }
 
 .lightbox {
-    display: none;
+    display: block;
     border-radius: 5px;
     align-self: center;
-    width: 960px;
+    width: 80vw;
+    max-width: 1200px;
     background-color: #ffffff;
     position: fixed;
-    left: calc(50% - 480px);
-    top: 3vw;
+    left: calc(50% - 600px);
+    top: 3vh;
     z-index: 1002;
     margin: auto;
     padding: 30px;
-    height: 94vh;
+    max-height: 94vh;
     overflow-x: hidden;
     overflow-y: scroll;
     padding-bottom: 10px;
+    transform: scale(0);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.lightbox.active {
+    transform: scale(1);
 }
 
 .lightbox-inner {
@@ -59,13 +70,6 @@
     padding: 0px 40px 10px 0px;
     position: relative;
     border-bottom: 1px solid #dce1e5;
-    background-image: url(../../images/icon-round-close.svg);
-    -webkit-background-size: 30px;
-    -moz-background-size: 30px;
-    -o-background-size: 30px;
-    background-size: 30px;
-    background-repeat: no-repeat;
-    background-position: top right;
 }
 
 .lightbox-title h2 {
@@ -80,12 +84,29 @@
 }
 
 .lightbox-title a.lightbox-title-close {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     top: 0px;
     right: 0px;
+    background-image: url(../../images/icon-close.svg);
+    -webkit-background-size: 40px;
+    -moz-background-size: 40px;
+    -o-background-size: 40px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
     cursor: pointer;
+    border-radius: 100px;
+    border: 2px solid transparent;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.lightbox-title a.lightbox-title-close:hover {
+    border: 2px solid #d2d2d2;
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8) rotateZ(90deg);
 }
 
 .lightbox-carousel {
@@ -93,6 +114,11 @@
     position: relative;
 }
 
+@media only screen and (max-width: 1500px) {
+    .lightbox {
+        left: calc(50% - 40vw);
+    }
+}
 
 @media only screen and (max-width: 1199px) {
     .lightbox {
@@ -264,8 +290,6 @@ div[id^="webdev-carousel-"] {
 
 .carousel-control-next, .carousel-control-prev {
     position: absolute;
-    top: 0;
-    bottom: 0;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -278,10 +302,11 @@ div[id^="webdev-carousel-"] {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 60px;
+    width: 50px;
+    height: 50px;
     color: #fff;
     text-align: center;
-    opacity: .5;
+    opacity: .9;
 }
 
 .carousel-control-prev {
@@ -303,14 +328,13 @@ div[id^="webdev-carousel-"] {
 
 .carousel-control-next {
     right: 0;
-    background-image: url(../../images/icon-round-arrow-right.svg);
+    background-image: url(../../images/icon-round-arrow-right-bg.svg);
     -webkit-background-size: 40px;
     -moz-background-size: 40px;
     -o-background-size: 40px;
     background-size: 40px;
     background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
+    background-position: center center;
     z-index: 2000;
 }
 
@@ -621,7 +645,7 @@ div[id^="webdev-carousel-"] {
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
         url(../../images/teaser-otb.png);
 }
-
+/*
 .teaser-omprn:hover {
     background:
         linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)),
@@ -683,7 +707,7 @@ div[id^="webdev-carousel-"] {
         linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)),
         url(../../images/teaser-otb.png);
 }
-
+*/
 .teaser-button {
     border-radius: 50%;
     background-color: #39a9d4;
@@ -701,7 +725,20 @@ div[id^="webdev-carousel-"] {
 }
 
 a.teaser-hover {
-    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+.work-item .teaser-hover {
+    background-color: #000;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.work-item .teaser-hover .teaser-hover-inner {
     width: 100%;
     height: 100%;
     text-align: center;
@@ -709,10 +746,24 @@ a.teaser-hover {
     position: absolute;
     top: 0;
     padding-top: calc(50% - 20px);
-    cursor: pointer;
+    transform: scale(0);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
-.teaser-hover span {
+.work-item:hover .teaser-hover {
+    display: block;
+    opacity: 0.8;
+}
+
+.work-item:hover .teaser-hover .teaser-hover-inner {
+    transform: scale(1);
+}
+
+.teaser-hover span.description {
     display: inline-block;
     font-size: 13px;
     color: #ffffff;
@@ -722,10 +773,15 @@ a.teaser-hover {
     border-radius: 7px;
 }
 
-.work-item:hover .teaser-hover {
-    display: block;
+.teaser-hover span.glyphicon-zoom-in {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
 }
 
+/*
 .work-item:hover .work-item-content {
     background: linear-gradient(rgb(50,50,50), rgb(47,47,47));
 }
@@ -737,7 +793,7 @@ a.teaser-hover {
 .work-item:hover .work-item-content p {
     color: #000000;
 }
-
+*/
 .teaser-button-inner {
     position: absolute;
     top: 0;
