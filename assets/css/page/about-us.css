@@ -133,7 +133,7 @@ section.about-us {
 }
 
 .how-we-work-circle-inner {
-    background-image: url(../../images/how-we-work-img.png);
+    background-image: url(/assets/images/img-webdev-team.png);
     -webkit-background-size: auto 100%;
     -moz-background-size: auto 100%;
     -o-background-size: auto 100%;
