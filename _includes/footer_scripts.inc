@@ -13,7 +13,7 @@
 
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
-<!-- Simple Pass only, just used to protect against peeking, not secured  -->
+<!-- Simple Pass only, just used to protect against peeking, not secured  
 <script>
   if (localStorage.password != "webdev") { 
      var password = prompt("Please enter the password to continue", "");
@@ -25,3 +25,4 @@
      }
   }
 </script>
+-->
