@@ -262,7 +262,9 @@ layout: default
                                             <img class="carousel-img carousel-img-browser" src="/assets/images/background-browser.svg">
                                             <div class="slide-image">
                                               <img class="carousel-img" src="{{ item }}" alt="slide{{ i }}">
-                                              <div class="slide-overlay"></div>
+                                              <div class="slide-overlay">
+                                                <span class="slide-overlay-icon glyphicon glyphicon-resize-full" aria-hidden="true"></span>
+                                              </div>
                                             </div>
                                         </div>
                                     </div>
