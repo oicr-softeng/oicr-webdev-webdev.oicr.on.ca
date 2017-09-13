@@ -5,7 +5,7 @@
           <div class="region region-postscript-bottom">
               <div class="menu-connect-menu fusion-inline-menu row">
                <div class="container">
-                   <p>Do you have a similar project you want to talk to us about? <a href="/contact-us/" class="btn">CONTACT US</a></p>
+                   <p>Do you have a similar project you want to talk to us about? <a href="/contact-us/" class="btn"><span class="btn-zoom text-uppercase">CONTACT US</span></a></p>
                </div>
               </div>
           </div>
@@ -22,9 +22,9 @@
                 <div class="menu-connect-menu fusion-inline-menu row">
                  <div class="container">
                      {% if page.layout == "about-us" %}
-                     <p> {{page.footer-message}} <a href="/careers/" class="btn btn-career">CAREER OPPORTUNITIES</a><a href="/contact-us/" class="btn">CONTACT US</a></p>
+                     <p> {{page.footer-message}} <a href="/careers/" class="btn btn-career"><span class="btn-zoom text-uppercase">CAREER OPPORTUNITIES</span></a><a href="/contact-us/" class="btn"><span class="btn-zoom text-uppercase">CONTACT US</span></a></p>
                      {% else %}
-                     <p> {{page.footer-message}} <a href="/contact-us/" class="btn">CONTACT US</a></p>
+                     <p> {{page.footer-message}} <a href="/contact-us/" class="btn"><span class="btn-zoom text-uppercase">CONTACT US</span></a></p>
                      {% endif %}
                  </div>
                 </div>

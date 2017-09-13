@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+{% assign d = site.pages | where:"layout", "careers" | where:"name", "careers.md" | first %}
 <link type="text/css" rel="stylesheet" media="all" href="/assets/css/page/homepage.css" >
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -16,7 +16,7 @@ layout: default
                         <h1>{{ page.title }}</h1>
                             <div class="caption-thumb-content">
                                 <p>{{ page.description }}</p>
-                                <a class="btn" href="/our-work/">{{ page.btn_banner }}</a>
+                                <a class="btn" href="/our-work/"><span class="btn-zoom">{{ page.btn_banner }}</span></a>
                             </div>
                         </div>
                         <div id="webdev-carousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -213,18 +213,18 @@ layout: default
                             <div class="about-us-content">
                                 <div class="about-us-main-content">
                                     <p>{{ page.about.content }}</p>
-                                    <a class="btn" href="/about-us/">{{ page.about.btn }}</a>
+                                    <a class="btn" href="/about-us/"><span class="btn-zoom">{{ page.about.btn }}</span></a>
                                 </div>
                                 <div class="about-us-join">
                                     <div class="about-us-join-content">
                                         <h3>{{ page.join_the_team.title }}</h3>
                                         <p>{{ page.join_the_team.content }}</p>
-                                        <ul> {% for list in page.join_the_team.jobs %}
-                                            <li><a class="white-link" href="/careers/">{{ list }}  &raquo;</a></li>{% endfor %}
+                                        <ul> {% for list in d.job_postings.jobs %}
+                                            <li><a class="white-link" href="/careers/">{{ list.title }}  &raquo;</a></li>{% endfor %}
 
                                         </ul>
                                     </div>
-                                    <a class="btn" href="/careers/">{{ page.join_the_team.btn }}</a>
+                                    <a class="btn" href="/careers/"><span class="btn-zoom">{{ page.join_the_team.btn }}</span></a>
                                 </div>
                             </div>
                         </div>
@@ -236,11 +236,19 @@ layout: default
                         <h2>{{ page.work }}</h2>
                         <div class="grid-board">
                             {% for partner in page.partners %}
-                                <a class="grid-item" href="{{ partner.website }}" target="_blank">
+                                {% if partner.website %}
+                                <a class="grid-item partner-link" href="{{ partner.website }}" target="_blank">
                                     <div class="partner-logo logo-{{ partner.abbr }}">
                                         <img src="{{ partner.logo }}"/>
                                     </div>
                                 </a>
+                                {% else %}
+                                <div class="grid-item partner-no-link">
+                                    <div class="partner-logo logo-{{ partner.abbr }}">
+                                        <img src="{{ partner.logo }}"/>
+                                    </div>
+                                </div>
+                                {% endif %}
                             {% endfor %}
                         </div>
                     </div>

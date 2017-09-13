@@ -122,9 +122,9 @@ layout: default
                                         <h3 class="name">{{ member.name }}</h3>
                                         <h4 class="title">{{ member.role }}</h4>
                                         <ul class="team-item-desc">
-                                            <li><span>Focus </span>{{ member.focus }}</li>
-                                            <li><span>Expertise </span>{{ member.expertise }}</li>
-                                            <li><span>Fun Fact </span>{{ member.fun_fact }}</li>
+                                            <li><span>Focus: </span>{{ member.focus }}</li>
+                                            <li><span>Expertise: </span>{{ member.expertise }}</li>
+                                            <li><span>Fun Fact: </span>{{ member.fun_fact }}</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -154,9 +154,10 @@ layout: default
                     <div class="row past-student">
                         <div class="container">
                             <h2>{{ page.past-students.title }}</h2>
+                            {% for term in page.past-students.terms %}
                             <div class="student-list">
-                                <h3>{{page.past-students.winterTerm}}</h3>
-                                {% for student in page.past-students.students %}
+                                <h3>{{ term.termTitle }}</h3>
+                                {% for student in term.students %}
                                 <div class="student">
                                     <h4>{{ student.name }}</h4>
                                     <ul>
@@ -168,6 +169,7 @@ layout: default
                                 </div>
                                 {% endfor %}
                             </div>
+                            {% endfor %}
                         </div>
                     </div>
 

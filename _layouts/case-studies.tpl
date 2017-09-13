@@ -10,7 +10,7 @@ layout: default
     <div class="lightbox-inner">
       <div class="lightbox-title">
         <h2>{{ page.project }}</h2>
-        <a class="btn" href="{{ page.btn_link }}">{{ page.proj_btn }}</a>
+        <a class="btn" href="{{ page.btn_link }}"><span class="btn-zoom">{{ page.proj_btn }}</span></a>
         <a class="lightbox-title-close"></a>
       </div>
       <div class="lightbox-carousel">
@@ -60,7 +60,7 @@ layout: default
       <div class="lightbox-inner">
         <div class="lightbox-title">
           <h2>{{ page.project }}</h2>
-          <a class="btn" href="{{ page.btn_link }}">{{ page.proj_btn }}</a>
+          <a class="btn" href="{{ page.btn_link }}"><span class="btn-zoom">{{ page.proj_btn }}</span></a>
           <a class="lightbox-title-close"></a>
         </div>
         <div class="lightbox-carousel">
@@ -121,7 +121,7 @@ layout: default
                 </div>
                 <div class="banner-content">
                     <p class="case-study-description">{{ page.project }}</p>
-                    <a class="btn" href="{{ page.btn_link }}">{{ page.proj_btn }}</a>
+                    <a class="btn" href="{{ page.btn_link }}"><span class="btn-zoom">{{ page.proj_btn }}</span></a>
                 </div>
               </div>
           </div>
@@ -262,7 +262,9 @@ layout: default
                                             <img class="carousel-img carousel-img-browser" src="/assets/images/background-browser.svg">
                                             <div class="slide-image">
                                               <img class="carousel-img" src="{{ item }}" alt="slide{{ i }}">
-                                              <div class="slide-overlay"></div>
+                                              <div class="slide-overlay">
+                                                <span class="slide-overlay-icon glyphicon glyphicon-resize-full" aria-hidden="true"></span>
+                                              </div>
                                             </div>
                                         </div>
                                     </div>
@@ -297,7 +299,7 @@ layout: default
                               {% endif %}
                             </ol>
                               {% endfor %}
-                                  <a class="btn" href="{{ page.btn_link }}">{{ page.proj_btn }}</a>
+                                  <a class="btn" href="{{ page.btn_link }}"><span class="btn-zoom">{{ page.proj_btn }}</span></a>
                             </div>
 
                               </div>

@@ -101,7 +101,6 @@ partners:
     website: https://participants.cartagene.qc.ca/
   - abbr: mael
     logo: /assets/images/logo-mael.svg
-    website: https://participants.cartagene.qc.ca/
   - abbr: ohs
     logo: /assets/images/logo-ohs.png
     website: https://www.ontariohealthstudy.ca/

@@ -1059,7 +1059,7 @@ section .row {
 
 
 /* partner */
-a.grid-item {
+.grid-item {
     display: block;
 }
 
@@ -1082,11 +1082,11 @@ a.grid-item {
     position: relative;
 }
 
-.partner .grid-item:hover {
+.partner .grid-item.partner-link:hover {
     border-bottom: none;
 }
 
-.partner .grid-item:after {
+.partner .grid-item.partner-link:after {
     width: 100%;
     height: 100%;
     z-index: 3;
@@ -1102,7 +1102,7 @@ a.grid-item {
     
 }
 
-.partner .grid-item:hover:after {
+.partner .grid-item.partner-link:hover:after {
     transform: scaleX(1);
     transform-origin:  50% 100%;
 }
@@ -1115,7 +1115,7 @@ a.grid-item {
     transition: transform .3s,opacity .3s,-webkit-transform .3s;
 }
 
-.partner .grid-item:hover .partner-logo {
+.partner .grid-item.partner-link:hover .partner-logo {
     opacity: 1;
     transform: scale(1.03);
 }
