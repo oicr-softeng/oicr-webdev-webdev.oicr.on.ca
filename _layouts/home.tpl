@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+{% assign d = site.pages | where:"layout", "careers" | where:"name", "careers.md" | first %}
 <link type="text/css" rel="stylesheet" media="all" href="/assets/css/page/homepage.css" >
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -219,8 +219,8 @@ layout: default
                                     <div class="about-us-join-content">
                                         <h3>{{ page.join_the_team.title }}</h3>
                                         <p>{{ page.join_the_team.content }}</p>
-                                        <ul> {% for list in page.join_the_team.jobs %}
-                                            <li><a class="white-link" href="/careers/">{{ list }}  &raquo;</a></li>{% endfor %}
+                                        <ul> {% for list in d.job_postings.jobs %}
+                                            <li><a class="white-link" href="/careers/">{{ list.title }}  &raquo;</a></li>{% endfor %}
 
                                         </ul>
                                     </div>
