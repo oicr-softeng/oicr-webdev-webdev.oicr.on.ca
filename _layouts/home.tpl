@@ -16,7 +16,7 @@ layout: default
                         <h1>{{ page.title }}</h1>
                             <div class="caption-thumb-content">
                                 <p>{{ page.description }}</p>
-                                <a class="btn" href="/our-work/">{{ page.btn_banner }}</a>
+                                <a class="btn" href="/our-work/"><span class="btn-zoom">{{ page.btn_banner }}</span></a>
                             </div>
                         </div>
                         <div id="webdev-carousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -213,7 +213,7 @@ layout: default
                             <div class="about-us-content">
                                 <div class="about-us-main-content">
                                     <p>{{ page.about.content }}</p>
-                                    <a class="btn" href="/about-us/">{{ page.about.btn }}</a>
+                                    <a class="btn" href="/about-us/"><span class="btn-zoom">{{ page.about.btn }}</span></a>
                                 </div>
                                 <div class="about-us-join">
                                     <div class="about-us-join-content">
@@ -224,7 +224,7 @@ layout: default
 
                                         </ul>
                                     </div>
-                                    <a class="btn" href="/careers/">{{ page.join_the_team.btn }}</a>
+                                    <a class="btn" href="/careers/"><span class="btn-zoom">{{ page.join_the_team.btn }}</span></a>
                                 </div>
                             </div>
                         </div>
@@ -236,11 +236,19 @@ layout: default
                         <h2>{{ page.work }}</h2>
                         <div class="grid-board">
                             {% for partner in page.partners %}
-                                <a class="grid-item" href="{{ partner.website }}" target="_blank">
+                                {% if partner.website %}
+                                <a class="grid-item partner-link" href="{{ partner.website }}" target="_blank">
                                     <div class="partner-logo logo-{{ partner.abbr }}">
                                         <img src="{{ partner.logo }}"/>
                                     </div>
                                 </a>
+                                {% else %}
+                                <div class="grid-item partner-no-link">
+                                    <div class="partner-logo logo-{{ partner.abbr }}">
+                                        <img src="{{ partner.logo }}"/>
+                                    </div>
+                                </div>
+                                {% endif %}
                             {% endfor %}
                         </div>
                     </div>

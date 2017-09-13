@@ -41,8 +41,7 @@ h4{
 
 
 a.btn {
-    padding: 6px 25px;
-    padding-right: 50px;
+    padding: 6px 0;
     text-decoration: none;
     color: #ffffff;
     font-size: 14px;
@@ -50,6 +49,18 @@ a.btn {
     border-radius: 7px;
     background-color: #63aa35;
     border-bottom: 2px solid #b3e077;
+}
+
+a.btn:hover, a.btn:active, a.btn:focus {
+    background-color: #549a27;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 2px solid #99c85a;
+}
+
+.btn .btn-zoom {
+    padding: 0 25px;
+    padding-right: 50px;
     background-image: url(../../images/icon-arrow-white.svg);
     -webkit-background-size: 18px;
     -moz-background-size: 18px;
@@ -57,13 +68,12 @@ a.btn {
     background-size: 18px;
     background-repeat: no-repeat;
     background-position: calc(100% - 25px) 50%;
+    display: block;
+    transition: all 0.3s;
 }
 
-a.btn:hover, a.btn:active {
-    background-color: #549a27;
-    color: #ffffff;
-    text-decoration: none;
-    border-bottom: 2px solid #99c85a;
+.btn:hover .btn-zoom {
+    transform: scale(1.05);
 }
 
 @media only screen and (max-width:479px) {
