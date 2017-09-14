@@ -34,9 +34,9 @@ challenge:
 
 
 testimonial:
-  quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit nibh ac nisl eleifend, nec congue felis lacinia. Donec ac erat velit. Aliquam erat volutpat. Congue felis lacinia donec ac erat velit.Aliquam erat volutpat. Congue felis lacinia donec ac erat velit Congue felis lacinia donec ac erat velit.Aliquam erat volutpat."
-  title: "Dr. David LeBrun, OMPRN Program Leader"
-  institution: "Queen's University, Kingston"
+  quote: ""
+  title: ""
+  institution: ""
 
 solution:
   title: "The Solution"
