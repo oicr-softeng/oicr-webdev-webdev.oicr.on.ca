@@ -26,7 +26,7 @@ challenge:
 
 
 testimonial:
-  quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit nibh ac nisl eleifend, nec congue felis lacinia. Donec ac erat velit. Aliquam erat volutpat. Congue felis lacinia donec ac erat velit.Aliquam erat volutpat. Congue felis lacinia donec ac erat velit Congue felis lacinia donec ac erat velit.Aliquam erat volutpat."
+  quote: ""
   title: ""
   institution: ""
 
