@@ -64,13 +64,6 @@ team:
     expertise: "JavaScript; ReactJS; Redux; Php"
     fun_fact: "Extraordinarily kind"
     tag: "kyle-kim"
-  - name: "George Shewchuk"
-    image: "/assets/images/photo-george.png"
-    role: "Senior Graphic Designer, Branding"
-    focus: "Specializes in designing custom visualization of Scientific Subjects"
-    expertise: "Graphics Illustrations and Branding"
-    fun_fact: "Loves a warm fire"
-    tag: "george-shewchuk"
 
 our-students:
   title: "Our Talented Students"
