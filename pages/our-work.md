@@ -1,8 +1,8 @@
 ---
 layout: our-work
 title: "Our Work"
-date:   2017-03-06 10:00:00 -0500
-author: Stephanie Lin
+date:   2017-09-14 10:00:00 -0500
+author: Joseph Yamada
 permalink: /our-work/
 
 description: "Some of our work, we have developed an extensive portfolio of user-friendly, informative and operational websites that support OICR's projects and researchers and communicate OICR's research objectives. "
