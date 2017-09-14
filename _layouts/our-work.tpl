@@ -169,10 +169,10 @@ layout: default
                         <div class="teaser">
                           <div class="teaser-content">
                             <div class="teaser-header">
-                              <h3>{{ page.activedriver.title }}</h3>
+                              <h3>{{ page.progress1.title }}</h3>
                             </div>
                             <div class="teaser-detail">
-                              <p>{{ page.activedriver.content }}</p>
+                              <p>{{ page.progress1.content }}</p>
                               </div>
                             </div>
                           </div>
@@ -181,10 +181,10 @@ layout: default
                           <div class="teaser">
                             <div class="teaser-content">
                               <div class="teaser-header">
-                                <h3>{{ page.GSI.title }}</h3>
+                                <h3>{{ page.progress2.title }}</h3>
                               </div>
                               <div class="teaser-detail">
-                                <p>{{ page.GSI.content }}</p>
+                                <p>{{ page.progress2.content }}</p>
                               </div>
                             </div>
                           </div>
@@ -193,10 +193,10 @@ layout: default
                           <div class="teaser">
                             <div class="teaser-content">
                               <div class="teaser-header">
-                                <h3>{{ page.GATCI.title }}</h3>
+                                <h3>{{ page.progress3.title }}</h3>
                               </div>
                               <div class="teaser-detail">
-                                <p>{{ page.GATCI.content }}</p>
+                                <p>{{ page.progress3.content }}</p>
                               </div>
                             </div>
                           </div>
