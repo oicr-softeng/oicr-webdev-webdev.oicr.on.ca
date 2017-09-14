@@ -10,15 +10,15 @@ description: "Some of our work, we have developed an extensive portfolio of user
 links:
   - title: "ALL"
     tag: "all"
-  - title: "VISUAL DESIGN & UX"
+  - title: "VISUAL DESIGN + UX"
     tag: "design"
   - title: "DATA SHARING"
     tag: "sharing"
- - title: "OUTREACH & EDUCATION"
+ - title: "OUTREACH + EDUCATION"
     tag: "network"
-  - title: "ACCESS & CONTROL"
+  - title: "ACCESS + CONTROL"
     tag: "portal"
-  - title: "ENGINES & AUTOMATION"
+  - title: "ENGINES + AUTOMATION"
     tag: "automation"
 
 progress:
