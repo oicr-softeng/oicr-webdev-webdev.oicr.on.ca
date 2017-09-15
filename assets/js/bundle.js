@@ -9608,10 +9608,6 @@
 	                x.className = "filter";
 	            }
 	        });
-
-	        particlesJS.load('particles-js', 'assets/files/particles.json', function () {
-	            console.log('callback - particles.js config loaded');
-	        });
 	    });
 
 	    $(window).resize(function () {
@@ -9632,41 +9628,36 @@
 	jQuery(function ($) {
 	    $(document).ready(function () {
 	        var width = $('#home-banner-background').width();
-	        if (width >= 767) {
-	            $('#particles-js').show();
-	            particlesJS.load('particles-js', 'assets/files/particles.json', function () {
-	                console.log('callback - particles.js config loaded');
-	                if (width >= 1500) {
-	                    $('#particles-js').css('position', "absolute");
-	                    $('#particles-js').css('top', "0px");
-	                } else if (width >= 1200) {
-	                    $('#particles-js').css('position', "absolute");
-	                    // $('#particles-js').css('top', "-108px");
-	                }
-	            });
-	        } else {
-	            $('#particles-js').hide();
-	        }
+	        particlesJS.load('particles-js', '/assets/files/particles.json', function () {
+	            var height = $('#home-banner-background').height();
+	            $('#particles-js .particles-js-canvas-el').css('position', "absolute");
+	            if (width >= 1200) {
+	                $('#particles-js .particles-js-canvas-el').css('top', "0px");
+	            } else if (width >= 902) {
+	                $('#particles-js .particles-js-canvas-el').css('top', "60px");
+	            } else {
+	                $('#particles-js .particles-js-canvas-el').css('top', "108px");
+	            }
+
+	            var canvas_el = document.querySelector('#particles-js > .particles-js-canvas-el');
+	            canvas_el.height = height;
+	            $('#particles-js > .particles-js-canvas-el').css('height', height + 'px');
+	        });
 	    });
 
 	    $(window).resize(function () {
 	        var width = $('#home-banner-background').width();
-	        console.log('width', width);
-	        if (width >= 767) {
-	            $('#particles-js').show();
-	            particlesJS.load('particles-js', 'assets/files/particles.json', function () {
-	                console.log('callback - particles.js config loaded');
-	                if (width >= 1500) {
-	                    $('#particles-js').css('position', "absolute");
-	                    $('#particles-js').css('top', "0px");
-	                } else if (width >= 1200) {
-	                    $('#particles-js').css('position', "absolute");
-	                    // $('#particles-js').css('top', "-108px");
-	                }
-	            });
+	        if (width >= 1200) {
+	            $('#particles-js .particles-js-canvas-el').css('top', "0px");
+	        } else if (width >= 902) {
+	            $('#particles-js .particles-js-canvas-el').css('top', "60px");
 	        } else {
-	            $('#particles-js').hide();
+	            $('#particles-js .particles-js-canvas-el').css('top', "108px");
 	        }
+	        var height = $('#home-banner-background').height();
+	        var canvas_el = document.querySelector('#particles-js > .particles-js-canvas-el');
+	        canvas_el.height = height;
+	        $('#particles-js > .particles-js-canvas-el').css('height', height + 'px');
 	    });
 	});
 
