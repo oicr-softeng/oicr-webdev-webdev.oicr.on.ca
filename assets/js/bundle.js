@@ -47,7 +47,8 @@
 	__webpack_require__(1);
 	__webpack_require__(326);
 	__webpack_require__(327);
-	module.exports = __webpack_require__(328);
+	__webpack_require__(328);
+	module.exports = __webpack_require__(329);
 
 
 /***/ }),
@@ -9615,6 +9616,48 @@
 	            var temp = $(this);
 	            carouselReposition(temp.attr('id'));
 	        });
+	    });
+	});
+
+/***/ }),
+/* 329 */
+/***/ (function(module, exports) {
+
+	'use strict';
+
+	jQuery(function ($) {
+	    $(document).ready(function () {
+	        var width = $('#home-banner-background').width();
+	        particlesJS.load('particles-js', '/assets/files/particles.json', function () {
+	            var height = $('#home-banner-background').height();
+	            $('#particles-js .particles-js-canvas-el').css('position', "absolute");
+	            if (width >= 1200) {
+	                $('#particles-js .particles-js-canvas-el').css('top', "0px");
+	            } else if (width >= 902) {
+	                $('#particles-js .particles-js-canvas-el').css('top', "60px");
+	            } else {
+	                $('#particles-js .particles-js-canvas-el').css('top', "108px");
+	            }
+
+	            var canvas_el = document.querySelector('#particles-js > .particles-js-canvas-el');
+	            canvas_el.height = height;
+	            $('#particles-js > .particles-js-canvas-el').css('height', height + 'px');
+	        });
+	    });
+
+	    $(window).resize(function () {
+	        var width = $('#home-banner-background').width();
+	        if (width >= 1200) {
+	            $('#particles-js .particles-js-canvas-el').css('top', "0px");
+	        } else if (width >= 902) {
+	            $('#particles-js .particles-js-canvas-el').css('top', "60px");
+	        } else {
+	            $('#particles-js .particles-js-canvas-el').css('top', "108px");
+	        }
+	        var height = $('#home-banner-background').height();
+	        var canvas_el = document.querySelector('#particles-js > .particles-js-canvas-el');
+	        canvas_el.height = height;
+	        $('#particles-js > .particles-js-canvas-el').css('height', height + 'px');
 	    });
 	});
 

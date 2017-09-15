@@ -8,6 +8,7 @@
 
 <!-- Bundle JS -->
 <!-- JavaScript -->
+<script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/assets/js/particles.min.js"></script>
 <script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/assets/js/bundle.js"></script>
 
 

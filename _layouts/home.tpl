@@ -9,116 +9,108 @@ layout: default
     <div class="container-fluid container-jumbotron">
         <div class="row">
             <div class="jumbotron-inner">
-                <img src="assets/images/banner-image1.png" alt="Banner image 1">
+                <img id="home-banner-background" src="assets/images/banner-image1.png" alt="Banner image 1">
+                <div id="particles-js"></div>
                 <div class="container">
                     <div class="jumbotron-main container">
                         <div class="jumbotron-content col-xs-5">
-                        <h1>{{ page.title }}</h1>
+                            <h1>{{ page.title }}</h1>
                             <div class="caption-thumb-content">
                                 <p>{{ page.description }}</p>
                                 <a class="btn" href="/our-work/"><span class="btn-zoom">{{ page.btn_banner }}</span></a>
                             </div>
                         </div>
                         <div id="webdev-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-
-                           <ol class="carousel-indicators">
-                            <li data-target="#webdev-carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#webdev-carousel" data-slide-to="1"></li>
-                            <li data-target="#webdev-carousel" data-slide-to="2"></li>
-                            <li data-target="#webdev-carousel" data-slide-to="3"></li>
-                        </ol>
-                        <div class="carousel-inner" role="listbox">
+                            <ol class="carousel-indicators">
+                                <li data-target="#webdev-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#webdev-carousel" data-slide-to="1"></li>
+                                <li data-target="#webdev-carousel" data-slide-to="2"></li>
+                                <li data-target="#webdev-carousel" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
                             <!-- Indicators -->
-
-                            <!-- Wrapper for slides -->
-                            <div class="item slide1 active">
-                                <div class="caption-circle col-xs-9 col-md-9">
-                                    <div class="circle">
-                                        <div class="circle-inner">
+                                <!-- Wrapper for slides -->
+                                <div class="item slide1 active">
+                                    <div class="caption-circle col-xs-9 col-md-9">
+                                        <div class="circle">
+                                            <div class="circle-inner"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-sub col-xs-12 col-md-3">
+                                        <div class="circle2">
+                                            <div class="circle2-inner">
+                                                <div class="circle2-content">
+                                                    <a class="project" href="{{ page.OMPRN.link }}">{{ page.OMPRN.title }}</a>
+                                                    <p>{{ page.OMPRN.content }}</p>
+                                                    <a class="callout" href="{{ page.OMPRN.link }}">{{ page.OMPRN.nav }}</a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                  <div class="caption-sub col-xs-12 col-md-3">
-                                    <div class="circle2">
-                                        <div class="circle2-inner">
-                                            <div class="circle2-content">
-                                                <a class="project" href="{{ page.OMPRN.link }}">{{ page.OMPRN.title }}</a>
-                                                <p>{{ page.OMPRN.content }}</p>
-                                                <a class="callout" href="{{ page.OMPRN.link }}">{{ page.OMPRN.nav }}</a>
+                                <div class="item slide2">
+                                    <div class="caption-circle col-xs-9 col-md-9">
+                                        <div class="circle">
+                                            <div class="circle-inner"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-sub col-xs-12 col-md-3">
+                                        <div class="circle2">
+                                            <div class="circle2-inner">
+                                                <div class="circle2-content">
+                                                    <a class="project" href="{{ page.GA.link }}">{{ page.GA.title }}</a>
+                                                    <p>{{ page.GA.content }}</p>
+                                                    <a class="callout" href="{{ page.GA.link }}">{{ page.GA.nav }}</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item slide3">
+                                    <div class="caption-circle col-xs-9 col-md-9">
+                                        <div class="circle">
+                                            <div class="circle-inner"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-sub col-xs-12 col-md-3">
+                                        <div class="circle2">
+                                            <div class="circle2-inner">
+                                                <div class="circle2-content">
+                                                    <a class="project" href="{{ page.GDC.link }}">{{ page.GDC.title }}</a>
+                                                    <p>{{ page.GDC.content }}</p>
+                                                    <a class="callout" href="{{ page.GDC.link }}">{{ page.GDC.nav }}</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item last-child slide4">
+                                    <div class="caption-circle col-xs-9 col-md-9">
+                                        <div class="circle">
+                                            <div class="circle-inner"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-sub col-xs-12 col-md-3">
+                                        <div class="circle2">
+                                            <div class="circle2-inner">
+                                                <div class="circle2-content">
+                                                    <a class="project" href="{{ page.ICGC.link }}">{{ page.ICGC.title }}</a>
+                                                    <p>{{ page.ICGC.content }}</p>
+                                                    <a class="callout" href="{{ page.ICGC.link }}">{{ page.ICGC.nav }}</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="item slide2">
-                               <div class="caption-circle col-xs-9 col-md-9">
-                                   <div class="circle">
-                                       <div class="circle-inner">
-                                       </div>
-                                   </div>
-                               </div>
-                               <div class="caption-sub col-xs-12 col-md-3">
-                                <div class="circle2">
-                                    <div class="circle2-inner">
-                                        <div class="circle2-content">
-                                            <a class="project" href="{{ page.GA.link }}">{{ page.GA.title }}</a>
-                                            <p>{{ page.GA.content }}</p>
-                                            <a class="callout" href="{{ page.GA.link }}">{{ page.GA.nav }}</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
-                        <div class="item slide3">
-                            <div class="caption-circle col-xs-9 col-md-9">
-                                <div class="circle">
-                                    <div class="circle-inner">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="caption-sub col-xs-12 col-md-3">
-                                <div class="circle2">
-                                    <div class="circle2-inner">
-                                        <div class="circle2-content">
-                                            <a class="project" href="{{ page.GDC.link }}">{{ page.GDC.title }}</a>
-                                            <p>{{ page.GDC.content }}</p>
-                                            <a class="callout" href="{{ page.GDC.link }}">{{ page.GDC.nav }}</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item last-child slide4">
-                            <div class="caption-circle col-xs-9 col-md-9">
-                                <div class="circle">
-                                    <div class="circle-inner">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="caption-sub col-xs-12 col-md-3">
-                                <div class="circle2">
-                                    <div class="circle2-inner">
-                                        <div class="circle2-content">
-                                            <a class="project" href="{{ page.ICGC.link }}">{{ page.ICGC.title }}</a>
-                                            <p>{{ page.ICGC.content }}</p>
-                                            <a class="callout" href="{{ page.ICGC.link }}">{{ page.ICGC.nav }}</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
                     </div>
-
-                </div>
                 </div>
             </div>
         </div>
+        <!-- .row -->
     </div>
-    <!-- .row -->
-</div>
-<!-- .container-fluid -->
+    <!-- .container-fluid -->
 </div><!-- .jumbotron -->
 
 <!-- Main -->
