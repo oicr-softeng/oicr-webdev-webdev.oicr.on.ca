@@ -31,15 +31,15 @@ progress:
   title: "Work in Progress"
   content: "Stay tuned for some exciting new projects that we're working on!"
 
-activedriver:
+progress1:
   title: "ActiveDriver DB"
   content: "UX & Visual Design for a novel Data Portal that associates and visualizes genome mutations in the context of 'active sites' of proteins."
 
-GSI:
+progress2:
   title: "Genome Sequencing Informatics (GSI)"
   content: "UX & Visual Design for a Sequencing Reporting System that allows project managers and the GSI team to follow the state of their sample analysis."
 
-GATCI:
+progress3:
   title: "GATCI"
   content: "Responsive Website for a Cancer Research Project that connects clinicians and researchers across the globe who study a rare form of thyroid cancer."
 
