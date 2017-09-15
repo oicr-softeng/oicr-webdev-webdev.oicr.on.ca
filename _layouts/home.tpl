@@ -14,7 +14,7 @@ layout: default
                 <div class="container">
                     <div class="jumbotron-main container">
                         <div class="jumbotron-content col-xs-5">
-                            <h1>{{ page.title }}</h1>
+                            <h1 class="home-banner-title">{{ page.title }}</h1>
                             <div class="caption-thumb-content">
                                 <p>{{ page.description }}</p>
                                 <a class="btn" href="/our-work/"><span class="btn-zoom">{{ page.btn_banner }}</span></a>

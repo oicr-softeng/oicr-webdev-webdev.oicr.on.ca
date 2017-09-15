@@ -1179,4 +1179,6 @@ section .row {
     }
 }
 
-/* particles-js */
+.home-banner-title, .caption-thumb-content > p {
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
