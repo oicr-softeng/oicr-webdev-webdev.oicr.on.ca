@@ -14,7 +14,7 @@
         "type": "circle"
       },
       "opacity": {
-        "value": 0.15,
+        "value": 0.1,
         "random": false,
         "anim": {
           "enable": false,
@@ -37,7 +37,7 @@
         "enable": true,
         "distance": 300,
         "color": "#000000",
-        "opacity": 0.14,
+        "opacity": 0.05,
         "width": 1
       },
       "move": {
