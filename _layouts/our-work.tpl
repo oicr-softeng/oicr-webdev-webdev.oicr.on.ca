@@ -19,7 +19,7 @@ layout: default
       <div class="lightbox-title">
         <h2>{{ d.title }}</h2>
         {% if d.proj_btn %}
-        <a class="btn" href="https://{{d.proj_btn}}" target="_blank">{{ d.proj_btn }}</a>
+        <a class="btn" href="https://{{d.proj_btn}}" target="_blank"><span class="btn-zoom">{{ d.proj_btn }}</span></a>
         {% endif %}
         <a class="lightbox-title-close"></a>
       </div>

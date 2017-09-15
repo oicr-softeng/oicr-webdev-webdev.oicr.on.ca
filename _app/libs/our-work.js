@@ -145,6 +145,10 @@ jQuery(function($){
                 x.className = "filter";
             }
         });
+
+        particlesJS.load('particles-js', 'assets/files/particles.json', function() {
+            console.log('callback - particles.js config loaded');
+        });
     });
 
     $(window).resize(function() {

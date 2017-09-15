@@ -47,7 +47,8 @@
 	__webpack_require__(1);
 	__webpack_require__(326);
 	__webpack_require__(327);
-	module.exports = __webpack_require__(328);
+	__webpack_require__(328);
+	module.exports = __webpack_require__(329);
 
 
 /***/ }),
@@ -9607,6 +9608,10 @@
 	                x.className = "filter";
 	            }
 	        });
+
+	        particlesJS.load('particles-js', 'assets/files/particles.json', function () {
+	            console.log('callback - particles.js config loaded');
+	        });
 	    });
 
 	    $(window).resize(function () {
@@ -9615,6 +9620,53 @@
 	            var temp = $(this);
 	            carouselReposition(temp.attr('id'));
 	        });
+	    });
+	});
+
+/***/ }),
+/* 329 */
+/***/ (function(module, exports) {
+
+	'use strict';
+
+	jQuery(function ($) {
+	    $(document).ready(function () {
+	        var width = $('#home-banner-background').width();
+	        if (width >= 767) {
+	            $('#particles-js').show();
+	            particlesJS.load('particles-js', 'assets/files/particles.json', function () {
+	                console.log('callback - particles.js config loaded');
+	                if (width >= 1500) {
+	                    $('#particles-js').css('position', "absolute");
+	                    $('#particles-js').css('top', "0px");
+	                } else if (width >= 1200) {
+	                    $('#particles-js').css('position', "absolute");
+	                    // $('#particles-js').css('top', "-108px");
+	                }
+	            });
+	        } else {
+	            $('#particles-js').hide();
+	        }
+	    });
+
+	    $(window).resize(function () {
+	        var width = $('#home-banner-background').width();
+	        console.log('width', width);
+	        if (width >= 767) {
+	            $('#particles-js').show();
+	            particlesJS.load('particles-js', 'assets/files/particles.json', function () {
+	                console.log('callback - particles.js config loaded');
+	                if (width >= 1500) {
+	                    $('#particles-js').css('position', "absolute");
+	                    $('#particles-js').css('top', "0px");
+	                } else if (width >= 1200) {
+	                    $('#particles-js').css('position', "absolute");
+	                    // $('#particles-js').css('top', "-108px");
+	                }
+	            });
+	        } else {
+	            $('#particles-js').hide();
+	        }
 	    });
 	});
 

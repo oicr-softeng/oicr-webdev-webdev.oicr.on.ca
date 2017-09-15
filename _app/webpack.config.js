@@ -8,6 +8,7 @@ module.exports = {
       // './_user',
       './libs/spamspan.js',
       './libs/our-work.js',
+      './libs/particles.js',
     ],
   },
   output: {
