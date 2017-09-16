@@ -101,7 +101,7 @@ layout: default
                                           <p>{{ page.contact.description }}</p>
                                           <p>
                                             <span>{{ page.contact.name }}</span><br>{{ page.contact.position }}<br>
-                                            <span class="spamspan"><span class="u">Elliann [dot] Fairbairn</span> [at] <span class="d">oicr [dot] on [dot] ca</span> (<span class="t">{{ page.contact.btn }}&raquo;</span>)</span>
+                                            <span class="spamspan"><span class="u">joseph [dot] yamada</span> [at] <span class="d">oicr [dot] on [dot] ca</span> (<span class="t">{{ page.contact.btn }}&raquo;</span>)</span>
                                           </p>
                                       </div>
                                   </div>
