@@ -56,7 +56,7 @@
       }
     },
     "interactivity": {
-      "detect_on": "canvas",
+      "detect_on": "window",
       "events": {
         "onhover": {
           "enable": true,
@@ -70,7 +70,7 @@
       },
       "modes": {
         "grab": {
-          "distance": 200,
+          "distance": 120,
           "line_linked": {
             "opacity": 1
           }
@@ -80,5 +80,5 @@
         }
       }
     },
-    "retina_detect": true
+    "retina_detect": false
   }
