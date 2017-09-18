@@ -11,7 +11,7 @@ layout: default
             <div class="jumbotron-inner">
                 <img id="home-banner-background" src="assets/images/banner-image1.png" alt="Banner image 1">
                 <div id="particles-js"></div>
-                <div class="container">
+                <div id="home-banner-content" class="container">
                     <div class="jumbotron-main container">
                         <div class="jumbotron-content col-xs-5">
                             <h1 class="home-banner-title">{{ page.title }}</h1>

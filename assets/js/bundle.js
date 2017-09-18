@@ -9628,52 +9628,7 @@
 	jQuery(function ($) {
 	    $(document).ready(function () {
 	        if ($('#particles-js').length) {
-	            particlesJS.load('particles-js', '/assets/files/particles.json', function () {
-	                var height = $('#home-banner-background').height();
-	                var img_width = $('#home-banner-background').width();
-	                var canvas_el = document.querySelector('#particles-js > .particles-js-canvas-el');
-	                if (canvas_el.height > height) {
-	                    canvas_el.width = img_width;
-	                    canvas_el.height = height;
-	                    $('#particles-js > .particles-js-canvas-el').css('width', img_width + 'px');
-	                    $('#particles-js > .particles-js-canvas-el').css('height', height + 'px');
-	                } else {
-	                    canvas_el.height = height;
-	                    $('#particles-js > .particles-js-canvas-el').css('height', height + 'px');
-	                }
-	                var width = $('#home-banner-background').width();
-	                $('#particles-js .particles-js-canvas-el').css('position', "absolute");
-	                if (width >= 1200) {
-	                    $('#particles-js .particles-js-canvas-el').css('top', "0px");
-	                } else if (width >= 902) {
-	                    $('#particles-js .particles-js-canvas-el').css('top', "60px");
-	                } else {
-	                    $('#particles-js .particles-js-canvas-el').css('top', "108px");
-	                }
-	            });
-
-	            $(window).resize(function () {
-	                var width = $('#home-banner-background').width();
-	                if (width >= 1200) {
-	                    $('#particles-js .particles-js-canvas-el').css('top', "0px");
-	                } else if (width >= 902) {
-	                    $('#particles-js .particles-js-canvas-el').css('top', "60px");
-	                } else {
-	                    $('#particles-js .particles-js-canvas-el').css('top', "108px");
-	                }
-	                var height = $('#home-banner-background').height();
-	                var img_width = $('#home-banner-background').width();
-	                var canvas_el = document.querySelector('#particles-js > .particles-js-canvas-el');
-	                if (canvas_el.height > height) {
-	                    canvas_el.width = img_width;
-	                    canvas_el.height = height;
-	                    $('#particles-js > .particles-js-canvas-el').css('width', img_width + 'px');
-	                    $('#particles-js > .particles-js-canvas-el').css('height', height + 'px');
-	                } else {
-	                    canvas_el.height = height;
-	                    $('#particles-js > .particles-js-canvas-el').css('height', height + 'px');
-	                }
-	            });
+	            particlesJS.load('particles-js', '/assets/files/particles.json');
 	        }
 	    });
 	});
