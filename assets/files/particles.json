@@ -36,9 +36,9 @@
       "line_linked": {
         "enable": true,
         "distance": 300,
-        "color": "#000000",
-        "opacity": 0.05,
-        "width": 1
+        "color": "#63aa35",
+        "opacity": 0.1,
+        "width": 2
       },
       "move": {
         "enable": true,
@@ -70,9 +70,10 @@
       },
       "modes": {
         "grab": {
-          "distance": 120,
+          "distance": 150,
           "line_linked": {
-            "opacity": 1
+            "opacity": 1,
+            "width": 4
           }
         },
         "push": {
