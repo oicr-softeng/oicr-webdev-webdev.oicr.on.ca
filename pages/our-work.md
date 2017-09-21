@@ -32,16 +32,16 @@ progress:
   content: "Stay tuned for some exciting new projects that we're working on!"
 
 progress1:
-  title: "ActiveDriver DB"
-  content: "UX & Visual Design for a novel Data Portal that associates and visualizes genome mutations in the context of 'active sites' of proteins."
+  title: "The Canadian Bioinformatics Workshops (CBW2)"
+  content: "UX & Visual Design & Custom Application. Coming soon at bioinformatics.ca"
 
 progress2:
-  title: "Genome Sequencing Informatics (GSI)"
-  content: "UX & Visual Design for a Sequencing Reporting System that allows project managers and the GSI team to follow the state of their sample analysis."
+  title: "Genome Technologies (GT)/Genome Sequencing Informatics (GSI)"
+  content: "UX & Visual Design & Responsive Web Development for the OICR Research Teams performing Genomics and Bioinformatics in support of outreach and collaboration opportunities within Cancer Research.  Coming soon at genomics.oicr.on.ca "
 
 progress3:
-  title: "GATCI"
-  content: "Responsive Website for a Cancer Research Project that connects clinicians and researchers across the globe who study a rare form of thyroid cancer."
+  title: "The Global Alliance for Genomics and Health (GA4GH2)"
+  content: "UX & Visual Design for GA4GH2 to align to a new strategic direction and their new focus on output of standards and tools that meet the needs of key genomic data projects. Coming soon at ga4gh.org"
 
 footer-message: "Do you have a similar project you want to talk to us about? "
 ---
