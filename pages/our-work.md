@@ -33,7 +33,7 @@ progress:
 
 progress1:
   title: "The Canadian Bioinformatics Workshops (CBW2)"
-  content: "UX & Visual Design & Custom Application. Coming soon at bioinformatics.ca"
+  content: "UX & Visual Design & Custom Application development of tools to facilitate the exchange of Bioinformatics Workshops and Jobs with Canadian researchers to enable employing new technologies and modern scientific approaches to research. Coming soon at bioinformatics.ca"
 
 progress2:
   title: "Genome Technologies (GT)/Genome Sequencing Informatics (GSI)"
