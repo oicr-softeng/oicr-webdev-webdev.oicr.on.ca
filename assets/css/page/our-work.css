@@ -1208,6 +1208,9 @@ a.teaser-hover {
             linear-gradient(rgba(234,234,234,0) 30%, rgba(234,234,234,0.9) 65%),
             url(../../images/teaser-otb.png);
     }
+    .teaser-detail {
+       height: 170px;
+    }
 }
 
 
