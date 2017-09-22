@@ -26,7 +26,7 @@ stats:
 
 meet_the_team:
   title: "Meet the Team"
-  description: "The WebDev team is lead under the direction of Vincent Ferretti and Michelle Brazas, the WebDev team includes FTEs, contractors and students who continue to innovate, stay creative and develop with a platform of technologies that scale to enable high performance."
+  description: "The WebDev team is lead under the direction of Vincent Ferretti, the WebDev team includes FTEs, contractors and students who continue to innovate, stay creative and develop with a platform of technologies that scale to enable high performance."
 
 team:
   - name: "Joseph Yamada"
