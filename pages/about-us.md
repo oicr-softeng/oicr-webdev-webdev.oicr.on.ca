@@ -55,7 +55,7 @@ team:
     role: "Front-End Web Developer"
     focus: "Specializes in high-quality user interfaces (UI) design and development to facilitate interactions to visualize and manage information enabling better UX with modern web browser technologies."
     expertise: "JavaScript; ReactJS; Redux; Php"
-    fun_fact: ""
+    fun_fact: "Love eating, golfing."
     tag: "koji-miyauchi"
   - name: "Kyle Kim"
     image: "/assets/images/webdev-team-kyle.png"
