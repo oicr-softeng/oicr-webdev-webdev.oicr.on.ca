@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<link type="text/css" rel="stylesheet" media="all" href="/assets/css/page/case-studies.css" >
+<link type="text/css" rel="stylesheet" media="all" href="/assets/site/css/case-studies.css" >
 <div id="black-overlay" class="color-overlay"> </div>
 
 <!-- Light Boxes-->
@@ -111,7 +111,7 @@ layout: default
   <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="row banner">
       <div class="banner-background">
-        <img src="/assets/images/bg-casestudy-{{ page.alias }}.jpg" alt="Banner image 1">
+        <img src="/assets/site/images/bg-casestudy-{{ page.alias }}.jpg" alt="Banner image 1">
 
           <div class="banner-main">
               <div class="container">
@@ -171,7 +171,7 @@ layout: default
                               <div class="item slide{{ i }}">
                           {% endif %}
                                   <div class="slides">
-                                      <img class="carousel-img carousel-img-browser" src="/assets/images/background-browser.svg">
+                                      <img class="carousel-img carousel-img-browser" src="/assets/site/images/background-browser.svg">
                                       <div class="slide-image">
                                         <img class="carousel-img" src="{{ item }}" alt="slide{{ i }}">
                                         <div class="slide-overlay">
@@ -217,7 +217,7 @@ layout: default
                 <div class="row testimonial">
                   <div class="container">
                     <div class="testimonial-image col-md-2">
-                      <img src="/assets/images/logo-testimonials.svg">
+                      <img src="/assets/site/images/logo-testimonials.svg">
                     </div>
                     <div class="testimonial-content col-md-10">
                       <p>"{{ page.testimonial.quote }}"</p>
@@ -259,7 +259,7 @@ layout: default
                                     <div class="item slide{{ i }}">
                                 {% endif %}
                                         <div class="slides">
-                                            <img class="carousel-img carousel-img-browser" src="/assets/images/background-browser.svg">
+                                            <img class="carousel-img carousel-img-browser" src="/assets/site/images/background-browser.svg">
                                             <div class="slide-image">
                                               <img class="carousel-img" src="{{ item }}" alt="slide{{ i }}">
                                               <div class="slide-overlay">

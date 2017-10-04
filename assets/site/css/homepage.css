@@ -146,19 +146,19 @@
 }
 
 .slide1 .circle-inner {
-    background-image: url(../../images/homepage-gallery-omprn.jpg);
+    background-image: url(../images/homepage-gallery-omprn.jpg);
 }
 
 .slide2 .circle-inner {
-    background-image: url(../../images/homepage-gallery-global-alliance.jpg);
+    background-image: url(../images/homepage-gallery-global-alliance.jpg);
 }
 
 .slide3 .circle-inner {
-    background-image: url(../../images/homepage-gallery-gdc.jpg);
+    background-image: url(../images/homepage-gallery-gdc.jpg);
 }
 
 .slide4 .circle-inner {
-    background-image: url(../../images/homepage-gallery-icgc.jpg);
+    background-image: url(../images/homepage-gallery-icgc.jpg);
 }
 
 .circle-inner img {
@@ -227,7 +227,7 @@
     text-decoration: none;
     color: #ffffff;
     font-weight: 700;
-    background-image: url(../../images/icon-arrow-white.svg);
+    background-image: url(../images/icon-arrow-white.svg);
     background-repeat: no-repeat;
     padding-right: 25px; 
     background-position: right;
@@ -240,7 +240,7 @@
 .circle2-content a.callout:hover, .circle2-content a.callout:active {
     color: #c6ecfb;
     text-decoration: none;
-    background-image: url(../../images/icon-arrow-right-hover.svg);
+    background-image: url(../images/icon-arrow-right-hover.svg);
 }
 
 .circle2-content p{
@@ -707,7 +707,7 @@ section .row {
 .teaser-header {
     padding-top: 3px;
     padding-bottom: 3px;
-    background-image: url(../../images/icon-arrow-right-blue.svg);
+    background-image: url(../images/icon-arrow-right-blue.svg);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 18px;
@@ -718,11 +718,11 @@ section .row {
 }
 
 .teaser-header:hover {
-    background-image: url(../../images/icon-arrow-right-hover-teaser.svg);
+    background-image: url(../images/icon-arrow-right-hover-teaser.svg);
 }
 
 .what-we-do ul>li a.teaser.teaser-block:hover .teaser-header {
-    background-image: url(../../images/icon-arrow-right-hover-teaser.svg);
+    background-image: url(../images/icon-arrow-right-hover-teaser.svg);
 }
 
 .teaser-header h3 {
@@ -881,7 +881,7 @@ section .row {
 
 /* about the team */
 .about-us {
-    background-image: url(../../images/about-us-bg.png);
+    background-image: url(../images/about-us-bg.png);
 }
 
 .about-us h2,.about-us h3,.about-us p,.about-us li {

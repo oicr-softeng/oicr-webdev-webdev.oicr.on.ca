@@ -73,47 +73,47 @@ footer-message: "We welcome OICR-Affiliated Research Programs to contact us for 
 
 partners:
   - abbr: oicr
-    logo: /assets/images/logo-oicr.svg
+    logo: /assets/site/images/logo-oicr.svg
     website: http://oicr.on.ca/
   - abbr: ga
-    logo: /assets/images/logo-ga.svg
+    logo: /assets/site/images/logo-ga.svg
     website: http://genomicsandhealth.org/
   - abbr: omprn
-    logo: /assets/images/logo-omprn.svg
+    logo: /assets/site/images/logo-omprn.svg
     website: https://ontariomolecularpathology.ca/
   - abbr: gdc
-    logo: /assets/images/logo-gdc.svg
+    logo: /assets/site/images/logo-gdc.svg
     website: https://gdc.cancer.gov/
   - abbr: icgc
-    logo: /assets/images/logo-icgc.png
+    logo: /assets/site/images/logo-icgc.png
     website: http://icgc.org/
   - abbr: facit
-    logo: /assets/images/logo-facit.svg
+    logo: /assets/site/images/logo-facit.svg
     website: https://facit.ca/
   - abbr: collab
-    logo: /assets/images/logo-collab.svg
+    logo: /assets/site/images/logo-collab.svg
     website: https://www.cancercollaboratory.org/
   - abbr: cbw
-    logo: /assets/images/logo-cbw.svg
+    logo: /assets/site/images/logo-cbw.svg
     website: https://bioinformatics.ca/
   - abbr: cag
-    logo: /assets/images/logo-cag.svg
+    logo: /assets/site/images/logo-cag.svg
     website: https://participants.cartagene.qc.ca/
   - abbr: mael
-    logo: /assets/images/logo-mael.svg
+    logo: /assets/site/images/logo-mael.svg
   - abbr: ohs
-    logo: /assets/images/logo-ohs.png
+    logo: /assets/site/images/logo-ohs.png
     website: https://www.ontariohealthstudy.ca/
   - abbr: otb
-    logo: /assets/images/logo-otb.png
+    logo: /assets/site/images/logo-otb.png
     website: http://ontariotumourbank.ca/
   - abbr: cdic
-    logo: /assets/images/logo-cdic.svg
+    logo: /assets/site/images/logo-cdic.svg
     website: http://genome-cdic.ca/
   - abbr: 3ctn
-    logo: /assets/images/logo-3ctn.png
+    logo: /assets/site/images/logo-3ctn.png
     website: http://3ctn.ca/
   - abbr: torbug
-    logo: /assets/images/logo-torbug.png
+    logo: /assets/site/images/logo-torbug.png
     website: https://torbug.org/
 ---

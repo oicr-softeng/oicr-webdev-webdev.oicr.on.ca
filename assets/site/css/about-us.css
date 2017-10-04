@@ -14,7 +14,7 @@
 /* Main Content */
 
 section.about-us {
-    background-image: url(../../images/background-hex.png);
+    background-image: url(/assets/site/images/background-hex.png);
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -133,7 +133,7 @@ section.about-us {
 }
 
 .how-we-work-circle-inner {
-    background-image: url(/assets/images/img-webdev-team.png);
+    background-image: url(/assets/site/images/img-webdev-team.png);
     -webkit-background-size: auto 100%;
     -moz-background-size: auto 100%;
     -o-background-size: auto 100%;
@@ -219,7 +219,7 @@ section.about-us {
     margin-top: -40px;
     background:
         linear-gradient(rgba(53,84,112,0) 0%, rgba(21,32,42,0.4) 50%,rgba(21,32,42,0.6) 100%),
-        url(../../images/about-us-bg.png);
+        url(/assets/site/images/about-us-bg.png);
     padding: 80px 0px;
 }
 
@@ -382,7 +382,7 @@ section.about-us {
 
 .team-item-content ul li {
     padding-left: 17px;
-    background-image: url(../../images/list-bullet.svg);
+    background-image: url(/assets/site/images/list-bullet.svg);
     background-position: 2px 0.65em;
     background-repeat: no-repeat;
     background-size: 4px;
@@ -491,7 +491,7 @@ section.about-us {
     font-weight: 600;
     float: left;
     list-style: none;
-    background-image: url(../../images/list-bullet.svg);
+    background-image: url(/assets/site/images/list-bullet.svg);
     background-repeat: no-repeat;
     -webkit-background-size: 5px;
     -moz-background-size: 5px;

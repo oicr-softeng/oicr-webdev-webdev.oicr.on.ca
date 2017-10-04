@@ -89,7 +89,7 @@
     position: absolute;
     top: 0px;
     right: 0px;
-    background-image: url(../../images/icon-close.svg);
+    background-image: url(../images/icon-close.svg);
     -webkit-background-size: 40px;
     -moz-background-size: 40px;
     -o-background-size: 40px;
@@ -311,7 +311,7 @@ div[id^="webdev-carousel-"] {
 
 .carousel-control-prev {
     left: 0;
-    background-image: url(../../images/icon-round-arrow-left.svg);
+    background-image: url(../images/icon-round-arrow-left.svg);
     -webkit-background-size: 40px;
     -moz-background-size: 40px;
     -o-background-size: 40px;
@@ -323,12 +323,12 @@ div[id^="webdev-carousel-"] {
 }
 
 .carousel-control-prev:hover {
-    background-image: url(../../images/icon-round-arrow-left-bg-hover.svg);
+    background-image: url(../images/icon-round-arrow-left-bg-hover.svg);
 }
 
 .carousel-control-next {
     right: 0;
-    background-image: url(../../images/icon-round-arrow-right-bg.svg);
+    background-image: url(../images/icon-round-arrow-right-bg.svg);
     -webkit-background-size: 40px;
     -moz-background-size: 40px;
     -o-background-size: 40px;
@@ -339,7 +339,7 @@ div[id^="webdev-carousel-"] {
 }
 
 .carousel-control-next:hover {
-    background-image: url(../../images/icon-round-arrow-right-bg-hover.svg);
+    background-image: url(../images/icon-round-arrow-right-bg-hover.svg);
 }
 
 
@@ -484,7 +484,7 @@ div[id^="webdev-carousel-"] {
 
     .filter-collapse a {
         padding: 10px 20px;
-        background-image: url(../../images/filter-collapsed.svg);
+        background-image: url(../images/filter-collapsed.svg);
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -495,7 +495,7 @@ div[id^="webdev-carousel-"] {
         margin-top: -402px;
     }
     .expand .filter-collapse a {
-        background-image: url(../../images/filter-expanded.svg);
+        background-image: url(../images/filter-expanded.svg);
     }
     .expand .filter-content {
         border-top: none;
@@ -587,63 +587,63 @@ div[id^="webdev-carousel-"] {
 .teaser-omprn {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../../images/teaser-omprn.png);
+        url(../images/teaser-omprn.png);
 }
 
 .teaser-collab {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../../images/teaser-collab.png);
+        url(../images/teaser-collab.png);
 }
 .teaser-ga {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../../images/teaser-ga.png);
+        url(../images/teaser-ga.png);
 }
 .teaser-icgc {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../../images/teaser-icgc.png);
+        url(../images/teaser-icgc.png);
 }
 .teaser-gdc {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../../images/teaser-gdc.png);
+        url(../images/teaser-gdc.png);
 }
 .teaser-oicr {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../../images/teaser-oicr.png);
+        url(../images/teaser-oicr.png);
 }
 .teaser-cbw {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../../images/teaser-cbw.png);
+        url(../images/teaser-cbw.png);
 }
 .teaser-cag {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../../images/teaser-cag.png);
+        url(../images/teaser-cag.png);
 }
 .teaser-facit {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../../images/teaser-facit.png);
+        url(../images/teaser-facit.png);
 }
 .teaser-mael {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../../images/teaser-mael.png);
+        url(../images/teaser-mael.png);
 }
 .teaser-ohs {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../../images/teaser-ohs.png);
+        url(../images/teaser-ohs.png);
 }
 .teaser-otb {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../../images/teaser-otb.png);
+        url(../images/teaser-otb.png);
 }
 .teaser-detail {
        height: 170px;
@@ -652,63 +652,63 @@ div[id^="webdev-carousel-"] {
 .teaser-omprn:hover {
     background:
         linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)),
-        url(../../images/teaser-omprn.png);
+        url(../images/teaser-omprn.png);
 }
 
 .teaser-collab:hover {
     background:
         linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)),
-        url(../../images/teaser-collab.png);
+        url(../images/teaser-collab.png);
 }
 .teaser-ga:hover {
     background:
         linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)),
-        url(../../images/teaser-ga.png);
+        url(../images/teaser-ga.png);
 }
 .teaser-icgc:hover {
     background:
         linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)),
-        url(../../images/teaser-icgc.png);
+        url(../images/teaser-icgc.png);
 }
 .teaser-gdc:hover {
     background:
         linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)),
-        url(../../images/teaser-gdc.png);
+        url(../images/teaser-gdc.png);
 }
 .teaser-oicr:hover {
     background:
         linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)),
-        url(../../images/teaser-oicr.png);
+        url(../images/teaser-oicr.png);
 }
 .teaser-cbw:hover {
     background:
         linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)),
-        url(../../images/teaser-cbw.png);
+        url(../images/teaser-cbw.png);
 }
 .teaser-cag:hover {
     background:
         linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)),
-        url(../../images/teaser-cag.png);
+        url(../images/teaser-cag.png);
 }
 .teaser-facit:hover {
     background:
         linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)),
-        url(../../images/teaser-facit.png);
+        url(../images/teaser-facit.png);
 }
 .teaser-mael:hover {
     background:
         linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)),
-        url(../../images/teaser-mael.png);
+        url(../images/teaser-mael.png);
 }
 .teaser-ohs:hover {
     background:
         linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)),
-        url(../../images/teaser-ohs.png);
+        url(../images/teaser-ohs.png);
 }
 .teaser-otb:hover {
     background:
         linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)),
-        url(../../images/teaser-otb.png);
+        url(../images/teaser-otb.png);
 }
 */
 .teaser-button {
@@ -828,7 +828,7 @@ a.teaser-hover {
 
 .row.our-work {
     border-bottom: 1px solid #dfdfdf;
-    background-image: url(../../images/background-hex.png);
+    background-image: url(../images/background-hex.png);
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -850,63 +850,63 @@ a.teaser-hover {
     .teaser-omprn {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 70%),
-            url(../../images/teaser-omprn.png);
+            url(../images/teaser-omprn.png);
     }
 
     .teaser-collab {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 70%),
-            url(../../images/teaser-collab.png);
+            url(../images/teaser-collab.png);
     }
     .teaser-ga {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 70%),
-            url(../../images/teaser-ga.png);
+            url(../images/teaser-ga.png);
     }
     .teaser-icgc {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 70%),
-            url(../../images/teaser-icgc.png);
+            url(../images/teaser-icgc.png);
     }
     .teaser-gdc {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 70%),
-            url(../../images/teaser-gdc.png);
+            url(../images/teaser-gdc.png);
     }
     .teaser-oicr {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 70%),
-            url(../../images/teaser-oicr.png);
+            url(../images/teaser-oicr.png);
     }
     .teaser-cbw {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 70%),
-            url(../../images/teaser-cbw.png);
+            url(../images/teaser-cbw.png);
     }
     .teaser-cag {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 70%),
-            url(../../images/teaser-cag.png);
+            url(../images/teaser-cag.png);
     }
     .teaser-facit {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 70%),
-            url(../../images/teaser-facit.png);
+            url(../images/teaser-facit.png);
     }
     .teaser-mael {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 70%),
-            url(../../images/teaser-mael.png);
+            url(../images/teaser-mael.png);
     }
     .teaser-ohs {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 70%),
-            url(../../images/teaser-ohs.png);
+            url(../images/teaser-ohs.png);
     }
     .teaser-otb {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 70%),
-            url(../../images/teaser-otb.png);
+            url(../images/teaser-otb.png);
     }
 }
 
@@ -924,63 +924,63 @@ a.teaser-hover {
     .teaser-omprn {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-omprn.png);
+            url(../images/teaser-omprn.png);
     }
 
     .teaser-collab {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-collab.png);
+            url(../images/teaser-collab.png);
     }
     .teaser-ga {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-ga.png);
+            url(../images/teaser-ga.png);
     }
     .teaser-icgc {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-icgc.png);
+            url(../images/teaser-icgc.png);
     }
     .teaser-gdc {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-gdc.png);
+            url(../images/teaser-gdc.png);
     }
     .teaser-oicr {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-oicr.png);
+            url(../images/teaser-oicr.png);
     }
     .teaser-cbw {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-cbw.png);
+            url(../images/teaser-cbw.png);
     }
     .teaser-cag {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-cag.png);
+            url(../images/teaser-cag.png);
     }
     .teaser-facit {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-facit.png);
+            url(../images/teaser-facit.png);
     }
     .teaser-mael {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-mael.png);
+            url(../images/teaser-mael.png);
     }
     .teaser-ohs {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-ohs.png);
+            url(../images/teaser-ohs.png);
     }
     .teaser-otb {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-otb.png);
+            url(../images/teaser-otb.png);
     }
 }
 
@@ -992,63 +992,63 @@ a.teaser-hover {
     .teaser-omprn {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 50%),
-            url(../../images/teaser-omprn.png);
+            url(../images/teaser-omprn.png);
     }
 
     .teaser-collab {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 50%),
-            url(../../images/teaser-collab.png);
+            url(../images/teaser-collab.png);
     }
     .teaser-ga {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 50%),
-            url(../../images/teaser-ga.png);
+            url(../images/teaser-ga.png);
     }
     .teaser-icgc {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 50%),
-            url(../../images/teaser-icgc.png);
+            url(../images/teaser-icgc.png);
     }
     .teaser-gdc {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 50%),
-            url(../../images/teaser-gdc.png);
+            url(../images/teaser-gdc.png);
     }
     .teaser-oicr {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 50%),
-            url(../../images/teaser-oicr.png);
+            url(../images/teaser-oicr.png);
     }
     .teaser-cbw {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 50%),
-            url(../../images/teaser-cbw.png);
+            url(../images/teaser-cbw.png);
     }
     .teaser-cag {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 50%),
-            url(../../images/teaser-cag.png);
+            url(../images/teaser-cag.png);
     }
     .teaser-facit {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 50%),
-            url(../../images/teaser-facit.png);
+            url(../images/teaser-facit.png);
     }
     .teaser-mael {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 50%),
-            url(../../images/teaser-mael.png);
+            url(../images/teaser-mael.png);
     }
     .teaser-ohs {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 50%),
-            url(../../images/teaser-ohs.png);
+            url(../images/teaser-ohs.png);
     }
     .teaser-otb {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 50%),
-            url(../../images/teaser-otb.png);
+            url(../images/teaser-otb.png);
     }
 
 }
@@ -1064,63 +1064,63 @@ a.teaser-hover {
     .teaser-omprn {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-omprn.png);
+            url(../images/teaser-omprn.png);
     }
 
     .teaser-collab {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-collab.png);
+            url(../images/teaser-collab.png);
     }
     .teaser-ga {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-ga.png);
+            url(../images/teaser-ga.png);
     }
     .teaser-icgc {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-icgc.png);
+            url(../images/teaser-icgc.png);
     }
     .teaser-gdc {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-gdc.png);
+            url(../images/teaser-gdc.png);
     }
     .teaser-oicr {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-oicr.png);
+            url(../images/teaser-oicr.png);
     }
     .teaser-cbw {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-cbw.png);
+            url(../images/teaser-cbw.png);
     }
     .teaser-cag {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-cag.png);
+            url(../images/teaser-cag.png);
     }
     .teaser-facit {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-facit.png);
+            url(../images/teaser-facit.png);
     }
     .teaser-mael {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-mael.png);
+            url(../images/teaser-mael.png);
     }
     .teaser-ohs {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-ohs.png);
+            url(../images/teaser-ohs.png);
     }
     .teaser-otb {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-            url(../../images/teaser-otb.png);
+            url(../images/teaser-otb.png);
     }
 }
 
@@ -1153,63 +1153,63 @@ a.teaser-hover {
     .teaser-omprn {
         background:
             linear-gradient(rgba(234,234,234,0) 30%, rgba(234,234,234,0.9) 65%),
-            url(../../images/teaser-omprn.png);
+            url(../images/teaser-omprn.png);
     }
 
     .teaser-collab {
         background:
             linear-gradient(rgba(234,234,234,0) 30%, rgba(234,234,234,0.9) 65%),
-            url(../../images/teaser-collab.png);
+            url(../images/teaser-collab.png);
     }
     .teaser-ga {
         background:
             linear-gradient(rgba(234,234,234,0) 30%, rgba(234,234,234,0.9) 65%),
-            url(../../images/teaser-ga.png);
+            url(../images/teaser-ga.png);
     }
     .teaser-icgc {
         background:
             linear-gradient(rgba(234,234,234,0) 30%, rgba(234,234,234,0.9) 65%),
-            url(../../images/teaser-icgc.png);
+            url(../images/teaser-icgc.png);
     }
     .teaser-gdc {
         background:
             linear-gradient(rgba(234,234,234,0) 30%, rgba(234,234,234,0.9) 65%),
-            url(../../images/teaser-gdc.png);
+            url(../images/teaser-gdc.png);
     }
     .teaser-oicr {
         background:
             linear-gradient(rgba(234,234,234,0) 30%, rgba(234,234,234,0.9) 65%),
-            url(../../images/teaser-oicr.png);
+            url(../images/teaser-oicr.png);
     }
     .teaser-cbw {
         background:
             linear-gradient(rgba(234,234,234,0) 30%, rgba(234,234,234,0.9) 65%),
-            url(../../images/teaser-cbw.png);
+            url(../images/teaser-cbw.png);
     }
     .teaser-cag {
         background:
             linear-gradient(rgba(234,234,234,0) 30%, rgba(234,234,234,0.9) 65%),
-            url(../../images/teaser-cag.png);
+            url(../images/teaser-cag.png);
     }
     .teaser-facit {
         background:
             linear-gradient(rgba(234,234,234,0) 30%, rgba(234,234,234,0.9) 65%),
-            url(../../images/teaser-facit.png);
+            url(../images/teaser-facit.png);
     }
     .teaser-mael {
         background:
             linear-gradient(rgba(234,234,234,0) 30%, rgba(234,234,234,0.9) 65%),
-            url(../../images/teaser-mael.png);
+            url(../images/teaser-mael.png);
     }
     .teaser-ohs {
         background:
             linear-gradient(rgba(234,234,234,0) 30%, rgba(234,234,234,0.9) 65%),
-            url(../../images/teaser-ohs.png);
+            url(../images/teaser-ohs.png);
     }
     .teaser-otb {
         background:
             linear-gradient(rgba(234,234,234,0) 30%, rgba(234,234,234,0.9) 65%),
-            url(../../images/teaser-otb.png);
+            url(../images/teaser-otb.png);
     }
 }
 
