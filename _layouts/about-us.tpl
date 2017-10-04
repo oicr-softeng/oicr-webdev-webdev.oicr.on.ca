@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<link type="text/css" rel="stylesheet" media="all" href="/assets/css/page/about-us.css" >
+<link type="text/css" rel="stylesheet" media="all" href="/assets/site/css/about-us.css" >
 
 <!-- Main -->
 <div class="wrapper wrapper-main">
@@ -33,7 +33,7 @@ layout: default
                             <div class="our-aim-header">
                                 <h4>{{ page.our-aim.title }}</h4>
                             </div>
-                            <div class="our-aim-img"><img src="/assets/images/icon-about-team-grey.svg"></div>
+                            <div class="our-aim-img"><img src="/assets/site/images/icon-about-team-grey.svg"></div>
                             <div class="our-aim-content">
                                 <p>
                                   {{ content }}

@@ -11,7 +11,7 @@
 
 /* Main Content */
 .row.our-capabilities {
-    background-image: url(../../images/background-hex-side.png);
+    background-image: url(../images/background-hex-side.png);
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -50,7 +50,7 @@
 
 .section-content ul li {
     padding-left: 20px;
-    background-image: url(../../images/list-bullet.svg);
+    background-image: url(../images/list-bullet.svg);
     background-repeat: no-repeat;
     -webkit-background-size: 5px;
     -moz-background-size: 5px;

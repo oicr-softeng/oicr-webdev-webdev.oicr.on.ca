@@ -78,7 +78,7 @@ section .row {
 }
 
 .list-btn{
-  background-image: url(../../images/icon-grid-grey.svg);
+  background-image: url(../images/icon-grid-grey.svg);
   color: #ffffff;
   background-position: left, center;
     -webkit-background-size: 20px;
@@ -297,7 +297,7 @@ section .row {
 /* Main Content */
 
 section.case-study{
-  background-image: url(../../images/background-hex.png);
+  background-image: url(../images/background-hex.png);
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -446,7 +446,7 @@ section.case-study{
 
 .carousel-control-prev {
     left: 0;
-    background-image: url(../../images/icon-round-arrow-left-bg.svg);
+    background-image: url(../images/icon-round-arrow-left-bg.svg);
     -webkit-background-size: 40px;
 -moz-background-size: 40px;
 -o-background-size: 40px;
@@ -457,12 +457,12 @@ section.case-study{
 }
 
 .carousel-control-prev:hover {
-    background-image: url(../../images/icon-round-arrow-left-bg-hover.svg);
+    background-image: url(../images/icon-round-arrow-left-bg-hover.svg);
 }
 
 .carousel-control-next {
     right: 0;
-    background-image: url(../../images/icon-round-arrow-right-bg.svg);
+    background-image: url(../images/icon-round-arrow-right-bg.svg);
     -webkit-background-size: 40px;
 -moz-background-size: 40px;
 -o-background-size: 40px;
@@ -473,7 +473,7 @@ section.case-study{
 }
 
 .carousel-control-next:hover {
-    background-image: url(../../images/icon-round-arrow-right-bg-hover.svg);
+    background-image: url(../images/icon-round-arrow-right-bg-hover.svg);
 }
 
 
@@ -590,7 +590,7 @@ section.case-study{
 /* Testimonial */
 
 .testimonial{
-  background: linear-gradient(rgba(53,84,112,0) 0%, rgba(21,32,42,0.4) 50%,rgba(21,32,42,0.6) 100%), url(../../images/about-us-bg.png);
+  background: linear-gradient(rgba(53,84,112,0) 0%, rgba(21,32,42,0.4) 50%,rgba(21,32,42,0.6) 100%), url(../images/about-us-bg.png);
 }
 
 .testimonial-image {
@@ -770,7 +770,7 @@ section.case-study{
     display: block;
     height: 50px;
     width: 35%;
-    background-image: url(../../images/icon-round-arrow-left.svg);
+    background-image: url(../images/icon-round-arrow-left.svg);
     background-position: left, center;
     -webkit-background-size: 40px;
 -moz-background-size: 40px;
@@ -789,15 +789,15 @@ section.case-study{
 }
 
 .center-project:hover {
-    background-image: url(../../images/icon-round-grid-hover.svg)
+    background-image: url(../images/icon-round-grid-hover.svg)
 }
 
 .previous-project:hover {
-    background-image: url(../../images/icon-round-arrow-left-hover.svg)
+    background-image: url(../images/icon-round-arrow-left-hover.svg)
 }
 
 .next-project:hover {
-    background-image: url(../../images/icon-round-arrow-right-hover.svg)
+    background-image: url(../images/icon-round-arrow-right-hover.svg)
 }
 
 .previous-project:hover span, .next-project:hover span {
@@ -807,7 +807,7 @@ section.case-study{
 .center-project{
     display: block;
     height: 50px;
-  background-image: url(../../images/icon-round-grid.svg);
+  background-image: url(../images/icon-round-grid.svg);
   background-position: center, center;
     -webkit-background-size: 40px;
 -moz-background-size: 40px;
@@ -822,7 +822,7 @@ section.case-study{
     display: block;
     height: 50px;
   width: 35%;
-  background-image: url(../../images/icon-round-arrow-right.svg);
+  background-image: url(../images/icon-round-arrow-right.svg);
   background-position: right, center;
  -webkit-background-size: 40px;
 -moz-background-size: 40px;
@@ -953,7 +953,7 @@ section.case-study{
     position: absolute;
     top: 0px;
     right: 0px;
-    background-image: url(../../images/icon-close.svg);
+    background-image: url(../images/icon-close.svg);
     -webkit-background-size: 40px;
     -moz-background-size: 40px;
     -o-background-size: 40px;

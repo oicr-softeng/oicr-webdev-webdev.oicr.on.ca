@@ -2,14 +2,14 @@
 layout: default
 ---
 {% assign d = site.pages | where:"layout", "careers" | where:"name", "careers.md" | first %}
-<link type="text/css" rel="stylesheet" media="all" href="/assets/css/page/homepage.css" >
+<link type="text/css" rel="stylesheet" media="all" href="/assets/site/css/homepage.css" >
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron wrapper">
     <div class="container-fluid container-jumbotron">
         <div class="row">
             <div class="jumbotron-inner">
-                <img id="home-banner-background" src="assets/images/banner-image1.png" alt="Banner image 1">
+                <img id="home-banner-background" src="assets/site/images/banner-image1.png" alt="Banner image 1">
                 <div id="particles-js"></div>
                 <div id="home-banner-content" class="container">
                     <div class="jumbotron-main container">
@@ -130,7 +130,7 @@ layout: default
                             <li>
                                 <a class="teaser teaser-block" href="/our-capabilities/#health_science">
                                     <div class="teaser-image">
-                                        <img src="assets/images/icon-cancer-research-websites.svg">
+                                        <img src="assets/site/images/icon-cancer-research-websites.svg">
                                     </div>
                                     <div class="teaser-content">
                                         <div class="teaser-header">
@@ -145,7 +145,7 @@ layout: default
                             <li>
                                 <a class="teaser teaser-block" href="/our-capabilities/#planning">
                                     <div class="teaser-image">
-                                        <img src="assets/images/icon-planning.svg">
+                                        <img src="assets/site/images/icon-planning.svg">
                                     </div>
                                     <div class="teaser-content">
                                         <div class="teaser-header">
@@ -160,7 +160,7 @@ layout: default
                             <li>
                                 <a class="teaser teaser-block" href="/our-capabilities/#design">
                                     <div class="teaser-image">
-                                        <img src="assets/images/icon-design-and-ux.svg">
+                                        <img src="assets/site/images/icon-design-and-ux.svg">
                                     </div>
                                     <div class="teaser-content">
                                         <div class="teaser-header">
@@ -175,7 +175,7 @@ layout: default
                             <li>
                                 <a class="teaser teaser-block" href="/our-capabilities/#development">
                                     <div class="teaser-image">
-                                        <img src="assets/images/icon-development.svg">
+                                        <img src="assets/site/images/icon-development.svg">
                                     </div>
                                     <div class="teaser-content">
                                         <div class="teaser-header">
@@ -198,7 +198,7 @@ layout: default
                 <div class="row about-us">
                     <div class="container">
                         <div class="about-us-image col-md-2">
-                            <img src="assets/images/icon-about-team-white.svg">
+                            <img src="assets/site/images/icon-about-team-white.svg">
                         </div>
                         <div class="about-us-main col-md-10">
                             <h2>{{ page.about.title }}</h2>

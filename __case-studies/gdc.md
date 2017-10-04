@@ -29,11 +29,11 @@ challenge:
         - need a robust GDC application program interface to leverage for analysis or third-party applications, and
         - need clear documentation for using the API.
   slides:
-    - "/assets/images/case-studies/gdc/GDC-the-challenge1.jpg"
-    - "/assets/images/case-studies/gdc/GDC-the-challenge2.jpg"
-    - "/assets/images/case-studies/gdc/GDC-the-challenge3.jpg"
-    - "/assets/images/case-studies/gdc/GDC-the-challenge4.jpg"
-    - "/assets/images/case-studies/gdc/GDC-the-challenge5.jpg"
+    - "/assets/site/images/case-studies/gdc/GDC-the-challenge1.jpg"
+    - "/assets/site/images/case-studies/gdc/GDC-the-challenge2.jpg"
+    - "/assets/site/images/case-studies/gdc/GDC-the-challenge3.jpg"
+    - "/assets/site/images/case-studies/gdc/GDC-the-challenge4.jpg"
+    - "/assets/site/images/case-studies/gdc/GDC-the-challenge5.jpg"
 
 testimonial:
   quote: ""
@@ -46,9 +46,9 @@ solution:
     - "Following intelligent design analysis, we built the CMS website in an agile manner. The website also goes into detail about the GDC tools for [accessing](https://gdc.cancer.gov/access-data) and [submitting](https://gdc.cancer.gov/submit-data) high-quality genomic data and offers extensive support so that these tools are used to their full potential. The public website is a window into the [GDC Data Portal](https://portal.gdc.cancer.gov/) that will help the key users: researchers, data submitters, and developers, understand the power of the tools and encourage them to contribute and utilize the data."
     - "Furthermore, we continue to assist with the UX and interface design for the [GDC Data Portal](https://portal.gdc.cancer.gov/) and help brand all of the GDC Apps in order to ensure a seamless user experience between all of the GDC products. With teams in Chicago, Washington and Toronto, the GDC project remains one of our mission critical websites. We provide immediate service to the GDC team and continue to produce high-value benefits for their diverse user group."
   slides:
-    - "/assets/images/case-studies/gdc/GDC-the-solution1.jpg"
-    - "/assets/images/case-studies/gdc/GDC-the-solution2.jpg"
-    - "/assets/images/case-studies/gdc/GDC-the-solution3.jpg"
-    - "/assets/images/case-studies/gdc/GDC-the-solution4.jpg"
+    - "/assets/site/images/case-studies/gdc/GDC-the-solution1.jpg"
+    - "/assets/site/images/case-studies/gdc/GDC-the-solution2.jpg"
+    - "/assets/site/images/case-studies/gdc/GDC-the-solution3.jpg"
+    - "/assets/site/images/case-studies/gdc/GDC-the-solution4.jpg"
 
 ---

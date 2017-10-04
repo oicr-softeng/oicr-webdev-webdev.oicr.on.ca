@@ -12,7 +12,7 @@ module.exports = {
     ],
   },
   output: {
-    path: '../assets/js/',
+    path: '../assets/site/js/',
     filename: '[name].js',
   },
   resolve: {

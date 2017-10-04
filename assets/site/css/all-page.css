@@ -61,7 +61,7 @@ a.btn:hover, a.btn:active, a.btn:focus {
 .btn .btn-zoom {
     padding: 0 25px;
     padding-right: 50px;
-    background-image: url(../../images/icon-arrow-white.svg);
+    background-image: url(../images/icon-arrow-white.svg);
     -webkit-background-size: 18px;
     -moz-background-size: 18px;
     -o-background-size: 18px;

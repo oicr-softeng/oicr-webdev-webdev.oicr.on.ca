@@ -272,18 +272,18 @@ nav.navbar {
     margin-top: 37px;
     padding: 25px;
     border: none;
-    background-image: url(../../images/icon-mobile-menu-on.svg);
+    background-image: url(../images/icon-mobile-menu-on.svg);
     background-repeat: no-repeat;
 }
 
 
 .navbar-default .navbar-toggle:focus {
     background-color: transparent;
-    background-image: url(../../images/icon-mobile-menu-on.svg);
+    background-image: url(../images/icon-mobile-menu-on.svg);
 }
 
 .navbar-default .navbar-toggle.collapsed {
-    background-image: url(../../images/icon-mobile-menu-off.svg);
+    background-image: url(../images/icon-mobile-menu-off.svg);
 }
 
 @media screen and (max-width: 520px) {
