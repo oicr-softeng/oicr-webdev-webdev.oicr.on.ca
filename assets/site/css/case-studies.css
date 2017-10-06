@@ -1033,3 +1033,11 @@ section.case-study{
         left: 3vw;
     }
 }
+
+/*  */
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-inner > .item {
+        -webkit-perspective: none;
+              perspective: none;
+    }
+}
