@@ -6,12 +6,12 @@ module.exports = {
         './src/core/_base',
     ],
     ums: [
-        './src/site/_user',
+        //'./src/site/_user',
     ],
     site: [
-        './src/site/spamspan.js',
-        './src/site/our-work.js',
-        './src/site/particles.js',
+        './src/site/libs/spamspan.js',
+        './src/site/libs/our-work.js',
+        './src/site/libs/particles.js',
     ],
 };
 

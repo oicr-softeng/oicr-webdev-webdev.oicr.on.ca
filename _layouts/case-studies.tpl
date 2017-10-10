@@ -306,7 +306,7 @@ layout: default
                           </div>
 
 
-                    {% include case_study_nav.inc %}
+                    {% include site/case_study_nav.inc %}
 
                 </div>
             </section>
