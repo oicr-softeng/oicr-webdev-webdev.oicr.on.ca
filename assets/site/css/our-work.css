@@ -1301,6 +1301,13 @@ span.work-feature {
     font-weight: 700;
 }
 
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-inner > .item {
+        -webkit-perspective: none;
+              perspective: none;
+    }
+}
+
 @media only screen and (min-width: 1200px) {
     .work-in-progress ul>li .teaser {
         height: 100%;
