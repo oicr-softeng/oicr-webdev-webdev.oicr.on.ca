@@ -17,8 +17,8 @@
     "redux": "^3.5.2",
     "redux-form": "^6.2.1",
     "redux-thunk": "^2.1.0",
-    "oicr-ui-core": "git+ssh://git@github.com/bioinformaticsdotca/webdev_oicr-ui-core.git",
-    "wfui-react": "git+ssh://git@github.com/bioinformaticsdotca/webdev_wfui-react.git"
+    "oicr-ui-core": "git+ssh://git@github.com:oicr-webdev/webdev_oicr-ui-core.git",
+    "wfui-react": "git+ssh://git@github.com:oicr-webdev/webdev_wfui-react.git"
   },
   "devDependencies": {
     "babel-cli": "^6.3.17",
