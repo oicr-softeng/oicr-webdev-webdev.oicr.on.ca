@@ -23,7 +23,7 @@ This includes:
     "update": "./node_modules/.bin/webdev-baseline-update"
   },
   "dependencies": {
-    "static-cms-baseline": "git+ssh://git@github.com:oicr-webdev/webdev_static_cms-baseline"
+    "static-cms-baseline": "git+ssh://git@github.com:oicr-webdev/webdev_static-cms-baseline.git"
   }
 }
 ```
