@@ -174,6 +174,10 @@ span.mailto {
 }
 
 span.ext + span.ext { display: none !important;}
+a.ext span.ext { 
+    display: none !important;
+    background-image: none;
+}
 
 @media print {
     span.ext, span.mailto {
