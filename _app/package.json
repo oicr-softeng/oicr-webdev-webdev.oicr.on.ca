@@ -14,7 +14,6 @@
     "extract-text-webpack-plugin": "^3.0.0",
     "intl": "^1.2.5",
     "lodash": "^4.17.4",
-    "oicr-ui-core": "git+ssh://git@github.com/bioinformaticsdotca/webdev_oicr-ui-core.git",
     "prop-types": "^15.6.0",
     "react": "^15.6.2",
     "react-addons-css-transition-group": "^15.6.2",
@@ -27,7 +26,8 @@
     "redux-persist": "^4.10.1",
     "redux-thunk": "^2.1.0",
     "reselect": "^3.0.0",
-    "wfui-react": "git+ssh://git@github.com/bioinformaticsdotca/webdev_wfui-react.git"
+    "oicr-ui-core": "git+ssh://git@github.com:oicr-webdev/webdev_oicr-ui-core.git",
+    "wfui-react": "git+ssh://git@github.com:oicr-webdev/webdev_wfui-react.git"
   },
   "devDependencies": {
     "babel-cli": "^6.3.17",
