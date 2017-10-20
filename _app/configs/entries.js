@@ -6,7 +6,7 @@ module.exports = {
         './src/core/_base',
     ],
     ums: [
-        //'./src/site/_user',
+        './src/site/_ums',
     ],
     site: [
         './src/site/libs/spamspan.js',

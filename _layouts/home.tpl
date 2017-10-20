@@ -13,6 +13,7 @@ layout: default
                 <div id="particles-js"></div>
                 <div id="home-banner-content" class="container">
                     <div class="jumbotron-main container">
+                        <div id="app-git-edit" data-path="{{ page.path }}" data-gitrepo="{{ site.git_repo }}"></div>
                         <div class="jumbotron-content col-xs-5">
                             <h1 class="home-banner-title">{{ page.title }}</h1>
                             <div class="caption-thumb-content">

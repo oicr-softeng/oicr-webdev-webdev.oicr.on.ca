@@ -188,3 +188,14 @@ a.btn:hover, a.btn:active, a.btn:focus {
         margin-bottom: 0px;
     }
 }
+
+#app-git-edit {
+    position: relative;
+    z-index: 1000;
+    float: right;
+    margin: 0;
+}
+#app-git-edit .dropdown > a.btn {
+    padding-left: 25px;
+    padding-right: 25px;
+}
