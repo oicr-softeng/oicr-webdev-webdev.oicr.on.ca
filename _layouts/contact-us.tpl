@@ -18,6 +18,9 @@ layout: default
                               <div class="container">
                                   <!-- Page Header -->
                                   <div class="row contact-us-header">
+                                    <div class="container">
+                                        <div id="app-git-edit" data-path="{{ page.path }}" data-gitrepo="{{ site.git_repo }}"></div>
+                                    </div>
                                       <div class="container">
                                           <div class="banner">
                                               <div class="banner-title">

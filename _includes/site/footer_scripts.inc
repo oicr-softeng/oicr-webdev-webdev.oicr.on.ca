@@ -9,9 +9,6 @@
 <!-- Bundle JS -->
 <!-- JavaScript -->
 <script type="text/javascript" src="/assets/site/js/particles.min.js"></script>
-<!--<script type="text/javascript" src="/assets/dist/js/bundle.js"></script>-->
-
-
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
 <!-- Simple Pass only, just used to protect against peeking, not secured  
