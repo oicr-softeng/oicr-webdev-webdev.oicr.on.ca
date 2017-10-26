@@ -1,11 +1,9 @@
-
-
 /* Basic layout */
 h1.title {
     display: none;
 }
 
-h1{
+h1 {
     font-size: 48px;
     font-weight: 800;
 }
@@ -17,7 +15,6 @@ h2 {
     font-weight: 800;
 }
 
-
 h3 {
     color: #355470;
     font-size: 18px;
@@ -25,20 +22,19 @@ h3 {
     margin-top: 10px;
 }
 
-h4{
+h4 {
     color: #355470;
     font-size: 16px;
     font-weight: 700;
 }
 
-@media only screen and (max-width:479px) {
+@media only screen and (max-width: 479px) {
     h2 {
         font-size: 26px;
         margin-bottom: 15px;
         margin-top: 15px;
     }
 }
-
 
 a.btn {
     padding: 6px 0;
@@ -51,7 +47,9 @@ a.btn {
     border-bottom: 2px solid #b3e077;
 }
 
-a.btn:hover, a.btn:active, a.btn:focus {
+a.btn:hover,
+a.btn:active,
+a.btn:focus {
     background-color: #549a27;
     color: #ffffff;
     text-decoration: none;
@@ -76,38 +74,37 @@ a.btn:hover, a.btn:active, a.btn:focus {
     transform: scale(1.05);
 }
 
-@media only screen and (max-width:479px) {
+@media only screen and (max-width: 479px) {
     a.btn {
         font-size: 12px;
     }
 }
 
 /* Navbar */
-.navbar-default .navbar-nav>.active>a {
+.navbar-default .navbar-nav > .active > a {
     color: #ffffff;
     background-color: transparent;
 }
 
-.navbar-default .navbar-nav>.active.our-work {
+.navbar-default .navbar-nav > .active.our-work {
     background-color: #39a9d4;
 }
 
-.navbar-default .navbar-nav>.active.about-us {
+.navbar-default .navbar-nav > .active.about-us {
     background-color: #63aa35;
 }
 
-.navbar-default .navbar-nav>.active.our-capabilities {
+.navbar-default .navbar-nav > .active.our-capabilities {
     background-color: #f87b02;
 }
 
-.navbar-default .navbar-nav>.active.careers {
+.navbar-default .navbar-nav > .active.careers {
     background-color: #355470;
 }
 
-.navbar-default .navbar-nav>.active.contact-us {
+.navbar-default .navbar-nav > .active.contact-us {
     background-color: #1d9bcb;
 }
-
 
 /* banner */
 
@@ -116,7 +113,9 @@ a.btn:hover, a.btn:active, a.btn:focus {
     margin-top: 30px;
 }
 
-.banner-title, .banner-content, .banner-wrapper{
+.banner-title,
+.banner-content,
+.banner-wrapper {
     position: relative;
     float: left;
     width: auto;
@@ -134,7 +133,7 @@ a.btn:hover, a.btn:active, a.btn:focus {
     line-height: 2em;
 }
 
-.banner-title h1{
+.banner-title h1 {
     font-size: 48px;
     font-weight: 800;
     margin: 10px 0px;
@@ -158,7 +157,8 @@ a.btn:hover, a.btn:active, a.btn:focus {
         margin-top: 20px;
         padding: 0px;
     }
-    .banner-title, .banner-content {
+    .banner-title,
+    .banner-content {
         float: none;
     }
     .banner-title h1 {
@@ -190,11 +190,12 @@ a.btn:hover, a.btn:active, a.btn:focus {
 }
 
 #app-git-edit {
-    position: relative;
-    z-index: 1000;
-    float: right;
-    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    z-index: 10000;
 }
+
 #app-git-edit .dropdown > a.btn {
     padding-left: 25px;
     padding-right: 25px;
