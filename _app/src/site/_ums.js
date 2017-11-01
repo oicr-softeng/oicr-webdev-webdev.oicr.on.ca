@@ -2,7 +2,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, hashHistory } from 'react-router';
-import { BaseRoutes, Provider as UMSProvider, setConfig, getUserInfo, Components } from 'oicr-ui-core/lib/ums';
+import {
+    BaseRoutes,
+    Provider as CoreProvider,
+    setConfig,
+    getUserInfo,
+    Components,
+} from 'oicr-ui-core/lib/ums';
 
 /**
  * Set UMS 
@@ -20,34 +26,39 @@ getUserInfo()(store.dispatch);
 // Render UMS
 const target = document.getElementById('app-user-services');
 if (target) {
-  ReactDOM.render((
-        <UMSProvider store={store}>
+    ReactDOM.render(
+        <CoreProvider store={store}>
             <Router history={hashHistory}>
                 <BaseRoutes />
             </Router>
-        </UMSProvider>
-  ), target);
+        </CoreProvider>,
+        target,
+    );
 }
 
 // Render User Menu
 const targetUserMenu = document.getElementById('app-user-nav');
 if (targetUserMenu) {
-    ReactDOM.render((
-        <UMSProvider store={store}>
+    ReactDOM.render(
+        <CoreProvider store={store}>
             <Components.UserNavMenu rootPath="/user" />
-        </UMSProvider>
-    ), targetUserMenu);
+        </CoreProvider>,
+        targetUserMenu,
+    );
 }
 
 // Render Git Edit Button
 const targetGitEditButtons = document.getElementById('app-git-edit');
 if (targetGitEditButtons) {
-    ReactDOM.render((
-        <UMSProvider store={store}>
+    ReactDOM.render(
+        <CoreProvider store={store}>
             <Components.GitEditButton
                 path={targetGitEditButtons.getAttribute('data-path')}
-                gitRepository={targetGitEditButtons.getAttribute('data-gitrepo')}
+                gitRepository={targetGitEditButtons.getAttribute(
+                    'data-gitrepo',
+                )}
             />
-        </UMSProvider>
-    ), targetGitEditButtons);
+        </CoreProvider>,
+        targetGitEditButtons,
+    );
 }

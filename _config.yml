@@ -29,6 +29,7 @@ description: > # this means to ignore newlines until "baseurl:"
 # Contact Information
 email: webdev@oicr.on.ca
 
+# Github Repository Information
 git_repo: oicr-webdev/oicr-webdev.github.io
 
 # the subpath of your site, e.g. /blog
