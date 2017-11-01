@@ -1041,3 +1041,7 @@ section.case-study{
               perspective: none;
     }
 }
+
+.container #app-git-edit {
+    margin-bottom: -160px;
+}

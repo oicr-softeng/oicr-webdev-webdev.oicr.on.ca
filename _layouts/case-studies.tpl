@@ -110,6 +110,9 @@ layout: default
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="row banner">
+        <div class="container">
+            <div id="app-git-edit" data-path="{{ page.path }}" data-gitrepo="{{ site.git_repo }}"></div>
+        </div>
       <div class="banner-background">
         <img src="/assets/site/images/bg-casestudy-{{ page.alias }}.jpg" alt="Banner image 1">
 

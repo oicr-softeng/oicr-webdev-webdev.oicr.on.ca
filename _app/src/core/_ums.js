@@ -9,7 +9,7 @@ import { BaseRoutes, Provider as UMSProvider, setConfig, getUserInfo, Components
  */
 
 // Override default user configuration
-setConfig(UMS_CONFIG);
+setConfig(window.UMS_CONFIG);
 
 // Load store.
 const store = require('../site/store').default;
