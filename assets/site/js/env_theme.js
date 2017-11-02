@@ -1,6 +1,6 @@
 window.UMS_CONFIG = {
-    APP_ID: '5908924be8d7e87fdd398b87',
-    API_HOST: 'qa-stratus-www1.res.oicr.on.ca:3002',
+    APP_ID: '59fb3476e754513293d2c0ed',
+    API_HOST: 'qa-stratus-www1.res.oicr.on.ca:3003',
     CONTACT_LINK: 'mailto:webdev.oicr@gmail.com',
 };
 window.extLinkConfig = {
