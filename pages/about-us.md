@@ -2,7 +2,7 @@
 layout: about-us
 title: "About Us"
 date:   2017-03-06 10:00:00 -0500
-author: Stephanie Lin
+author: Joseph Yamada
 permalink: /about-us/
 
 ########################################
@@ -15,11 +15,11 @@ our-aim:
 how-we-work:
   title: "How We Work"
   content:
-    - "OICR's Web Development team is a multi-disciplinary team capable of designing and building website and web applications for researchers and their projects. The 10 member team is composed of creative and technical members, working on 20+ projects servicing both OICR's research and corporate programs. Through its website products, OICR presents leading-edge cancer research online and to engage a global community of researchers for collaboration."
+    - "OICR's Web Development team is a multi-disciplinary team capable of designing and building website and web applications for researchers and their projects. The 5-10 member team is composed of creative and technical members, working on 50+ projects servicing both OICR's research and corporate programs. Through its website products, OICR presents leading-edge cancer research online and to engage a global community of researchers for collaboration."
     - "Our team applies rapid and intelligent design analysis, and agile project implementation thereby enabling programs to focus on the high-value benefits for their users.  And this team has software engineering experience with products that meet enterprise risk (strategic, operational/internal, regulatory compliance, financial) for both big and small projects."
 
 stats:
-  team: "6-10 People"
+  team: "5-10 People"
   work: "50+ Projects"
   productivity: "~4000 Tasks"
   outreach: "70K+ Users"
