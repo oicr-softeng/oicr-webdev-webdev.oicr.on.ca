@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" href="/assets/site/images/favicon.ico" type="image/x-icon">
 
+<script><!--
+    // force redirect
+    if (window.location.protocol === 'http:') window.location.href = window.location.toString().replace(/^http:/, "https:");
+--></script>
+
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
 
