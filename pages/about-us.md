@@ -34,7 +34,7 @@ team:
     role: "Senior Manager, Web Development Team"
     focus: "Specializes in Team Leadership, Management, Mentoring; Product Design; Technologies and Software Architecture."
     expertise: "Continous Product Delivery; Multi-Project Management; High-Performance Team Development; UX Product Design;   Agile/Lean/Learning Team Capability Development; Software Engineering and Production Operations; "
-    fun_fact: "Loves to work on meaningful outcomes and developing high-performing teams.  Has hired 50+ students while at the OICR."
+    fun_fact: "Loves to work on meaningful outcomes.  Has hired 50+ students while at the OICR."
     tag: "joseph-yamada"
   - name: "Kim Cullion"
     image: "/assets/site/images/webdev-team-kim.png"
