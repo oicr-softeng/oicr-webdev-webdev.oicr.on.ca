@@ -16,7 +16,7 @@ how-we-work:
   title: "How We Work"
   content:
     - "OICR's Web Development team is a multi-disciplinary team capable of designing and building website and web applications for researchers and their projects. The 5-10 member team is composed of creative and technical members, working on 50+ projects servicing OICR's research programs and Collaboration projects. Through its designed web services, the team provides improved access and understanding of the data being provided, which in turn, may lead to more fruitful scientific discoveries. "
-    - "The team applies rapid and intelligent design analysis, and agile project implementation thereby enabling programs to focus on the high-value benefits for their users.  The team has knowledge and experience of three discrete sciences which we describe with the benefits of align, connect and reuse, these are namely Human-Computer Interaction (connect), molecular biology/bioinformatics (align), and  software engineering computing (reuse)."
+    - "The team applies rapid and intelligent design analysis, and agile project implementation thereby enabling programs to focus on the high-value benefits for their users.  The team has knowledge and experience of three discrete sciences to which we describe with the team's internal mission of Align, Connect and Reuse, and these are namely Human-Computer Interaction (connect), Molecular Biology/Bioinformatics (align), and Software Engineering / Computing (reuse)."
 
 stats:
   team: "5-10 People"
