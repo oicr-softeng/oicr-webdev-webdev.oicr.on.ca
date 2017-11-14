@@ -2,7 +2,7 @@
 layout: about-us
 title: "About Us"
 date:   2017-03-06 10:00:00 -0500
-author: Stephanie Lin
+author: Joseph Yamada
 permalink: /about-us/
 
 ########################################
@@ -15,11 +15,11 @@ our-aim:
 how-we-work:
   title: "How We Work"
   content:
-    - "OICR's Web Development team is a multi-disciplinary team capable of designing and building website and web applications for researchers and their projects. The 10 member team is composed of creative and technical members, working on 20+ projects servicing both OICR's research and corporate programs. Through its website products, OICR presents leading-edge cancer research online and to engage a global community of researchers for collaboration."
-    - "Our team applies rapid and intelligent design analysis, and agile project implementation thereby enabling programs to focus on the high-value benefits for their users.  And this team has software engineering experience with products that meet enterprise risk (strategic, operational/internal, regulatory compliance, financial) for both big and small projects."
+    - "OICR's Web Development team is a multi-disciplinary team capable of designing and building website and web applications for researchers and their projects. The 5-10 member team is composed of creative and technical members, working on 50+ projects servicing OICR's research programs and Collaboration projects. Through its designed web services, the team provides improved access and understanding of the data being provided, which in turn, may lead to more fruitful scientific discoveries. "
+    - "The team applies rapid and intelligent design analysis, and agile project implementation thereby enabling programs to focus on the high-value benefits for their users.  The team has knowledge and experience of three discrete sciences to which we describe with the team's internal mission of Align, Connect and Reuse, and these are namely Human-Computer Interaction (connect), Molecular Biology/Bioinformatics (align), and Software Engineering / Computing (reuse)."
 
 stats:
-  team: "6-10 People"
+  team: "5-10 People"
   work: "50+ Projects"
   productivity: "~4000 Tasks"
   outreach: "70K+ Users"
@@ -32,9 +32,9 @@ team:
   - name: "Joseph Yamada"
     image: "/assets/site/images/webdev-team-joseph.png"
     role: "Senior Manager, Web Development Team"
-    focus: "Specializes in Management (Team, Project and Product); Software Engineering & Operations."
-    expertise: "High-Performance Team Development; UX Product Design; SE and Operations; Agile/Lean/Learning; Continous Product Delivery"
-    fun_fact: "Loves to work on meaningful outcomes. While at the OICR, hired 40 students, worked on 5K+ tasks, 50+ OICR projects and still loving it."
+    focus: "Specializes in Team Leadership, Management, Mentoring; Product Design; Technologies and Software Architecture."
+    expertise: "Continous Product Delivery; Multi-Project Management; High-Performance Team Development; UX Product Design;   Agile/Lean/Learning Team Capability Development; Software Engineering and Production Operations; "
+    fun_fact: "Loves to work on meaningful outcomes.  Has hired 50+ students while at the OICR."
     tag: "joseph-yamada"
   - name: "Kim Cullion"
     image: "/assets/site/images/webdev-team-kim.png"
