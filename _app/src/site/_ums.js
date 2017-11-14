@@ -10,8 +10,10 @@ import {
     Components,
 } from 'oicr-ui-core/lib/ums';
 
+import LoginButton from './UserNav/LoginButton';
+
 /**
- * Set UMS 
+ * Set UMS
  */
 
 // Override default user configuration
@@ -54,11 +56,20 @@ if (targetGitEditButtons) {
         <CoreProvider store={store}>
             <Components.GitEditButton
                 path={targetGitEditButtons.getAttribute('data-path')}
-                gitRepository={targetGitEditButtons.getAttribute(
-                    'data-gitrepo',
-                )}
+                gitRepository={targetGitEditButtons.getAttribute('data-gitrepo')}
             />
         </CoreProvider>,
         targetGitEditButtons,
+    );
+}
+
+// Login link
+const targetLoginMenu = document.getElementById('nav-login-desktop');
+if (targetLoginMenu) {
+    ReactDOM.render(
+        <CoreProvider store={store}>
+            <LoginButton />
+        </CoreProvider>,
+        targetLoginMenu,
     );
 }
