@@ -81,6 +81,111 @@ a.btn:focus {
 }
 
 /* Navbar */
+/* Navbar collapse
+-------------------------------------------------------------- */
+.navbar-collapse > nav {
+    text-align: right;
+    padding-top: 1em;
+}
+
+.navbar-collapse > nav > div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 19%;
+    text-align: right;
+}
+
+.navbar-collapse > nav > div.region-navbar {
+    width: 30px;
+}
+
+.navbar-collapse > nav > div.cbw-login {
+    margin-right: 15px;
+}
+
+.navbar-collapse > nav > div.menu-main-menu {
+    width: 64%;
+}
+
+@media (max-width: 1199px) {
+    .navbar-collapse > nav {
+        padding-top: 2.5em;
+    }
+    .navbar-collapse > nav > div {
+        width: 23%;
+    }
+    .navbar-collapse > nav > div.region-navbar {
+        width: 0px;
+        position: relative;
+    }
+    .navbar-collapse > nav > div.menu-main-menu {
+        width: 60%;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        position: relative;
+    }
+    .nav-navbar {
+        margin-top: 1.5em;
+    }
+    .navbar-collapse > nav > div {
+        width: 29%;
+    }
+    .navbar-collapse > nav > div.menu-main-menu {
+        position: absolute;
+        bottom: 11px;
+        left: -15px;
+        width: 73%;
+    }
+    .navbar-collapse > nav {
+        padding-top: 3em;
+    }
+}
+
+@media (max-width: 767px) {
+    .container > .navbar-collapse {
+        padding-right: 0px;
+        z-index: 1;
+    }
+    .navbar-collapse > nav {
+        padding-top: 0;
+        text-align: left;
+        background-color: #f9fafc;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .navbar-collapse > nav > div {
+        text-align: left;
+        border-top: 1px solid #d4dcde;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 1em;
+    }
+    .navbar-collapse > nav > div.region-navbar {
+        text-align: left;
+        border-top: 1px solid #d4dcde;
+        padding: 0;
+        margin: 0;
+        padding-top: 0px;
+        width: 100%;
+    }
+    .navbar-collapse > nav > div.menu-main-menu {
+        border-top: none;
+        padding-top: 0;
+        margin-bottom: -1em;
+    }
+    .navbar-collapse > nav > div,
+    .navbar-collapse > nav > div.menu-main-menu {
+        width: 100%;
+    }
+
+    .navbar-collapse > nav > div.menu-main-menu {
+        position: static;
+    }
+}
+
 .navbar-default .navbar-nav > .active > a {
     color: #ffffff;
     background-color: transparent;
@@ -104,6 +209,85 @@ a.btn:focus {
 
 .navbar-default .navbar-nav > .active.contact-us {
     background-color: #1d9bcb;
+}
+
+/* Navbar Header
+-------------------------------------------------------------- */
+.webdev-login ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.webdev-login ul li {
+    list-style-image: none;
+    margin-bottom: 0;
+}
+
+.webdev-login .btn-default {
+    border: none;
+}
+
+.webdev-login .btn-default:link,
+.webdev-login .btn-default:visited {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px 20px;
+    color: #355470;
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.webdev-login .btn-default:hover,
+.webdev-login .btn-default:active {
+    background-color: #eaedf0;
+    border-bottom: none;
+}
+
+.webdev-login .btn::after {
+    content: '';
+}
+
+@media (max-width: 767px) {
+    .webdev-login .btn-default {
+        border-radius: 0;
+        border-bottom: 1px solid #d4dcde;
+        width: 100%;
+    }
+    .logged-in .webdev-login .first > span {
+        margin-top: 0;
+    }
+    /*.page-wrapper {
+    padding-top: 2.25em;
+  }*/
+    .navbar-header .webdev-login {
+        border-radius: 0;
+        float: none;
+        position: absolute;
+        text-align: center;
+        top: -2.25em;
+        left: 0;
+        width: 100%;
+    }
+    .webdev-login {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar-header .webdev-login {
+        border: medium none;
+    }
+    .not-logged-in .navbar-header .webdev-login {
+        padding-top: 0;
+    }
+    .navbar-header .webdev-login li,
+    .not-logged-in .navbar-header .webdev-login a {
+        width: 100%;
+    }
+    .navbar-header .webdev-login a {
+        padding: 0.375em 7px;
+    }
 }
 
 /* banner */

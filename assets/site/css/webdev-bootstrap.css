@@ -16,9 +16,9 @@
     font-family: 'open_sansbold';
     src: url('OpenSans-Bold-webfont.eot');
     src: url('OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-Bold-webfont.woff') format('woff'),
-         url('OpenSans-Bold-webfont.ttf') format('truetype'),
-         url('OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+        url('OpenSans-Bold-webfont.woff') format('woff'),
+        url('OpenSans-Bold-webfont.ttf') format('truetype'),
+        url('OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -26,10 +26,11 @@
 @font-face {
     font-family: 'open_sansextrabold';
     src: url('OpenSans-ExtraBold-webfont.eot');
-    src: url('OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-ExtraBold-webfont.woff') format('woff'),
-         url('OpenSans-ExtraBold-webfont.ttf') format('truetype'),
-         url('OpenSans-ExtraBold-webfont.svg#open_sansextrabold') format('svg');
+    src: url('OpenSans-ExtraBold-webfont.eot?#iefix')
+            format('embedded-opentype'),
+        url('OpenSans-ExtraBold-webfont.woff') format('woff'),
+        url('OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+        url('OpenSans-ExtraBold-webfont.svg#open_sansextrabold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -38,9 +39,9 @@
     font-family: 'open_sansregular';
     src: url('OpenSans-Regular-webfont.eot');
     src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-Regular-webfont.woff') format('woff'),
-         url('OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+        url('OpenSans-Regular-webfont.woff') format('woff'),
+        url('OpenSans-Regular-webfont.ttf') format('truetype'),
+        url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -49,31 +50,28 @@
     font-family: 'open_sanssemibold';
     src: url('OpenSans-Semibold-webfont.eot');
     src: url('OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-Semibold-webfont.woff') format('woff'),
-         url('OpenSans-Semibold-webfont.ttf') format('truetype'),
-         url('OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+        url('OpenSans-Semibold-webfont.woff') format('woff'),
+        url('OpenSans-Semibold-webfont.ttf') format('truetype'),
+        url('OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
-
-
 html * {
-	max-height: 999999px; /* Fix: Chrome/Android */
+    max-height: 999999px; /* Fix: Chrome/Android */
 }
 
 html,
 body {
-	-webkit-text-size-adjust: 100%;  /* Fix: iPhone and iPod touch */
+    -webkit-text-size-adjust: 100%; /* Fix: iPhone and iPod touch */
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 1.8em;
 }
 
-@-ms-viewport{
-	width: device-width; /* Fix: Win Phone */
+@-ms-viewport {
+    width: device-width; /* Fix: Win Phone */
 }
-
 
 .page-wrapper {
     overflow: hidden;
@@ -103,7 +101,7 @@ p {
 }
 
 /* Headings */
-@media only screen and (max-width:479px) {
+@media only screen and (max-width: 479px) {
     h2 {
         font-size: 26px;
         margin-bottom: 15px;
@@ -147,7 +145,7 @@ p {
     margin-top: 1em;
 }
 
-.webform-client-form  .modal-footer .form-actions {
+.webform-client-form .modal-footer .form-actions {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -159,30 +157,33 @@ p {
 
 /* Source: External Links module */
 span.ext {
-	display: inline !important;
-	background-image: url(../images/extlink.png);
-	background-position: right center;
-	background-repeat: no-repeat;
-	padding-right:12px;
+    display: inline !important;
+    background-image: url(../images/extlink.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-right: 12px;
 }
 span.mailto {
-	display: inline !important;
-	background-image: url(../images/mailto.png);
-	background-position: right center;
-	background-repeat: no-repeat;
-	padding-right:12px;
+    display: inline !important;
+    background-image: url(../images/mailto.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding-right: 12px;
 }
 
-span.ext + span.ext { display: none !important;}
-a.ext span.ext { 
+span.ext + span.ext {
+    display: none !important;
+}
+a.ext span.ext {
     display: none !important;
     background-image: none;
 }
 
 @media print {
-    span.ext, span.mailto {
-		display:none;
-		padding:0;
+    span.ext,
+    span.mailto {
+        display: none;
+        padding: 0;
     }
 }
 
@@ -194,7 +195,6 @@ a.ext span.ext {
 
 /* Containers & Regions
 -------------------------------------------------------------- */
-
 
 /* All Containers & Regions
 -------------------------------------------------------------- */
@@ -218,54 +218,62 @@ nav.navbar {
     background: transparent;
 }
 
-
-.navbar-toggle {
-  margin-top: 3.5em;
+.nav-container {
+    padding-top: 10px;
 }
 
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+.navbar-toggle {
+    margin-top: 3.5em;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
     background-color: transparent;
 }
 
-
 /* Navbar header */
 /* Navbar brand */
+.navbar-header {
+    width: auto;
+    text-align: left;
+}
 .navbar-header .navbar-brand {
     height: auto;
     padding: 0px;
 }
 
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
     margin-left: 0px;
 }
 
-.navbar-brand>img {
+.navbar-brand > img {
     margin: 10px;
     width: 280px;
     margin-left: 0px;
 }
 
 @media screen and (max-width: 767px) {
-    .navbar-brand>img {
+    .navbar-brand > img {
         margin-left: 35px;
     }
 }
 @media screen and (max-width: 660px) {
-    .navbar-brand>img {
+    .navbar-brand > img {
         margin-left: 15px;
         width: 250px;
     }
 }
 
 @media screen and (max-width: 520px) {
-    .navbar-brand>img {
+    .navbar-brand > img {
         margin-left: 25px;
         width: 220px;
     }
 }
 
 @media screen and (max-width: 440px) {
-    .navbar-brand>img {
+    .navbar-brand > img {
         margin-left: 10px;
         width: 180px;
     }
@@ -280,7 +288,6 @@ nav.navbar {
     background-repeat: no-repeat;
 }
 
-
 .navbar-default .navbar-toggle:focus {
     background-color: transparent;
     background-image: url(../images/icon-mobile-menu-on.svg);
@@ -291,21 +298,27 @@ nav.navbar {
 }
 
 @media screen and (max-width: 520px) {
-     .navbar-default .navbar-toggle {
+    .navbar-default .navbar-toggle {
         margin-top: 1.9em;
     }
 }
 
 @media screen and (max-width: 440px) {
-     .navbar-default .navbar-toggle {
-         margin-top: 1.8em;
-         padding: 20px;
+    .navbar-default .navbar-toggle {
+        margin-top: 1.8em;
+        padding: 20px;
     }
 }
 
+@media screen and (max-width: 767px) {
+    .navbar-default .navbar-toggle {
+        display: block;
+    }
+}
 
 /* Navbar collapse */
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
     overflow: hidden;
 }
 
@@ -315,71 +328,104 @@ nav.navbar {
         background-color: transparent;
     }
 }
+
 /* Navbar region */
+/* Navbar collapse: Site Search
+-------------------------------------------------------------- */
+.webdev-search {
+    width: 100%;
+}
+.webdev-search input.form-control {
+    border-radius: 0;
+    padding-left: 40px;
+    margin-left: -40px;
+    background-image: url('/assets/site/images/icon-search.svg');
+    background-size: auto 20px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    border-color: #d4dcde;
+}
+
+.webdev-search input.form-control::placeholder {
+    color: #ccc;
+}
+
+@media (max-width: 767px) {
+    .webdev-search input.form-control {
+        margin-left: 0;
+    }
+}
 
 /* Jumbotron Container & Regions
 -------------------------------------------------------------- */
 .jumbotron .container {
     padding: 0px 10px;
+    max-width: 1200px;
 }
 
 .jumbotron-content {
     padding-left: 0px;
 }
-.jumbotron h1, .jumbotron .h1 {
+.jumbotron h1,
+.jumbotron .h1 {
     font-weight: 800;
     font-size: 24px;
     line-height: 1em;
 }
 
-@media only screen and (min-width:479px) {
-    .jumbotron h1, .jumbotron .h1 {
+@media only screen and (min-width: 479px) {
+    .jumbotron h1,
+    .jumbotron .h1 {
         font-size: 36px;
     }
 }
 
 @media only screen and (min-width: 767px) {
-    .jumbotron h1, .jumbotron .h1 {
+    .jumbotron h1,
+    .jumbotron .h1 {
         font-size: 42px;
     }
 }
 
 @media only screen and (min-width: 900px) {
-    .jumbotron h1, .jumbotron .h1 {
+    .jumbotron h1,
+    .jumbotron .h1 {
         font-size: 44px;
     }
 }
 
 @media only screen and (min-width: 992px) {
-    .jumbotron h1, .jumbotron .h1 {
+    .jumbotron h1,
+    .jumbotron .h1 {
         font-size: 56px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
-    .jumbotron h1, .jumbotron .h1 {
+    .jumbotron h1,
+    .jumbotron .h1 {
         font-size: 70px;
     }
 }
 
-
-
-.jumbotron-content p, .jumbotron-conten .p {
+.jumbotron-content p,
+.jumbotron-conten .p {
     font-weight: 700;
     line-height: 2em;
     margin-top: 25px;
     line-height: 1.8em;
 }
 
-
 @media only screen and (min-width: 767px) {
-    .jumbotron-content p, .jumbotron-conten .p {
+    .jumbotron-content p,
+    .jumbotron-conten .p {
         font-size: 14px;
     }
 }
 
 @media only screen and (min-width: 991px) {
-    .jumbotron-content p, .jumbotron-conten .p {
+    .jumbotron-content p,
+    .jumbotron-conten .p {
         font-size: 18px;
     }
 }
@@ -392,7 +438,8 @@ nav.navbar {
 
 /* Main Container & Regions
 -------------------------------------------------------------- */
-ul, li {
+ul,
+li {
     text-decoration: none;
     list-style-type: none;
 }
@@ -441,12 +488,12 @@ ul, li {
     }
 }
 
-
 @media only screen and (max-width: 479px) {
     .region-postscript-bottom {
         padding: 25px 25px;
     }
-    .region-postscript-bottom p,a {
+    .region-postscript-bottom p,
+    a {
         font-size: 13px;
     }
 }
@@ -457,7 +504,7 @@ ul, li {
 
 /* Footer region */
 
-.menu-fine-print{
+.menu-fine-print {
     background-color: #343b3f;
     text-align: center;
     color: #ffffff;
@@ -465,7 +512,7 @@ ul, li {
     font-size: 13px;
 }
 
-.menu-fine-print img{
+.menu-fine-print img {
     display: inline-block;
     height: 110px;
     padding: 20px 15px;
@@ -492,16 +539,15 @@ ul, li {
     color: #c6ecfb;
 }
 
-.menu-fine-print #privacy{
+.menu-fine-print #privacy {
     border-left: 1px solid #f1f4f6;
 }
-
 
 @media only screen and (max-width: 796px) {
     .menu-fine-print {
         padding-bottom: 30px;
     }
-    .menu-fine-print img{
+    .menu-fine-print img {
         display: block;
         margin-left: calc(50% - 75px);
     }
@@ -533,15 +579,16 @@ ul, li {
     float: right;
     margin-bottom: 0px;
     position: relative;
-    margin-top: calc(5% - 26px);
     padding: 0px;
-    min-width: 700px;
+    width: 780px;
+    right: 20px;
+    top: 50px;
 }
 
 @media only screen and (max-width: 1199px) {
     .menu-main-menu .navbar-nav {
         margin-top: 0px;
-        margin-right: calc(50% - 360px)
+        margin-right: 0px;
     }
 }
 
@@ -554,29 +601,29 @@ ul, li {
     }
 }
 
-.menu-main-menu .navbar-nav>ul {
+.menu-main-menu .navbar-nav > ul {
     list-style: none;
     padding-top: 0;
     padding-bottom: 0;
 }
 
-.menu-main-menu .navbar-nav>li {
+.menu-main-menu .navbar-nav > li {
     margin-bottom: 0;
     padding: 0px;
     margin: 0px 10px;
-  }
+}
 
-.menu-main-menu .navbar-nav>li:nth-child(5) {
+.menu-main-menu .navbar-nav > li:nth-child(5) {
     margin-right: 0px;
 }
 
-.menu-main-menu .navbar-nav>li:link,
-.menu-main-menu .navbar-nav>li:visited {
+.menu-main-menu .navbar-nav > li:link,
+.menu-main-menu .navbar-nav > li:visited {
     color: #1d3d59;
     text-decoration: none;
 }
 
-.menu-main-menu .navbar-nav>li>a {
+.menu-main-menu .navbar-nav > li > a {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px; /* 16px/14px */
     font-weight: 600;
@@ -587,52 +634,57 @@ ul, li {
     display: block;
 }
 
-.menu-main-menu .navbar-nav>li:nth-child(1)>a:hover, .menu-main-menu .navbar-nav>li:nth-child(1)>a:active {
+.menu-main-menu .navbar-nav > li:nth-child(1) > a:hover,
+.menu-main-menu .navbar-nav > li:nth-child(1) > a:active {
     background-color: #39a9d4;
     color: #ffffff;
     text-decoration: none;
 }
 
-.menu-main-menu .navbar-nav>li:nth-child(2)>a:hover, .menu-main-menu .navbar-nav>li:nth-child(2)>a:active {
+.menu-main-menu .navbar-nav > li:nth-child(2) > a:hover,
+.menu-main-menu .navbar-nav > li:nth-child(2) > a:active {
     background-color: #63aa35;
     color: #ffffff;
     text-decoration: none;
 }
 
-.menu-main-menu .navbar-nav>li:nth-child(3)>a:hover, .menu-main-menu .navbar-nav>li:nth-child(3)>a:active {
+.menu-main-menu .navbar-nav > li:nth-child(3) > a:hover,
+.menu-main-menu .navbar-nav > li:nth-child(3) > a:active {
     background-color: #f87b02;
     color: #ffffff;
     text-decoration: none;
 }
 
-.menu-main-menu .navbar-nav>li:nth-child(4)>a:hover, .menu-main-menu .navbar-nav>li:nth-child(4)>a:active {
+.menu-main-menu .navbar-nav > li:nth-child(4) > a:hover,
+.menu-main-menu .navbar-nav > li:nth-child(4) > a:active {
     background-color: #355470;
     color: #ffffff;
     text-decoration: none;
 }
 
-.menu-main-menu .navbar-nav>li:nth-child(5)>a:hover, .menu-main-menu .navbar-nav>li:nth-child(5)>a:active {
+.menu-main-menu .navbar-nav > li:nth-child(5) > a:hover,
+.menu-main-menu .navbar-nav > li:nth-child(5) > a:active {
     background-color: #1d9bcb;
     color: #ffffff;
     text-decoration: none;
 }
 
-
-
 @media only screen and (max-width: 1199px) {
-    .menu-main-menu .navbar-nav>li {
+    .menu-main-menu .navbar-nav > li {
         margin: 0px 5px;
     }
     .menu-main-menu .navbar-nav {
-        position: relative;
+        position: absolute;
+        right: 0;
+        top: 30px;
+        width: 725px;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .menu-main-menu .navbar-nav {
-        position: inherit;
-        width: 100%;
-        margin-right: 0px;
+        right: 0px;
+        top: 35px;
     }
     .menu-main-menu .navbar-nav > li:first-child {
         margin-left: 0px;
@@ -642,20 +694,24 @@ ul, li {
 @media only screen and (max-width: 767px) {
     .menu-main-menu .navbar.navbar-nav {
         border-bottom: 2px solid #ccd4dc;
+        position: inherit;
+        width: 100%;
+        margin-right: 0px;
     }
-    .menu-main-menu .navbar-nav>li {
+    .menu-main-menu .navbar-nav > li {
         border-bottom: 1px solid #ccd4dc;
         margin-left: 0px;
         margin-right: 0px;
     }
-    .menu-main-menu .navbar-nav>li:last-child {
+    .menu-main-menu .navbar-nav > li:last-child {
         border-bottom: none;
     }
-    .menu-main-menu .navbar-nav>li>a {
+    .menu-main-menu .navbar-nav > li > a {
         width: 100%;
         width: auto;
     }
-    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -667,69 +723,58 @@ ul, li {
 }
 
 @media only screen and (max-width: 530px) {
-    .menu-main-menu .navbar-nav>li>a {
+    .menu-main-menu .navbar-nav > li > a {
         font-size: 15px;
     }
 }
 
 @media only screen and (max-width: 479px) {
-    .menu-main-menu .navbar-nav>li>a {
+    .menu-main-menu .navbar-nav > li > a {
         font-size: 14px;
         padding: 10px 20px;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    .menu-main-menu .navbar-nav>li>a {
+    .menu-main-menu .navbar-nav > li > a {
         font-size: 13px;
         padding: 10px 20px;
     }
 }
-<!-- need to add mediaquery -->
-
-
-/* Forms
+<!--
+    need
+    to
+    add
+    mediaquery
+    --
+    > /* Forms
 /-------------------------------------------------------------- */
-
-/* Tables
+    /* Tables
 /-------------------------------------------------------------- */
-
-/* Pagers
+    /* Pagers
 -------------------------------------------------------------- */
-
-/* Forms
+    /* Forms
 /-------------------------------------------------------------- */
-
-/* Forum
+    /* Forum
 /-------------------------------------------------------------- */
-
-/* Book
+    /* Book
 /-------------------------------------------------------------- */
-
-/* Poll
+    /* Poll
 /-------------------------------------------------------------- */
-
-/* Nodes
+    /* Nodes
 /-------------------------------------------------------------- */
-
-/* Node: Place node name here*/
-
-/* Views - See view-*.tpl.php
+    /* Node: Place node name here*/
+    /* Views - See view-*.tpl.php
 /-------------------------------------------------------------- */
-
-/* View: Place view name here*/
-
-
-/* Breadcrumbs
+    /* View: Place view name here*/
+    /* Breadcrumbs
 /-------------------------------------------------------------- */
-
-/* Tab Menus
+    /* Tab Menus
 /-------------------------------------------------------------- */
-
-/* Clearfixes
+    /* Clearfixes
 /-------------------------------------------------------------- */
-/* ADD AS NEEDED*/
-/* :after {
+    /* ADD AS NEEDED*/
+    /* :after {
 	clear: both;
 	content: ".";
 	display: block;
@@ -737,24 +782,31 @@ ul, li {
 	height: 0;
 	visibility: hidden;
 } */
-
-/* Breakpoint specific styles
+    /* Breakpoint specific styles
 /-------------------------------------------------------------- */
-
-/* Medium Devices, Desktop */
-@media only screen and (max-width: 1199px) { }
+    /* Medium Devices, Desktop */
+    @media
+    only
+    screen
+    and
+    (max-width: 1199px) {
+}
 
 /* Small Devices, Tablets */
-@media only screen and (max-width: 991px) { }
+@media only screen and (max-width: 991px) {
+}
 
 /* XS Devices, Small tablets */
-@media only screen and (max-width: 767px) { }
+@media only screen and (max-width: 767px) {
+}
 
 /* 2XS Devices, Phones */
-@media only screen and (max-width:479px) { }
+@media only screen and (max-width: 479px) {
+}
 
 /* 3XS Devices, Phones - Optional */
-@media only screen and (max-width:319px) { }
+@media only screen and (max-width: 319px) {
+}
 
 /* Core, Contrib & Custom Module style overrides
 /-------------------------------------------------------------- */
