@@ -13,6 +13,11 @@
     overflow: hidden;
 }
 
+.jumbotron.wrapper .jumbotron-inner {
+    position: relative;
+    padding-top: 45px;
+}
+
 .jumbotron-main {
     position: relative;
     margin-top: calc(-25% - 270px);
@@ -34,6 +39,7 @@
     color: #ffffff;
     margin-top: 80px;
 }
+
 .carousel {
     overflow: hidden;
 }
@@ -103,6 +109,12 @@
 .jumbotron img {
     width: 100%;
     height: auto;
+}
+
+@media only screen and (max-width: 1150px) {
+    .jumbotron img {
+        padding-top: 40px;
+    }
 }
 
 @media only screen and (max-width: 479px) {
@@ -264,12 +276,48 @@ nav.navbar {
     );
 }
 
-@media only screen and (min-width: 1300px) {
+#app-git-edit {
+    margin: 20px 0;
+    top: -10px;
+    right: 0;
+}
+@media only screen and (min-width: 1200px) {
     .jumbotron-main {
         margin-top: calc(-30% - 230px);
     }
     .jumbotron-content {
         margin-top: 55px;
+    }
+    #webdev-carousel {
+        margin-top: 15px;
+    }
+    #app-git-edit {
+        top: 15px;
+    }
+}
+@media only screen and (min-width: 1250px) {
+    .jumbotron-main {
+        margin-top: calc(-30% - 230px);
+    }
+    .jumbotron-content {
+        margin-top: 20px;
+    }
+    #webdev-carousel {
+        margin-top: -17px;
+    }
+    #app-git-edit {
+        top: -17px;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .jumbotron-main {
+        margin-top: calc(-30% - 230px);
+    }
+    .jumbotron-content {
+        margin-top: 10px;
+    }
+    #webdev-carousel {
+        margin-top: -25px;
     }
     .circle {
         margin-top: 10px;
@@ -283,6 +331,9 @@ nav.navbar {
         left: 87%;
         bottom: 5%;
     }
+    #app-git-edit {
+        top: -40px;
+    }
 }
 
 @media only screen and (min-width: 1400px) {
@@ -290,12 +341,9 @@ nav.navbar {
         margin-top: calc(-35% - 248px);
     }
     .circle {
-        margin-top: 50px;
+        margin-top: 0;
         width: 120%;
         margin-left: 50px;
-    }
-    .jumbotron-content {
-        margin-top: 105px;
     }
     .circle2 {
         margin-top: 35%;
@@ -304,6 +352,24 @@ nav.navbar {
     .carousel-indicators {
         left: 93%;
         bottom: 5%;
+    }
+    .jumbotron-content {
+        margin-top: 60px;
+    }
+    #webdev-carousel {
+        margin-top: 15px;
+    }
+    #app-git-edit {
+        top: -15px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .jumbotron-content {
+        margin-top: 0;
+    }
+    #webdev-carousel {
+        margin-top: 0;
     }
 }
 
@@ -348,7 +414,13 @@ nav.navbar {
         margin-top: calc(-32% - 180px);
     }
     .jumbotron-content {
-        margin-top: 30px;
+        margin-top: -10px;
+    }
+    #webdev-carousel {
+        margin-top: -60px;
+    }
+    #app-git-edit {
+        top: -60px;
     }
     .carousel-indicators {
         bottom: 2%;
@@ -382,7 +454,13 @@ nav.navbar {
         margin-top: calc(-30% - 185px);
     }
     .jumbotron-content {
-        margin-top: 40px;
+        margin-top: 10px;
+    }
+    #webdev-carousel {
+        margin-top: -30px;
+    }
+    #app-git-edit {
+        top: -10px;
     }
     .circle {
         margin-top: 55px;
@@ -434,7 +512,13 @@ nav.navbar {
         margin-top: calc(-20% - 225px);
     }
     .jumbotron-content {
-        margin-top: 0px;
+        margin-top: -30px;
+    }
+    #webdev-carousel {
+        margin-top: -40px;
+    }
+    #app-git-edit {
+        top: -70px;
     }
     .jumbotron-content p {
         margin-top: 15px;
@@ -448,6 +532,9 @@ nav.navbar {
         width: 250%;
         margin-left: -95px;
         margin-top: 20px;
+    }
+    .circle2-inner {
+        margin-right: 10px;
     }
 }
 @media only screen and (max-width: 810px) {
@@ -469,11 +556,15 @@ nav.navbar {
 }
 
 @media only screen and (max-width: 767px) {
-    .jumbotron {
-        padding-top: 0px;
-    }
-    .jumbotron-inner {
+    .jumbotron.wrapper .jumbotron-inner {
         margin-top: -30px;
+        padding-top: 0;
+    }
+    .jumbotron img {
+        padding-top: 0;
+    }
+    #particles-js {
+        display: none;
     }
     .jumbotron-main {
         margin-top: -43%;
@@ -1175,15 +1266,8 @@ section .row {
     text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
-#app-git-edit {
-    margin: 20px 0;
-}
-
-.jumbotron.wrapper .jumbotron-inner {
-    position: relative;
-}
-
-#app-git-edit {
-    top: -25px;
-    right: 0;
+.ums-nav {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
 }
