@@ -18,7 +18,7 @@ module.exports = env => {
      */
     const _entries = {}
     Object.keys(entries).forEach((key, i) => {
-        if(i == 0){
+        if(key === 'base'){
             _entries[key] = ['babel-polyfill', 'whatwg-fetch'].concat(entries[key]);
         } else {
             _entries[key] = ['whatwg-fetch'].concat(entries[key]);
