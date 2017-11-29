@@ -1,14 +1,18 @@
 /**
- * Folked from 
+ * Forked from 
  * https://github.com/AvianFlu/ncp
  * 
  * ncp.js: https://github.com/AvianFlu/ncp/blob/master/lib/ncp.js
+ * 
+ * Updated for OICR use on Nov. 28, 2017
  */
 
 const chalk = require('chalk');
 
 var fs = require('fs'),
-    path = require('path');
+    path = require('path'),
+    diff = require('diff'),
+    read = require('read-file');
 
 module.exports = ncp;
 ncp.ncp = ncp;
@@ -28,6 +32,7 @@ function ncp (source, dest, options, callback) {
       rename = options.rename,
       transform = options.transform,
       clobber = options.clobber !== false,
+      showDiffs = options.showDiffs,
       modified = options.modified,
       dereference = options.dereference,
       errs = null,
@@ -99,11 +104,6 @@ function ncp (source, dest, options, callback) {
       if (writable) {
         return copyFile(file, target);
       }
-      if(clobber) {
-        rmFile(target, function () {
-          copyFile(file, target);
-        });
-      }
       if (modified) {
         var stat = dereference ? fs.stat : fs.lstat;
         stat(target, function(err, stats) {
@@ -111,6 +111,37 @@ function ncp (source, dest, options, callback) {
             if (file.mtime.getTime()>stats.mtime.getTime())
                 copyFile(file, target);
             else return cb();
+        });
+      }
+      if(showDiffs && file && target) {
+        var oldFile = read.sync(target, 'utf8');
+        var newFile = read.sync(file.name, 'utf8');
+        if (oldFile != newFile) {
+          var diffString = diff.createTwoFilesPatch("a"+target+" (Your Core File)", "b"+file.name+" (New Core File)", oldFile, newFile).match(/[^\r\n]+/g);
+          diffString.forEach(function(part){
+            // green for additions, red for deletions
+            if (part.startsWith('+')) {
+              console.log(chalk.green(part));
+            }
+            else if (part.startsWith('-')) {
+              console.log(chalk.red(part));
+            }
+            else {
+              console.log(part);
+            }
+          });
+        }
+        else {
+          if(clobber) {
+            rmFile(target, function () {
+              copyFile(file, target);
+            });
+          }
+        }
+      }
+      else if (clobber) {
+        rmFile(target, function () {
+          copyFile(file, target);
         });
       }
       else {
@@ -237,7 +268,6 @@ function ncp (source, dest, options, callback) {
         console.log(chalk.yellow('Skipped: ') + path);
         return done(false);
       }
-      console.log(chalk.yellow('Skipped: ') + path);
       return done(false);
     });
   }
