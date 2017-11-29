@@ -104,6 +104,12 @@ function ncp (source, dest, options, callback) {
       if (writable) {
         return copyFile(file, target);
       }
+
+      if(file.name && target) {
+        var oldFile = read.sync(target, 'utf8');
+        var newFile = read.sync(file.name, 'utf8');
+      }
+
       if (modified) {
         var stat = dereference ? fs.stat : fs.lstat;
         stat(target, function(err, stats) {
@@ -113,9 +119,7 @@ function ncp (source, dest, options, callback) {
             else return cb();
         });
       }
-      if(showDiffs && file && target) {
-        var oldFile = read.sync(target, 'utf8');
-        var newFile = read.sync(file.name, 'utf8');
+      else if(showDiffs && file && target) {
         if (oldFile != newFile) {
           var diffString = diff.createTwoFilesPatch("a"+target+" (Your Core File)", "b"+file.name+" (New Core File)", oldFile, newFile).match(/[^\r\n]+/g);
           diffString.forEach(function(part){
@@ -140,6 +144,9 @@ function ncp (source, dest, options, callback) {
         }
       }
       else if (clobber) {
+        if (file && target && oldFile != newFile) {
+          console.log(chalk.green('Copied (Overwrite): ') + file.name);
+        }
         rmFile(target, function () {
           copyFile(file, target);
         });
@@ -267,6 +274,9 @@ function ncp (source, dest, options, callback) {
         }
         console.log(chalk.yellow('Skipped: ') + path);
         return done(false);
+      }
+      if(!options.clobber && !options.showDiffs) {
+        console.log(chalk.yellow('Skipped: ') + path);
       }
       return done(false);
     });
