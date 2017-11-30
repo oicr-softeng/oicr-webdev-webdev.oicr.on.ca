@@ -1,6 +1,6 @@
 ---
 layout: about-us
-title: "About Us"
+title: "About Us | OICR WebDev Team"
 date:   2017-03-06 10:00:00 -0500
 author: Joseph Yamada
 permalink: /about-us/
@@ -135,4 +135,6 @@ past-students:
 footer-message: "Interested in joining the WebDev team or working with us? "
 ---
 
-To provide on-demand, high-quality web services that <span class="align">align</span> with Research Program and Institution objectives and <span class="connect">connect</span> with target users.
+To provide on-demand, high-quality web services that
+<span class="align">align</span> with Research Program and Institution
+objectives and <span class="connect">connect</span> with target users.
