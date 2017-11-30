@@ -4,6 +4,8 @@ title: "Careers | OICR WebDev Team"
 date:   2017-08-11 10:00:00 -0500
 author: Joseph Yamada
 permalink: /careers/
+published: true
+isPublic_b: true
 
 ########################################
 

@@ -2,6 +2,9 @@
 title: "OICR Tools: Events, Labs, Forms, Software Engineering Blog, Institutional Repository"
 date:   2017-03-10 10:00:00 -0500
 author: Stephanie Lin
+permalink: /our-work/
+published: false
+isPublic_b: true
 tags:
   - design
   - development
@@ -32,8 +35,6 @@ slides:
     content: "The purpose of [forms.oicr.on.ca](https://forms.oicr.on.ca/){:target=\"_blank\"} is to compile important online sign-up forms in one place for OICR employees.  An OICR employee can fill out a form to easily request things such as a CUD group, lab space, jira project or wiki project.  This in turn saves time and ensures that the correct people are notified of requests."
   - slide: "/assets/site/images/07.OICR-CUD-gallery7.jpg"
     content: "The purpose of [cud.oicr.on.ca](https://cud.oicr.on.ca/){:target=\"_blank\"} is to store the identity (username, password, profile) of OICR employees and their collaborators in one centralized spot and to connect all websites to this single account.  The CUD allows its members to securely log in to a number of connected websites and services with a single account. It allows a group owner to maintain group information and add member accounts to their group, which in turn means less assistance required by the OICR help desk."
-
 ---
-
 
 ---

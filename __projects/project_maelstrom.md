@@ -2,6 +2,9 @@
 title: "Maelstrom Research"
 date:   2017-03-10 10:00:00 -0500
 author: Stephanie Lin
+permalink: /our-work/
+published: false
+isPublic_b: true
 tags:
   - design
   - portal
@@ -25,5 +28,5 @@ slides:
   - slide: "/assets/site/images/03.Maelstrome-network-gallery3.jpg"
     content: "The new website simplifies the content and catalogue in the hopes that researchers will be motivated to work with [Maelstrom Research](https://www.maelstrom-research.org/){:target=\"_blank\"} and understand the potential of harmonizing their data to be compatible with networks and studies around the world."
   - slide: "/assets/site/images/04.Maelstrome-graphics-gallery4.jpg"
-    content: "Engaging illustrations and icons were created for the project to help illustrate complex concepts; such as [Maelstrom’s](https://www.maelstrom-research.org/){:target=\"_blank\"} Harmonization Guidelines."    
+    content: "Engaging illustrations and icons were created for the project to help illustrate complex concepts; such as [Maelstrom’s](https://www.maelstrom-research.org/){:target=\"_blank\"} Harmonization Guidelines."
 ---

@@ -4,8 +4,8 @@ title: "Case Study"
 date:   2017-03-06 10:00:00 -0500
 author: Stephanie Lin
 permalink: /our-work/case-studies/gdc/
-
-########################################
+published: true
+isPublic_b: true
 
 project: "Genomic Data Commons (GDC)"
 
@@ -50,5 +50,4 @@ solution:
     - "/assets/site/images/case-studies/gdc/GDC-the-solution2.jpg"
     - "/assets/site/images/case-studies/gdc/GDC-the-solution3.jpg"
     - "/assets/site/images/case-studies/gdc/GDC-the-solution4.jpg"
-
 ---

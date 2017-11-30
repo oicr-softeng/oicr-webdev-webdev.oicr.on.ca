@@ -5,8 +5,7 @@ date:   2017-03-06 10:00:00 -0500
 author: Stephanie Lin
 permalink: /our-work/case-studies/ga/
 published: true
-
-########################################
+isPublic_b: true
 
 project: "Global Alliance for Genomics & Health (GA4GH)"
 
@@ -43,5 +42,4 @@ solution:
     - "/assets/site/images/case-studies/ga/GA-the-solution3.jpg"
     - "/assets/site/images/case-studies/ga/GA-the-solution4.jpg"
     - "/assets/site/images/case-studies/ga/GA-the-solution5.jpg"
-
 ---
