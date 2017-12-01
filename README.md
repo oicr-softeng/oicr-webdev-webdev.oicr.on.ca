@@ -13,7 +13,7 @@ This includes:
 3. Copy and paste the following config.
 ```
 {
-  "name": "static-cms-baseline",
+  "name": "my-jekyll-site-name",
   "version": "1.0.0",
   "description": "",
   "author": "Koji Miyauchi",
