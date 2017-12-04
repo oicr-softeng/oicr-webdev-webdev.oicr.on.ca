@@ -2,6 +2,9 @@
 title: "Canadian Bioinformatics Workshops (CBW)"
 date:   2017-03-10 10:00:00 -0500
 author: Stephanie Lin
+permalink: /our-work/
+published: false
+isPublic_b: true
 tags:
   - design
   - development
@@ -29,6 +32,4 @@ slides:
     content: "The workshops are connected to the [OICR Events](https://events.oicr.on.ca/){:target=\"_blank\"} website that we built to collect payment using the Moneris payment solution."
   - slide: "/assets/site/images/05.CBW-jobs-gallery5.jpg"
     content: "To help with career advancement in bioinformatics, the website also includes [job postings](https://bioinformatics.ca/jobs){:target=\"_blank\"} and useful resources such as a [links directory](https://bioinformatics.ca/links_directory/){:target=\"_blank\"} with expert resources."
-
-
 ---

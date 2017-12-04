@@ -4,6 +4,8 @@ title: "OICR Web Development Team"
 date:   2017-03-06 10:00:00 -0500
 author: Koji Miyauchi
 permalink: /
+published: true
+isPublic_b: true
 
 ########################################
 

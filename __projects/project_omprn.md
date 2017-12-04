@@ -2,6 +2,9 @@
 title: "Ontario Molecular Pathology Research Network (OMPRN)"
 date:   2017-03-10 10:00:00 -0500
 author: Stephanie Lin
+permalink: /our-work/
+published: false
+isPublic_b: true
 tags:
   - design
   - development
@@ -17,5 +20,4 @@ case-studies-url: "/our-work/case-studies/omprn"
 alias: "omprn"
 
 description: "RESPONSIVE DESIGN & DEVELOPMENT, BRANDING, GLOBAL NETWORK, RESEARCH WEBSITE"
-
 ---
