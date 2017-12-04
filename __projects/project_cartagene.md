@@ -2,6 +2,9 @@
 title: "CARTaGENE"
 date:   2017-03-10 10:00:00 -0500
 author: Stephanie Lin
+permalink: /our-work/
+published: false
+isPublic_b: true
 tags:
   - design
   - development
@@ -23,7 +26,5 @@ slides:
   - slide: "/assets/site/images/02.CaG-data-participant-management-gallery2.jpg"
     content: "Our goal was to build a platform that is user friendly, scalable and flexible enough for other groups to adopt and use for collecting health data across Canada. This included tools to build the [survey](https://cartagene.qc.ca/en){:target=\"_blank\"} as well as two separate platforms that ensure participant identity is kept confidential."
   - slide: "/assets/site/images/03.CaG-health-survey-gallery3.jpg"
-    content: "[CARTaGENE](https://cartagene.qc.ca/en){:target=\"_blank\"} currently has over 42,000 participants who have been invited to use this online portal to complete a follow-up questionnaire. This data will help provide a better understanding of how our environment, lifestyle and genetic background is involved in the development of chronic diseases such as diabetes, cancer and heart disease."    
-
-
+    content: "[CARTaGENE](https://cartagene.qc.ca/en){:target=\"_blank\"} currently has over 42,000 participants who have been invited to use this online portal to complete a follow-up questionnaire. This data will help provide a better understanding of how our environment, lifestyle and genetic background is involved in the development of chronic diseases such as diabetes, cancer and heart disease."
 ---

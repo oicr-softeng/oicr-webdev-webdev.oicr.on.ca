@@ -4,8 +4,8 @@ title: "Case Study"
 date:   2017-03-06 10:00:00 -0500
 author: Stephanie Lin
 permalink: /our-work/case-studies/omprn/
-
-########################################
+published: true
+isPublic_b: true
 
 project: "Ontario Molecular Pathology Research Network (OMPRN)"
 
@@ -51,5 +51,4 @@ solution:
     - "/assets/site/images/case-studies/omprn/OMPRN-the-solution4.jpg"
     - "/assets/site/images/case-studies/omprn/OMPRN-the-solution5.jpg"
     - "/assets/site/images/case-studies/omprn/OMPRN-the-solution6.jpg"
-
 ---

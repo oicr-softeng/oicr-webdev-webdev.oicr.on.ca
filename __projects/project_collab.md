@@ -2,6 +2,9 @@
 title: "Cancer Genome Collaboratory"
 date:   2017-03-10 10:00:00 -0500
 author: Stephanie Lin
+permalink: /our-work/
+published: false
+isPublic_b: true
 tags:
   - design
   - development
@@ -27,5 +30,4 @@ slides:
     content: "The [Collaboratory team](https://cancercollaboratory.org/about-team){:target=\"_blank\"} is made up of an experienced and diverse group of leaders in cancer genomics and computational biology. The team wanted to present an impressive overview of their research components in cancer and big data as well as look for opportunities to collaborate."    
   - slide: "/assets/site/images/04.Collab-support-gallery4.jpg"
     content: "[cancercollaboratory.org](https://cancercollaboratory.org/){:target=\"_blank\"} is a useful website that is connected to real-time data and infrastructure status updates. The content is kept simple and guides researchers through user-friendly documentation and tutorials about how to best utilize the cloud resources."
-
 ---

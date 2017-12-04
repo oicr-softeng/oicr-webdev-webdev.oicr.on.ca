@@ -2,6 +2,9 @@
 title: "Ontario Tumour Bank (OTB)"
 date:   2017-03-10 10:00:00 -0500
 author: Stephanie Lin
+permalink: /our-work/
+published: false
+isPublic_b: true
 tags:
   - design
   - development
@@ -25,5 +28,4 @@ slides:
     content: "The website demonstrates what [OTB](http://ontariotumourbank.ca/){:target=\"_blank\"} offers to researchers as well as highlights their promises of quality assurance and diversity of biospecimens."
   - slide: "/assets/site/images/03.OTB-graphic-process-gallery3.jpg"
     content: "[ontariotumourbank.ca](http://ontariotumourbank.ca/){:target=\"_blank\"} allows researchers to request samples and provide feedback to [OTB](http://ontariotumourbank.ca/){:target=\"_blank\"}. We created an easy to follow graphical process to guide researchers through the sample request process."
-
 ---

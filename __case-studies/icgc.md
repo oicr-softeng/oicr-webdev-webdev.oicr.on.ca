@@ -4,8 +4,8 @@ title: "Case Study"
 date:   2017-03-06 10:00:00 -0500
 author: Stephanie Lin
 permalink: /our-work/case-studies/icgc/
-
-########################################
+published: true
+isPublic_b: true
 
 project: "International Genome Consortium (ICGC)"
 
@@ -38,5 +38,4 @@ solution:
   slides:
     - "/assets/site/images/case-studies/icgc/ICGC-the-solution1.jpg"
     - "/assets/site/images/case-studies/icgc/ICGC-the-solution2.jpg"
-
 ---
