@@ -1,0 +1,14 @@
+{
+  "name": "static-cms-baseline",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Koji Miyauchi",
+  "license": "MIT",
+  "scripts": {
+    "init": "./node_modules/.bin/webdev-baseline-init",
+    "update": "./node_modules/.bin/webdev-baseline-update"
+  },
+  "dependencies": {
+    "static-cms-baseline": "git+ssh://git@github.com:oicr-webdev/webdev_static-cms-baseline.git"
+  }
+}
