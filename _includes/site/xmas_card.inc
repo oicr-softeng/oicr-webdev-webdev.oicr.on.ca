@@ -104,7 +104,7 @@
         #xmascardModal .modal-dialog,
         #xmascardModal .modal-content {
             /* 80% of window height */
-            height: 107vw;
+            height: 105vw;
             width: calc(100% - 10px);
         }
         #xmascardModal .modal-body {
