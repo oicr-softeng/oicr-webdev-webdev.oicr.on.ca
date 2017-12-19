@@ -45,8 +45,24 @@
         /* height: 996px;
         width: 896px; */
 
-        height: 889px;
-        width: 800px;
+        /* height: 889px;
+        width: 800px; */
+        height: calc(100% - 30px);
+        width: calc(83vh - 11px);
+        max-height: 889px;
+        max-width: 774px;
+    }
+    @media (min-width: 768px) {
+        #xmascardModal .modal-dialog,
+        #xmascardModal .modal-content {
+            min-height: 500px;
+            min-width: 449px;
+        }
+        #xmascardModal .mcnImage {
+            max-width: 544px;
+            min-width: 316px;
+            width: 58vh;
+        }
     }
     #xmascardModal .modal-body {
         /* 100% = dialog height, 120px = header + footer */
@@ -55,33 +71,28 @@
         margin: 0;
         padding: 0 11px 0 0;
     }
-    #xmascardModal .mcnImage {
-        width: 556px;
-    }
     #xmascardModal .screen{
-        width: 650px;
-        height: 350px;
-        margin: 278px auto 0;
+        width: 60vh;
+        height: 36vh;
+        margin: 28vh auto 0;
         overflow: hidden;
     }
-
-    @media (max-width: 991px){
-        #xmascardModal .modal-dialog,
-        #xmascardModal .modal-content {
-            /* 80% of window height */
-            height: 666px;
-            width: 600px;
-        }
+    /**/
+    @media (min-width: 768px) and (max-height: 551px) {
         #xmascardModal .screen{
-            width: 434px;
-            height: 260px;
-            margin: 206px auto 0;
-            overflow: hidden;
-        }
-        #xmascardModal .mcnImage {
-            width: 415px;
+            width: 328px;
+            height: 196px;
+            margin: 155px auto 0;
         }
     }
+    @media (min-width: 768px) and (min-height: 928px) {
+        #xmascardModal .screen{
+            width: 650px;
+            height: 340px;
+            margin: 266px auto 0;
+        }
+    }
+    /**/
 
     @media (min-width: 611px) and (max-width: 768px) {
         #xmascardModal .modal-dialog{
@@ -89,15 +100,18 @@
         }
     }
 
-    @media (max-width: 610px){
+    @media (max-width: 768px){
         #xmascardModal .modal-dialog,
         #xmascardModal .modal-content {
             /* 80% of window height */
             height: 107vw;
             width: calc(100% - 10px);
         }
+        #xmascardModal .modal-body {
+            padding: 0 6px 0 0;
+        }
         #xmascardModal .screen{
-            width: 68vw;
+            width: 67vw;
             height: 40vw;
             margin: 34vw auto 0;
             overflow: hidden;
