@@ -1,0 +1,35 @@
+version: '3'
+services:
+  webdevff0b3218aaad11e7abc4cec278b6b50a_PREVIEW_CONTAINER:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+     - VIRTUAL_HOST=webdevff0b3218aaad11e7abc4cec278b6b50a_PREVIEW_HOST
+    ports:
+     - "webdevff0b3218aaad11e7abc4cec278b6b50a_PREVIEW_PORT:webdevff0b3218aaad11e7abc4cec278b6b50a_PREVIEW_PORT"
+    volumes:
+     - .:/usr/src/app
+    command: bash -c 'cd /usr/src/app/_preview; sudo bundle update; ruby index.rb -o 0.0.0.0 -p webdevff0b3218aaad11e7abc4cec278b6b50a_PREVIEW_PORT'
+    image: jekyll:docker
+    container_name: webdevff0b3218aaad11e7abc4cec278b6b50a_PREVIEW_CONTAINER
+  webdevff0b3218aaad11e7abc4cec278b6b50a_JEKYLL_CONTAINER:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+     - VIRTUAL_HOST=webdevff0b3218aaad11e7abc4cec278b6b50a_JEKYLL_HOST
+     - CERT_NAME=webdevff0b3218aaad11e7abc4cec278b6b50a_ENV_DOMAIN
+    ports:
+     - "4000:4000"
+    volumes:
+     - .:/usr/src/app
+    command: bash -c 'cd /usr/src/app; sudo bundle update; jekyll serve -d _site --watch --host=0.0.0.0 --port webdevff0b3218aaad11e7abc4cec278b6b50a_JEKYLL_PORT'
+    image: jekyll:docker
+    container_name: webdevff0b3218aaad11e7abc4cec278b6b50a_JEKYLL_CONTAINER
+    external_links:
+     - webdevff0b3218aaad11e7abc4cec278b6b50a_API_CONTAINER:webdevff0b3218aaad11e7abc4cec278b6b50a_API_HOST
+networks:
+  default:
+    external:
+      name: nginx-proxy
