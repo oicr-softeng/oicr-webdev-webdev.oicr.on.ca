@@ -42,8 +42,11 @@
     #xmascardModal .modal-dialog,
     #xmascardModal .modal-content {
         /* 80% of window height */
-        height: 996px;
-        width: 896px;
+        /* height: 996px;
+        width: 896px; */
+
+        height: 889px;
+        width: 800px;
     }
     #xmascardModal .modal-body {
         /* 100% = dialog height, 120px = header + footer */
@@ -57,8 +60,8 @@
     }
     #xmascardModal .screen{
         width: 650px;
-        height: 398px;
-        margin: 308px auto 0;
+        height: 350px;
+        margin: 278px auto 0;
         overflow: hidden;
     }
 
@@ -76,7 +79,7 @@
             overflow: hidden;
         }
         #xmascardModal .mcnImage {
-            width: 365px;
+            width: 415px;
         }
     }
 
@@ -100,7 +103,7 @@
             overflow: hidden;
         }
         #xmascardModal .mcnImage {
-            width: 56vw;
+            width: 66vw;
         }
     }
 
