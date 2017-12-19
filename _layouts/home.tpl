@@ -127,6 +127,9 @@ layout: default
                 <div class="row what-we-do">
                     <div class="container">
                         <h2>{{ page.what_we_do }}</h2>
+
+                        {% include site/xmas_card.inc %}
+                        
                         <ul>
                             <li>
                                 <a class="teaser teaser-block" href="/our-capabilities/#health_science">
