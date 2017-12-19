@@ -48,7 +48,7 @@
         /* height: 889px;
         width: 800px; */
         height: calc(100% - 30px);
-        width: calc(83vh - 11px);
+        width: calc(84vh - 11px);
         max-height: 889px;
         max-width: 774px;
     }
@@ -73,8 +73,8 @@
     }
     #xmascardModal .screen{
         width: 60vh;
-        height: 36vh;
-        margin: 28vh auto 0;
+        height: 35vh;
+        margin: 29vh auto 0;
         overflow: hidden;
     }
     /**/
