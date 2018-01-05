@@ -5,7 +5,7 @@ docker run --name=webdevff0b3218aaad11e7abc4cec278b6b50a_JEKYLL_CONTAINER -e VIR
 sudo apt-get -y install cron
 sudo apt-get -y install expect
 sudo service cron start
-printf "*/10 * * * * jekyll /usr/src/app/_api/cron.sh >> /var/log/sync.log 2>&1\n\n" | sudo tee /etc/cron.d/sync
+printf "*/10 * * * * jekyll /usr/src/app/_api/cron.sh >> /tmp/sync.log 2>&1\n\n" | sudo tee /etc/cron.d/sync
 sudo bundle update
 sudo jekyll serve -d _site --watch --host=0.0.0.0 --port webdevff0b3218aaad11e7abc4cec278b6b50a_JEKYLL_PORT
 '
