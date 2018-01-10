@@ -8,13 +8,7 @@ source "$DIR/sync-mongo.config"
 REPO_PATH=$DIR/../
 
 cd $REPO_PATH
-expect << EOF
-  spawn git pull
-  expect "Enter passphrase"
-  send "$KEY_PASSPHRASE\r"
-  expect eof
-EOF
-#git pull
+git pull
 #bundle exec jekyll build
 
 cd "$REPO_PATH/_api"
