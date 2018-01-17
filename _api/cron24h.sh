@@ -18,4 +18,6 @@ fi
 
 if webdevff0b3218aaad11e7abc4cec278b6b50a_CRON_EXPIRE_CASE; then
   echo "EXPIRE_CASE......"
+  cd "$REPO_PATH/_api"
+  ./expire-case.sh
 fi
