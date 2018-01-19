@@ -8,8 +8,8 @@
     "build": "rm -rf bin && ./node_modules/.bin/babel scripts --out-dir bin"
   },
   "bin": {
-    "webdev-baseline-init": "bin/init.js",
-    "webdev-baseline-update": "bin/update.js"
+    "webdev-baseline-init": "./bin/init.js",
+    "webdev-baseline-update": "./bin/update.js"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
