@@ -17,13 +17,11 @@ else {
 const options = {
     clobber: true,
     filter: (filepath) => {
-        var pathValid = ((path) => {
-          whitelist.some((whitepath, index, whitelist) => {
-            return path.includes(whitepath);
-          })
-        })(filepath);
+        var pathValid = whitelist.some((whitepath, index, whitelist) => {
+		return path.includes(whitepath);
+	})
         var stats = fs.lstatSync(filepath);
-        return !filepath.includes('app/node_modules') && (stats.isDirectory() || (stats.isFile() && filepath.includes('/core/')))
+        return !filepath.includes('app/node_modules') && (stats.isDirectory() || (stats.isFile() && pathValid))
     },
     showDiffs: showDiffs
 }
