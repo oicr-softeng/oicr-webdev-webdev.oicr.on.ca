@@ -25,5 +25,5 @@ ncp('./node_modules/static-cms-baseline/src', './', options, (err) => {
   if (err) {
     return console.error(err);
   }
-  console.log(chalk.green('Done!'));
+  console.log(chalk.green('Done! ~~~'));
 });
