@@ -1,4 +1,4 @@
-var external = local;
+var local = false;
 var sitemap = 'sitemap.xml';
 
 for (var i = 2; i < process.argv.length; i++) {
@@ -6,10 +6,10 @@ for (var i = 2; i < process.argv.length; i++) {
     var url = process.argv[++i];
   }
   if (process.argv[i] == '-l') {
-    var local = true;
+    local = true;
   }
   if (process.argv[i] == '-o') {
-    var sitemap = process.argv[++i];
+    sitemap = process.argv[++i];
   }
 }
 
