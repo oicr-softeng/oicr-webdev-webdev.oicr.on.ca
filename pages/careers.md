@@ -50,6 +50,6 @@ projects:
   content: "We are passionate about the meaningful projects we work on that empower the cancer research community with high-quality tools and websites that engage their target users. An estimated 1 in 2 Canadians will develop cancer in their lifetime, and about 1 in 4 Canadians will die of cancer. We use technologies to assist in understanding the disease that affects us all. "
 
 co-op:
-  title: "Co-Op Placements"
-  content: "We aim to provide co-op students practical experiences and practices that enable them to become quickly knowledge and useful, delivering real solutions and deliverables that are valued and used within a web-based software engineering approach to deliver quaility UX software results.  We seek students who perform responsibly and effectively with mentorship and team resources to support learning and growth. "
+  title: "Co-operative Education"
+  content: "We aim to provide co-op students practical experiences and practices that enable them to become quickly knowledge and useful, delivering real solutions and deliverables that are valued and used within a web-based software engineering approach to deliver quaility UI/UX software results.  We seek students who perform responsibly and effectively with mentorship and team resources to support learning and growth. "
 ---
