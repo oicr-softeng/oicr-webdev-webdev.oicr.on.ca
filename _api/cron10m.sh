@@ -22,3 +22,9 @@ if webdevff0b3218aaad11e7abc4cec278b6b50a_CRON_SYNC_MONGO; then
   cd "$REPO_PATH/_api"
   ./sync-mongo.sh
 fi
+
+if webdevff0b3218aaad11e7abc4cec278b6b50a_CRON_WORK_QUEUE; then
+  echo "WORK_QUEUE......"
+  cd "$REPO_PATH/_api"
+  ./work-queue.sh
+fi
