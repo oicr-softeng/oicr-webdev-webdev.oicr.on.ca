@@ -101,7 +101,7 @@ layout: default
                     <div class="container">
                       <div class="banner">
                         <div class="banner-title">
-                          <h1>{{ page.title }}</h1>
+                          <h1>{{ page.title_txt }}</h1>
                         </div>
                         <div class="banner-content">
                           <p>{{ page.description }}</p>

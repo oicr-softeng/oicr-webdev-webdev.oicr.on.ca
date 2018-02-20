@@ -1,11 +1,13 @@
 ---
 layout: our-work
-title: "Our Work"
+title: "Our Work | OICR WebDev Team"
 date:   2017-03-06 10:00:00 -0500
 author: Stephanie Lin
 permalink: /our-work/
 published: true
 isPublic_b: true
+
+title_txt: "Our Work"
 
 description: "We work on the following international, national and provincial research websites, developing an extensive portfolio of user-friendly, informative and operational websites that support and communicate OICR's research objectives."
 
