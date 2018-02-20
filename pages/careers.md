@@ -1,6 +1,6 @@
 ---
 layout: careers
-title: "Careers | OICR WebDev Team"
+title: "Careers"
 date:   2017-08-11 10:00:00 -0500
 author: Joseph Yamada
 permalink: /careers/
