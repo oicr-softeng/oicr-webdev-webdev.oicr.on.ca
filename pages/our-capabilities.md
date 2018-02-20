@@ -1,6 +1,6 @@
 ---
 layout: our-capabilities
-title: "Our Capabilities | OICR WebDev Team"
+title: "Our Capabilities"
 date:   2017-03-06 10:00:00 -0500
 author: Stephanie Lin
 permalink: /our-capabilities/

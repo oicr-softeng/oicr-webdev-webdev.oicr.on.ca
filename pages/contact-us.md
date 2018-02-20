@@ -1,6 +1,6 @@
 ---
 layout: contact-us
-title: "Contact Us | OICR WebDev Team"
+title: "Contact Us"
 date:   2017-03-06 10:00:00 -0500
 author: Stephanie Lin
 permalink: /contact-us/

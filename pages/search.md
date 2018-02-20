@@ -1,6 +1,6 @@
 ---
 layout: search
-title: "Search | OICR WebDev Team"
+title: "Search"
 permalink: /search/
 published: true
 isPublic_b: true
