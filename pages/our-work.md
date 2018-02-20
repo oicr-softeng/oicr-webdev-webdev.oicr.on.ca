@@ -7,6 +7,8 @@ permalink: /our-work/
 published: true
 isPublic_b: true
 
+title_txt: "Our Work"
+
 description: "We work on the following international, national and provincial research websites, developing an extensive portfolio of user-friendly, informative and operational websites that support and communicate OICR's research objectives."
 
 links:

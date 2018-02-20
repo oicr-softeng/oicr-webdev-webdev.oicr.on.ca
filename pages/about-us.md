@@ -7,6 +7,8 @@ permalink: /about-us/
 published: true
 isPublic_b: true
 
+title_txt: "About Us"
+
 ########################################
 
 description: "OICR-Affiliated Program Leaders need expertise in designing and developing websites that enable OICR's research to be recognized globally and meet the strategic objectives of the Research Program and the Research Institutions."

@@ -7,6 +7,8 @@ permalink: /our-capabilities/
 published: true
 isPublic_b: true
 
+title_txt: "Our Capabilities"
+
 ########################################
 
 description: "Our well-rounded strategic, creative and technical team foster efficiency, communication and collaboration within OICR and the international research community."

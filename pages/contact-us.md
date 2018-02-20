@@ -7,6 +7,8 @@ permalink: /contact-us/
 published: true
 isPublic_b: true
 
+title_txt: "Contact Us"
+
 ########################################
 
 description: "Are you an OICR-Affiliated Research Program requiring web services? Or do you simply have a general inquiry about working with us?"
