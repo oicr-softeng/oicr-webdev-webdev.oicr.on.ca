@@ -1,11 +1,13 @@
 ---
 layout: contact-us
-title: "Contact Us"
+title: "Contact Us | OICR WebDev Team"
 date:   2017-03-06 10:00:00 -0500
 author: Stephanie Lin
 permalink: /contact-us/
 published: true
 isPublic_b: true
+
+title_txt: "Contact Us"
 
 ########################################
 

@@ -1,11 +1,13 @@
 ---
 layout: about-us
-title: "About Us"
+title: "About Us | OICR WebDev Team"
 date:   2017-03-06 10:00:00 -0500
 author: Joseph Yamada
 permalink: /about-us/
 published: true
 isPublic_b: true
+
+title_txt: "About Us"
 
 ########################################
 
