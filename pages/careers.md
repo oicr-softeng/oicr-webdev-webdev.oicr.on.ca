@@ -7,6 +7,8 @@ permalink: /careers/
 published: true
 isPublic_b: true
 
+title_txt: "Careers"
+
 ########################################
 
 description: "Join a team of experienced professionals with capabilities that range from UX design, bioinformatics training, international research, online engagement, and application development of online tools for large cancer-related topics and data sets."
