@@ -1,9 +1,12 @@
 <script type="text/javascript">
-    document.addEventListener("DOMContentLoaded", function(event) {
-        if($) {
-            $('#xmascardModal').modal('show')
-        }
-    });
+    var d = new Date();
+    if ((d.getMonth() === 11 && d.getDate() > 16) || (d.getMonth() === 0 && d.getDate() < 15)) {
+        document.addEventListener("DOMContentLoaded", function(event) {
+            if($) {
+                $('#xmascardModal').modal('show')
+            }
+        });
+    }
 </script>
 <style>
     #xmas_card .lightbox-title a.lightbox-title-close {
