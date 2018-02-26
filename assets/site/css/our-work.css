@@ -645,6 +645,9 @@ div[id^="webdev-carousel-"] {
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
         url(../images/teaser-otb.png);
 }
+li:last-child .teaser-detail {
+    height: 151px;
+}
 .teaser-detail {
        height: 170px;
 }
