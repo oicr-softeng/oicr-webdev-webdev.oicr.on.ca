@@ -79,15 +79,15 @@ team:
 our-students:
   title: "Our Talented Students"
   students:
-    - name: "William Harvey"
-      program: "2nd year Biomedical Engineering"
+    - name: "Qingda Zou"
+      program: "3rd year Computer Science"
       school: "University of Waterloo"
       role: "Web + Technology Developer"
-    - name: "Robyn Klassen"
+    - name: "Moujan Saderi"
       program: "2nd year Biomedical Engineering"
       school: "University of Waterloo"
       role: "Content Editor + Themer"
-    - name: "Jack Wang"
+    - name: "Celine Lee"
       program: "2nd year Computer Science"
       school: "University of Waterloo"
       role: "Visual Designer + Themer"
@@ -95,6 +95,20 @@ our-students:
 past-students:
   title: "Credits to Our Team Alumni"
   terms:
+    - termTitle: Fall 2017
+      students:
+        - name: "William Harvey"
+          program: "2nd year Biomedical Engineering"
+          school: "University of Waterloo"
+          role: "Web + Technology Developer"
+        - name: "Robyn Klassen"
+          program: "2nd year Biomedical Engineering"
+          school: "University of Waterloo"
+          role: "Content Editor + Themer"
+        - name: "Jack Wang"
+          program: "2nd year Computer Science"
+          school: "University of Waterloo"
+          role: "Visual Designer + Themer"
     - termTitle: Summer 2017
       students:
         - name: "Luke Hudson"
