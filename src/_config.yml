@@ -63,5 +63,9 @@ exclude:
   - package.json
   - npm-debug.log
   - vendor
+  - docker-compose.yml
+  - start.sh
+  - start-build.sh
+  - start-preview.sh
 
 theme: jekyll-theme-minimal
