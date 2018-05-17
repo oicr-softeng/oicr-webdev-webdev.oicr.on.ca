@@ -57,6 +57,16 @@ collections:
   _weblinks:
     output: true
 
+defaults:
+  # Default
+  - scope:
+      path: ""
+      type: _weblinks
+    values:
+      layout: weblinks
+      permalink: '/weblinks/:name/'
+      published: true
+
 ######################################################################
 # Jekyll Environment Config
 ######################################################################

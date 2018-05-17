@@ -1,5 +1,6 @@
 /* global window, jQuery, extLinkConfig, document */
 import { extLink } from 'wfui-react/lib/util';
+import { setAllConfigs } from 'oicr-ui-core';
 
 /**
  * Set default app configration

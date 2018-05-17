@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, hashHistory } from 'react-router';
-import { Forms, Provider as CoreProvider } from 'oicr-ui-core';
+import { Forms, UMS, Provider as CoreProvider } from 'oicr-ui-core';
 
 if (window.SEARCH_CONFIG) Search.setConfig(window.SEARCH_CONFIG);
 
@@ -10,7 +10,7 @@ if (window.SEARCH_CONFIG) Search.setConfig(window.SEARCH_CONFIG);
 const store = require('../site/store').default;
 
 // Get User Session, Invoke once
-getUserInfo()(store.dispatch);
+UMS.getUserInfo()(store.dispatch);
 
 // Forms
 const targetForms = document.getElementById('app-forms');
