@@ -1,24 +1,12 @@
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                {% for page in site.pages %}              
-                {% if page.title %}
-                    <li>
-                        <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
-                    </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
+<div id="navigation" class="navigation container-shadow">
+    <div class="login-user-nav">
+        <header class="wrapper">
+            <div class="container-fluid container-header">
+            <div class="row row-header">
+                <div id="app-user-nav">
+                </div>
+            </div>
+            </div>
+        </header>
     </div>
-</nav>
+</div>

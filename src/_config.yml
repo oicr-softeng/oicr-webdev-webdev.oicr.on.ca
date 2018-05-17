@@ -38,14 +38,41 @@ permalink: /node/:year-:month-:day-:title.html
 # Post excerpt tag https://jekyllrb.com/docs/posts/#post-excerpts
 excerpt_separator: "<!--more-->"
 
+######################################################################
 # Collections setting. https://jekyllrb.com/docs/collections/
+######################################################################
+
 collections:
-  _modules:
+  # Default collections
+  _images:
+    output: true
+  _pages:
+    output: true
+  _privateFiles:
     output: false
+  _files:
+    output: false
+  _videos:
+    output: false
+  _weblinks:
+    output: true
+
+defaults:
+  # Default
+  - scope:
+      path: ""
+      type: _weblinks
+    values:
+      layout: weblinks
+      permalink: '/weblinks/:name/'
+      published: true
 
 ######################################################################
 # Jekyll Environment Config
 ######################################################################
+
+# ImageFile Path
+imagePath: /assets/site/images/
 
 # Build settings
 markdown: kramdown
