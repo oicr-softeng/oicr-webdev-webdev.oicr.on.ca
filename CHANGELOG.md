@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.0
+- Changes on the file structure.
+- Update preview APIs.
+- Make it easier to integrate form, search, and ums.
+- Theming logic changes.
+
 ## 1.1.0
 - Package until commit 84923e9606eb27aee546e609d2a259121a17bcbc
 
