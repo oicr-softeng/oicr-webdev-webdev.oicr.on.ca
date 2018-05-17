@@ -1,0 +1,105 @@
+$brand-default: #0d99b7 !default;
+$brand-default-background: #e0f0f3 !default;
+$brand-default-hover: #19a9c4 !default;
+$brand-highlight: #2b388f !default;
+$brand-primary: #90278e !default;
+$brand-primary-light: #e83a9c !default;
+$brand-primary-hover: $brand-primary-light !default;
+$brand-success: #5cb85c !default;
+$brand-info: #00adee !default;
+$brand-warning: #f6921e !default;
+$brand-danger: #be1e2d !default;
+
+$brand-primary-darker: #286090 !default;
+$brand-primary-contrast: #fff !default;
+
+$highlight-background: #f4f5f8 !default;
+
+$separator: 1px solid #d4d6dd !default;
+
+$base-border-radius: 5px;
+$container-border-radius: 20px;
+$card-border-radius: 8px;
+$dropdown-border-radius: 8px;
+
+//** Global textual link color.
+$link-color: $brand-primary !default;
+//** Link hover color set via `darken()` function.
+$link-hover-color: $brand-primary-hover !default;
+//** Link hover decoration.
+$link-hover-decoration: none !default;
+//** Link border.
+$link-border-bottom: 2px solid $brand-primary;
+$link-border-bottom-hover: 2px solid $brand-primary-hover;
+
+//Borders
+$border-primary-color: #e0e1e6 !default;
+$border-default-style: 1px solid $border-primary-color;
+$dotted-border-style: 2px dotted $border-primary-color;
+$box-shadow-color: rgba(160, 160, 163, 0.25);
+$border-dark-grey-color: #a9adc0;
+//Button
+$btn-default-color: #fff !default;
+$btn-default-bg: $brand-default !default;
+$btn-default-border: $brand-default !default;
+
+$btn-default-bg-hover: $brand-default-hover;
+
+$btn-primary-bg-darker: $brand-primary-hover;
+$btn-border-radius-base: 17px;
+
+$search-border: #cacbcf;
+
+// Badge Theme:
+$badge-disease: $brand-info;
+
+// Container
+$shadow-default: #bbbbbb;
+
+//==typography//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif: 'Montserrat', sans-serif !default;
+$font-family-serif: Georgia, 'Times New Roman', Times, serif !default;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace: Menlo, Monaco, Consolas, 'Courier New', monospace !default;
+$font-family-base: $font-family-sans-serif !default;
+
+$font-body-color: #343434;
+$font-grey-color: #74757d;
+$font-size-base: 16px !default;
+$font-size-large: ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small: 11px !default; // ~12px
+
+$font-size-h1: 40px !default;
+$font-size-h2: 28px !default; // ~30px
+$font-size-h3: 22px !default; // ~24px
+$font-size-h4: ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5: $font-size-base !default;
+$font-size-h6: ceil(($font-size-base * 0.85)) !default; // ~12px
+
+//== Jumbotron
+//
+//##
+
+$jumbotron-padding: 30px !default;
+$jumbotron-heading-color: $brand-primary !default;
+$jumbotron-font-size: $font-size-base !default;
+$jumbotron-heading-font-size: $font-size-h1 !default;
+
+//== Grid system
+//
+//## Define your custom responsive grid.
+
+// Navbar collapse
+//** Point at which the navbar becomes uncollapsed.
+$grid-float-breakpoint: 825px;
+//** Point at which the navbar begins collapsing.
+$grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
+
+//== UMS
+//
+$ums-background-light: #707070;
+$ums-background: #343434;
+$ums-background-hover: #5b5c5f;
+$ums-color: #fff;

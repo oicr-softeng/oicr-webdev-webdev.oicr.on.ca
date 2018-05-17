@@ -1,0 +1,11 @@
+{
+    "presets": [
+      [ "env", {
+        "targets": {
+          "ie": 8
+        },
+        "debug": false
+      }]
+    ]
+  }
+  
