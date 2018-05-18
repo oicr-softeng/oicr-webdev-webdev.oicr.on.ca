@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.0
+- Add missing files. .babelrc, form_embedder.js .etc 
+- Add edit button integration logic
+
 ## 2.0.0
 - Changes on the file structure.
 - Update preview APIs.
