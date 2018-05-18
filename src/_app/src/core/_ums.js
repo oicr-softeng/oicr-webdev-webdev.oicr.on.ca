@@ -35,3 +35,24 @@ if (targetUserMenu) {
         targetUserMenu,
     );
 }
+
+/**
+ * Render view/edit tab for admin user.
+ * This will be rendered after pubmed publications are rendered.
+ */
+/*
+const targetEditable = document.getElementById('editButton');
+if (targetEditable) {
+    ReactDOM.render(
+        <Core.Provider store={store}>
+            <Core.Components.ContentPageWrapper
+                viewDOM={targetEditable.innerHTML}
+                rootPath={'/user/#/dashboard'}
+                eventKey={8}
+                path={targetEditable.getAttribute('data-path')}
+                isPublic={targetEditable.getAttribute('data-is-public')}
+            />
+        </Core.Provider>,
+        targetEditable,
+    );
+}*/
