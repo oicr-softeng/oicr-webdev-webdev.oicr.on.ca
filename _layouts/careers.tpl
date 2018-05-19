@@ -26,7 +26,7 @@ layout: default
                                             <h1>{{ page.title_txt }}</h1>
                                         </div>
                                         <div class="banner-content">
-                                            <p>{{ page.description}}</p>
+                                            <p>{{ page.description | markdownify}}</p>
                                         </div>
                                         <div class="banner-wrapper"> </div>
                                     </div>
