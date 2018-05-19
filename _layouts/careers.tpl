@@ -77,7 +77,7 @@ layout: default
                                                 <h3>{{ page.opportunities.title }}</h3>
                                             </div>
                                             <div class="teaser-detail">
-                                                <p>{{ page.opportunities.content }}</p>
+                                                <p>{{ page.opportunities.content | markdownify }}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -89,7 +89,7 @@ layout: default
                                                 <h3>{{ page.projects.title }}</h3>
                                             </div>
                                             <div class="teaser-detail">
-                                                <p>{{ page.projects.content }}</p>
+                                                <p>{{ page.projects.content | markdownify }}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -101,7 +101,7 @@ layout: default
                                                 <h3>{{ page.co-op.title }}</h3></h3>
                                             </div>
                                             <div class="teaser-detail">
-                                                <p>{{ page.co-op.content }}</p>
+                                                <p>{{ page.co-op.content | markdownify }}</p>
                                             </div>
                                         </div>
                                     </div>
