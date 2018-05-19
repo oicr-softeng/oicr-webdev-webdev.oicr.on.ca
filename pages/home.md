@@ -118,4 +118,7 @@ partners:
   - abbr: torbug
     logo: /assets/site/images/logo-torbug.png
     website: https://torbug.org/
+ - abbr: kidsfirst
+    logo: /assets/site/images/logo-kidsfirst.png
+    website: https://kidsfirstdrc.org/
 ---
