@@ -11,7 +11,7 @@ title_txt: "Careers"
 
 ########################################
 
-description: "Computer Science and Operations Research; Software Development and Engineering: Building Modern Web Applications; Modeling, Simulation, and Decision Making; Building Useful and Usable Database Systems; Building Fast and Sustainable Systems; Building Systems for Long-term Research; Designing Solutions with User-Centered Design and UX Design Approaches.  "
+description: "We believe that software is a direct product of the cognitive processs of individuals engaged in intellect-intensive innovative teamwork, with procedures and teams designed to facilitate communication and coordination among team members engaged in closely coordinated, intellect-intensive work.  We work with a coordinated approach to deliver measurable results within a portfolio of software solutions, valuing and supporting knowledge productivity in our UX and Software Engineering knowledge and practices.  Our leadership enables us to handle the impractical with inclusion and objective quantification and measurement within its processes, methods, tools, program modules combined with data values, and combinations of input data required to operate, to communicate and to deliver.  Our understanding helps to define an operating platform technology, software embeded in infrastructure, within operation teams to manage constantly evolving and frequently updated knowledge using a continuous integration workflow to take changes by a team into live production. We appreciate what is done well vs. what is said well. "
 
 job_postings:
   title: "Job Postings"
