@@ -45,7 +45,7 @@ job_postings:
       btn: "APPLY ON WATERLOO WORKS (Job ID : 62565)"
       btn_url: "https://waterlooworks.uwaterloo.ca"
       
-what_we_offer: "What We Offer - A message to our Future Co-op Students"
+what_we_offer: "What We Offer to Co-op Students"
 
 opportunities:
   title: "Meaningful Outcomes"
