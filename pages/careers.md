@@ -14,6 +14,7 @@ title_txt: "Careers"
 description: "We think that software is a direct product of the cognitive processs of individuals engaged in intellect-intensive innovative teamwork, with procedures and teams designed to facilitate communication and coordination among team members engaged in closely coordinated, intellect-intensive work.  As a team, we work with a coordinated approach to deliver measurable results within a portfolio of software solutions, valuing and supporting knowledge productivity in our UX and Software Engineering knowledge and practices.  As a team, we handle the impractical with inclusion of the project and team's objective as quantification and measurement within our processes, methods, tools, program modules.  As a team we work with data values, and combinations of input data required to operate, with a continuous integration workflow to take changes to further develop product understanding, and constantly evolving and frequently updated knowledge.  
 
 
+
 If this team sounds like a fit for you, please consider joining us!  We are seeking great people interested in: Computer Science and Operations Research; Software Development and Engineering: Building Modern Web Applications; Modeling, Simulation, and Decision Making; Building Useful and Usable Database Systems; Building Fast and Sustainable Systems; Building Systems for Long-term Research; Designing Solutions with User-Centered Design and UX Design Approaches.
 "
 
