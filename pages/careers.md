@@ -11,11 +11,9 @@ title_txt: "Careers"
 
 ########################################
 
-description: "We believe that software is a direct product of the cognitive processs of individuals engaged in intellect-intensive innovative teamwork, with procedures and teams designed to facilitate communication and coordination among team members engaged in closely coordinated, intellect-intensive work.  We work with a coordinated approach to deliver measurable results within a portfolio of software solutions, valuing and supporting knowledge productivity in our UX and Software Engineering knowledge and practices.  We appreciate what is done well vs. what is said well, and this enables us to handle the impractical with inclusion and objective quantification and measurement within our processes, methods, tools, program modules combined with data values, and combinations of input data required to operate, to communicate and to deliver.  Our understanding helps to define an operating platform technology, software embeded in infrastructure, within operation teams to manage constantly evolving and frequently updated knowledge using a continuous integration workflow to take changes by a team into live production.  
+description: "We think that software is a direct product of the cognitive processs of individuals engaged in intellect-intensive innovative teamwork, with procedures and teams designed to facilitate communication and coordination among team members engaged in closely coordinated, intellect-intensive work.  As a team, we work with a coordinated approach to deliver measurable results within a portfolio of software solutions, valuing and supporting knowledge productivity in our UX and Software Engineering knowledge and practices.  As a team, we handle the impractical with inclusion of the project and team's objective as quantification and measurement within our processes, methods, tools, program modules.  As a team we work with data values, and combinations of input data required to operate, with a continuous integration workflow to take changes to further develop product understanding, and constantly evolving and frequently updated knowledge.  
 
-
-
-Computer Science and Operations Research; Software Development and Engineering: Building Modern Web Applications; Modeling, Simulation, and Decision Making; Building Useful and Usable Database Systems; Building Fast and Sustainable Systems; Building Systems for Long-term Research; Designing Solutions with User-Centered Design and UX Design Approaches.
+If this sounds like a place for you to work, consider joining oour team, design and develop features within a platform technology and software infrastructure in days to weeks.  We are seeking people for: Computer Science and Operations Research; Software Development and Engineering: Building Modern Web Applications; Modeling, Simulation, and Decision Making; Building Useful and Usable Database Systems; Building Fast and Sustainable Systems; Building Systems for Long-term Research; Designing Solutions with User-Centered Design and UX Design Approaches.
 "
 
 job_postings:
@@ -46,7 +44,7 @@ job_postings:
       btn: "APPLY ON WATERLOO WORKS (Job ID : 62565)"
       btn_url: "https://waterlooworks.uwaterloo.ca"
       
-what_we_offer: "What We Offer"
+what_we_offer: "What We Offer, a message to our future Co-op Students"
 
 opportunities:
   title: "Meaningful Outcomes"
