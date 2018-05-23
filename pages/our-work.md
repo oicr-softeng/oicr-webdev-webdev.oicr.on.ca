@@ -36,16 +36,16 @@ progress:
   content: "Stay tuned for some exciting new projects that we're working on!"
 
 progress1:
-  title: "The Canadian Bioinformatics Workshops (CBW2)"
-  content: "UX & Visual Design & Custom Application development of tools to facilitate the exchange of Bioinformatics Workshops and Jobs with Canadian researchers to enable employing new technologies and modern scientific approaches to research. Coming soon at bioinformatics.ca"
+  title: "KidsFirst DRC Website (GMKF-KIDSFIRST)"
+  content: "UX & Visual Design & Custom Application development of tools to inform, educate and communicate goals and information for the Data Resource Center and portal: a new, collaborative research effort to harmonize clinical and genetic data from pediatric cancer and structural birth defects cohort."
 
 progress2:
-  title: "Genome Technologies (GT)/Genome Sequencing Informatics (GSI)"
-  content: "UX & Visual Design & Responsive Web Development for the OICR Research Teams performing Genomics and Bioinformatics in support of outreach and collaboration opportunities within Cancer Research.  Coming soon at genomics.oicr.on.ca "
+  title: "OICR Project Portfolio (FACIT-OTIS)"
+  content: "UX & Visual Design & Custom Application development of tools of OTIS, a repository of all OICR translational research projects and initiatives to better enable conversations with external investigators/partners. The dynamic resource will be searchable and will serve as the gateway to innovations within the organization."
 
 progress3:
-  title: "The Global Alliance for Genomics and Health (GA4GH2)"
-  content: "UX & Visual Design for GA4GH2 to align to a new strategic direction and their new focus on output of standards and tools that meet the needs of key genomic data projects. Coming soon at ga4gh.org"
+  title: "Genome Technologies(GT)/Genome Sequencing Information (GSI)"
+  content: "UX & Visual Design & Responsive Web Development for the OICR Research Teams performing Genomics and Bioinformatics in support of outreach and collaboration opportunities within Cancer Research. Coming soon at genomics.oicr.on.ca"
 
 footer-message: "Do you have a similar project you want to talk to us about? "
 ---
