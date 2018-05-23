@@ -26,7 +26,7 @@ layout: default
                                             <h1>{{ page.title_txt }}</h1>
                                         </div>
                                         <div class="banner-content">
-                                            <p>{{ page.description | markdownify}}</p>
+                                            <p>{{ page.description}}</p>
                                         </div>
                                         <div class="banner-wrapper"> </div>
                                     </div>
@@ -77,7 +77,7 @@ layout: default
                                                 <h3>{{ page.opportunities.title }}</h3>
                                             </div>
                                             <div class="teaser-detail">
-                                                <p>{{ page.opportunities.content | markdownify }}</p>
+                                                <p>{{ page.opportunities.content }}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -89,7 +89,7 @@ layout: default
                                                 <h3>{{ page.projects.title }}</h3>
                                             </div>
                                             <div class="teaser-detail">
-                                                <p>{{ page.projects.content | markdownify }}</p>
+                                                <p>{{ page.projects.content }}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -101,7 +101,7 @@ layout: default
                                                 <h3>{{ page.co-op.title }}</h3></h3>
                                             </div>
                                             <div class="teaser-detail">
-                                                <p>{{ page.co-op.content | markdownify }}</p>
+                                                <p>{{ page.co-op.content }}</p>
                                             </div>
                                         </div>
                                     </div>
