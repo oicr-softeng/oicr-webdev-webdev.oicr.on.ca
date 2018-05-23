@@ -11,7 +11,7 @@ title_txt: "Careers"
 
 ########################################
 
-description: "We are seeking great people interested in: Computer Science and Operations Research; Software Development and Engineering: Building Modern Web Applications; Modeling, Simulation, and Decision Making; Building Useful and Usable Database Systems; Building Fast and Sustainable Systems; Building Systems for Long-term Research; Designing Solutions with User-Centered Design and UX Design Approaches.  And people with technical programming skills in: ReactJS, MongoDB, NodeJS, Jekyll, Docker, Kubernetes.
+description: "We are seeking great people interested in: Computer Science and Operations Research; Software Development, Bioinformatics and BioMed Engineering: Building Modern Web Applications; Modeling, Simulation, and Decision Making; Building Useful and Usable Database Systems; Building Fast and Sustainable Systems; Building Systems for Long-term Research; Designing Solutions with User-Centered Design and UX Design Approaches.  And people with technical programming skills in: ReactJS, MongoDB, NodeJS, Jekyll, Docker, Kubernetes.
 "
 
 job_postings:
