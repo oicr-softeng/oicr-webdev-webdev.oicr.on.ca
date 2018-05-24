@@ -56,7 +56,7 @@ collections:
 markdown: kramdown
 
 # Jekyll plugins ( also requires to add list in Gemfile )
-gems:
+plugins:
   - jekyll-feed
 
 # Exclude these files when the site is generated.
