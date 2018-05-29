@@ -10,7 +10,8 @@
   },
   "bin": {
     "webdev-baseline-init": "./bin/init.js",
-    "webdev-baseline-update": "./bin/update.js"
+    "webdev-baseline-update": "./bin/update.js",
+    "whitelist.js": "./bin/whitelist.js"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
