@@ -18,8 +18,8 @@ const options = {
     clobber: true,
     filter: (filepath) => {
         var pathValid = whitelist.some((whitepath, index, whitelist) => {
-		return filepath.includes(whitepath);
-	})
+		      return filepath.includes(whitepath);
+        })
         var stats = fs.lstatSync(filepath);
         return !filepath.includes('app/node_modules') && (stats.isDirectory() || (stats.isFile() && pathValid))
     },

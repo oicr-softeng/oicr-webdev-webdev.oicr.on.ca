@@ -98,8 +98,7 @@ module.exports = env => {
                     test: /(\.js$|\.jsx$)/,
                     loader: 'babel-loader',
                     query: {
-                    plugins: ['transform-decorators-legacy'],
-                    presets: ['react', 'es2015-webpack', 'stage-2'],
+                    presets: ['env', 'react', 'stage-2'],
                     },
                 },
                 {

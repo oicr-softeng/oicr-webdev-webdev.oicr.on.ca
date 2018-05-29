@@ -3,7 +3,8 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default_system
-permalink: /user/
+permalink: /forms/
 published: false
 ---
-<div id="app-user-services"></div>
+
+<div id="app-forms"></div>

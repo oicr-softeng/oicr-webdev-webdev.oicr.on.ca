@@ -4,6 +4,7 @@ const chalk = require('chalk');
 const ncp = require('./ncp').ncp;
 const cpy = require('cpy');
 const fs = require('fs');
+const whitelist = require('./whitelist').list;
 
 var showDiffs = true;
 if(process.env.npm_config_overwrite) {
@@ -12,11 +13,15 @@ if(process.env.npm_config_overwrite) {
 else {
 	console.log(chalk.yellow("Pass --overwrite to ignore diff warnings and overwrite files"));
 }
+
 const options = {
     clobber: true,
     filter: (filepath) => {
+        var pathValid = whitelist.some((whitepath, index, whitelist) => {
+		    return filepath.includes(whitepath);
+        })
         var stats = fs.lstatSync(filepath);
-        return !filepath.includes('app/node_modules') && (stats.isDirectory() || (stats.isFile() && filepath.includes('/core/')))
+        return !filepath.includes('app/node_modules') && (stats.isDirectory() || (stats.isFile() && pathValid))
     },
     showDiffs: showDiffs
 }
