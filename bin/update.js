@@ -18,7 +18,7 @@ const options = {
     clobber: true,
     filter: (filepath) => {
         var pathValid = whitelist.some((whitepath, index, whitelist) => {
-		    return filepath.includes(whitepath);
+		      return filepath.includes(whitepath);
         })
         var stats = fs.lstatSync(filepath);
         return !filepath.includes('app/node_modules') && (stats.isDirectory() || (stats.isFile() && pathValid))
@@ -30,5 +30,5 @@ ncp('./node_modules/static-cms-baseline/src', './', options, (err) => {
   if (err) {
     return console.error(err);
   }
-  console.log(chalk.green('Done!'));
+  console.log(chalk.green('~~~Done!'));
 });

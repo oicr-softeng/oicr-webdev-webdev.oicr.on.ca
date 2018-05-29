@@ -1,6 +1,7 @@
 {
   "name": "static-cms-baseline",
-  "version": "2.1.0",
+  "version": "1.0.2",
+
   "description": "",
   "author": "Koji Miyauchi",
   "license": "MIT",
@@ -8,8 +9,8 @@
     "build": "rm -rf bin && ./node_modules/.bin/babel scripts --out-dir bin"
   },
   "bin": {
-    "webdev-baseline-init": "bin/init.js",
-    "webdev-baseline-update": "bin/update.js"
+    "webdev-baseline-init": "./bin/init.js",
+    "webdev-baseline-update": "./bin/update.js"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
