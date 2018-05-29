@@ -23,6 +23,5 @@
     "cpy": "^5.1.0",
     "diff": "^3.4.0",
     "read-file": "^0.2.0",
-    "phantomjs-sitemap": "git@github.com:qingda-oicr/phantomjs-sitemap.git"
   }
 }
