@@ -319,7 +319,6 @@ function ncp(source, dest, options, callback) {
     finished++;
     if ((started === finished) && (running === 0)) {
       if (cback !== undefined) {
-        rl.close();
         return errs ? cback(errs) : cback(null);
       }
     }
