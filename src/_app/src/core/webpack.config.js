@@ -117,5 +117,9 @@ module.exports = env => {
             ],
         },
         plugins: plugins,
+        node: {
+            fs: 'empty',
+            child_process: 'empty',
+        }
     });
 };
