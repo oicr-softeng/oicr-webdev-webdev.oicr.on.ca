@@ -3,16 +3,12 @@ import { Forms, Search, Publications } from 'oicr-ui-core';
 import coreReducers from '../core/reducers';
 import coreMiddlewares from '../core/middlewares';
 
-import { newsReducer, pubsReducer } from './components/News/reducers';
-
 const initialState = {
     // Initial Values
 };
 
 const combinedReducers = combineReducers(
     Object.assign({}, coreReducers, {
-        news: newsReducer,
-        pubs: pubsReducer,
     }),
 );
 
