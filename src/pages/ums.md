@@ -1,9 +1,11 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+# User Services
 layout: default_system
+date:   2017-03-06 10:00:00 -0500
+author: OICR Genomics and Bioinformatics
 permalink: /user/
-published: false
+isPublic_b: true
+published: true
 ---
+
 <div id="app-user-services"></div>

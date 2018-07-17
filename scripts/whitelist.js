@@ -3,6 +3,12 @@ var exports = module.exports = {
         "/_preview/",
         "/_api/",
         "/core/",
-        "/src/start"
+        "/src/start",
+        "/_app/src/site",
+        "/configs/",
+        "/app/.babelrc",
+        "/pages/",
+        "/_layouts/",
+        "/assets/site/js/"
     ]
 }

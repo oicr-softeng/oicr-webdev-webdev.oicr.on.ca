@@ -1,7 +1,6 @@
 {
   "name": "static-cms-baseline",
   "version": "1.0.2",
-
   "description": "",
   "author": "Koji Miyauchi",
   "license": "MIT",
@@ -10,7 +9,8 @@
   },
   "bin": {
     "webdev-baseline-init": "./bin/init.js",
-    "webdev-baseline-update": "./bin/update.js"
+    "webdev-baseline-update": "./bin/update.js",
+    "whitelist.js": "./bin/whitelist.js"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -21,6 +21,7 @@
     "chalk": "^2.0.1",
     "cpy": "^5.1.0",
     "diff": "^3.4.0",
+    "prompt": "^1.0.0",
     "read-file": "^0.2.0"
   }
 }
