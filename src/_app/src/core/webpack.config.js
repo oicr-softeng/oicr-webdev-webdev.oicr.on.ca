@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const entries = require('../../configs/entries');
 
 // Load custome webpack config
@@ -65,12 +66,12 @@ module.exports = env => {
                     }
                 )
             ),
-            new webpack.optimize.UglifyJsPlugin({
-                compress: {
-                    screw_ie8: true,
-                    warnings: false,
+            new UglifyJsPlugin({
+                uglifyOptions: {
+                  warnings: false,
+                  ie8: false,
                 }
-            }),
+            })
         ])
     }
     // Dev
