@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.23.0",
-    "extract-text-webpack-plugin": "^3.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
     "intl": "^1.2.5",
     "lodash": "^4.17.4",
-    "oicr-ui-core": "git+ssh://git@github.com:oicr-webdev/webdev_oicr-ui-core.git",
+    "oicr-ui-core": "git+ssh://git@github.com/oicr-webdev/webdev_oicr-ui-core.git",
     "prop-types": "^15.5.8",
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
@@ -24,7 +24,7 @@
     "redux-form": "^6.2.1",
     "redux-thunk": "^2.1.0",
     "reselect": "^3.0.0",
-    "wfui-react": "git+ssh://git@github.com:oicr-webdev/webdev_wfui-react.git"
+    "wfui-react": "git+ssh://git@github.com/oicr-webdev/webdev_wfui-react.git"
   },
   "devDependencies": {
     "babel-cli": "^6.3.17",
@@ -37,7 +37,7 @@
     "css-loader": "^0.23.1",
     "eslint": "^3.12.2",
     "eslint-config-airbnb": "^13.0.0",
-    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.8.0",
     "file-loader": "^0.8.5",
@@ -47,7 +47,7 @@
     "sass-loader": "^3.2.0",
     "uglifyjs-webpack-plugin": "^1.2.5",
     "url-loader": "^0.5.7",
-    "webpack": "^3.3",
+    "webpack": "^3.8.1",
     "whatwg-fetch": "^2.0.1",
     "yaml-loader": "^0.4.0"
   }
