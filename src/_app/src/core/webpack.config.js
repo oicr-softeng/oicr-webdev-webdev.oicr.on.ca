@@ -5,31 +5,37 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const entries = require('../../configs/entries');
+const transpiling = require('../../configs/transpiling');
+
+const moduleExclude = new RegExp(
+    'node_modules/(?!(' + transpiling.join('|') + ')/).*'
+);
 
 // Load custome webpack config
-var webpackConfig = (env, config) => config
+var webpackConfig = (env, config) => config;
 try {
     webpackConfig = require('../site/webpack.config.js');
 } catch (e) {}
 
 module.exports = env => {
-
     /**
      * Augument entries with 'whatwg-fetch' and 'babel-polyfill'
      */
-    const _entries = {}
+    const _entries = {};
     Object.keys(entries).forEach((key, i) => {
-        if(key === 'base'){
-            _entries[key] = ['babel-polyfill', 'whatwg-fetch'].concat(entries[key]);
+        if (key === 'base') {
+            _entries[key] = ['babel-polyfill', 'whatwg-fetch'].concat(
+                entries[key]
+            );
         } else {
             _entries[key] = ['whatwg-fetch'].concat(entries[key]);
         }
     });
 
-    // 
+    //
     const entriesOrder = { core: 0 };
     Object.keys(entries).forEach((key, i) => {
-        entriesOrder[key] = i+1;
+        entriesOrder[key] = i + 1;
     });
 
     /**
@@ -39,88 +45,91 @@ module.exports = env => {
         new ExtractTextPlugin('../css/core.bundle.css'),
         new webpack.optimize.CommonsChunkPlugin({
             name: 'core',
-            minChunks: Infinity,
+            minChunks: Infinity
         }),
         new HtmlWebpackPlugin({
             excludeChunks: ['base_styles'],
             minify: false,
-            chunksSortMode: (e1, e2) => (entriesOrder[e1.names[0]] - entriesOrder[e2.names[0]]),
+            chunksSortMode: (e1, e2) =>
+                entriesOrder[e1.names[0]] - entriesOrder[e2.names[0]],
             filename: path.resolve('../_includes/dist/footer_scripts.inc'),
-            template: 'src/core/.empty',
-        }),
+            template: 'src/core/.empty'
+        })
     ];
     // Production
     if (env.prod) {
         plugins = plugins.concat([
             new webpack.LoaderOptionsPlugin({
                 minimize: true,
-                debug: false,
+                debug: false
             }),
             new webpack.DefinePlugin(
-                Object.assign({},
+                Object.assign(
+                    {},
                     {},
                     {
                         'process.env': {
-                            NODE_ENV: JSON.stringify('production'),
+                            NODE_ENV: JSON.stringify('production')
                         }
                     }
                 )
             ),
             new UglifyJsPlugin({
                 uglifyOptions: {
-                  warnings: false,
-                  ie8: false,
+                    warnings: false,
+                    ie8: false
                 }
             })
-        ])
+        ]);
     }
     // Dev
     else if (env.dev) {
-        plugins = plugins.concat([
-            new webpack.DefinePlugin({})
-        ])
+        plugins = plugins.concat([new webpack.DefinePlugin({})]);
     }
 
     return webpackConfig(env, {
         entry: _entries,
         output: {
-            filename: env.prod ? '[name].[chunkhash].bundle.js' : '[name].[chunkhash].dev.bundle.js',
+            filename: env.prod
+                ? '[name].[chunkhash].bundle.js'
+                : '[name].[chunkhash].dev.bundle.js',
             path: path.resolve('../assets/dist/js/'),
-            publicPath: '/assets/dist/js/',
+            publicPath: '/assets/dist/js/'
         },
         resolve: {
-            extensions: ['.js', '.jsx', '.yaml'],
+            extensions: ['.js', '.jsx', '.yaml']
         },
-        devtool: env.dev ? 'source-map': '',
+        devtool: env.dev ? 'source-map' : '',
         module: {
             loaders: [
                 {
-                    exclude: /(node_modules|bower_components)/,
+                    exclude: moduleExclude,
                     test: /(\.js$|\.jsx$)/,
                     loader: 'babel-loader',
                     query: {
-                    presets: ['env', 'react', 'stage-2'],
-                    },
+                        plugins: ['transform-decorators-legacy'],
+                        presets: ['env', 'react', 'stage-2']
+                    }
                 },
                 {
                     exclude: /(node_modules|bower_components)/,
                     test: /\.yaml$/,
-                    loader: 'yaml-loader',
+                    loader: 'yaml-loader'
                 },
                 {
                     test: /\.json$/,
-                    loader: 'json-loader',
+                    loader: 'json-loader'
                 },
                 {
                     test: /\.scss$|\.css$/,
-                    loader: ExtractTextPlugin.extract('css-loader!sass-loader'),
-                },
-            ],
+                    loader: ExtractTextPlugin.extract('css-loader!sass-loader')
+                }
+            ]
         },
         plugins: plugins,
         node: {
             fs: 'empty',
-            child_process: 'empty',
+            child_process: 'empty'
         }
     });
 };
