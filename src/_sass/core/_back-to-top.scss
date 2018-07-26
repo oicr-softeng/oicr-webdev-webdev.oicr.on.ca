@@ -1,0 +1,45 @@
+#backToTop {
+    position: fixed;
+    right: $back-to-top-btn-position-right;
+    bottom: $back-to-top-btn-position-bottom;
+    cursor: pointer;
+    background-color: $back-to-top-btn-bg;
+    display: none;
+    -webkit-border-radius: $back-to-top-btn-border-radius;
+    -moz-border-radius: $back-to-top-btn-border-radius;
+    border-radius: $back-to-top-btn-border-radius;
+    padding: $back-to-top-btn-padding;
+    z-index: 1000;
+    color: $back-to-top-btn-color;
+    align-items: center;
+    font-size: $back-to-top-btn-font-size;
+
+    .backToTop-icon {
+        margin-left: $back-to-top-icon-margin-left;
+        border: $back-to-top-icon-border;
+        border-radius: $back-to-top-icon-border-radius;
+        width: $back-to-top-icon-width;
+        height: $back-to-top-icon-height;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .glyphicon {
+            position: static;
+            top: auto;
+            display: flex;
+            width: $back-to-top-glyphicon-width;
+        }
+    }
+
+    &:hover,
+    &:active,
+    &:focus,
+    &.active {
+        color: $back-to-top-btn-color-hover;
+
+        .backToTop-icon {
+            border: $back-to-top-icon-border-hover;
+        }
+    }
+}
