@@ -8,6 +8,7 @@
     {% include site/nav.inc %}
     <div id="editButton" data-path="{{ page.path }}" data-is-public="{{ page.isPublic_b }}"></div>
     {{ content }}
+    {% include core/back_to_top.inc %}
     {% include site/footer.inc %}
     {% include core/footer_scripts.inc %}
     {% comment %}{% include dist/footer_scripts.inc %}{% endcomment %}

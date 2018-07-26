@@ -56,6 +56,8 @@ collections:
     output: false
   _weblinks:
     output: true
+  _modules:
+    output: true
 
 defaults:
   # Default
@@ -66,6 +68,27 @@ defaults:
       layout: weblinks
       permalink: '/weblinks/:name/'
       published: true
+  - scope:
+      path: ''
+      type: _modules
+    values:
+      title: ''
+      date_tdt: '2018-07-11T19:36:04.633Z'
+      author: ''
+      layout: default
+      permalink: '/_modules/:name/'
+      published: true
+      isPublic_b: false
+    required: []
+    validate: {}
+    labels:
+      title: Title
+      date_tdt: Date
+      author: Author
+      layout: Layout
+      permalink: Permanent Link
+      published: Published
+      isPublic_b: Public
 
 ######################################################################
 # Jekyll Environment Config
