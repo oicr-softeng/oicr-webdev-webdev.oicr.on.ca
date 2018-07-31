@@ -6,7 +6,9 @@ var exports = module.exports = {
         "/src/start",
         "/_app/src/site",
         "/configs/",
-        "/app/.babelrc",
+        "/_app/.babelrc",
+        "/_app/package.json",
+        "/_config.yml",
         "/pages/",
         "/_layouts/",
         "/assets/site/js/"
