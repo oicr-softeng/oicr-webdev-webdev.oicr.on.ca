@@ -18,7 +18,12 @@ $(document).ready(function() {
     var $menuAnchor = $('#nav-main-menu .dropdown-toggle');
 
     function stickyNavBar() {
-        if ($(document).scrollTop() > 50) {
+        var alwaysSticky = window.STICKY_BY_DEFAULT_BELOW || 768;
+        var sctop = window.STICKY_SCROLL_TOP || 0;
+        if (
+            $(window).width() < alwaysSticky ||
+            $(document).scrollTop() > sctop
+        ) {
             $('#navigation').addClass('sticky');
         } else {
             $('#navigation').removeClass('sticky');
