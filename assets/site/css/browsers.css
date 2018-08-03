@@ -1,0 +1,123 @@
+.banner-title h1 {
+    color: #355470;
+}
+
+@media only screen and (min-width: 768px) {
+    .banner-content {
+        width: calc(100% - 479px);
+        margin-top: calc(3% - 20px);
+    }
+}
+
+/* Main Content */
+.row.browsers {
+    background-image: url(../images/background-hex-side.png);
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .row.browsers {
+        background-size: 767px;
+        background-position: top center;
+    }
+}
+
+.main-content .row .container {
+    padding: 20px 15px 55px;
+
+}
+
+.main-content .row.browsers-header .container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.browsers-header .container {
+    padding: 0px;
+}
+
+.section-content {
+    width: 100%;
+}
+
+.section-content ul{
+    padding-left: 0px;
+    margin: 15px 0px;
+}
+
+.section-content ul li {
+    padding-left: 20px;
+    background-image: url(../images/list-bullet.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: 5px;
+    -moz-background-size: 5px;
+    -o-background-size: 5px;
+    background-size: 5px;
+    background-position-x: 5px;
+    background-position-y: 12px;
+    line-height: 2em;
+}
+
+.section-content h2 {
+    font-size: 36px;
+    text-align: initial;
+    margin-bottom: 10px;
+}
+
+
+.support .section-content h2 {
+    color: #39a9d4;
+}
+
+.support .section-content {
+    float: left;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+
+    .health-science-research-domain .section-img, .support .section-img {
+        padding-left: 20px;
+    }
+
+    .section-content {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .support .section-content {
+        float: none;
+    }
+    .main-content .row .container {
+        padding-top: 0px;
+    }
+    .section-content {
+        width: 100%;
+        padding: 0px 40px;
+    }
+    .section-content h2 {
+        text-align: center;
+        margin-top: 0px;
+    }
+   
+}
+
+@media only screen and (max-width: 479px) {
+    .section-content {
+        padding: 0px;
+    }
+    .section-content ul, .section-content p {
+        padding: 0px 15px;
+    }
+    .section-content h2 {
+        font-size: 26px;
+    }
+}
+
+
