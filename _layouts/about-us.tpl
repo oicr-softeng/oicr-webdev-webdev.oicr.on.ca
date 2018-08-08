@@ -118,16 +118,31 @@ layout: default
                                 <div class="team-item teaser-{{ member.tag }}">
                                     <div class="team-item-image">
                                         <div class="team-item-photo">
+                                        {% if member.image !="" %}
                                             <img src="{{ member.image }}">
+                                        {%endif%}
                                         </div>    
                                     </div>
                                     <div class="team-item-content">
+                                    {% if member.alumni and member.alumni !=""  %}
+                                        <h4 class="alumni">{{ member.alumni }}</h4>
+                                        {%endif%}
+                                        {% if member.name !="" %}
                                         <h3 class="name">{{ member.name }}</h3>
+                                        {%endif%}
+                                        {% if member.role !="" %}
                                         <h4 class="title">{{ member.role }}</h4>
+                                        {%endif%}
                                         <ul class="team-item-desc">
+                                        {% if member.focus !="" %}
                                             <li><span>Focus: </span>{{ member.focus }}</li>
+                                            {%endif%}
+                                            {% if member.expertise !="" %}
                                             <li><span>Expertise: </span>{{ member.expertise }}</li>
+                                            {%endif%}
+                                            {% if member.fun_fact !="" %}
                                             <li><span>Fun Fact: </span>{{ member.fun_fact }}</li>
+                                            {%endif%}
                                         </ul>
                                     </div>
                                 </div>

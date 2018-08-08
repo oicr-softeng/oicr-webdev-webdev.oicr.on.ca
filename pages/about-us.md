@@ -30,7 +30,7 @@ stats:
 
 meet_the_team:
   title: "Meet the Team"
-  description: "The team is lead under the direction of Vincent Ferretti, Director, Genome Informatics.  The OICR WebDev team includes FTEs, contractors and students who continue to innovate, stay creative and develop with a platform of technologies that scale to enable high performance."
+  description: "The team is lead under the direction of Christina Yung, Director, Genome Informatics.  The OICR WebDev team includes FTEs, contractors and students who continue to innovate, stay creative and develop with a platform of technologies that scale to enable high performance."
 
 team:
   - name: "Joseph Yamada"
@@ -43,9 +43,9 @@ team:
   - name: "Nikita Mor"
     image: "/assets/site/images/webdev-team-nikita.png"
     role: "UI/UX Designer"
-    focus: "Designs usable, purposeful, and aesthetically appealing products to enable scientists to connect, collaborate, and communicate effectively. Enjoys proposing solutions by crafting interfaces to meet the needs and requirements of a diverse user base."
-    expertise: "UI/UX Design, UX Research, Visual Design, Content Strategy"
-    fun_fact: "Loves making films, creative writing, and deep-sea diving."
+    focus: "Designs usable, purposeful, and aesthetically appealing products to enable scientists to connect, collaborate, and communicate effectively."
+    expertise: "UI/UX Design, UX Research, Visual Design."
+    fun_fact: "Loves making films and deep-sea diving."
     tag: "nikita-mor"
   - name: "Kaman Wu"
     image: "/assets/site/images/webdev-team-kaman.png"
@@ -75,6 +75,14 @@ team:
     expertise: "Graphics Illustrations and Branding"
     fun_fact: "Loves a warm fire"
     tag: "george-shewchuk"
+  # - name: "Kim Cullion"
+  #   alumni: Alumni
+  #   image: "/assets/site/images/webdev-team-kim.png"
+  #   role: "Senior UI/UX Designer"
+  #   focus: "Designs thoughtful user experiences that resonate with users and help researchers connect, collaborate and work more efficienlty. Enjoys creating meaningful digital experiences that enable scientists to take on more difficult challenges."
+  #   expertise: "Specializes in UX Design, Visual Design, Responsive and Mobile Design."
+  #   fun_fact: "Loves movies, concerts, travelling, drawing and improv"
+  #   tag: "kim-cullion"
 
 our-students:
   title: "Our Talented Students"
