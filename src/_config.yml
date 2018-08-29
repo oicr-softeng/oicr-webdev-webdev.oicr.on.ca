@@ -58,6 +58,8 @@ collections:
     output: true
   _modules:
     output: true
+  _emailtpl:
+    output: false
 
 defaults:
   # Default
