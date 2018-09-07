@@ -71,7 +71,7 @@ join_the_team:
 
 work: "Who We Work With"
 
-footer-message: "We welcome OICR-Affiliated Research Programs to contact us for services and resources: "
+footer-message: "We welcome OICR-Affiliated Research Programs to contact us for our services: "
 
 partners:
   - abbr: oicr
