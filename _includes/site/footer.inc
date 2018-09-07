@@ -33,19 +33,28 @@
       </div><!-- .container -->
     </div><!-- .wrapper-postscript-bottom -->
 {% endif %}
-
+{% assign footer = site._modules | where:"slug", "footer" | first %}
     <!-- footer -->
     <footer class="wrapper">
-      <div class="container-fluid container-footer">
-        <div class="row">
-          <div class="menu-fine-print">
-              <p><a id="fine-print-image" href="http://oicr.on.ca/" target="_blank"><img src="/assets/site/images/logo-oicr-white.svg"></a>&copy; 2017 OICR Web Development Team. <span>All rights reserved.</span>
-                  <span class="menu-fine-print-links">
-                  <a id="term" href="http://oicr.on.ca/terms-and-conditions" target="_blank">Terms &amp; Conditions</a><a id="privacy" href="http://oicr.on.ca/website-privacy-statement" target="_blank">Privacy</a>
-                </span>
-              </p>
-
-          </div>
-        </div><!-- .row -->
-      </div><!-- .container -->
+        <div class="labs-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="list-container">
+                        <div class="labs-list">
+                            <div class="footer-logo">
+                                <a class="footer-logo-container" href="{{ footer.logoLink_txt }}">
+                                    <img src="{{footer.general-oicr-img_txt}}">
+                                </a>
+                            </div>
+                            {% assign count = 0 %} {% for item in footer.general-oicr_list %} {% assign remainder = count | modulo: 3%}
+                            <a href="{{item.link_txt}}" {% if remainder==0 %}class="no-left" {% endif %}>{{item.item_txt}}</a>
+                            {% assign count = count | plus: 1 %} {% endfor %}
+                        </div>
+                        <div class="final-link">
+                                {% for item in footer.final-link_list %}{{ item.content_txt }} <a href="{{ item.link_txt }}">{{ item.item_txt }}</a>{% endfor %}
+                        </div>
+                    </div><!-- .list-container -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .labs-footer -->
     </footer><!-- footer.wrapper -->

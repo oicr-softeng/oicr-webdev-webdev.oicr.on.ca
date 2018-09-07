@@ -30,7 +30,7 @@ stats:
 
 meet_the_team:
   title: "Meet the Team"
-  description: "The team is lead under the direction of Vincent Ferretti, Director, Genome Informatics.  The OICR WebDev team includes FTEs, contractors and students who continue to innovate, stay creative and develop with a platform of technologies that scale to enable high performance."
+  description: "The team is lead under the direction of Christina Yung, Director, Genome Informatics.  The OICR WebDev team includes FTEs, contractors and students who continue to innovate, stay creative and develop with a platform of technologies that scale to enable high performance."
 
 team:
   - name: "Joseph Yamada"
@@ -40,13 +40,13 @@ team:
     expertise: "Continous Product Delivery; Multi-Project Management; High-Performance Team Development; UX Product Design;   Agile/Lean/Learning Team Capability Development; Software Engineering and Production Operations; "
     fun_fact: "Loves to work on meaningful outcomes.  Has hired 50+ students while at the OICR."
     tag: "joseph-yamada"
-  - name: "Kim Cullion"
-    image: "/assets/site/images/webdev-team-kim.png"
-    role: "Senior UI/UX Designer"
-    focus: "Designs thoughtful user experiences that resonate with users and help researchers connect, collaborate and work more efficienlty. Enjoys creating meaningful digital experiences that enable scientists to take on more difficult challenges."
-    expertise: "Specializes in UX Design, Visual Design, Responsive and Mobile Design."
-    fun_fact: "Loves movies, concerts, travelling, drawing and improv"
-    tag: "kim-cullion"
+  - name: "Nikita Mor"
+    image: "/assets/site/images/webdev-team-nikita.png"
+    role: "UI/UX Designer"
+    focus: "Designs usable, purposeful, and aesthetically appealing products to enable scientists to connect, collaborate, and communicate effectively."
+    expertise: "UI/UX Design, UX Research, Visual Design."
+    fun_fact: "Loves making films and deep-sea diving."
+    tag: "nikita-mor"
   - name: "Kaman Wu"
     image: "/assets/site/images/webdev-team-kaman.png"
     role: "Back-End Web Developer"
@@ -57,7 +57,7 @@ team:
   - name: "Koji Miyauchi"
     image: "/assets/site/images/webdev-team-koji.png"
     role: "Front-End Web Developer"
-    focus: "Specializes in high-quality user interfaces (UI) design and development to facilitate interactions to visualize and manage information enabling better UX with modern web browser technologies."
+    focus: "Specializes in high-quality user interfaces (UI) design and development to facilitate interactions to visualize and manage information enabling better UX with modern web browser technologsties."
     expertise: "JavaScript; ReactJS; Redux; Php"
     fun_fact: "Love eating, golfing."
     tag: "koji-miyauchi"
@@ -75,6 +75,14 @@ team:
     expertise: "Graphics Illustrations and Branding"
     fun_fact: "Loves a warm fire"
     tag: "george-shewchuk"
+  # - name: "Kim Cullion"
+  #   alumni: Alumni
+  #   image: "/assets/site/images/webdev-team-kim.png"
+  #   role: "Senior UI/UX Designer"
+  #   focus: "Designs thoughtful user experiences that resonate with users and help researchers connect, collaborate and work more efficienlty. Enjoys creating meaningful digital experiences that enable scientists to take on more difficult challenges."
+  #   expertise: "Specializes in UX Design, Visual Design, Responsive and Mobile Design."
+  #   fun_fact: "Loves movies, concerts, travelling, drawing and improv"
+  #   tag: "kim-cullion"
 
 our-students:
   title: "Our Talented Students"
@@ -83,18 +91,32 @@ our-students:
       program: "3rd year Computer Science"
       school: "University of Waterloo"
       role: "Web + Technology Developer"
-    - name: "Moujan Saderi"
-      program: "2nd year Biomedical Engineering"
+    - name: "Jeffrey Feng"
+      program: "1st year Biomedical Engineering"
       school: "University of Waterloo"
       role: "Content Editor + Themer"
-    - name: "Celine Lee"
-      program: "2nd year Computer Science"
+    - name: "Marcus Hum"
+      program: "2nd year Systems Engineering"
       school: "University of Waterloo"
       role: "Visual Designer + Themer"
 
 past-students:
   title: "Credits to Our Team Alumni"
   terms:
+    - termTitle: Winter 2018
+      students:
+        - name: "Qingda Zou"
+          program: "3rd year Computer Science"
+          school: "University of Waterloo"
+          role: "Web + Technology Developer"
+        - name: "Moujan Saderi"
+          program: "2nd year Biomedical Engineering"
+          school: "University of Waterloo"
+          role: "Content Editor + Themer"
+        - name: "Celine Lee"
+          program: "2nd year Computer Science"
+          school: "University of Waterloo"
+          role: "Visual Designer + Themer"
     - termTitle: Fall 2017
       students:
         - name: "William Harvey"

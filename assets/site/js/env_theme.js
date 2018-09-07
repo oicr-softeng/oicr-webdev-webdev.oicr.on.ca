@@ -1,10 +1,10 @@
 window.UMS_CONFIG = {
     APP_ID: '59fb3476e754513293d2c0ed',
-//    APP_ID: 'webdevff0b3218aaad11e7abc4cec278b6b50a_APP_ID',
+//    APP_ID: '59fb3476e754513293d2c0ed',
     API_HOST: 'api.nextlabs.oicr.on.ca:443',
-//    API_HOST: 'webdevff0b3218aaad11e7abc4cec278b6b50a_API_HOST:webdevff0b3218aaad11e7abc4cec278b6b50a_API_DOCKER_PORT',
+//    API_HOST: 'webdevcr-api.qingda.vm:443',
     CONTACT_LINK: 'webdev@oicr.on.ca',
-//    CONTACT_LINK: 'webdevff0b3218aaad11e7abc4cec278b6b50a_MAIN_CONTACT',
+//    CONTACT_LINK: 'joseph.yamada@oicr.on.ca',
 };
 window.extLinkConfig = {
     extAlert: '_Alert',

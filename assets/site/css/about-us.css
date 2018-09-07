@@ -367,6 +367,16 @@ section.about-us {
     text-align: left;
 }
 
+.team-item-content h4.alumni {
+    float: right;
+    margin-top: 3px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #707070;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
 .team-item-content h3 {
     font-weight: 700;
     margin-bottom: 5px;
