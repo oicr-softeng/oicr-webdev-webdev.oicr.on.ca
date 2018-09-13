@@ -1,5 +1,5 @@
 var exports = module.exports = {
-    "list" : [
+    "list": [
         "/_preview/",
         "/_api/",
         "/core/",
@@ -11,6 +11,9 @@ var exports = module.exports = {
         "/_config.yml",
         "/pages/",
         "/_layouts/",
-        "/assets/site/js/"
+        "/assets/site/js/",
+        "__emailtpl",
+        "__pages",
+        "__weblinks"
     ]
 }
