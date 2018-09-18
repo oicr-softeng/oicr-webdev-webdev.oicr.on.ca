@@ -204,6 +204,20 @@ layout: default
                             </div>
                           </div>
                         </li>
+                        <li>
+                          <div class="teaser">
+                            <div class="last-teaser">
+                            <div class="teaser-content">
+                              <div class="teaser-header">
+                                <h3>{{ page.progress4.title }}</h3>
+                              </div>
+                              <div class="teaser-detail">
+                                <p>{{ page.progress4.content }}</p>
+                              </div>
+                            </div>
+                            </div>
+                          </div>
+                        </li>
                       </ul>
                     </div>
                   </div>

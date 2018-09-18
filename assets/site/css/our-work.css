@@ -645,11 +645,39 @@ div[id^="webdev-carousel-"] {
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
         url(../images/teaser-otb.png);
 }
+.teaser-al {
+    background:
+        linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+        url(../images/teaser-al.png);
+}
+.teaser-kf {
+    background:
+        linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+        url(../images/teaser-kf.png);
+}
+.teaser-activedriver {
+    background:
+        linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+        url(../images/teaser-activedriver.png);
+}
+
+.teaser-gb {
+    background:
+        linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+        url('../images/teaser-gb.png');
+}
+
+.teaser-oicrlabs {
+    background:
+        linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+        url('../images/teaser-oicrlabs.png');
+}
 li:last-child .teaser-detail {
     height: 151px;
 }
-.teaser-detail {
-       height: 170px;
+.last-teaser{
+    margin-left: 25px;
+    margin-top: 15px;
 }
 /*
 .teaser-omprn:hover {
@@ -911,6 +939,33 @@ a.teaser-hover {
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 70%),
             url(../images/teaser-otb.png);
     }
+    .teaser-al {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url(../images/teaser-al.png);
+    }
+    .teaser-kf {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url(../images/teaser-kf.png);
+    }
+    .teaser-activedriver {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url(../images/teaser-activedriver.png);
+    }
+
+    .teaser-gb {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url('../images/teaser-gb.png');
+    }
+
+    .teaser-oicrlabs {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url('../images/teaser-oicrlabs.png');
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -985,6 +1040,34 @@ a.teaser-hover {
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-otb.png);
     }
+
+    .teaser-al {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url(../images/teaser-al.png);
+    }
+    .teaser-kf {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url(../images/teaser-kf.png);
+    }
+    .teaser-activedriver {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url(../images/teaser-activedriver.png);
+    }
+
+    .teaser-gb {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url('../images/teaser-gb.png');
+    }
+
+    .teaser-oicrlabs {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url('../images/teaser-oicrlabs.png');
+    }
 }
 
 @media only screen and (max-width: 676px) {
@@ -1052,6 +1135,33 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 50%),
             url(../images/teaser-otb.png);
+    }
+    .teaser-al {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url(../images/teaser-al.png);
+    }
+    .teaser-kf {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url(../images/teaser-kf.png);
+    }
+    .teaser-activedriver {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url(../images/teaser-activedriver.png);
+    }
+
+    .teaser-gb {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url('../images/teaser-gb.png');
+    }
+
+    .teaser-oicrlabs {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url('../images/teaser-oicrlabs.png');
     }
 
 }
@@ -1124,6 +1234,33 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-otb.png);
+    }
+    .teaser-al {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url(../images/teaser-al.png);
+    }
+    .teaser-kf {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url(../images/teaser-kf.png);
+    }
+    .teaser-activedriver {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url(../images/teaser-activedriver.png);
+    }
+
+    .teaser-gb {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url('../images/teaser-gb.png');
+    }
+
+    .teaser-oicrlabs {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url('../images/teaser-oicrlabs.png');
     }
 }
 
@@ -1213,6 +1350,33 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 30%, rgba(234,234,234,0.9) 65%),
             url(../images/teaser-otb.png);
+    }
+    .teaser-al {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url(../images/teaser-al.png);
+    }
+    .teaser-kf {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url(../images/teaser-kf.png);
+    }
+    .teaser-activedriver {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url(../images/teaser-activedriver.png);
+    }
+
+    .teaser-gb {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url('../images/teaser-gb.png');
+    }
+
+    .teaser-oicrlabs {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url('../images/teaser-oicrlabs.png');
     }
 }
 
