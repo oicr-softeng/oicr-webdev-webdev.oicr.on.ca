@@ -121,16 +121,16 @@ partners:
   - abbr: al
     logo: /assets/site/images/logo-awadalla-lab.svg
     website: https://pawadallalab.org/
- - abbr: gb
+  - abbr: gb
     logo: /assets/site/images/logo-Ontario-Institute-for-Cancer-Research.svg
     website: https://genomics.oicr.on.ca/
- - abbr: kf
+  - abbr: kf
     logo: /assets/site/images/logo-KF.svg
     website: https://kidsfirstdrc.org/
- - abbr: oicrlabs
+  - abbr: oicrlabs
     logo: /assets/site/images/logo-Ontario-Institute-for-Cancer-Research.svg
     website: https://nextlabs.oicr.on.ca/
- - abbr: activedriver
+  - abbr: activedriver
     logo: /assets/site/images/logo-Ontario-Institute-for-Cancer-Research.svg
     website: https://www.activedriverdb.org/
 ---

@@ -7,7 +7,7 @@ permalink: /our-work/case-studies/al
 published: true
 isPublic_b: true
 
-project: "AWADALLA LABS"
+project: "Awadalla Lab"
 
 alias: "al"
 
