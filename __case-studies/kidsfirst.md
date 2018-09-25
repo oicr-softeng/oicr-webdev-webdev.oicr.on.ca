@@ -25,7 +25,7 @@ challenge:
     - "/assets/site/images/case-studies/kf/kf-challenge1.png"
     - "/assets/site/images/case-studies/kf/kf-challenge2.png"
     - "/assets/site/images/case-studies/kf/kf-challenge3.png"
-    - "/assets/site/images/case-studies/kf/kf-challenge4.png"
+    - "/assets/site/images/case-studies/kf/kfchallenge-4.png"
 
 
 

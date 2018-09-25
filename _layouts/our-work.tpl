@@ -52,7 +52,9 @@ layout: default
                 {% else %}
                 <div class="item slide{{ i }}">
                   {% endif %}
-                  <img class="carousel-img" src="{{ item.slide }}" alt="slide{{ i }}">
+                  <div class="slide-border">
+                    <img class="carousel-img" src="{{ item.slide }}" alt="slide{{ i }}">
+                  </div>  
                   <div class="carousel-caption d-none d-md-block slide-description">
                     <p class="slide-description-text">{{ item.content | markdownify }}</p>
                   </div>
@@ -69,10 +71,6 @@ layout: default
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
-            </div>
-            <!-- Spaceholder of the carousel border, the content is not visible, don't need to change-->
-            <div class="slide-border">
-              <img class="carousel-img" src="/assets/site/images/01.Collab-homepage-gallery1.jpg" alt="First slide">
             </div>
             </div>
           </div>
@@ -203,21 +201,7 @@ layout: default
                               </div>
                             </div>
                           </div>
-                        </li>
-                        <li>
-                          <div class="teaser">
-                            <div class="last-teaser">
-                            <div class="teaser-content">
-                              <div class="teaser-header">
-                                <h3>{{ page.progress4.title }}</h3>
-                              </div>
-                              <div class="teaser-detail">
-                                <p>{{ page.progress4.content }}</p>
-                              </div>
-                            </div>
-                            </div>
-                          </div>
-                        </li>
+                        </li>        
                       </ul>
                     </div>
                   </div>

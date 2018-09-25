@@ -183,15 +183,20 @@
 }
 
 .slide-border {
-    position: absolute;
     width: 100%;
     border: 5px solid #d2d7dd;
     top: 25px;
+    height: 600px;
+    overflow: hidden;
 }
 
 .slide-border img {
+    object-fit: contain;
+}
+
+img.carousel-img {
+    height: 100%;
     width: 100%;
-    visibility: hidden;
 }
 
 .carousel-spaceholder {
@@ -555,6 +560,7 @@ div[id^="webdev-carousel-"] {
     border: 3px solid #d2d7dd;
     margin-bottom: 40px;
     top: auto;
+    background-repeat: no-repeat !important;
     left: auto;
 }
 
@@ -587,23 +593,29 @@ div[id^="webdev-carousel-"] {
 .teaser-omprn {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../images/teaser-omprn.png);
+        url(../images/teaser-omprn.jpg);
 }
 
 .teaser-collab {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../images/teaser-collab.png);
+        url(../images/teaser-collab.jpg);
+}
+.teaser-genomics {
+    background:
+        linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+        url(../images/teaser-gb.jpg);
 }
 .teaser-ga {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../images/teaser-ga.png);
+        url(../images/teaser-ga.jpg);
 }
 .teaser-icgc {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../images/teaser-icgc.png);
+        url(../images/teaser-icgc.jpg);
+        background-size: contain;
 }
 .teaser-gdc {
     background:
@@ -614,11 +626,13 @@ div[id^="webdev-carousel-"] {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
         url(../images/teaser-oicr.png);
+        background-size: cover;
 }
 .teaser-cbw {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
         url(../images/teaser-cbw.png);
+        background-size:cover;
 }
 .teaser-cag {
     background:
@@ -649,32 +663,26 @@ div[id^="webdev-carousel-"] {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
         url(../images/teaser-al.png);
+        background-size: contain;
 }
 .teaser-kf {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
         url(../images/teaser-kf.png);
+        background-size: contain;
 }
 .teaser-activedriver {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
         url(../images/teaser-activedriver.png);
+        background-size: contain;
 }
-
-.teaser-gb {
-    background:
-        linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url('../images/teaser-gb.png');
-}
-
 .teaser-oicrlabs {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url('../images/teaser-oicrlabs.png');
+        url(../images/teaser-oicrlabs.jpg);
 }
-li:last-child .teaser-detail {
-    height: 151px;
-}
+
 .last-teaser{
     margin-left: 25px;
     margin-top: 15px;
@@ -898,6 +906,7 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 70%),
             url(../images/teaser-icgc.png);
+            background-size: contain;
     }
     .teaser-gdc {
         background:
@@ -908,11 +917,13 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 70%),
             url(../images/teaser-oicr.png);
+            background-size: cover;
     }
     .teaser-cbw {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 70%),
             url(../images/teaser-cbw.png);
+            background-size
     }
     .teaser-cag {
         background:
@@ -943,16 +954,20 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-al.png);
+            background-size: contain;
     }
     .teaser-kf {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-kf.png);
+        background-size: contain;
+
     }
     .teaser-activedriver {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-activedriver.png);
+            background-size: contain;
     }
 
     .teaser-gb {
@@ -965,6 +980,11 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url('../images/teaser-oicrlabs.png');
+    }
+    .teaser-genomics {
+        background:
+            linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
+            url(../images/teaser-gb.jpg);
     }
 }
 
@@ -999,6 +1019,7 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-icgc.png);
+            background-size: contain;
     }
     .teaser-gdc {
         background:
@@ -1009,11 +1030,13 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-oicr.png);
+            background-size: cover;
     }
     .teaser-cbw {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-cbw.png);
+            background-size: cover;
     }
     .teaser-cag {
         background:
@@ -1045,16 +1068,19 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-al.png);
+            background-size: contain;
     }
     .teaser-kf {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-kf.png);
+        background-size: contain;
     }
     .teaser-activedriver {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-activedriver.png);
+            background-size: contain;
     }
 
     .teaser-gb {
@@ -1095,6 +1121,7 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 50%),
             url(../images/teaser-icgc.png);
+            background-size: contain;
     }
     .teaser-gdc {
         background:
@@ -1105,11 +1132,13 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 50%),
             url(../images/teaser-oicr.png);
+            background-size: cover;
     }
     .teaser-cbw {
         background:
             linear-gradient(rgba(234,234,234,0) 20%, rgba(234,234,234,0.9) 50%),
             url(../images/teaser-cbw.png);
+            background-size: cover;
     }
     .teaser-cag {
         background:
@@ -1140,16 +1169,19 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-al.png);
+            background-size: contain;
     }
     .teaser-kf {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-kf.png);
+        background-size: contain;
     }
     .teaser-activedriver {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-activedriver.png);
+            background-size: contain;
     }
 
     .teaser-gb {
@@ -1194,6 +1226,7 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-icgc.png);
+            background-size: contain;
     }
     .teaser-gdc {
         background:
@@ -1204,11 +1237,13 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-oicr.png);
+            background-size: cover;
     }
     .teaser-cbw {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-cbw.png);
+            background-size: cover;
     }
     .teaser-cag {
         background:
@@ -1239,16 +1274,19 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-al.png);
+            background-size: contain;
     }
     .teaser-kf {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-kf.png);
+        background-size: contain;
     }
     .teaser-activedriver {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-activedriver.png);
+            background-size: contain;
     }
 
     .teaser-gb {
@@ -1310,6 +1348,7 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 30%, rgba(234,234,234,0.9) 65%),
             url(../images/teaser-icgc.png);
+            background-size: contain;
     }
     .teaser-gdc {
         background:
@@ -1320,6 +1359,7 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 30%, rgba(234,234,234,0.9) 65%),
             url(../images/teaser-oicr.png);
+            background-size: cover;
     }
     .teaser-cbw {
         background:
@@ -1355,16 +1395,19 @@ a.teaser-hover {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-al.png);
+            background-size: contain;
     }
     .teaser-kf {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-kf.png);
+        background-size: contain;
     }
     .teaser-activedriver {
         background:
             linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
             url(../images/teaser-activedriver.png);
+        background-size: contain;
     }
 
     .teaser-gb {
@@ -1418,13 +1461,12 @@ a.teaser-hover {
     margin-top: 40px;
     height: 100%;
     padding: 0px;
+    display: flex;
+
 }
 
 .work-in-progress ul>li {
     width: calc(100% / 3);
-    height: 100%;
-    display: block;
-    float: left;
 }
 
 .work-in-progress ul>li:nth-child(1) {
@@ -1449,6 +1491,7 @@ a.teaser-hover {
     line-height: 1.8em;
     margin-top: 0.8em;
     text-align: left;
+    margin-bottom: 1.5em;
 }
 
 .work-in-progress ul>li:nth-child(1) .teaser {

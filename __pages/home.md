@@ -118,19 +118,19 @@ partners:
   - abbr: torbug
     logo: /assets/site/images/logo-torbug.png
     website: https://torbug.org/
+  - abbr: kf
+    logo: /assets/site/images/logo-KF.svg
+    website: https://kidsfirstdrc.org/
+  - abbr: bl
+    logo: /assets/site/images/boutroslab_logo.jpg
+    website: https://labs.oicr.on.ca/boutros-lab/
   - abbr: al
     logo: /assets/site/images/logo-awadalla-lab.svg
     website: https://pawadallalab.org/
   - abbr: gb
-    logo: /assets/site/images/logo-Ontario-Institute-for-Cancer-Research.svg
+    logo: /assets/site/images/stein_logo.png
     website: https://genomics.oicr.on.ca/
-  - abbr: kf
-    logo: /assets/site/images/logo-KF.svg
-    website: https://kidsfirstdrc.org/
-  - abbr: oicrlabs
-    logo: /assets/site/images/logo-Ontario-Institute-for-Cancer-Research.svg
-    website: https://nextlabs.oicr.on.ca/
   - abbr: activedriver
-    logo: /assets/site/images/logo-Ontario-Institute-for-Cancer-Research.svg
+    logo: /assets/site/images/activedriverDB_logo.png
     website: https://www.activedriverdb.org/
 ---

@@ -25,6 +25,8 @@ challenge:
     - "/assets/site/images/case-studies/al/Awadalla-Lab-challenge1.png"
     - "/assets/site/images/case-studies/al/Awadalla-Lab-challenge2.png"
     - "/assets/site/images/case-studies/al/Awadalla-Lab-challenge3.png"
+    - "/assets/site/images/case-studies/al/Awadalla-Lab-challenge4.png"
+
 
 
 

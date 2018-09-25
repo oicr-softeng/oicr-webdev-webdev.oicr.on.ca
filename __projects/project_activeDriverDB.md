@@ -18,15 +18,13 @@ alias: "activedriver"
 
 description: "RESPONSIVE DESIGN & DEVELOPMENT, RESEARCH WEBSITE"
 
-proj_btn: "https://nextlabs.oicr.on.ca/"
+proj_btn: "activedriverdb.org"
 
 slides:
   - slide: "/assets/site/images/ADB1.png"
     content: "We designed and built a site for Active Driver DB: A database of cancer and disease mutations in active sites of proteins."
   - slide: "/assets/site/images/ADB2.png"
-    content: "The complexity of information is distilled into a visually appealing and easy to understand interface."
-  - slide: "/assets/site/images/ADB3.png"
-    content: "The complexity of information is distilled into a visually appealing and easy to understand interface."
+    content: "As this was a novel tool for interpreting the biological mechanism of mutations, our goal was to keep the website clean, professional, and user-friendly."
   - slide: "/assets/site/images/ADB4.png"
-    content: "The complexity of information is distilled into a visually appealing and easy to understand interface. As this was a novel tool for interpreting the biological mechanism of mutations, our goal was to keep the website clean, professional, and user-friendly."
+    content: "The project involved multiple layers of protein activities and interactions. The complexity of information was distilled into a visually appealing and simplified interface."
 ---

@@ -25,8 +25,6 @@ challenge:
     - "/assets/site/images/case-studies/genomics/genomics-challenge1.png"
     - "/assets/site/images/case-studies/genomics/genomics-challenge2.png"
     - "/assets/site/images/case-studies/genomics/genomics-challenge3.png"
-    - "/assets/site/images/case-studies/genomics/genomics-challenge4.png"
-
 
 
 

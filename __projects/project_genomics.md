@@ -12,11 +12,11 @@ tags:
   - portal
 
 categories: case-studies
-case-studies-url: "/our-work/case-studies/gb"
+case-studies-url: "/our-work/case-studies/genomics"
 
 priority: 4
 
-alias: "gb"
+alias: "genomics"
 
 description: "DESIGN & DEVELOPMENT, GLOBAL NETWORK, DATA PORTAL"
 ---

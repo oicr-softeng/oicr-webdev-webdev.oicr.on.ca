@@ -18,7 +18,7 @@ alias: "oicrlabs"
 
 description: "RESPONSIVE DESIGN & DEVELOPMENT, RESEARCH WEBSITE"
 
-proj_btn: "https://nextlabs.oicr.on.ca/"
+proj_btn: "/nextlabs.oicr.on.ca/"
 
 slides:
   - slide: "/assets/site/images/OICRlabs1.png"
