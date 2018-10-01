@@ -48,6 +48,8 @@ collections:
   _case-studies:
     output: true
 
+formsSiteURL: forms.oicr.on.ca
+
 ######################################################################
 # Jekyll Environment Config
 ######################################################################
