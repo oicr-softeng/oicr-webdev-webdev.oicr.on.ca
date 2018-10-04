@@ -1,11 +1,11 @@
 ---
 layout: search
-title: "Search | OICR WebDev Team"
+title: "Search"
 permalink: /search/
 published: true
 isPublic_b: true
+cssLink_txt: search.css
 
-title_txt: "Search"
 ---
 
 <div id="app-search"></div>

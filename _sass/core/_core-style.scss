@@ -1,0 +1,88 @@
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+.sticky-lg {
+    @media (min-width: $screen-lg-min) {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 20;
+    }
+}
+
+.sticky-md {
+    @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 20;
+    }
+}
+
+.sticky-sm {
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 20;
+    }
+}
+
+.sticky-xs {
+    @media (max-width: $screen-xs-max) {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 20;
+    }
+}
+
+#backToTop {
+    position: fixed;
+    right: $back-to-top-btn-position-right;
+    bottom: $back-to-top-btn-position-bottom;
+    cursor: pointer;
+    background-color: $back-to-top-btn-bg;
+    display: none;
+    -webkit-border-radius: $back-to-top-btn-border-radius;
+    -moz-border-radius: $back-to-top-btn-border-radius;
+    border-radius: $back-to-top-btn-border-radius;
+    padding: $back-to-top-btn-padding;
+    z-index: 1000;
+    color: $back-to-top-btn-color;
+    align-items: center;
+    font-size: $back-to-top-btn-font-size;
+
+    .backToTop-icon {
+        margin-left: $back-to-top-icon-margin-left;
+        border: $back-to-top-icon-border;
+        border-radius: $back-to-top-icon-border-radius;
+        width: $back-to-top-icon-width;
+        height: $back-to-top-icon-height;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .glyphicon {
+            position: static;
+            top: auto;
+            display: flex;
+            width: $back-to-top-glyphicon-width;
+        }
+    }
+
+    &:hover,
+    &:active,
+    &:focus,
+    &.active {
+        color: $back-to-top-btn-color-hover;
+
+        .backToTop-icon {
+            border: $back-to-top-icon-border-hover;
+        }
+    }
+}
