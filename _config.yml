@@ -60,6 +60,10 @@ collections:
     output: true
   _emailtpl:
     output: false
+  _projects:
+    output: false
+  _case-studies:
+    output: true
 
 defaults:
   # Default

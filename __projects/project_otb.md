@@ -3,7 +3,7 @@ title: "Ontario Tumour Bank (OTB)"
 date:   2017-03-10 10:00:00 -0500
 author: Stephanie Lin
 permalink: /our-work/
-published: false
+published: true
 isPublic_b: true
 tags:
   - design
