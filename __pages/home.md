@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "OICR Web Development Team"
-date:   2017-03-06 10:00:00 -0500
+date: 2017-03-06 10:00:00 -0500
 author: Koji Miyauchi
 permalink: /
 published: true
@@ -71,7 +71,7 @@ join_the_team:
 
 work: "Who We Work With"
 
-footer-message: "We welcome OICR-Affiliated Research Programs to contact us for our services: "
+footer-message: "We welcome OICR-Affiliated Research Programs to contact us for services and resources: "
 
 partners:
   - abbr: oicr
@@ -118,4 +118,19 @@ partners:
   - abbr: torbug
     logo: /assets/site/images/logo-torbug.png
     website: https://torbug.org/
+  - abbr: kf
+    logo: /assets/site/images/logo-KF.svg
+    website: https://kidsfirstdrc.org/
+  - abbr: bl
+    logo: /assets/site/images/boutroslab_logo.jpg
+    website: https://labs.oicr.on.ca/boutros-lab/
+  - abbr: al
+    logo: /assets/site/images/logo-awadalla-lab.svg
+    website: https://pawadallalab.org/
+  - abbr: gb
+    logo: /assets/site/images/stein_logo.png
+    website: https://genomics.oicr.on.ca/
+  - abbr: activedriver
+    logo: /assets/site/images/activedriverDB_logo.png
+    website: https://www.activedriverdb.org/
 ---

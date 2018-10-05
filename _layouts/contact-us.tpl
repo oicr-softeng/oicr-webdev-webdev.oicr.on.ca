@@ -33,48 +33,17 @@ layout: default
                                           </div>
                                       </div>
                                   </div>
-
                                   <!-- Content -->
                                   <div class="contact-us-content">
                                   <div class="content1 send-message">
-                                      <h4>{{ page.form.title }}</h4>
-                                      <form action="//oicr.us15.list-manage.com/subscribe/post?u=af1878706bae96f6bafa75885&amp;id=f4a2d7efc8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-                                        <div class="mc-field-group input-name">
-                                          <label for="mce-NAME">{{ page.form.name }} <span class="asterisk">*</span></label>
-                                          <input type="text" value="" name="NAME" class="required" id="mce-NAME" required>
-                                        </div>
-                                        <div class="mc-field-group input-email">
-                                          <label for="mce-EMAIL">{{ page.form.email }} <span class="asterisk">*</span></label>
-                                          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
-                                        </div>
-                                        <!--
-                                        <div class="input-institution">
-                                            <label for="institution">{{ page.form.institution }} <span>*</span></label>
-                                            <select id="institution" name="institution" required>
-                                                <option value="">Select an Option...</option>
-                                                {% for i in page.form.subject-options %}
-                                                <option value={{i}}>{{i}}</option>
-                                                {% endfor %}
-                                            </select>
-                                        </div>
-                                        -->
-                                        <div class="mc-field-group input-subject">
-                                          <label for="mce-SUBJECT">{{ page.form.subject }} <span class="asterisk">*</span></label>
-                                          <select name="SUBJECT" class="required" id="mce-SUBJECT" required>
-                                            <option value="">Select an Option...</option>
-                                            {% for i in page.form.subject-options %}
-                                              <option value={{i}}>{{i}}</option>
-                                            {% endfor %}
-                                          </select>
-                                        </div>
-                                        <div class="mc-field-group input-comment">
-                                          <label for="mce-COMMENTS">{{ page.form.comment.title }} <span class="asterisk">*</span> <span class="text-muted">{{ page.form.comment.muted }}</span></label>
-                                          <textarea value="" name="COMMENTS" class="required" id="mce-COMMENTS" maxlength="250" required></textarea>
-                                        </div>
-                                        <div class="input-submit">
-                                            <input type="submit" id="submit" name="SUBMIT" value="Send">
-                                        </div>
-                                      </form>
+                                    <script
+                                    id="contact-us"
+                                    type="text/javascript"
+                                    data-formid="5b1ea3b874c5e6002907b36f"
+                                    data-lang="en"
+                                    src="https://{{site.formsSiteURL}}/assets/site/js/form_embedder.js"
+                                  ></script>
+                        
                                   </div>
                                   <div class="content-img">
                                       <div class="content-circle">
