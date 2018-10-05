@@ -80,6 +80,10 @@ a.btn:focus {
     }
 }
 
+#system-content {
+    padding-bottom: 25px;
+}
+
 /* Navbar */
 /* Navbar collapse
 -------------------------------------------------------------- */

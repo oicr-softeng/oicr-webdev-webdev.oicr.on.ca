@@ -19,16 +19,15 @@
 ######################################################################
 
 # Global Site Title
-title: Webdev
+title: Get Started
 
 description: > # this means to ignore newlines until "baseurl:"
- The OICR WebDev Team designs and build websites and web applications that enable OICR to present leading-edge cancer research that engages a global community for collaboration.
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
 # Contact Information
 email: webdev@oicr.on.ca
-
-# Github Repository Information
-git_repo: oicr-webdev/oicr-webdev.github.io
 
 # the subpath of your site, e.g. /blog
 baseurl: ""
@@ -39,25 +38,78 @@ permalink: /node/:year-:month-:day-:title.html
 # Post excerpt tag https://jekyllrb.com/docs/posts/#post-excerpts
 excerpt_separator: "<!--more-->"
 
+######################################################################
 # Collections setting. https://jekyllrb.com/docs/collections/
+######################################################################
+
 collections:
+  # Default collections
+  _images:
+    output: true
+  _pages:
+    output: true
+  _privateFiles:
+    output: false
+  _files:
+    output: false
+  _videos:
+    output: false
+  _weblinks:
+    output: true
   _modules:
+    output: true
+  _emailtpl:
     output: false
   _projects:
     output: false
   _case-studies:
     output: true
 
+defaults:
+  # Default
+  - scope:
+      path: ""
+      type: _weblinks
+    values:
+      layout: weblinks
+      permalink: '/weblinks/:name/'
+      published: true
+  - scope:
+      path: ''
+      type: _modules
+    values:
+      title: ''
+      date_tdt: '2018-07-11T19:36:04.633Z'
+      author: ''
+      layout: default
+      permalink: '/_modules/:name/'
+      published: true
+      isPublic_b: false
+    required: []
+    validate: {}
+    labels:
+      title: Title
+      date_tdt: Date
+      author: Author
+      layout: Layout
+      permalink: Permanent Link
+      published: Published
+      isPublic_b: Public
+
+formsSiteURL: forms.oicr.on.ca
+
 ######################################################################
 # Jekyll Environment Config
 ######################################################################
+
+# ImageFile Path
+imagePath: /assets/site/images/
 
 # Build settings
 markdown: kramdown
 
 # Jekyll plugins ( also requires to add list in Gemfile )
-gems:
-  - jekyll-feed
+plugins:
 
 # Exclude these files when the site is generated.
 exclude:
@@ -69,5 +121,9 @@ exclude:
   - package.json
   - npm-debug.log
   - vendor
+  - docker-compose.yml
+  - start.sh
+  - start-build.sh
+  - start-preview.sh
 
 theme: jekyll-theme-minimal
