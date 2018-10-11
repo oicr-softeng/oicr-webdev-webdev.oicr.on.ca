@@ -14,7 +14,7 @@ If you are starting your project from scratch, simply clone or copy this baselin
 1. Go to a project you would like to update.
 2. Run "git remote add baseline https://github.com/oicr-webdev/webdev_static-cms-baseline"
 3. Run "git fetch baseline"
-4. Run "git merge --alow-unrelated-histories baseline/master"
+4. Run "git merge --alow-unrelated-histories baseline/master" (Only for the first time)
 5. Solve merge conflicts
 
 Please check our webdev documentation for further information about static-cms-baseline.
