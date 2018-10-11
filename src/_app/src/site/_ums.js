@@ -10,6 +10,8 @@ import {
 } from 'oicr-ui-core';
 import UserDashboard from '../site/modules/UserDashboard';
 
+// What happens
+
 // Load store.
 const store = require('../site/store').default;
 
