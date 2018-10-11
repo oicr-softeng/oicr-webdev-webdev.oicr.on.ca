@@ -129,7 +129,7 @@ partners:
     website: https://pawadallalab.org/
   - abbr: gb
     logo: /assets/site/images/stein_logo.png
-    website: https://genomics.oicr.on.ca/
+    website: https://labs.oicr.on.ca/stein-lab
   - abbr: activedriver
     logo: /assets/site/images/activedriverDB_logo.png
     website: https://www.activedriverdb.org/

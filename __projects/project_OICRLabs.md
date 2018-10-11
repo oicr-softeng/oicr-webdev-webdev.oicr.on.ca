@@ -18,11 +18,9 @@ alias: "oicrlabs"
 
 description: "RESPONSIVE DESIGN & DEVELOPMENT, RESEARCH WEBSITE"
 
-proj_btn: "/nextlabs.oicr.on.ca/"
+proj_btn: "nextlabs.oicr.on.ca"
 
 slides:
-  - slide: "/assets/site/images/OICRlabs1.png"
-    content: "The site design of OICR Labs captures the unique personalities of the different groups and highlights their respective research goals and provided services. An efficient search functionality enables further exploration of the OICR Labs, programs, and investigators."
-  - slide: "/assets/site/images/OICRlabs2.png"
-    content: "Labs can take ownership of their message and presentation in order to target specific groups of candidates as well as help attract funding."
+  - slide: "/assets/site/images/OICRlabs.png"
+    content: "The purpose of [nextlabs.oicr.on.ca](https://nextlabs.oicr.on.ca/) is to help OICR-labs promote their mission and unique personality, share recent research activities, and recruit top talent. The site design incorporates an efficient search functionality for further exploration of the labs, programs, and investigators. OICR-Labs empowers OICR researchers and their teams to communicate and collaborate with each other. Each Lab can take ownership of their message and presentation in order to target specific groups of candidates as well as help attract funding."
 ---

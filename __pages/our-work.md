@@ -36,16 +36,16 @@ progress:
   content: "Stay tuned for some exciting new projects that we're working on!"
 
 progress1:
-  title: "ICGC - Version 2"
-  content: "UX & Visual Design & Custom Application Development to refresh and enhance the technology and design of ICGC with more engaging and interactive user experiences. In operation since 2009, the replacement of ICGC’s website will help to realign the site with current ICGC initiatives: ICGC Data Portal, ICGC-ARGO,  PCAWG, and ICGCmed; and express the ICGC’s international collaboration and extraordinary genomic data sharing goals from the original 25K to the future ICGC-ARGO."
+  title: "KidsFirst DRC Website (GMKF-KIDSFIRST)"
+  content: "UX & Visual Design & Custom Application development of tools to inform, educate and communicate goals and information for the Data Resource Center and portal: a new, collaborative research effort to harmonize clinical and genetic data from pediatric cancer and structural birth defects cohort."
 
 progress2:
-  title: "ICGC DACO - Version 2"
-  content: "UX & Visual Design & Custom Application Development of tools to increase the overall productivity of the Data Access Compliance Office (DACO) as it handles requests from scientists around the world for access to controlled data from the International Cancer Genome Consortium. In operation since 2009, the replacement of ICGC-DACO’s tools will help produce long-term sustainable systems suitable for current and future ICGC operations."
+  title: "OICR Project Portfolio (FACIT-OTIS)"
+  content: "UX & Visual Design & Custom Application development of tools of OTIS, a repository of all OICR translational research projects and initiatives to better enable conversations with external investigators/partners. The dynamic resource will be searchable and will serve as the gateway to innovations within the organization."
 
 progress3:
-  title: "CENTRAL USER DIRECTORY"
-  content: "UX & Visual Design & Custom Application Development of tools for the public and private pages to enable easy management of accounts and group memberships for OICR employees and non-OICR collaborators. The Central User Directory (CUD) is a login system that makes it easier for users to access OICR-affiliated websites and services by integrating all user accounts into one method to access."
+  title: "Genome Technologies(GT)/Genome Sequencing Information (GSI)"
+  content: "UX & Visual Design & Responsive Web Development for the OICR Research Teams performing Genomics and Bioinformatics in support of outreach and collaboration opportunities within Cancer Research. Coming soon at genomics.oicr.on.ca"
 
 footer-message: "Do you have a similar project you want to talk to us about? "
 ---

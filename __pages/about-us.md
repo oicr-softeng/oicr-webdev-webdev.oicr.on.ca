@@ -87,22 +87,31 @@ team:
 our-students:
   title: "Our Talented Students"
   students:
-    - name: "Qingda Zou"
-      program: "3rd year Computer Science"
-      school: "University of Waterloo"
-      role: "Web + Technology Developer"
-    - name: "Jeffrey Feng"
-      program: "1st year Biomedical Engineering"
-      school: "University of Waterloo"
-      role: "Content Editor + Themer"
-    - name: "Marcus Hum"
-      program: "2nd year Systems Engineering"
-      school: "University of Waterloo"
-      role: "Visual Designer + Themer"
-
+   - name: "Felix Mangundap"
+     program: "2nd year Computer Science"
+     school: "University of Waterloo"
+     role: "JavaScript Developer"
+   - name: "Kritika Mehta"
+     program: "2nd year Biomedical Engineering"
+     school: "University of Waterloo"
+     role: "Content Editor + Themer"
 past-students:
   title: "Credits to Our Team Alumni"
   terms:
+    - termTitle: Summer 2018  
+      students:
+        - name: "Qingda Zou"
+          program: "3rd year Computer Science"
+          school: "University of Waterloo"
+          role: "Web + Technology Developer"
+        - name: "Jeffrey Feng"
+          program: "1st year Biomedical Engineering"
+          school: "University of Waterloo"
+          role: "Content Editor + Themer"
+        - name: "Marcus Hum"
+          program: "2nd year Systems Engineering"
+          school: "University of Waterloo"
+          role: "Visual Designer + Themer"
     - termTitle: Winter 2018
       students:
         - name: "Qingda Zou"

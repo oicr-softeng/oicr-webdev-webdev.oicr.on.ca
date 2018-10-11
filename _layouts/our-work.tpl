@@ -53,8 +53,10 @@ layout: default
                 <div class="item slide{{ i }}">
                   {% endif %}
                   <div class="slide-border">
+                    <div class="slides-height">
                     <img class="carousel-img" src="{{ item.slide }}" alt="slide{{ i }}">
                   </div>  
+                </div>
                   <div class="carousel-caption d-none d-md-block slide-description">
                     <p class="slide-description-text">{{ item.content | markdownify }}</p>
                   </div>

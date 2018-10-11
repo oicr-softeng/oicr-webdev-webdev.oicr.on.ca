@@ -19,7 +19,7 @@ challenge:
   title: "The Challenge"
   content:
     - "The OICR Genomics and Bioinformatics platform was intended to provide large-scale cancer genomics capabilities to researchers in Ontario and beyond. A strong web-based presence was required to engage potential customers and motivate them to reach out and partner with OICR."
-    - "Besides performing outreach to the research community, the abilities of the OICR’s Genomics and GSI teams also needed to be simultaneously showcased. The goal was to help users navigate the specialised genomic products while informing and assuring them of the competence of OICR genomics research experts."
+    - "Besides performing outreach to the research community, the abilities of the OICR Genomics and GSI teams also needed to be simultaneously showcased. The goal was to help users navigate the specialised genomic products while informing and assuring them of the competence of OICR genomics research experts."
 
   slides:
     - "/assets/site/images/case-studies/genomics/genomics-challenge1.png"
