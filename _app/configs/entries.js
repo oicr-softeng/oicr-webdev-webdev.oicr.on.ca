@@ -9,4 +9,6 @@ module.exports = {
         './src/site/libs/our-work.js',
         './src/site/libs/particles.js',
     ],
+    //forms: ['./src/core/_forms'],
+    //publications: ['./src/core/_publications'],
 };
