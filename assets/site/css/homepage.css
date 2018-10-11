@@ -1282,3 +1282,7 @@ section .row {
     width: 100%;
     z-index: 1000;
 }
+
+.partner-logo.logo-gb {
+    max-height: 80% !important;
+}

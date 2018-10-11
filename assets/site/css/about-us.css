@@ -594,3 +594,7 @@ a.btn.btn-career {
         margin-left: 20px;
     }
 }
+
+.partner-logo.logo-gb {
+    max-height: 90% !important;
+}

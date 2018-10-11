@@ -680,7 +680,7 @@ div[id^="webdev-carousel-"] {
 .teaser-oicrlabs {
     background:
         linear-gradient(rgba(234,234,234,0) 40%, rgba(234,234,234,1) 85%),
-        url(../images/teaser-oicrlabs.jpg);
+        url(../images/teaser-oicrlabs.png);
 }
 
 .last-teaser{
@@ -1587,4 +1587,7 @@ span.work-feature {
         font-size: 14px;
         margin-bottom: 0px;
     }
+}
+.slides-height {
+    height: 850px;
 }

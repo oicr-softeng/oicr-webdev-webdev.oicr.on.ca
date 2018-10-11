@@ -325,7 +325,7 @@ section.case-study{
     margin-top: -70px;
     border-radius: 20px;
     border: 5px solid #e8ecf0;
-    height: auto;
+    height: 523px;
 }
 
 .carousel {
@@ -599,10 +599,12 @@ section.case-study{
 
 .testimonial-content {
     padding-left: 15px;
+    visibility: hidden;
 }
 
 .testimonial-content p {
   color: #ffffff;
+  visibility: hidden;
 }
 
 .testimonial.row {

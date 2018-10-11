@@ -7,7 +7,7 @@ permalink: /our-work/case-studies/kf
 published: true
 isPublic_b: true
 
-project: "KIDSFIRST"
+project: "KidSFirst"
 
 alias: "kf"
 
@@ -25,7 +25,7 @@ challenge:
     - "/assets/site/images/case-studies/kf/kf-challenge1.png"
     - "/assets/site/images/case-studies/kf/kf-challenge2.png"
     - "/assets/site/images/case-studies/kf/kf-challenge3.png"
-    - "/assets/site/images/case-studies/kf/kfchallenge-4.png"
+    - "/assets/site/images/case-studies/kf/challenge4.png"
 
 
 
@@ -37,8 +37,8 @@ testimonial:
 solution:
   title: "The Solution"
   content:
-    - "Our objective was to capture the impressive scope of the project as Kidsfirst DRC was the largest collection of pediatric genetic data, with more than 25,000 samples to be analysed. Through the use of playful colours and imagery, the interface aimed to be a pleasurable navigational experience for not only researchers, but also for patients and parents of children diagnosed with pediatric cancer. With various sections providing in-depth knowledge about the portal features, user groups and partners, the website was a comprehensive resource about the portal." 
-    - "With an elaborate filtering system in the news section, the target audience was kept up to date with events, media and studies conducted in the scientific community. A succinct and easy-to-use guide was provided as a support system to help novice users familiarise themselves with the use of tools required for submission to the KidsFirst Data Portal. Because genetic disease research across pediatric cancer has not been previously performed on a large scale, the website successfully addressed the issue by creating a common platform for research discovery."
+    - "Our objective was to capture the impressive scope of the project as Kidsfirst DRC was the largest collection of pediatric genetic data, with more than 25,000 samples to be analyzed. Through the use of playful colors and imagery, the interface aimed to be a pleasurable navigational experience for researchers, patients, and parents. With various sections providing in-depth knowledge about the portal features, user groups and partners, the website was a comprehensive resource about the portal." 
+    - "With an elaborate filtering system in the news section, the target audience was kept up to date with events, media, and studies conducted in the scientific community. A succinct and easy-to-use guide was provided as a support system to help novice users familiarise themselves with the use of tools required for submission to the KidsFirst Data Portal. Because genetic disease research across pediatric cancer has not been previously performed on a large scale, the website successfully addressed the issue by creating a common platform for research discovery."
   slides:
     - "/assets/site/images/case-studies/kf/kf-soln1.png"
     - "/assets/site/images/case-studies/kf/kf-soln2.png"

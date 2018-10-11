@@ -25,7 +25,7 @@ challenge:
     - "/assets/site/images/case-studies/al/Awadalla-Lab-challenge1.png"
     - "/assets/site/images/case-studies/al/Awadalla-Lab-challenge2.png"
     - "/assets/site/images/case-studies/al/Awadalla-Lab-challenge3.png"
-    - "/assets/site/images/case-studies/al/Awadalla-Lab-challenge4.png"
+    - "/assets/site/images/case-studies/al/Awadalla-Lab-challenge42.png"
 
 
 
@@ -39,7 +39,7 @@ solution:
   title: "The Solution"
   content:
     - "Our aim was to introduce the lab’s energetic personality and encourage others to join and connect. The social atmosphere and the liveliness of the lab was highlighted through the effective use of colours, iconography, and text styling. By elaborating on the main messages, the site was tailored to suit the needs of the target audience such as bioinformatics researchers, genetics researchers, and students."
-    - "The solution effectively captured the research themes and ongoing projects concerning the lab. Strong information hierarchy was required to help researchers locate information by drawing attention to specializations such as precision medicine, personalised genomics, big data and population. The goal was to set the lab apart as an enterprise that encourages freedom of initiative through a collaborative rather than hierarchical environment."
+    - "The solution effectively captured the research themes and ongoing projects concerning the lab. Strong information hierarchy was required to help researchers locate information by drawing attention to specializations such as precision medicine, personalised genomics, big data, and population. The goal was to set the lab apart as an enterprise that encourages freedom of initiative through a collaborative rather than hierarchical environment."
   slides:
     - "/assets/site/images/case-studies/al/Awadalla-Lab-solution1.png"
     - "/assets/site/images/case-studies/al/Awadalla-Lab-solution2.png"
