@@ -94,6 +94,7 @@ defaults:
       permalink: Permanent Link
       published: Published
       isPublic_b: Public
+formsSiteURL: forms.oicr.on.ca
 
 ######################################################################
 # Jekyll Environment Config

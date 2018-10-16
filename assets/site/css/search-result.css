@@ -21,12 +21,6 @@ section.search-result {
     top: 20px;
 }
 
-@media only screen and (max-width: 1199px) {
-    .oicr-search-filter {
-        margin-top: -20px;
-    }
-}
-
 .oicr-search-box .input-group-btn > .btn {
     background-color: #1d9bcb;
     color: #fff;
@@ -38,14 +32,33 @@ section.search-result {
     padding: 20px 0;
 }
 
+.oicr-search-results .oicr-search-group {
+    margin-bottom: 25px;
+}
+
+.oicr-search-results ol {
+    padding-left: 0;
+}
+
+.oicr-search-group {
+    width: 50%;
+}
+
 .oicr-search-box {
     border: 1px solid #dce1e5;
     padding: 15px;
     width: 100%;
+    margin-bottom: 25px;
 }
 
 #app-git-edit {
     right: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .oicr-search-group {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 479px) {
@@ -66,4 +79,18 @@ section.search-result {
     #oicr-ui-core-search .input-group button {
         margin-top: 5px;
     }
+}
+
+.input-group > .form-control-search {
+    position: relative;
+    display: flex;
+}
+
+
+.input-group > .form-control-search  .glyphicon-remove{
+    position: absolute;
+    top: calc(50% - 7px);
+    right: 7px;
+    z-index: 99;
+    cursor: pointer;
 }
