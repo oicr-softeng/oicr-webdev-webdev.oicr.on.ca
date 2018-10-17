@@ -39,6 +39,19 @@ if (targetEmbedForms) {
 }
 
 // Forms
+const targetFormVerify = document.getElementById('app-forms-verify');
+if (targetFormVerify) {
+    ReactDOM.render(
+        <CoreProvider store={store}>
+            <Router history={hashHistory}>
+                <Forms.VerificationRoutes />
+            </Router>
+        </CoreProvider>,
+        targetFormVerify,
+    );
+}
+
+// Forms
 // Logic to embed non-iframe worm.
 // const targetEmbedCustomForms = document.getElementsByClassName('app-forms-embed-custom');
 // if (targetEmbedCustomForms.length) {
