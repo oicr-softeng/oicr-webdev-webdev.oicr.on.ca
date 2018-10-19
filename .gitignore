@@ -12,3 +12,5 @@ npm-debug.log
 *.map
 package-lock.json
 *.dev.bundle.js
+README.md
+CHANGELOG.md
