@@ -9,8 +9,6 @@ module.exports = {
         './src/site/libs/our-work.js',
         './src/site/libs/particles.js',
     ],
-    //ums: ['./src/core/_ums'],
-    //search: ['./src/core/_search'],
     //forms: ['./src/core/_forms'],
     //publications: ['./src/core/_publications'],
 };
