@@ -6,6 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const entries = require('../../configs/entries');
 const transpiling = require('../../configs/transpiling');
+const os = require('os');
 
 const moduleExclude = new RegExp(
     'node_modules/(?!(' + transpiling.join('|') + ')/).*'
@@ -78,7 +79,9 @@ module.exports = env => {
                 uglifyOptions: {
                     warnings: false,
                     ie8: false
-                }
+                },
+                parallel: os.cpus().length,
+                cache: true,
             })
         ]);
     }
