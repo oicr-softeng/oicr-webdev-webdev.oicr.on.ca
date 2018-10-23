@@ -58,28 +58,8 @@ body:
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
         <tr>
         <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 14px; word-wrap: break-word;">Dear [user_display_name] User,<br />
-        <br /> Thank you for registering! For your records, this email contains the Consent Agreement that you agreed to. </td>
+        <br />Please download a copy of the Website User Consent Statement at:<br /><a href="https://www.dropbox.com/s/4afjlue9mvd9zc8/OICR%20-%20Website%20User%20Consent%20Statement.pdf?dl=1" style="color: #5a8126; font-weight: bold; text-decoration: underline;">https://www.dropbox.com/s/4afjlue9mvd9zc8/OICR%20-%20Website%20User%20Consent%20Statement.pdf?dl=1</a></td>
         </tr>
-        <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word;">
-        <div style="background-color: #f8f8f8; border: 3px solid #e8e8e8; border-radius: 4px; padding: 14px 29px;">
-        <h2 style="color: #5a8126; font-size: 18px; font-weight: normal; line-height: 28px;">Consent Agreement Privacy of Personal and Health Data</h2>
-        <p>Cake pie danish danish gummies. Jujubes lollipop powder. Marzipan brownie toffee. Gingerbread gummi bears dragée sugar plum powder cake.</p>
-        <h3 style="color: #535353;">Topping oat cake cookie.</h3>
-        <p>Jelly-o croissant dessert topping sesame snaps. Bonbon halvah candy oat cake chocolate bar tiramisu macaroon cotton candy. Gummies bonbon candy canes sugar plum. Croissant brownie tart tiramisu lollipop chupa chups chocolate bar. Jelly-o pudding tootsie roll biscuit sugar plum. </p>
-        <h3 style="color: #535353;">Fruitcake candy canes candy candy gingerbread jelly-o soufflé pudding.</h3>
-        <ul>
-        <li>Chupa chups dragée lemon drops marshmallow.</li>
-        <li>Donut tiramisu bonbon macaroon danish.</li>
-        <li>Apple pie cake apple pie oat cake apple pie pie caramels.</li>
-        <li>Cake fruitcake brownie soufflé jelly-o tart.</li>
-        <li>Carrot cake ice cream toffee.</li>
-        </ul>
-        <h3 style="color: #535353;">Donut oat cake chupa chups gummi bears jelly beans liquorice jelly</h3>
-        <p>Gingerbread icing lemon drops caramels gingerbread topping candy canes chupa chups cupcake. Muffin pastry pastry cake. Cheesecake cake icing. Tart tootsie roll ice cream halvah apple pie donut sesame snaps icing donut. Bonbon marzipan carrot cake jujubes ice cream. Liquorice chupa chups tiramisu cotton candy pudding chocolate bar jelly.</p>
-        <h3 style="color: #535353;">Gummi bears chupa chups lollipop cake cupcake cheesecake toffee.</h3>
-        <p>Brownie tiramisu cupcake ice cream. Icing marshmallow tootsie roll apple pie jelly. Chocolate marzipan chupa chups gingerbread soufflé. Carrot cake jelly-o chocolate bar carrot cake. Bear claw sesame snaps jelly. Candy pie tart. Jujubes pastry halvah bonbon chocolate cake caramels jelly toffee gingerbread. Pudding croissant danish gummi bears marzipan lemon drops. Chocolate bar cotton candy dragée marshmallow macaroon carrot cake apple pie chocolate. Candy candy tootsie roll. Sesame snaps jelly icing. Tootsie roll cake brownie gummi bears cheesecake sweet jelly beans chocolate bar powder. Brownie bear claw ice cream sesame snaps. Cookie gingerbread tiramisu marshmallow jelly beans sweet.</p>
-        </div>
-        </td>
         <tr>
         <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 14px; word-wrap: break-word;"> Thank you,<br />
         <br /><span style="font-weight: bold;">OICR Webdev</span><br /><a href="mailto:webdev@oicr.on.ca" style="color: #5a8126; font-weight: bold; text-decoration: underline;">webdev@oicr.on.ca</a></td>
@@ -123,5 +103,4 @@ body:
         </table>
         </body>
         </html>
-
 ---
