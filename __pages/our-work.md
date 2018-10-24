@@ -48,4 +48,6 @@ progress3:
   content: "UX & Visual Design & Responsive Web Development for the OICR Research Teams performing Genomics and Bioinformatics in support of outreach and collaboration opportunities within Cancer Research. Coming soon at genomics.oicr.on.ca"
 
 footer-message: "Do you have a similar project you want to talk to us about? "
+btnOne: CONTACT US
+
 ---
