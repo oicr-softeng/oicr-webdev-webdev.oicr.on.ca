@@ -7,7 +7,7 @@ permalink: /our-work/case-studies/kf
 published: true
 isPublic_b: true
 
-project: "KidSFirst"
+project: "KidsFirst"
 
 alias: "kf"
 
