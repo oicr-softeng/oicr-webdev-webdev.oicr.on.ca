@@ -58,7 +58,7 @@ body:
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
         <tr>
         <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 14px; word-wrap: break-word;">Dear [user_display_name] User,<br />
-        <br />Please download a copy of the Website User Consent Statement at:<br /><a href="https://www.dropbox.com/s/4afjlue9mvd9zc8/OICR%20-%20Website%20User%20Consent%20Statement.pdf?dl=1" style="color: #5a8126; font-weight: bold; text-decoration: underline;">https://www.dropbox.com/s/4afjlue9mvd9zc8/OICR%20-%20Website%20User%20Consent%20Statement.pdf?dl=1</a></td>
+        <br />Please download a copy of the Website User Consent Statement at:<br /><a href="webdevff0b3218aaad11e7abc4cec278b6b50a_PRODUCTION_CONSENTPDF_URL" style="color: #5a8126; font-weight: bold; text-decoration: underline;">https://www.dropbox.com/s/4afjlue9mvd9zc8/OICR%20-%20Website%20User%20Consent%20Statement.pdf?dl=1</a></td>
         </tr>
         <tr>
         <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 14px; word-wrap: break-word;"> Thank you,<br />
