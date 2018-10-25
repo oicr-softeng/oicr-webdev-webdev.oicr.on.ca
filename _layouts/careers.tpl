@@ -44,7 +44,7 @@ layout: default
                                             {% for job in page.job_postings.jobs %}
                                             <li class="job-item">
                                                 <div class="job-information1">
-                                                    <a class="job-title">{{ job.title }}</a>
+                                                    <a class="job-title" href="{{ job.btn_url }}">{{ job.title }}</a>
                                                     <p class="job-position">{{ job.location }}</p>
                                                 </div>
                                                 <div class="job-information2">
