@@ -37,7 +37,7 @@ job_postings:
     - title: "DevOps Research Technician" 
       location: MaRS Centre Toronto, Ontario
       contract: UW Co-op Position
-      posted: 2018-01-02 10:00:00 -0500
+      posted: 2018-09-02 10:00:00 -0500
       btn: "APPLY ON WATERLOO WORKS (Job ID : 77046)"
       btn_url: "https://waterlooworks.uwaterloo.ca"
       
