@@ -71,7 +71,11 @@ join_the_team:
 
 work: "Who We Work With"
 
+footer-heading: Interested in Collaborating?
 footer-message: "We welcome OICR-Affiliated Research Programs to contact us for services and resources: "
+btnOne: CONTACT US
+btnTwo: CREATE LAB SITE
+
 
 partners:
   - abbr: oicr
