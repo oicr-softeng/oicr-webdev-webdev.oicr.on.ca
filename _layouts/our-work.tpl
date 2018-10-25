@@ -99,17 +99,16 @@ layout: default
                         <div id="app-git-edit" data-path="{{ page.path }}" data-gitrepo="{{ site.git_repo }}"></div>
                     </div>
                     <div class="container">
-                      <div class="banner">
-                        <div class="banner-title">
-                          <h1>{{ page.title_txt }}</h1>
+                        <div class="banner">
+                            <div class="banner-title">
+                                <h1>{{ page.title_txt }}</h1>
+                            </div>
+                            <div class="banner-content">
+                                <p>{{ page.description }}</p>
+                            </div>
+                            <div class="banner-wrapper"> </div>
                         </div>
-                        <div class="banner-content">
-                          <p>{{ page.description }}</p>
-                        </div>
-                        <div class="banner-wrapper"> </div>
-                      </div>
                     </div>
-                  </div>
                   <div class="container">
                     <div class="filter" id="our-work-filter">
                       {% for link in page.links %}
