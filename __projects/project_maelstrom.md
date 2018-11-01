@@ -18,7 +18,7 @@ alias: "mael"
 
 description: "UX & VISUAL DESIGN, DATA PORTAL, RESEARCH WEBSITE"
 
-proj_btn:
+proj_btn: MAELSTROM-RESEARCH.ORG
 
 slides:
   - slide: "/assets/site/images/01.Maelstrome--homepage-gallery1.jpg"
