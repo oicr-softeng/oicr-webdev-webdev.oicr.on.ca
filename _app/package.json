@@ -28,6 +28,7 @@
     "oicr-ui-core": "git+ssh://git@github.com/oicr-webdev/webdev_oicr-ui-core.git",
     "prop-types": "^15.6.2",
     "react": "^15.0.0",
+    "react-datepicker": "1.4.1",
     "react-diff-view": "^1.6.2",
     "react-dom": "^15.0.0",
     "react-redux": "^4.4.6",
