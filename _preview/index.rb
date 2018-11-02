@@ -59,6 +59,17 @@ post('/') do
      collection = site.collections["posts"] # Posts as alternative collection.
   end 
 
+  # Set fallback when there is no layout specified
+  if doc["data"]['attributes']['layout'].nil?
+    for setting in site.config['defaults'] do
+       if setting['scope']['type'] == '_'+doc['type']
+         defaultLayout = setting['values']['layout']
+       end
+    end
+    if defaultLayout.nil?
+      doc['data']['attributes']['layout'] = 'default'
+    end
+  end
 
   #Generate the doc for rendering
   pageDocument = Jekyll::Document.new(root_dir + doc["path"] \
