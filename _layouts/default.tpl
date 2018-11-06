@@ -9,7 +9,9 @@
     <div id="skip-link"> <a class="element-invisible element-focusable" href="#main-content">Skip to main content</a></div>
     {% include site/ums-nav.inc %}
     {% include site/nav.inc %}
-    {{ content }}
+    <div id="editButton" data-path="{{ page.path }}" data-is-public="{{ page.isPublic_b }}"></div>
+    {% include core/token_replace.inc content=content %}
+    {% include core/back_to_top.inc %}
     {% include site/footer.inc %}
    </div>
 </div>
