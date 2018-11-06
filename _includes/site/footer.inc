@@ -24,7 +24,16 @@
                      {% if page.layout == "about-us" %}
                      <p> {{page.footer-message}} <a href="/careers/" class="btn btn-career"><span class="btn-zoom text-uppercase">CAREER OPPORTUNITIES</span></a><a href="/contact-us/" class="btn"><span class="btn-zoom text-uppercase">CONTACT US</span></a></p>
                      {% else %}
-                     <p> {{page.footer-message}} <a href="/contact-us/" class="btn"><span class="btn-zoom text-uppercase">CONTACT US</span></a></p>
+                     <p> {{page.footer-heading}}</p>
+                     <div class="row-footer">
+                     <br>
+                     <p id="heading-msg"> {{page.footer-message}}</p>
+                     <br>
+                     {% if page.layout == "home" %}
+                     <div class="footer-btn"><a href="/create-lab-site/" class="btn" id="footer-btn-blue"><div class="btn-zoom text-uppercase">{{page.btnTwo}}</div></a></div>
+                     {% endif %}
+                     <div class="footer-btn"><a href="/contact-us/" class="btn"><div class="btn-zoom text-uppercase">{{page.btnOne}}</div></a></p></div>
+                     </div>
                      {% endif %}
                  </div>
                 </div>

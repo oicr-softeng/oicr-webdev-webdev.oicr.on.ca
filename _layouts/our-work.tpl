@@ -18,9 +18,16 @@ layout: default
         <div class="lightbox-inner">
       <div class="lightbox-title">
         <h2>{{ d.title }}</h2>
-        {% if d.proj_btn %}
+        {% if d.proj_btn %}       
         <a class="btn" href="https://{{d.proj_btn}}" target="_blank"><span class="btn-zoom">{{ d.proj_btn }}</span></a>
         {% endif %}
+        <!-- {% if d.alias == "oicr"%}
+        {% assign i = 1 %}
+        {% for slide in d.slides %}
+        <a class="btn" href="https://{{slide.proj_btn}}" target="_blank"><span class="btn-zoom">{{ slide.proj_btn }}</span></a>
+        {% assign i = i | plus: 1 %}
+        {% endfor %}
+        {% endif %}  -->
         <a class="lightbox-title-close"></a>
       </div>
       <div class="lightbox-carousel">
@@ -99,17 +106,16 @@ layout: default
                         <div id="app-git-edit" data-path="{{ page.path }}" data-gitrepo="{{ site.git_repo }}"></div>
                     </div>
                     <div class="container">
-                      <div class="banner">
-                        <div class="banner-title">
-                          <h1>{{ page.title_txt }}</h1>
+                        <div class="banner">
+                            <div class="banner-title">
+                                <h1>{{ page.title_txt }}</h1>
+                            </div>
+                            <div class="banner-content">
+                                <p>{{ page.description }}</p>
+                            </div>
+                            <div class="banner-wrapper"> </div>
                         </div>
-                        <div class="banner-content">
-                          <p>{{ page.description }}</p>
-                        </div>
-                        <div class="banner-wrapper"> </div>
-                      </div>
                     </div>
-                  </div>
                   <div class="container">
                     <div class="filter" id="our-work-filter">
                       {% for link in page.links %}
@@ -213,3 +219,4 @@ layout: default
             </div>
           </div><!-- .container -->
         </div><!-- .wrapper-main -->
+       

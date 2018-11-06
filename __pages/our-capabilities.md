@@ -60,4 +60,6 @@ development:
     - Support and Maintenance
 
 footer-message: "Are you an OICR collaborator and wish to work with the WebDev Team? "
+btnOne: CONTACT US
+
 ---

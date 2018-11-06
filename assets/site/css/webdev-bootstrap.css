@@ -814,3 +814,16 @@ li {
    other details. */
 
 /* Module: Place module name here*/
+
+#heading-msg{
+    font-size: 14px;
+}
+
+.footer-btn{
+  display: inline-block;
+}
+
+#footer-btn-blue{
+    background-color: #33546F !important;
+    border-bottom: 2px solid#557896 !important;
+}
