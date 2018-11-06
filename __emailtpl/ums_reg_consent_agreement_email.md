@@ -58,7 +58,7 @@ body:
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
         <tr>
         <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 14px; word-wrap: break-word;">Dear [user_display_name] User,<br />
-        <br /> Thank you for registering! For your records, this email contains the Consent Agreement that you agreed to. </td>
+        <br />Please download a copy of the Website User Consent Statement at:<br /><a href="webdevff0b3218aaad11e7abc4cec278b6b50a_PRODUCTION_CONSENTPDF_URL" style="color: #5a8126; font-weight: bold; text-decoration: underline;">https://www.dropbox.com/s/4afjlue9mvd9zc8/OICR%20-%20Website%20User%20Consent%20Statement.pdf?dl=1</a></td>
         </tr>
         <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word;">
         <div style="background-color: #f8f8f8; border: 3px solid #e8e8e8; border-radius: 4px; padding: 14px 29px;">
