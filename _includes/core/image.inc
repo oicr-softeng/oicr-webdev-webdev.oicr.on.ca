@@ -26,7 +26,7 @@
                 <div class="modal-content">
                     <div class="modal-body">
                         <div class="image-modal-wrapper">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><img src="/assets/site/images/icon-cancel.svg" class="icon-cancel"></button>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="glyphicon glyphicon-remove"></button>
                             <img src="{{ image.file.src }}" alt="{{ image.alt_txt }}" />
                         </div>
                     </div>
