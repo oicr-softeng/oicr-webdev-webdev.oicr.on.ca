@@ -55,7 +55,11 @@ module.exports = env => {
                 entriesOrder[e1.names[0]] - entriesOrder[e2.names[0]],
             filename: path.resolve('../_includes/dist/footer_scripts.inc'),
             template: 'src/core/.empty'
-        })
+        }),
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery',
+        }),
     ];
     // Production
     if (env.prod) {
