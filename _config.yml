@@ -22,7 +22,9 @@
 title: Get Started
 
 description: > # this means to ignore newlines until "baseurl:"
-  The OICR WebDev Team designs and build websites and web applications that enable OICR to present leading-edge cancer research that engages a global community for collaboration.
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
 # Contact Information
 email: webdev@oicr.on.ca
@@ -58,12 +60,6 @@ collections:
     output: true
   _emailtpl:
     output: false
-  _videos:
-    output: false
-  _weblinks:
-    output: true
-  _modules:
-    output: true
   _projects:
     output: false
   _case-studies:
