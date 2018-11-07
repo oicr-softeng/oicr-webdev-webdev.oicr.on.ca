@@ -11,5 +11,5 @@ module.exports = {
     ],
     //forms: ['./src/core/_forms'],
     //publications: ['./src/core/_publications'],
-    //contents: ['./src/core/_contents'],
+    contents: ['./src/core/_contents'],
 };
