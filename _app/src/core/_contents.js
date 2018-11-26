@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Core, Provider as CoreProvider } from 'oicr-ui-core';
 import { Route, Router, hashHistory } from 'react-router';
-import store from './store';
+import store from '../site/store';
 
 /**
  * Content Redirection Example
