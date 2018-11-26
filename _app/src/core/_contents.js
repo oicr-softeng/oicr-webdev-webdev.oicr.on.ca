@@ -1,4 +1,4 @@
-/* global window, document, $ */
+/* global window, document */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Core, Provider as CoreProvider } from 'oicr-ui-core';
@@ -20,6 +20,6 @@ if (contents) {
                 <Route path="*" component={Core.Components.PageNotFound} />
             </Router>
         </CoreProvider>,
-        contents,
+        contents
     );
 }
