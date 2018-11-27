@@ -6,8 +6,9 @@ import { Route, Router, hashHistory } from 'react-router';
 import store from '../site/store';
 
 /**
- * Content Redirection Example
+ * Content Preview
  */
+
 const contents = document.getElementById('app-contents');
 if (contents) {
     ReactDOM.render(

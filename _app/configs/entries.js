@@ -4,6 +4,6 @@ module.exports = {
     //ums: ['./src/core/_ums'],
     //search: ['./src/core/_search'],
     //forms: ['./src/core/_forms'],
-    //publications: ['./src/core/_publications'],
     //contents: ['./src/core/_contents'],
+    //publications: ['./src/core/_publications'],
 };
