@@ -1,0 +1,54 @@
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.banner {
+    font-size: 20px;
+    background-color: #333333;
+    color: #FFF;
+    padding: 20px;
+}
+
+.boxes {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-image: url(/assets/site/images/paw.jpg);
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+.box {
+    display: inline-block;
+    background-color: #36556F;
+    color: #FFF;
+    padding: 18px;
+    width: 600px;
+    height: 350px;
+    margin: 10px;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+.animal {
+    display: inline-block;
+    width: 600px;
+    height: 350px;
+    margin: 10px;
+    vertical-align: top;
+}
