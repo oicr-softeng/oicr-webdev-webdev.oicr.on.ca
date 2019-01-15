@@ -1,6 +1,6 @@
 ---
 layout: carelynn
-title: "Carelynn's Super Cool Page"
+title: "Carelynn's Super Cool Super Page"
 permalink: /carelynn/
 author: Carelynn Tsai
 
