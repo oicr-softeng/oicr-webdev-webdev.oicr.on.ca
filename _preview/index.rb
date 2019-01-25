@@ -71,6 +71,11 @@ post('/') do
     end
   end
 
+  # When layout is set, but site does not have this layout
+  unless site.layouts.keys.include? doc["data"]["attributes"]["layout"]
+    halt 400
+  end
+
   #Generate the doc for rendering
   pageDocument = Jekyll::Document.new(root_dir + doc["path"] \
                                  , :site => site, :collection => collection)
