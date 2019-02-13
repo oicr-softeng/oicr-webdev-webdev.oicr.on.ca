@@ -7,14 +7,13 @@ permalink: /
 
 ########################################
 
-description: This is home page. 
+description: This is the home page. 
 
 box_contents:
-    title: Page-specific content.
+    title: This is Joseph's sock.
     description: All page-specific contents is written in a page markdown file. ( In this case pages/home.md )
+    image: assets/site/images/sock.png
 
 ########################################
 
 ---
-
-[I'm an inline-style link](https://www.google.com)
