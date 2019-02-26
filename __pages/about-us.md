@@ -87,17 +87,31 @@ team:
 our-students:
   title: "Our Talented Students"
   students:
-   - name: "Felix Mangundap"
+   - name: "David Chi"
      program: "2nd year Computer Science"
      school: "University of Waterloo"
-     role: "JavaScript Developer"
-   - name: "Kritika Mehta"
-     program: "2nd year Biomedical Engineering"
+     role: "Applications Developer"
+   - name: "Carelynn Tsai"
+     program: "1st year Systems Design Engineering"
      school: "University of Waterloo"
      role: "Content Editor + Themer"
+   - name: "Jeffrey Ng"
+     program: "1st year Systems Design Engineering"
+     school: "University of Waterloo"
+     role: "Javascript Developer"
 past-students:
   title: "Credits to Our Team Alumni"
   terms:
+    - termTitle: Fall 2018  
+      students:
+        - name: "Felix Mangundap"
+          program: "2nd year Computer Science"
+          school: "University of Waterloo"
+          role: "JavaScript Developer"
+        - name: "Kritika Mehta"
+          program: "2nd year Biomedical Engineering"
+          school: "University of Waterloo"
+          role: "Content Editor + Themer"
     - termTitle: Summer 2018  
       students:
         - name: "Qingda Zou"
