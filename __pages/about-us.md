@@ -98,7 +98,7 @@ our-students:
    - name: "Jeffrey Ng"
      program: "1st year Systems Design Engineering"
      school: "University of Waterloo"
-     role: "Javascript Developer"
+     role: "JavaScript Developer"
 past-students:
   title: "Credits to Our Team Alumni"
   terms:
