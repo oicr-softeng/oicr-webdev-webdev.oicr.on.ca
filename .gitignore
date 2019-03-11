@@ -12,3 +12,4 @@ package-lock.json
 *.dev.bundle.js
 README.md
 CHANGELOG.md
+.base_styles
