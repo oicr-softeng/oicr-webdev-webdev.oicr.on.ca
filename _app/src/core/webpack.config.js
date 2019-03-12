@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackExcludeAssetsPlugin = require('html-webpack-exclude-assets-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const entries = require('../../configs/entries');
@@ -43,6 +44,8 @@ module.exports = env => {
      * Plugin setting
      */
     var plugins = [
+        new webpack.ProgressPlugin(),
+        new CleanWebpackPlugin(),
         new ExtractTextPlugin('../css/app.bundle.css'),
         new webpack.optimize.CommonsChunkPlugin({
             name: 'core'

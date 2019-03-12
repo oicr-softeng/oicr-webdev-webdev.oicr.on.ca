@@ -1,11 +1,11 @@
 #!/bin/bash
 
-read -p "Would you like to remove old bundle files before new build? [y or n]`echo $'\n> '`"
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-    printf 'Removing old bundle files...\n'
-    rm -rf ../assets/dist/js
-fi
+# read -p "Would you like to remove old bundle files before new build? [y or n]`echo $'\n> '`"
+# if [[ $REPLY =~ ^[Yy]$ ]]
+# then
+#     printf 'Removing old bundle files...\n'
+#     rm -rf ../assets/dist/js
+# fi
 
 ENV="dev"
 if [ $# -eq 1 ]

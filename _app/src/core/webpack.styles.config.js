@@ -16,6 +16,7 @@ module.exports = env => {
      * Plugin setting
      */
     var plugins = [
+        new webpack.ProgressPlugin(),
         new ExtractTextPlugin('../css/core.bundle.css'),
         new webpack.LoaderOptionsPlugin({
             minimize: true,

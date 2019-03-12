@@ -55,6 +55,7 @@
     "babel-preset-es2015-webpack": "^6.4.3",
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-2": "^6.24.1",
+    "clean-webpack-plugin": "^2.0.0",
     "css-loader": "0.21.0",
     "eslint": "^5.15.0",
     "eslint-config-airbnb": "^17.1.0",
