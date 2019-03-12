@@ -45,8 +45,7 @@ module.exports = env => {
     var plugins = [
         new ExtractTextPlugin('../css/app.bundle.css'),
         new webpack.optimize.CommonsChunkPlugin({
-            name: 'core',
-            minChunks: Infinity
+            name: 'core'
         }),
         new HtmlWebpackPlugin({
             excludeAssets: [/app.*.css/],
