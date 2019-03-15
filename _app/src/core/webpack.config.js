@@ -3,11 +3,12 @@ const webpack = require('webpack');
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+const HtmlWebpackExcludeAssetsPlugin = require('html-webpack-exclude-assets-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const entries = require('../../configs/entries');
 const transpiling = require('../../configs/transpiling');
 const os = require('os');
-
 const moduleExclude = new RegExp(
     'node_modules/(?!(' + transpiling.join('|') + ')/).*'
 );
@@ -43,19 +44,21 @@ module.exports = env => {
      * Plugin setting
      */
     var plugins = [
-        new ExtractTextPlugin('../css/core.bundle.css'),
+        new webpack.ProgressPlugin(),
+        new CleanWebpackPlugin(),
+        new ExtractTextPlugin('../css/app.bundle.css'),
         new webpack.optimize.CommonsChunkPlugin({
-            name: 'core',
-            minChunks: Infinity
+            name: 'core'
         }),
         new HtmlWebpackPlugin({
-            excludeChunks: ['base_styles'],
+            excludeAssets: [/app.*.css/],
             minify: false,
             chunksSortMode: (e1, e2) =>
                 entriesOrder[e1.names[0]] - entriesOrder[e2.names[0]],
             filename: path.resolve('../_includes/dist/footer_scripts.inc'),
             template: 'src/core/.empty'
         }),
+        new HtmlWebpackExcludeAssetsPlugin(),
         new webpack.ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery',
