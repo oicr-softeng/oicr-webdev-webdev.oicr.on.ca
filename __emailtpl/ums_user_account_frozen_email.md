@@ -65,7 +65,7 @@ body:
         <tr>
         <td style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 30px 0 30px 0;">
         <div>
-        <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="[link_confirm_submission]" style="height:50px;v-text-anchor:middle;width:285px;" arcsize="4%" stroke="f" fillcolor="#5a8126"><w:anchorlock/><center><![endif]--><a class="mobile-button" href="[link_account_settings]" style="-webkit-text-size-adjust: none; background-color: #5a8126; border: 1px solid #5a8126; border-radius: 3px; border-width: 1px; color: #fff; display: inline-block; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; line-height: 42px; padding: 0 30px 0 30px; text-align: center;" target="_blank">Account Settings</a><!--[if mso]></center></v:roundrect><![endif]-->
+        <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="[link_confirm_submission]" style="height:50px;v-text-anchor:middle;width:285px;" arcsize="4%" stroke="f" fillcolor="#5a8126"><w:anchorlock/><center><![endif]--><a class="mobile-button" href="[link_account_settings]" style="-webkit-text-size-adjust: none; background-color: #5a8126; border: 1px solid #5a8126; border-radius: 3px; border-width: 1px; color: #fff; display: inline-block; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; line-height: 42px; padding: 0 30px 0 30px; text-align: center;" target="_blank">Go to my Account</a><!--[if mso]></center></v:roundrect><![endif]-->
         </div>
         </td>
         </tr>
