@@ -70,7 +70,7 @@ body:
         </td>
         </tr>
         </table>
-        <span style="font-weight: bold;">Please note:</span> This link expires on <date>. <br /> <br/>
+        <span style="font-weight: bold;">Please note:</span> This link expires on [date]. <br />
         <br /> Thank you,<br />
         <br /><span style="font-weight: bold;">OICR Webdev</span><br /><a href="mailto:webdev@oicr.on.ca" style="color: #5a8126; font-weight: bold; text-decoration: underline;">webdev@oicr.on.ca</a></td>
         </tr>
