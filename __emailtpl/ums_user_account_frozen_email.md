@@ -59,7 +59,7 @@ body:
         <tr>
         <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word;">Dear [user_display_name],<br />
         <br />Your account (<strong>[email_to]</strong>) on <a class="apple-links" href="[base_url]" style="color: #5a8126; font-weight: bold; text-decoration: underline;" target="_blank">[base_url]</a> has been frozen.<br />
-        <br /> To unfreeze your account, follow the link below:<br />
+        <br /> To unfreeze your account, click below:<br />
         
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
         <tr>
@@ -70,7 +70,7 @@ body:
         </td>
         </tr>
         </table>
-        
+        <span style="font-weight: bold;">Please note:</span> This link expires on <date>. <br /> <br/>
         <br /> Thank you,<br />
         <br /><span style="font-weight: bold;">OICR Webdev</span><br /><a href="mailto:webdev@oicr.on.ca" style="color: #5a8126; font-weight: bold; text-decoration: underline;">webdev@oicr.on.ca</a></td>
         </tr>
