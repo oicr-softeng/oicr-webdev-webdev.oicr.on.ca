@@ -1,6 +1,6 @@
 ---
 to: '[email_to]'
-title: Consent Agreement
+title: Account Unfrozen
 body:
     text: |
         NO-TXT-VERSION
@@ -8,7 +8,7 @@ body:
         <!DOCTYPE html>
         <html lang="en">
         <head>
-        <title>Consent Agreement</title>
+        <title>Account Unfrozen</title>
         <meta charset="utf-8" />
         <meta content="width=device-width" name="viewport" />
         </head>
@@ -37,7 +37,7 @@ body:
         <td align="center" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 0 20px 0;"><img alt="Ontario Institute for Cancer Research" border="0" class="fluid-image" height="98" src="https://oicr.on.ca/wp-content/uploads/2017/01/OICR_Logo.png" style="background-color: #fff; border: 0; color: #5a8126; display: block; font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; height: auto; line-height: 21px; outline: none; padding: 0; text-decoration: none;" width="135" /></td>
         </tr>
         <tr>
-        <td align="center" style="border-bottom: 2px solid #535353; border-top: 2px solid #535353; color: #5a8126; font-family: Arial, sans-serif; font-size: 22px; line-height: 28px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;">Consent Agreement</td>
+        <td align="center" style="border-bottom: 2px solid #535353; border-top: 2px solid #535353; color: #5a8126; font-family: Arial, sans-serif; font-size: 22px; line-height: 28px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;">Account Unfrozen</td>
         </tr>
         </table>
         </td>
@@ -57,11 +57,10 @@ body:
         <!-- CONTENT: body copy -->
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
         <tr>
-        <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 14px; word-wrap: break-word;">Dear [user_display_name],<br />
-        <br />Please click the following to download a copy of the Website User Consent Statement:<br /><br /><a class="mobile-button" href="webdevff0b3218aaad11e7abc4cec278b6b50a_PRODUCTION_CONSENTPDF_URL" style="-webkit-text-size-adjust: none; background-color: #5a8126; border: 1px solid #5a8126; border-radius: 3px; border-width: 1px; color: #fff; display: inline-block; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; line-height: 42px; padding: 0 30px 0 30px; text-align: center;" target="_blank">Download Consent Statement</a></td>
-        </tr>
-        <tr>
-        <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 14px; word-wrap: break-word;"> Thank you,<br />
+        <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word;">Dear [user_display_name],<br />
+        <br />Your account (<strong>[email_to]</strong>) on <a class="apple-links" href="[base_url]" style="color: #5a8126; font-weight: bold; text-decoration: underline;" target="_blank">[base_url]</a> has been unfrozen.<br />
+        <br /> You can now resume using your account.<br /><br /> 
+        Thank you,<br />
         <br /><span style="font-weight: bold;">OICR Webdev</span><br /><a href="mailto:webdev@oicr.on.ca" style="color: #5a8126; font-weight: bold; text-decoration: underline;">webdev@oicr.on.ca</a></td>
         </tr>
         </table>
