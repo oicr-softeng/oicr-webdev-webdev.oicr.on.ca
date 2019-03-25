@@ -1,7 +1,7 @@
 ---
 title: imgtest
 date_tdt: 2019-02-11T17:06:27.034Z
-author: David Chi
+author: Carelynn Tsai
 layout: images
 permalink: /imgtest
 published: true
@@ -13,11 +13,11 @@ subjectTag_list:
   - title_txt: ''
 headlineCaption_txt: ''
 file:
-  name: Post a Job.png
-  type: image/png
-  size: 694676
-  id: 5c61bb46d372df001a5d71ce
+  name: Puppy.jpeg
+  type: image/jpeg
+  size: 254626
+  id: ''
   src: >-
-    https://files.qingda.vm/59f9ef26732dd17830ca7622/uploads/CMUI/5c61bb46d372df001a5d71ce/Post%20a%20Job.png
+    https://images.pexels.com/photos/460823/pexels-photo-460823.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
 
 ---
