@@ -12,14 +12,13 @@ subjectTag_list:
   - title_txt: ''
 file:
   name: >-
-    PM-OICR TGL Manual for Grant Applications, Proposals and Clinical Research
-    Protocols (1).pdf
+    Dummy.pdf
   data: true
   type: application/pdf
-  size: 555731
+  size: ''
   src: >-
-    https://files.qingda.vm/59f9ef26732dd17830ca7622/uploads/CMUI/5c644ed3d372df001a5d7250/PM-OICR%20TGL%20Manual%20for%20Grant%20Applications,%20Proposals%20and%20Clinical%20Research%20Protocols%20(1).pdf
-  id: 5c644ed3d372df001a5d7250
+    https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
+  id: ''
 
 ---
 

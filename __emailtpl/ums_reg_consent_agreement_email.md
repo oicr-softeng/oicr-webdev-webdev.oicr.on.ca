@@ -57,8 +57,8 @@ body:
         <!-- CONTENT: body copy -->
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
         <tr>
-        <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 14px; word-wrap: break-word;">Dear [user_display_name] User,<br />
-        <br />Please download a copy of the Website User Consent Statement at:<br /><a href="webdevff0b3218aaad11e7abc4cec278b6b50a_PRODUCTION_CONSENTPDF_URL" style="color: #5a8126; font-weight: bold; text-decoration: underline;">https://www.dropbox.com/s/4afjlue9mvd9zc8/OICR%20-%20Website%20User%20Consent%20Statement.pdf?dl=1</a></td>
+        <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 14px; word-wrap: break-word;">Dear [user_display_name],<br />
+        <br />Please click the following to download a copy of the Website User Consent Statement:<br /><br /><a class="mobile-button" href="webdevff0b3218aaad11e7abc4cec278b6b50a_PRODUCTION_CONSENTPDF_URL" style="-webkit-text-size-adjust: none; background-color: #5a8126; border: 1px solid #5a8126; border-radius: 3px; border-width: 1px; color: #fff; display: inline-block; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; line-height: 42px; padding: 0 30px 0 30px; text-align: center;" target="_blank">Download Consent Statement</a></td>
         </tr>
         <tr>
         <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 14px; word-wrap: break-word;"> Thank you,<br />
@@ -103,4 +103,5 @@ body:
         </table>
         </body>
         </html>
+
 ---

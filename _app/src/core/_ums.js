@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import { Router, hashHistory } from 'react-router';
 import { Core, UMS, Provider as CoreProvider } from 'oicr-ui-core';
 import UserDashboard from '../site/modules/UserDashboard';
+import LoginButton from './UserNav/LoginButton';
+import PrivateFile from '../site/modules/PrivateFile';
 
 // Load store.
 const store = require('../site/store').default;
@@ -33,6 +35,7 @@ if (targetUserMenu) {
     ReactDOM.render(
         <CoreProvider store={store}>
             <UMS.Components.UserNavMenu rootPath="/user" />
+            <LoginButton />
         </CoreProvider>,
         targetUserMenu
     );
@@ -59,4 +62,15 @@ if (config.CMUI_ENABLED) {
             targetEditable
         );
     }
+}
+
+const targetPrivate = document.getElementById('private-file-container'); 
+if (targetPrivate) {
+    ReactDOM.render(
+        <Core.Provider store={store}>
+            <PrivateFile 
+            fileSrc={targetPrivate.getAttribute('data-src')}/>
+        </Core.Provider>,
+        targetPrivate
+    );
 }
