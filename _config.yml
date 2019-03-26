@@ -93,38 +93,6 @@ defaults:
       permalink: Permanent Link
       published: Published
       isPublic_b: Public
-  - scope:
-      path: ''
-      type: _person
-    values:
-      title: ''
-      date_tdt: '2019-02-08T15:30:12.169Z'
-      author: ''
-      layout: person
-      permalink: ''
-      published: true
-      isPublic_b: true
-      body: ''
-      name_txt: ''
-      description_txt: ''
-      position_txt: ''
-      image_txt: ''
-    required: []
-    validate: {}
-    labels:
-      title: Title
-      date_tdt: Date
-      author: Author
-      layout: Layout
-      permalink: Permanent Link
-      published: Published
-      isPublic_b: Public
-      body: Body
-      name_txt: Name
-      description_txt: Description
-      position_txt: Position
-      image_txt: Image
-    subs: []
 
 ######################################################################
 # Jekyll Environment Config
