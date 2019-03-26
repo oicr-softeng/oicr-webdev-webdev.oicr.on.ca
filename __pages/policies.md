@@ -2,6 +2,6 @@
 title: Policies
 layout: policies
 permalink: /policies/
-published: true
-isPublic_b: true
+published: false
+isPublic_b: false
 ---
