@@ -1,5 +1,5 @@
 ---
 layout: default
 ---
-<div id="private-file">
+<div id="private-file-container" data-src={{page.file.src}}>
 </div>

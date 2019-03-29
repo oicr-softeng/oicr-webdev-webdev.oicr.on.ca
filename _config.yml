@@ -70,7 +70,6 @@ defaults:
       type: _weblinks
     values:
       layout: weblinks
-      permalink: '/weblinks/:name/'
       published: true
   - scope:
       path: ''
@@ -93,6 +92,35 @@ defaults:
       permalink: Permanent Link
       published: Published
       isPublic_b: Public
+  - scope:
+      path: ""
+      type: _files
+    values:
+      layout: files
+      published: true
+  - scope:
+      path: ""
+      type: _privateFiles
+    values:
+      layout: privateFiles
+      published: true
+  - scope:
+      path: ""
+      type: _emailtpl
+    values:
+      layout: emailtpl
+  - scope:
+      path: ""
+      type: _videos
+    values:
+      layout: videos
+      published: true
+  - scope:
+      path: ""
+      type: _images
+    values:
+      layout: images
+      published: true
 
 ######################################################################
 # Jekyll Environment Config
