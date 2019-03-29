@@ -317,3 +317,26 @@
         }
     }
 }
+
+#video-page, 
+#image-page, 
+#file-page {
+    padding-top: 60px; 
+    padding-bottom: 60px;
+}
+
+#video-page {
+    iframe {
+        display: block; 
+        margin: 0 auto;
+    }
+}
+
+#image-page{
+    img {
+        display: block; 
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+    }
+}
