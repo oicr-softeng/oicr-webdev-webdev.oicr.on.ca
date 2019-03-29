@@ -98,34 +98,29 @@ defaults:
       type: _files
     values:
       layout: files
-      permalink: '/files/:name/'
       published: true
   - scope:
       path: ""
       type: _privateFiles
     values:
       layout: privateFiles
-      permalink: '/privateFiles/:name/'
       published: true
   - scope:
       path: ""
       type: _emailtpl
     values:
       layout: emailtpl
-      permalink: '/emailtpl/:name/'
   - scope:
       path: ""
       type: _videos
     values:
       layout: videos
-      permalink: '/videos/:name/'
       published: true
   - scope:
       path: ""
       type: _images
     values:
       layout: images
-      permalink: '/images/:name/'
       published: true
 
 ######################################################################
