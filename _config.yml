@@ -70,7 +70,6 @@ defaults:
       type: _weblinks
     values:
       layout: weblinks
-      permalink: '/weblinks/:name/'
       published: true
   - scope:
       path: ''
