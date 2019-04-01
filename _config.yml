@@ -60,8 +60,6 @@ collections:
     output: true
   _emailtpl:
     output: false
-  _person:
-    output: false
 
 defaults:
   # Default
