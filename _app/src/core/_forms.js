@@ -2,7 +2,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, hashHistory } from 'react-router';
-import { Forms, UMS, Provider as CoreProvider, Core, Search } from 'oicr-ui-core';
+import {
+    Forms,
+    UMS,
+    Provider as CoreProvider,
+    Core,
+    Search,
+} from 'oicr-ui-core';
 
 if (window.SEARCH_CONFIG) Search.setConfig(window.SEARCH_CONFIG);
 
