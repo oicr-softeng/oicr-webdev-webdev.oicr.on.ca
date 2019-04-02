@@ -12,13 +12,15 @@ const store = require('../site/store').default;
 // Get User Session, Invoke once
 UMS.getUserInfo()(store.dispatch);
 
+const client = Core.initApolloClient(true, store);
+
 // Forms
 const targetForms = document.getElementById('app-forms');
 if (targetForms) {
     ReactDOM.render(
-        <CoreProvider store={store}>
+        <CoreProvider store={store} client={client}>
             <Router history={hashHistory}>
-                <Forms.BaseRoutes store={store} />
+                <Forms.BaseRoutes store={store} client={client}/>
             </Router>
         </CoreProvider>,
         targetForms,
@@ -29,9 +31,9 @@ if (targetForms) {
 const targetEmbedForms = document.getElementById('app-forms-embed');
 if (targetEmbedForms) {
     ReactDOM.render(
-        <CoreProvider store={store}>
+        <CoreProvider store={store} client={client}>
             <Router history={hashHistory}>
-                <Forms.EmbedFormRoutes />
+                <Forms.EmbedFormRoutes client={client} />
             </Router>
         </CoreProvider>,
         targetEmbedForms,
@@ -42,9 +44,9 @@ if (targetEmbedForms) {
 const targetFormVerify = document.getElementById('app-forms-verify');
 if (targetFormVerify) {
     ReactDOM.render(
-        <CoreProvider store={store}>
+        <CoreProvider store={store} client={client}>
             <Router history={hashHistory}>
-                <Forms.VerificationRoutes />
+                <Forms.VerificationRoutes client={client} />
             </Router>
         </CoreProvider>,
         targetFormVerify,
