@@ -20,10 +20,10 @@ if (targetForms) {
     ReactDOM.render(
         <CoreProvider store={store} client={client}>
             <Router history={hashHistory}>
-                <Forms.BaseRoutes store={store} client={client}/>
+                <Forms.BaseRoutes store={store} client={client} />
             </Router>
         </CoreProvider>,
-        targetForms,
+        targetForms
     );
 }
 
@@ -36,7 +36,7 @@ if (targetEmbedForms) {
                 <Forms.EmbedFormRoutes client={client} />
             </Router>
         </CoreProvider>,
-        targetEmbedForms,
+        targetEmbedForms
     );
 }
 
@@ -49,7 +49,7 @@ if (targetFormVerify) {
                 <Forms.VerificationRoutes client={client} />
             </Router>
         </CoreProvider>,
-        targetFormVerify,
+        targetFormVerify
     );
 }
 

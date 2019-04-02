@@ -6,15 +6,16 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackExcludeAssetsPlugin = require('html-webpack-exclude-assets-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const os = require('os');
 const entries = require('../../configs/entries');
 const transpiling = require('../../configs/transpiling');
-const os = require('os');
+
 const moduleExclude = new RegExp(
-    'node_modules/(?!(' + transpiling.join('|') + ')/).*'
+    `node_modules/(?!(${transpiling.join('|')})/).*`
 );
 
 // Load custome webpack config
-var webpackConfig = (env, config) => config;
+let webpackConfig = (env, config) => config;
 try {
     webpackConfig = require('../site/webpack.config.js');
 } catch (e) {}
@@ -43,12 +44,12 @@ module.exports = env => {
     /**
      * Plugin setting
      */
-    var plugins = [
+    let plugins = [
         new webpack.ProgressPlugin(),
         new CleanWebpackPlugin(),
         new ExtractTextPlugin('../css/app.bundle.css'),
         new webpack.optimize.CommonsChunkPlugin({
-            name: 'core'
+            name: 'core',
         }),
         new HtmlWebpackPlugin({
             excludeAssets: [/app.*.css/],
@@ -56,7 +57,7 @@ module.exports = env => {
             chunksSortMode: (e1, e2) =>
                 entriesOrder[e1.names[0]] - entriesOrder[e2.names[0]],
             filename: path.resolve('../_includes/dist/footer_scripts.inc'),
-            template: 'src/core/.empty'
+            template: 'src/core/.empty',
         }),
         new HtmlWebpackExcludeAssetsPlugin(),
         new webpack.ProvidePlugin({
@@ -69,7 +70,7 @@ module.exports = env => {
         plugins = plugins.concat([
             new webpack.LoaderOptionsPlugin({
                 minimize: true,
-                debug: false
+                debug: false,
             }),
             new webpack.DefinePlugin(
                 Object.assign(
@@ -77,19 +78,19 @@ module.exports = env => {
                     {},
                     {
                         'process.env': {
-                            NODE_ENV: JSON.stringify('production')
-                        }
+                            NODE_ENV: JSON.stringify('production'),
+                        },
                     }
                 )
             ),
             new UglifyJsPlugin({
                 uglifyOptions: {
                     warnings: false,
-                    ie8: false
+                    ie8: false,
                 },
                 parallel: os.cpus().length,
                 cache: true,
-            })
+            }),
         ]);
     }
     // Dev
@@ -104,10 +105,10 @@ module.exports = env => {
                 ? '[name].[chunkhash].bundle.js'
                 : '[name].[chunkhash].dev.bundle.js',
             path: path.resolve('../assets/dist/js/'),
-            publicPath: '/assets/dist/js/'
+            publicPath: '/assets/dist/js/',
         },
         resolve: {
-            extensions: ['.js', '.jsx', '.yaml']
+            extensions: ['.js', '.jsx', '.yaml'],
         },
         devtool: env.dev ? 'source-map' : '',
         module: {
@@ -118,28 +119,28 @@ module.exports = env => {
                     loader: 'babel-loader',
                     query: {
                         plugins: ['transform-decorators-legacy'],
-                        presets: ['env', 'react', 'stage-2']
-                    }
+                        presets: ['env', 'react', 'stage-2'],
+                    },
                 },
                 {
                     exclude: /(node_modules|bower_components)/,
                     test: /\.yaml$/,
-                    loader: 'yaml-loader'
+                    loader: 'yaml-loader',
                 },
                 {
                     test: /\.json$/,
-                    loader: 'json-loader'
+                    loader: 'json-loader',
                 },
                 {
                     test: /\.scss$|\.css$/,
-                    loader: ExtractTextPlugin.extract('css-loader!sass-loader')
-                }
-            ]
+                    loader: ExtractTextPlugin.extract('css-loader!sass-loader'),
+                },
+            ],
         },
-        plugins: plugins,
+        plugins,
         node: {
             fs: 'empty',
-            child_process: 'empty'
-        }
+            child_process: 'empty',
+        },
     });
 };

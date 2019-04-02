@@ -18,6 +18,6 @@ if (target) {
                 <Search.BaseRoutes />
             </Router>
         </CoreProvider>,
-        target,
+        target
     );
 }

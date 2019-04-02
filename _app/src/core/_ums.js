@@ -53,7 +53,7 @@ if (config.CMUI_ENABLED) {
             <Core.Provider store={store}>
                 <Core.Components.ContentPageWrapper
                     viewDOM={targetEditable.innerHTML}
-                    rootPath={'/user/#/dashboard'}
+                    rootPath="/user/#/dashboard"
                     eventKey={3}
                     path={targetEditable.getAttribute('data-path')}
                     isPublic={targetEditable.getAttribute('data-is-public')}
@@ -64,12 +64,11 @@ if (config.CMUI_ENABLED) {
     }
 }
 
-const targetPrivate = document.getElementById('private-file-container'); 
+const targetPrivate = document.getElementById('private-file-container');
 if (targetPrivate) {
     ReactDOM.render(
         <Core.Provider store={store}>
-            <PrivateFile 
-            fileSrc={targetPrivate.getAttribute('data-src')}/>
+            <PrivateFile fileSrc={targetPrivate.getAttribute('data-src')} />
         </Core.Provider>,
         targetPrivate
     );
