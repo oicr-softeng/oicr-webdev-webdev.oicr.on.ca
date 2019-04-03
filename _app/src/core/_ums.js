@@ -9,6 +9,8 @@ import PrivateFile from '../site/modules/PrivateFile';
 // Load store.
 const store = require('../site/store').default;
 
+const client = Core.initApolloClient(true, store);
+
 if (window.UMS_CONFIG) UMS.setConfig(window.UMS_CONFIG);
 
 // Get User Session, Invoke once
@@ -18,7 +20,7 @@ UMS.getUserInfo()(store.dispatch);
 const target = document.getElementById('app-user-services');
 if (target) {
     ReactDOM.render(
-        <CoreProvider store={store}>
+        <CoreProvider store={store} client={client}>
             <Router history={hashHistory}>
                 <UMS.Route path="/dashboard" component={UserDashboard} />
                 <UMS.BaseRoutes />
@@ -32,7 +34,7 @@ if (target) {
 const targetUserMenu = document.getElementById('app-user-nav');
 if (targetUserMenu) {
     ReactDOM.render(
-        <CoreProvider store={store}>
+        <CoreProvider store={store} client={client}>
             <UMS.Components.UserNavMenu rootPath="/user" />
         </CoreProvider>,
         targetUserMenu
@@ -48,7 +50,7 @@ if (config.CMUI_ENABLED) {
     const targetEditable = document.getElementById('editButton');
     if (targetEditable) {
         ReactDOM.render(
-            <Core.Provider store={store}>
+            <Core.Provider store={store} client={client}>
                 <Core.Components.ContentPageWrapper
                     viewDOM={targetEditable.innerHTML}
                     rootPath="/user/#/dashboard"
@@ -65,7 +67,7 @@ if (config.CMUI_ENABLED) {
 const targetPrivate = document.getElementById('private-file-container');
 if (targetPrivate) {
     ReactDOM.render(
-        <Core.Provider store={store}>
+        <Core.Provider store={store} client={client}>
             <PrivateFile fileSrc={targetPrivate.getAttribute('data-src')} />
         </Core.Provider>,
         targetPrivate

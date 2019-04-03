@@ -15,10 +15,10 @@ if (window.SEARCH_CONFIG) Search.setConfig(window.SEARCH_CONFIG);
 // Load store.
 const store = require('../site/store').default;
 
+const client = Core.initApolloClient(true, store);
+
 // Get User Session, Invoke once
 UMS.getUserInfo()(store.dispatch);
-
-const client = Core.initApolloClient(true, store);
 
 // Forms
 const targetForms = document.getElementById('app-forms');
