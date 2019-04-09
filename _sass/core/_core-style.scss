@@ -1,3 +1,137 @@
+#banner-top-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  background: #ffffff;
+
+  .banner {
+    border-bottom-width: $banner-default-border-width;
+    border-bottom-style: solid;
+  }
+}
+
+#banner-center-container {
+  .banner-center {
+    position: fixed;
+    z-index: 500;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+
+    .banner-center-content-wrapper {
+      position: relative;
+      width: 90%;
+      max-width: 800px;
+      padding: 60px 30px 30px;
+      border: $banner-default-border-width solid $banner-default-border-color;
+      background: #ffffff;
+      margin: 100px auto;
+      min-height: 370px;
+
+      .banner-dismiss {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+      }
+    }
+  }
+}
+
+#banner-bottom-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 50;
+  background: #ffffff;
+
+  .banner {
+    border-top-width: $banner-default-border-width;
+    border-top-style: solid;
+  }
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+
+  &.banner-dismissible {
+    display: none;
+  }
+
+  &.banner-default {
+    background: $banner-default-background-color;
+    border-color: $banner-default-border-color;
+
+    h1 {
+      color: $banner-default-highlight-color;
+    }
+
+    .banner-dismiss {
+      background-color: $banner-default-highlight-color;
+      border-color: $banner-default-highlight-color;
+    }
+  }
+
+  &.banner-info {
+    background: $banner-info-background-color;
+    border-color: $banner-info-border-color;
+
+    h1 {
+      color: $banner-info-highlight-color;
+    }
+
+    .banner-dismiss {
+      background-color: $banner-info-highlight-color;
+      border-color: $banner-info-highlight-color;
+    }
+  }
+
+  &.banner-error {
+    background: $banner-error-background-color;
+    border-color: $banner-error-border-color;
+
+    h1 {
+      color: $banner-error-highlight-color;
+    }
+
+    .banner-dismiss {
+      background-color: $banner-error-highlight-color;
+      border-color: $banner-error-highlight-color;
+    }
+  }
+
+  .banner-content {
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    > * {
+      &:first-child {
+        margin-top: 0;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .banner-dismiss-wrapper {
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    .banner-dismiss {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
 .sticky {
     position: fixed;
     top: 0;
@@ -315,5 +449,28 @@
                 max-height: 95vh;
             }
         }
+    }
+}
+
+#video-page, 
+#image-page, 
+#file-page {
+    padding-top: 60px; 
+    padding-bottom: 60px;
+}
+
+#video-page {
+    iframe {
+        display: block; 
+        margin: 0 auto;
+    }
+}
+
+#image-page{
+    img {
+        display: block; 
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
     }
 }

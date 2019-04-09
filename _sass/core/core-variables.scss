@@ -2,6 +2,24 @@
 // Variables
 // --------------------------------------------------
 
+//== Banner
+//
+//
+$banner-default-border-width: 1px;
+$banner-default-border-color: #d3d3d3;
+$banner-default-background-color: #f8f8f8;
+$banner-default-highlight-color: #000;
+
+$banner-info-border-width: $banner-default-border-width;
+$banner-info-border-color: $banner-default-border-color;
+$banner-info-background-color: #f5faff;
+$banner-info-highlight-color: #017bc7;
+
+$banner-error-border-width: $banner-default-border-width;
+$banner-error-border-color: $banner-default-border-color;
+$banner-error-background-color: rgba(185, 19, 26, 0.06);
+$banner-error-highlight-color: #990000;
+
 //== Back To Top
 //
 //

@@ -49,7 +49,7 @@ collections:
   _pages:
     output: true
   _privateFiles:
-    output: false
+    output: true
   _files:
     output: true
   _videos:
@@ -60,6 +60,8 @@ collections:
     output: true
   _emailtpl:
     output: false
+  _banner:
+    output: true
 
 defaults:
   # Default
@@ -68,7 +70,6 @@ defaults:
       type: _weblinks
     values:
       layout: weblinks
-      permalink: '/weblinks/:name/'
       published: true
   - scope:
       path: ''
@@ -91,6 +92,40 @@ defaults:
       permalink: Permanent Link
       published: Published
       isPublic_b: Public
+  - scope:
+      path: ""
+      type: _files
+    values:
+      layout: files
+      published: true
+  - scope:
+      path: ""
+      type: _privateFiles
+    values:
+      layout: privateFiles
+      published: true
+  - scope:
+      path: ""
+      type: _emailtpl
+    values:
+      layout: emailtpl
+  - scope:
+      path: ""
+      type: _videos
+    values:
+      layout: videos
+      published: true
+  - scope:
+      path: ""
+      type: _images
+    values:
+      layout: images
+      published: true
+  - scope:
+      path: ""
+      type: _banner
+    values:
+      layout: banner
 
 ######################################################################
 # Jekyll Environment Config
@@ -121,3 +156,4 @@ exclude:
   - start-preview.sh
 
 theme: jekyll-theme-minimal
+

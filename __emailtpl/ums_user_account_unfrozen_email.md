@@ -1,6 +1,6 @@
 ---
 to: '[email_to]'
-title: Reset Your Password
+title: Account Unfrozen
 body:
     text: |
         NO-TXT-VERSION
@@ -8,7 +8,7 @@ body:
         <!DOCTYPE html>
         <html lang="en">
         <head>
-        <title>Reset your Password<</title>
+        <title>Account Unfrozen</title>
         <meta charset="utf-8" />
         <meta content="width=device-width" name="viewport" />
         </head>
@@ -34,10 +34,10 @@ body:
         <!-- CONTENT: logo/title -->
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
         <tr>
-        <td align="center" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 0 20px 0;"><img alt="Ontario Institute for Cancer Research" border="0" class="fluid-image" height="98" src="webdevff0b3218aaad11e7abc4cec278b6b50a_EMAIL_LOGO_URL" style="background-color: #fff; border: 0; color: #65bc45; display: block; font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; height: auto; line-height: 21px; outline: none; padding: 0; text-decoration: none;" width="135" /></td>
+        <td align="center" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 0 20px 0;"><img alt="Ontario Institute for Cancer Research" border="0" class="fluid-image" height="98" src="https://oicr.on.ca/wp-content/uploads/2017/01/OICR_Logo.png" style="background-color: #fff; border: 0; color: #65bc45; display: block; font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; height: auto; line-height: 21px; outline: none; padding: 0; text-decoration: none;" width="135" /></td>
         </tr>
         <tr>
-        <td align="center" style="border-bottom: 2px solid #535353; border-top: 2px solid #535353; color: #65bc45; font-family: Arial, sans-serif; font-size: 22px; line-height: 28px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;">Reset your Password</td>
+        <td align="center" style="border-bottom: 2px solid #535353; border-top: 2px solid #535353; color: #65bc45; font-family: Arial, sans-serif; font-size: 22px; line-height: 28px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;">Account Unfrozen</td>
         </tr>
         </table>
         </td>
@@ -58,18 +58,9 @@ body:
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
         <tr>
         <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word;">Dear [user_display_name],<br />
-        <br /> To reset your password, simply click the link below. <!-- VML-BASED BUTTON -->
-        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-        <tr>
-        <td style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 30px 0 30px 0;">
-        <div>
-        <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="[link_confirm_submission]" style="height:50px;v-text-anchor:middle;width:285px;" arcsize="4%" stroke="f" fillcolor="#65bc45"><w:anchorlock/><center><![endif]--><a class="mobile-button" href="[link_reset_password]" style="-webkit-text-size-adjust: none; background-color: #65bc45; border: 1px solid #65bc45; border-radius: 3px; border-width: 1px; color: #fff; display: inline-block; font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; line-height: 42px; padding: 0 30px 0 30px; text-align: center;" target="_blank">Reset your Password</a><!--[if mso]></center></v:roundrect><![endif]-->
-        </div>
-        </td>
-        </tr>
-        </table><span style="font-weight: bold;">Please note:</span> This link expires in 48 hours, after this you will need to submit a new request to change your password.<br />
-        <br /> If you did not request to change your password, please ignore this email. To keep your account secure, do not forward this email to anyone.<br />
-        <br /> Thank you,<br />
+        <br />Your account (<strong>[email_to]</strong>) on <a class="apple-links" href="[base_url]" style="color: #65bc45; font-weight: bold; text-decoration: underline;" target="_blank">[base_url]</a> has been unfrozen.<br />
+        <br /> You can now resume using your account.<br /><br /> 
+        Thank you,<br />
         <br /><span style="font-weight: bold;">OICR Webdev</span><br /><a href="mailto:webdev@oicr.on.ca" style="color: #65bc45; font-weight: bold; text-decoration: underline;">webdev@oicr.on.ca</a></td>
         </tr>
         </table>
