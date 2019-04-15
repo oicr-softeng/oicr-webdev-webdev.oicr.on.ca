@@ -92,6 +92,13 @@ $(document).ready(function() {
       });
     }
 
+    if ($("#banner-top-container")) {
+        $("#banner-top-container").css("position", "fixed");
+    }
+    if ($("#banner-bottom-container")) {
+        $("#banner-bottom-container").css("position", "fixed");
+    }
+
     setMainMarginTopBottom();
 
     $(".banner-dismiss").click(function() {
