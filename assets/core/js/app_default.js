@@ -161,16 +161,8 @@ $(document).ready(function() {
         var windowWidth = $window.width();
         var alwaysSticky = window.STICKY_BY_DEFAULT_BELOW || 769;
         var sctop = window.STICKY_SCROLL_TOP || 0;
-        if (
-            $(window).width() < alwaysSticky ||
-            $(document).scrollTop() > sctop
-        ) {
-            stickyNavSetting();
-        } else {
-            unStickyNavSetting();
-        }
 
-        if (windowWidth < alwaysSticky) {
+        if (windowWidth < alwaysSticky || $(document).scrollTop() > sctop) {
             if (
                 !$('#navigation').hasClass('sticky') ||
                 $('#navigation').scrollTop()
