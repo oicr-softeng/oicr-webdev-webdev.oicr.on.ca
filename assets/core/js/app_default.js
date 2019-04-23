@@ -62,9 +62,9 @@ $(document).ready(function() {
         var bannerBottomMargin = $('#banner-bottom-container')
             ? $('#banner-bottom-container').outerHeight()
             : 0;
-
         $('#main-website-area').css('margin-top', `${bannerTopMargin}px`);
         $('#main-website-area').css('margin-bottom', `${bannerBottomMargin}px`);
+        $('#navigation').css('top', `${bannerTopMargin}px`);
     }
 
     function getBannerTopHeight() {
@@ -163,6 +163,7 @@ $(document).ready(function() {
         var sctop = window.STICKY_SCROLL_TOP || 0;
 
         if (windowWidth < alwaysSticky || $(document).scrollTop() > sctop) {
+            $('#navigation').css('top', `${getBannerTopHeight()}px`);
             if (
                 !$('#navigation').hasClass('sticky') ||
                 $('#navigation').scrollTop()
@@ -228,6 +229,7 @@ $(document).ready(function() {
     function sizeDependentMenuBehaviour() {
         var windowWidth = $(window).width();
         var breakpoint = window.GRID_FLOAT_BREAKPOINT || 768;
+        setMainMarginTopBottom();
         if (windowWidth < breakpoint) {
             $menuAnchor.attr('data-toggle', 'dropdown');
         } else {
