@@ -159,7 +159,7 @@ $(document).ready(function() {
 
     function stickyNavBar() {
         var windowWidth = $window.width();
-        var alwaysSticky = window.STICKY_BY_DEFAULT_BELOW || 769;
+        var alwaysSticky = window.STICKY_BY_DEFAULT_BELOW || 768;
         var sctop = window.STICKY_SCROLL_TOP || 0;
 
         if (windowWidth < alwaysSticky || $(document).scrollTop() > sctop) {
