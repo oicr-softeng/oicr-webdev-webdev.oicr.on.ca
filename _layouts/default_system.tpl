@@ -14,7 +14,7 @@
         </div>
         {% include site/footer.inc %}
     </div>
-    {% include core/banner.inc position='bottom' %}
+    {% comment %}{% include core/banner.inc position='bottom' %}{% endcomment %}
     {% include core/footer_scripts.inc %}
     {% comment %}{% include dist/footer_scripts.inc %}{% endcomment %}
     {% comment %}{% include site/footer_scripts.inc %}{% endcomment %}
