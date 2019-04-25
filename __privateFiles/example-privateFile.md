@@ -4,7 +4,7 @@ date_tdt: 2019-02-08T15:10:13.218Z
 author: Webdev Admin
 layout: privateFiles
 permalink: /private-test/
-published: true
+published: false
 isPublic_b: false
 displayName_txt: ''
 description_txt: test private file
