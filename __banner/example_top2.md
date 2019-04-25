@@ -2,8 +2,8 @@
 title: Banner Top 2
 layout: banner
 permalink: /banner/
-published: true
-isPublic_b: true
+published: false
+isPublic_b: false
 
 bannerName_txt: status
 dismissible_b: true

@@ -2,8 +2,8 @@
 title: Banner Center
 layout: banner
 permalink: /banner/
-published: true
-isPublic_b: true
+published: false
+isPublic_b: false
 
 bannerName_txt: popup
 dismissible_b: true
