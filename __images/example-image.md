@@ -4,8 +4,8 @@ date_tdt: 2019-02-11T17:06:27.034Z
 author: Carelynn Tsai
 layout: images
 permalink: /test-image/
-published: true
-isPublic_b: true
+published: false
+isPublic_b: false
 displayName_txt: ''
 alt_txt: test image
 tooltip_txt: ''
