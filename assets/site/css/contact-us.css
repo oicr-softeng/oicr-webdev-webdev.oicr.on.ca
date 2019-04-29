@@ -388,7 +388,7 @@ h4 {
 /* WFUI FORMS */
 
 .send-message iframe {
-    height: 525px;
+    height: 609px;
 }
 
 #oicr-forms-form .container {
@@ -514,8 +514,28 @@ h4 {
     font-weight: 600;
     border-radius: 7px;
     background-color: #63aa35;
+    border-top: none;
+    border-right: none;
+    border-left: none;
     border-bottom: 2px solid #b3e077;
     outline: none;
+    margin: 15px 0;
+}
+
+#oicr-forms-form .survey-end-container button.btn-primary:hover,
+#oicr-forms-form .survey-end-container button.btn-primary:focus,
+#oicr-forms-form .survey-end-container button.btn-primary:active,
+#oicr-forms-form .survey-end-container button.btn-primary.active {
+    background-color: #549a27;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 2px solid #99c85a;
+}
+#oicr-forms-form .survey-end-container button.btn-primary:hover .button-survey-text,
+#oicr-forms-form .survey-end-container button.btn-primary:focus .button-survey-text,
+#oicr-forms-form .survey-end-container button.btn-primary:active .button-survey-text,
+#oicr-forms-form .survey-end-container button.btn-primary.active .button-survey-text {
+    transform: scale(1.05);
 }
 
 @media only screen and (min-width: 400px) {

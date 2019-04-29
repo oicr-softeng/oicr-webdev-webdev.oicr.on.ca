@@ -124,16 +124,16 @@ our-students:
 past-students:
   title: Credits to Our Team Alumni
   terms:
-    - students:
-        - name: Felix Mangundap
-          program: 2nd year Computer Science
-          school: University of Waterloo
-          role: JavaScript Developer
-        - name: Kritika Mehta
-          program: 2nd year Biomedical Engineering
-          school: University of Waterloo
-          role: Content Editor + Themer
-      termTitle: Fall 2018
+    - termTitle: Fall 2018  
+      students:
+        - name: "Felix Mangundap"
+          program: "2nd year Computer Science"
+          school: "University of Waterloo"
+          role: "JavaScript Developer"
+        - name: "Kritika Mehta"
+          program: "2nd year Biomedical Engineering"
+          school: "University of Waterloo"
+          role: "Content Editor + Themer"
     - termTitle: Summer 2018
       students:
         - name: Qingda Zou
