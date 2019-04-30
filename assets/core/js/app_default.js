@@ -4,7 +4,7 @@ $(document).ready(function() {
             '-ms-user-select' in document.documentElement.style &&
             navigator.userAgent.match(/IEMobile/)
         ) {
-            var msViewportStyle = document.createElement('stsyle');
+            var msViewportStyle = document.createElement('style');
             msViewportStyle.appendChild(
                 document.createTextNode('@-ms-viewport{width:auto!important}')
             );
