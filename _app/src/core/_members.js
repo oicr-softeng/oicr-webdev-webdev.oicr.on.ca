@@ -21,7 +21,7 @@ if (targetMembers) {
     );
 
     if (staticMembers) {
-        store.dispatch({ type: 'RECEIVE_MEMBERS', staticMembers });
+        store.dispatch({ type: 'RECEIVE_MEMBERS', data: staticMembers });
     }
 
     ReactDOM.render(
