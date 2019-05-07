@@ -474,3 +474,56 @@
         height: 100%;
     }
 }
+
+/* Loading Spinner
+-------------------------------------------------------------- */
+@mixin loading-spinner($activeColor, $time, $selector: '&::before') {
+    // Animation Keyframes
+    @keyframes spinner {
+        0% {
+            transform: translate3d(-50%, -50%, 0) rotate(0deg);
+        }
+        100% {
+            transform: translate3d(-50%, -50%, 0) rotate(360deg);
+        }
+    }
+    // These styles are being applied the element
+    // where we include the mixin. I'd recommend for
+    // maintainability to keep these as minimal as possible.
+    position: relative;
+
+    // Styles to fade out spinner when loaded
+    &.-loaded {
+        opacity: 0;
+        transition: opacity linear 0.1s;
+    }
+
+    // Spinner
+    #{$selector} {
+        animation: $time linear infinite spinner;
+        border: solid 2px #eee;
+        border-bottom-color: #{$activeColor};
+        border-left-color: #{$activeColor};
+        border-right-color: #{$activeColor};
+        border-radius: 50%;
+        content: '';
+        height: 60px;
+        left: 50%;
+        opacity: inherit;
+        position: absolute;
+        top: 50%;
+        transform: translate3d(-50%, -50%, 0);
+        transform-origin: center;
+        width: 60px;
+        will-change: transform;
+    }
+}
+
+.loading-spinner {
+    @include loading-spinner(
+        $loading-spinner-active-color,
+        $loading-spinner-time
+    );
+    height: 65px;
+    margin: 100px 0;
+}
