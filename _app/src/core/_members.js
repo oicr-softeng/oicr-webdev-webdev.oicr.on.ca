@@ -19,15 +19,29 @@ if (targetMembers) {
     const staticMembers = transformJSON(
         targetMembers.getAttribute('data-members')
     );
+    const staticPubs = transformJSON(
+        targetMembers.getAttribute('data-publications')
+    );
 
     if (staticMembers) {
         store.dispatch({ type: 'RECEIVE_MEMBERS', data: staticMembers });
     }
 
+    if (staticPubs) {
+        store.dispatch({
+            type: 'RECEIVE_PUBLICATIONS',
+            publications: staticPubs,
+        });
+    }
+
     ReactDOM.render(
         <CoreProvider store={store} client={client}>
             <Router history={hashHistory}>
-                <Members.BaseRoutes isStatic={!!staticMembers} />
+                <Members.BaseRoutes
+                    isStatic={!!staticMembers && !!staticPubs}
+                    isStaticPublications={!!staticPubs}
+                    isStaticMembers={!!staticMembers}
+                />
             </Router>
         </CoreProvider>,
         targetMembers
