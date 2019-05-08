@@ -268,4 +268,7 @@ $(document).ready(function() {
             backToTop();
         }
     });
+    document.body.addEventListener('userLoggedin', function() {
+        sizeDependentMenuBehaviour();
+    });
 });
