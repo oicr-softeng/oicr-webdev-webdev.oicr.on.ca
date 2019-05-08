@@ -1,6 +1,6 @@
 {% assign nav = site._modules | where:"slug", "nav" | first %}
 <div id="navigation" class="navigation container-shadow">
-    <div class="login-user-nav">
+    <div id="login-user-nav">
         <header class="wrapper">
             <div class="container-fluid container-header">
             <div class="row row-header">
