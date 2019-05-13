@@ -56,79 +56,81 @@
     }
 }
 
-.banner {
-    display: flex;
-    align-items: center;
-    padding: 15px;
+.banner-container {
+    .banner {
+        display: flex;
+        align-items: center;
+        padding: 15px;
 
-    &.banner-dismissible {
-        display: none;
-    }
-
-    &.banner-default {
-        background: $banner-default-background-color;
-        border-color: $banner-default-border-color;
-
-        h1 {
-            color: $banner-default-highlight-color;
+        &.banner-dismissible {
+            display: none;
         }
 
-        .banner-dismiss {
-            background-color: $banner-default-highlight-color;
-            border-color: $banner-default-highlight-color;
-        }
-    }
+        &.banner-default {
+            background: $banner-default-background-color;
+            border-color: $banner-default-border-color;
 
-    &.banner-info {
-        background: $banner-info-background-color;
-        border-color: $banner-info-border-color;
-
-        h1 {
-            color: $banner-info-highlight-color;
-        }
-
-        .banner-dismiss {
-            background-color: $banner-info-highlight-color;
-            border-color: $banner-info-highlight-color;
-        }
-    }
-
-    &.banner-error {
-        background: $banner-error-background-color;
-        border-color: $banner-error-border-color;
-
-        h1 {
-            color: $banner-error-highlight-color;
-        }
-
-        .banner-dismiss {
-            background-color: $banner-error-highlight-color;
-            border-color: $banner-error-highlight-color;
-        }
-    }
-
-    .banner-content {
-        flex-grow: 1;
-        flex-shrink: 1;
-
-        > * {
-            &:first-child {
-                margin-top: 0;
+            h1 {
+                color: $banner-default-highlight-color;
             }
 
-            &:last-child {
-                margin-bottom: 0;
+            .banner-dismiss {
+                background-color: $banner-default-highlight-color;
+                border-color: $banner-default-highlight-color;
             }
         }
-    }
 
-    .banner-dismiss-wrapper {
-        flex-grow: 0;
-        flex-shrink: 0;
+        &.banner-info {
+            background: $banner-info-background-color;
+            border-color: $banner-info-border-color;
 
-        .banner-dismiss {
-            display: flex;
-            align-items: center;
+            h1 {
+                color: $banner-info-highlight-color;
+            }
+
+            .banner-dismiss {
+                background-color: $banner-info-highlight-color;
+                border-color: $banner-info-highlight-color;
+            }
+        }
+
+        &.banner-error {
+            background: $banner-error-background-color;
+            border-color: $banner-error-border-color;
+
+            h1 {
+                color: $banner-error-highlight-color;
+            }
+
+            .banner-dismiss {
+                background-color: $banner-error-highlight-color;
+                border-color: $banner-error-highlight-color;
+            }
+        }
+
+        .banner-content {
+            flex-grow: 1;
+            flex-shrink: 1;
+
+            > * {
+                &:first-child {
+                    margin-top: 0;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .banner-dismiss-wrapper {
+            flex-grow: 0;
+            flex-shrink: 0;
+
+            .banner-dismiss {
+                display: flex;
+                align-items: center;
+            }
         }
     }
 }
