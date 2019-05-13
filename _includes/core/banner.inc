@@ -1,7 +1,7 @@
 {% assign banners = site._banner | where: "position_txt", include.position | sort: "order_ti" %}
 
 {% if banners.size > 0 %}
-    <div id="banner-{{ include.position}}-container">
+    <div id="banner-{{ include.position}}-container" class="banner-container">
         {% for banner in banners %}
             {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
             {% capture startDate %}{% if banner.startDate_tdt %}{{banner.startDate_tdt | date: '%s'}}{% else %}{{'now' | date: '%s'}}{% endif %}{% endcapture %}
