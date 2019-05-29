@@ -28,7 +28,7 @@ body:
         width="100%">
         <tr>
         <td align="center" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
-        <a href="https://[base_url]/" style="color: [primaryColor]; font-family: [fontFamily]; font-size: 13px; font-weight: bold; line-height: 21px; text-decoration: underline;" target="_blank">[base_url]</a>
+        <a href="[base_url]/" style="color: [primaryColor]; font-family: [fontFamily]; font-size: 13px; font-weight: bold; line-height: 21px; text-decoration: underline;" target="_blank">[base_url]</a>
         </td>
         </tr>
         </table>
@@ -72,7 +72,7 @@ body:
         <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: [fontFamily]; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word;">Dear [user_display_name],
         <br />
         <br />Thank you for creating an account! Your 
-        <a class="apple-links" href="https://[base_url]" style="color: [primaryColor]; font-weight: bold; text-decoration: underline;" target="_blank">[base_url]</a> account (<strong>[email_to]</strong>) has been successfully created.
+        <a class="apple-links" href="[base_url]" style="color: [primaryColor]; font-weight: bold; text-decoration: underline;" target="_blank">[base_url]</a> account (<strong>[email_to]</strong>) has been successfully created.
         <br />
         <br /> Thank you,
         <br />
@@ -105,7 +105,7 @@ body:
         <a href="mailto:[email_to]" style="color: [primaryColor]; font-weight: bold; text-decoration: underline;" target="_blank">[email_to]</a>
         <br />
         <br /> Powered by
-        <a class="apple-links" href="https://[base_url]" style="color: [primaryColor]; font-weight: bold; text-decoration: underline;" target="_blank">[base_url]</a> hosted by <a href="https://[poweredByUrl]" style="color: [primaryColor]; font-weight: bold; text-decoration: underline;" target="_blank">[poweredByName]</a>
+        <a class="apple-links" href="[base_url]" style="color: [primaryColor]; font-weight: bold; text-decoration: underline;" target="_blank">[base_url]</a> hosted by <a href="[poweredByUrl]" style="color: [primaryColor]; font-weight: bold; text-decoration: underline;" target="_blank">[poweredByName]</a>
         <br />
         <br />
         <span class="apple-links" style="color: #000000; text-decoration: none;">MaRS Centre | 661 University Ave, Suite 510 | Toronto, Ontario | Canada M5G 0A3</span>
