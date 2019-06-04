@@ -149,7 +149,7 @@ body:
         <tr>
         <td align="center" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #000; font-family: [fontFamily]; font-size: 12px; line-height: 21px; padding: 3px 50px">
         <p style="margin-top: 18px; margin-bottom: 18px; line-height: 18px;">This email was sent to <a href="mailto:[email_to]" style="color: [primaryColor]; font-weight: bold; text-decoration: underline;" target="_blank">[email_to]</a></p>
-        <p style="margin-bottom: 18px; line-height: 18px;">Powered by <a class="apple-links" href="[base_url]" style="color: [primaryColor]; font-weight: bold; text-decoration: underline;" target="_blank">[base_url]</a>, hosted by <a href="[poweredByUrl]" style="color: [primaryColor]; font-weight: bold; text-decoration: underline;" target="_blank">[poweredByName]</a></p>
+        <p style="margin-bottom: 18px; line-height: 18px;">Powered by <a class="apple-links" href="[base_url]" style="color: [primaryColor]; font-weight: bold; text-decoration: underline;" target="_blank">[base_url]</a><span>, hosted by </span><a href="[poweredByUrl]" style="color: [primaryColor]; font-weight: bold; text-decoration: underline;" target="_blank">[poweredByName]</a></p>
         <p style="margin-bottom: 18px; line-height: 18px; color: #000000; text-decoration: none; font-weight: normal;">[fullAddress]<br />© [poweredByName]. All Rights Reserved.</p>
         </td>
         </tr>
