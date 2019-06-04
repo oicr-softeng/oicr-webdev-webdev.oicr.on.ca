@@ -80,7 +80,7 @@ body:
         <!-- CONTENT: header -->
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
         <tbody><tr>
-        <td align="center" style="color: #ffffff; font-family: Avenir, sans-serif; font-size: 18px; font-weight: bold; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;">Account Deleted
+        <td align="center" style="color: #ffffff; font-family: [fontFamily]; font-size: 18px; font-weight: bold; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;">Account Deleted
         </td>
         </tr>
         </tbody></table>
@@ -169,5 +169,4 @@ body:
         </table>
         </body>
         </html>
-
 ---
