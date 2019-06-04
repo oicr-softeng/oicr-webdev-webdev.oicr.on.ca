@@ -1,4 +1,4 @@
-import { Search, Forms, UMS, Publications } from 'oicr-ui-core';
+import { Search, Forms, UMS, Publications, Members } from 'oicr-ui-core';
 import { visibilityFilterReducer } from 'wfui-react/lib/util/visibilityFilter';
 
 export default {
@@ -6,5 +6,6 @@ export default {
     ...Forms.reducers,
     ...Search.reducers,
     ...Publications.reducers,
+    ...Members.reducers,
     visibilityFilter: visibilityFilterReducer,
 };
