@@ -56,7 +56,7 @@ body:
         <!-- HEADER IMAGE -->
         <tr>
         <td align="center" bgcolor="#ffffff" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
-        <table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border: solid 1px [darkGreyColor]; border-bottom: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border: solid 1px [darkGrayColor]; border-bottom: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
         <tbody>
         <tr>
         <td align="center" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 0 0 0;">
@@ -76,7 +76,7 @@ body:
         </tr>
         <!-- HEADER TITLE -->
         <tr>
-        <td bgcolor="#ffffff" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: [darkGreyColor];">
+        <td bgcolor="#ffffff" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: [darkGrayColor];">
         <!-- CONTENT: header -->
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
         <tbody><tr>
@@ -101,7 +101,7 @@ body:
         <table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="600">
         <tbody>
         <tr>
-        <td bgcolor="#ffffff" style="border-left: solid 1px [darkGreyColor]; border-right: solid 1px [darkGreyColor]; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px;">
+        <td bgcolor="#ffffff" style="border-left: solid 1px [darkGrayColor]; border-right: solid 1px [darkGrayColor]; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px;">
         <!-- CONTENT -->
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
         <tbody>
@@ -135,12 +135,12 @@ body:
         <tr>
         <td align="center" bgcolor="#ffffff" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
         <!-- Email Footer -->
-        <table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border: solid 1px [darkGreyColor]; border-top: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="600">
+        <table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border: solid 1px [darkGrayColor]; border-top: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="600">
         <tbody>
         <tr>
         <td style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px; padding-top: 0">
         <!-- Content: Footer -->
-        <table border="0" cellpadding="0" cellspacing="0" style="background-color: [greyColor]; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0" style="background-color: [grayColor]; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
         <tbody>
         <tr>
         <td align="center" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #000; font-family: [fontFamily]; font-size: 12px; line-height: 21px; padding: 3px 50px">
