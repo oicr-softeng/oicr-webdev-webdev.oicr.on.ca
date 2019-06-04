@@ -42,7 +42,7 @@ body:
         <tbody>
         <tr>
         <td align="center" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
-        <a href="[baselink]" target="_blank" style="color: [primaryColor]; font-family: [fontFamily]; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;">[base_url]</a>
+        <a href="[base_url]" target="_blank" style="color: [primaryColor]; font-family: [fontFamily]; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;">[base_url]</a>
         </td>
         </tr>
         </tbody>
