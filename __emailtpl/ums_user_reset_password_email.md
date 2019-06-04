@@ -80,7 +80,7 @@ body:
         <!-- CONTENT: header -->
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
         <tbody><tr>
-        <td align="center" style="color: #ffffff; font-family: Avenir, sans-serif; font-size: 18px; font-weight: bold; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;">Reset your Password</td>
+        <td align="center" style="color: #ffffff; font-family: [fontFamily]; font-size: 18px; font-weight: bold; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;">Reset your Password</td>
         </tr>
         </tbody></table>
         </td>
@@ -112,7 +112,7 @@ body:
         <tbody>
         <tr style=" border: 1px solid [grayColor]; padding: 20px;">
         <td align="center" style="-ms-word-wrap: break-word; color: #000000; font-family: [fontFamily]; line-height: normal; font-size: 14px; font-weight: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; padding: 30px 90px 17px 90px;">
-        <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="[link_reset_password]" style="height:50px;v-text-anchor:middle;width:285px;" arcsize="4%" stroke="f" fillcolor="[buttonColor]"><w:anchorlock/><center><![endif]--><a class="mobile-button" href="[link_reset_password]" style="background-color: [buttonColor]; color: white; font-family: Avenir, sans-serif; font-size: 16px; font-weight: bold; line-height: 22px; text-decoration: none; padding: 13px 19px;" target="_blank">Reset your Password »</a><!--[if mso]></center></v:roundrect><![endif]-->
+        <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="[link_reset_password]" style="height:50px;v-text-anchor:middle;width:285px;" arcsize="4%" stroke="f" fillcolor="[buttonColor]"><w:anchorlock/><center><![endif]--><a class="mobile-button" href="[link_reset_password]" style="background-color: [buttonColor]; color: white; font-family: [fontFamily]; font-size: 16px; font-weight: bold; line-height: 22px; text-decoration: none; padding: 13px 19px;" target="_blank">Reset your Password »</a><!--[if mso]></center></v:roundrect><![endif]-->
         <br /><br />
         <p style="margin-bottom: 0; font-size: 13px; line-height: 18px;">
         <span style="font-weight: bold;">Please note:</span> This link expires on [token_expire_date], please click the above button or copy and paste the following link into your browser.<br /><br /><a href="[link_reset_password]" target="_blank" style="color: [primaryColor]; text-decoration: underline; word-wrap: break-word; -ms-word-wrap: break-word">[link_reset_password]</a>
@@ -181,5 +181,4 @@ body:
         </table>
         </body>
         </html>
-
 ---
