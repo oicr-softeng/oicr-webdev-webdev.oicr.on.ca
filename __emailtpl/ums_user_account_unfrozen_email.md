@@ -61,12 +61,12 @@ body:
         <tr>
         <td align="center" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 0 0 0;">
         <img
+        src="[emailHeaderUrl]"
         alt="[siteName]"
         border="0"
         class="fluid-image"
-        src="[emailHeaderUrl]"
         style="background-color: #fff; border: 0; color: [primaryColor]; display: block; font-family: [fontFamily]; font-size: 11px; font-weight: normal; height: auto; line-height: 21px; outline: none; padding: 0; text-decoration: none; border-top-left-radius: 10px; border-top-right-radius: 10px;"
-        width="598"
+        width=100%
         />
         </td>
         </tr>
