@@ -4,8 +4,8 @@
 {% include site/head.inc %}
 </head>
 <body class="page-default {% if page.layout %}page-{{ page.layout }}{% endif %} {% if page.category %} category-{{ page.category }}{% endif %}{% if page.classname %} post-{{ page.classname }}{% endif %} {{ page.title | downcase | replace:' ','-' | replace:',','' | strip_html }}">
-    {% comment %}{% include core/banner.inc position='top' %}{% endcomment %}
-    {% comment %}{% include core/banner.inc position='center' %}{% endcomment %}
+    {% include core/banner.inc position='top' %}
+    {% include core/banner.inc position='center' %}
     <div id="main-website-area">
         {% include site/nav.inc %}
         <div id="system-content">
@@ -13,7 +13,7 @@
         </div>
         {% include site/footer.inc %}
     </div>
-    {% comment %}{% include core/banner.inc position='bottom' %}{% endcomment %}
+    {% include core/banner.inc position='bottom' %}
     {% include core/footer_scripts.inc %}
     {% comment %}{% include dist/footer_scripts.inc %}{% endcomment %}
     {% comment %}{% include site/footer_scripts.inc %}{% endcomment %}

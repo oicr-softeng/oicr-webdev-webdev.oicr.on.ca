@@ -62,6 +62,8 @@ collections:
     output: false
   _case-studies:
     output: true
+  _banner:
+    output: true
 
 defaults:
   # Default
