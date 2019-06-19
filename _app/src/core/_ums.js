@@ -4,9 +4,12 @@ import ReactDOM from 'react-dom';
 import { Router, hashHistory } from 'react-router';
 import { Core, UMS, Provider as CoreProvider } from 'oicr-ui-core';
 import UserDashboard from '../site/modules/UserDashboard';
+import PrivateFile from '../site/modules/PrivateFile';
 
 // Load store.
 const store = require('../site/store').default;
+
+const client = Core.initApolloClient(true, store);
 
 if (window.UMS_CONFIG) UMS.setConfig(window.UMS_CONFIG);
 
@@ -17,7 +20,7 @@ UMS.getUserInfo()(store.dispatch);
 const target = document.getElementById('app-user-services');
 if (target) {
     ReactDOM.render(
-        <CoreProvider store={store}>
+        <CoreProvider store={store} client={client}>
             <Router history={hashHistory}>
                 <UMS.Route path="/dashboard" component={UserDashboard} />
                 <UMS.BaseRoutes />
@@ -31,7 +34,7 @@ if (target) {
 const targetUserMenu = document.getElementById('app-user-nav');
 if (targetUserMenu) {
     ReactDOM.render(
-        <CoreProvider store={store}>
+        <CoreProvider store={store} client={client}>
             <UMS.Components.UserNavMenu rootPath="/user" />
         </CoreProvider>,
         targetUserMenu
@@ -47,10 +50,10 @@ if (config.CMUI_ENABLED) {
     const targetEditable = document.getElementById('editButton');
     if (targetEditable) {
         ReactDOM.render(
-            <Core.Provider store={store}>
+            <Core.Provider store={store} client={client}>
                 <Core.Components.ContentPageWrapper
                     viewDOM={targetEditable.innerHTML}
-                    rootPath={'/user/#/dashboard'}
+                    rootPath="/user/#/dashboard"
                     eventKey={3}
                     path={targetEditable.getAttribute('data-path')}
                     isPublic={targetEditable.getAttribute('data-is-public')}
@@ -59,4 +62,14 @@ if (config.CMUI_ENABLED) {
             targetEditable
         );
     }
+}
+
+const targetPrivate = document.getElementById('private-file-container');
+if (targetPrivate) {
+    ReactDOM.render(
+        <Core.Provider store={store} client={client}>
+            <PrivateFile fileSrc={targetPrivate.getAttribute('data-src')} />
+        </Core.Provider>,
+        targetPrivate
+    );
 }
