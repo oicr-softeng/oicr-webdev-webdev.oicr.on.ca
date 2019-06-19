@@ -85,7 +85,7 @@ team:
     focus: >-
       Specializes in high-quality user interfaces (UI) design and development to
       facilitate interactions to visualize and manage information enabling
-      better UX with modern web browser technologsties.
+      better UX with modern web browser technologies.
     expertise: JavaScript; ReactJS; Redux; Php
     fun_fact: 'Love eating, golfing.'
     tag: koji-miyauchi
@@ -124,16 +124,16 @@ our-students:
 past-students:
   title: Credits to Our Team Alumni
   terms:
-    - termTitle: Fall 2018  
+    - termTitle: Fall 2018
       students:
-        - name: "Felix Mangundap"
-          program: "2nd year Computer Science"
-          school: "University of Waterloo"
-          role: "JavaScript Developer"
-        - name: "Kritika Mehta"
-          program: "2nd year Biomedical Engineering"
-          school: "University of Waterloo"
-          role: "Content Editor + Themer"
+        - name: Felix Mangundap
+          program: 2nd year Computer Science
+          school: University of Waterloo
+          role: JavaScript Developer
+        - name: Kritika Mehta
+          program: 2nd year Biomedical Engineering
+          school: University of Waterloo
+          role: Content Editor + Themer
     - termTitle: Summer 2018
       students:
         - name: Qingda Zou
