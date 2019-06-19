@@ -26,4 +26,3 @@ message_txt: |-
 
 ---
 
-

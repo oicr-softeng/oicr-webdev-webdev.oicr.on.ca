@@ -9,4 +9,4 @@ module.exports = (env, defaultConfig) => {
     if (env.prod) {
     }
     return defaultConfig;
-}
+};
