@@ -108,22 +108,24 @@ team:
     tag: george-shewchuk
 our-students:
   title: Our Talented Students
-  students:
-    - name: David Chi
-      program: 2nd year Computer Science
-      school: University of Waterloo
-      role: Applications Developer
-    - name: Carelynn Tsai
-      program: 1st year Systems Design Engineering
-      school: University of Waterloo
-      role: Content Editor + Themer
-    - name: Jeffrey Ng
-      program: 1st year Systems Design Engineering
-      school: University of Waterloo
-      role: JavaScript Developer
+  students: []
 past-students:
   title: Credits to Our Team Alumni
   terms:
+    - students:
+        - name: David Chi
+          program: 2nd year Computer Science
+          school: University of Waterloo
+          role: Applications Developer
+        - name: Carelynn Tsai
+          program: 1st year Systems Design Engineering
+          school: University of Waterloo
+          role: Content Editor + Themer
+        - name: Jeffrey Ng
+          program: 1st year Systems Design Engineering
+          school: University of Waterloo
+          role: JavaScript Developer
+      termTitle: Winter 2019
     - termTitle: Fall 2018
       students:
         - name: Felix Mangundap
