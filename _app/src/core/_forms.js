@@ -2,12 +2,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, hashHistory } from 'react-router';
-import { Forms, UMS, Provider as CoreProvider } from 'oicr-ui-core';
+import {
+    Forms,
+    UMS,
+    Provider as CoreProvider,
+    Core,
+    Search,
+} from 'oicr-ui-core';
 
 if (window.SEARCH_CONFIG) Search.setConfig(window.SEARCH_CONFIG);
 
 // Load store.
 const store = require('../site/store').default;
+
+const client = Core.initApolloClient(true, store);
 
 // Get User Session, Invoke once
 UMS.getUserInfo()(store.dispatch);
@@ -16,12 +24,12 @@ UMS.getUserInfo()(store.dispatch);
 const targetForms = document.getElementById('app-forms');
 if (targetForms) {
     ReactDOM.render(
-        <CoreProvider store={store}>
+        <CoreProvider store={store} client={client}>
             <Router history={hashHistory}>
-                <Forms.BaseRoutes store={store} />
+                <Forms.BaseRoutes store={store} client={client} />
             </Router>
         </CoreProvider>,
-        targetForms,
+        targetForms
     );
 }
 
@@ -29,12 +37,25 @@ if (targetForms) {
 const targetEmbedForms = document.getElementById('app-forms-embed');
 if (targetEmbedForms) {
     ReactDOM.render(
-        <CoreProvider store={store}>
+        <CoreProvider store={store} client={client}>
             <Router history={hashHistory}>
-                <Forms.EmbedFormRoutes />
+                <Forms.EmbedFormRoutes client={client} />
             </Router>
         </CoreProvider>,
-        targetEmbedForms,
+        targetEmbedForms
+    );
+}
+
+// Forms
+const targetFormVerify = document.getElementById('app-forms-verify');
+if (targetFormVerify) {
+    ReactDOM.render(
+        <CoreProvider store={store} client={client}>
+            <Router history={hashHistory}>
+                <Forms.VerificationRoutes client={client} />
+            </Router>
+        </CoreProvider>,
+        targetFormVerify
     );
 }
 
