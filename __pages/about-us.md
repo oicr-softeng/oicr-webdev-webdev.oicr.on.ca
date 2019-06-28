@@ -108,7 +108,19 @@ team:
     tag: george-shewchuk
 our-students:
   title: Our Talented Students
-  students: []
+  students: 
+        - name: Yifei Zhang
+          program: 1st year Software Engineering
+          school: University of Waterloo
+          role: Applications Developer
+        - name: Jacqueline Li
+          program: 1st year Computer Science
+          school: University of Waterloo
+          role: Content Editor + Themer
+        - name: Amy McCormack
+          program: 1st year Computer Science
+          school: University of Guelph
+          role: Visual Designer + Themer
 past-students:
   title: Credits to Our Team Alumni
   terms:
