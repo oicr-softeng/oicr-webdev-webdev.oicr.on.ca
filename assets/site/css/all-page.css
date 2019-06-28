@@ -298,7 +298,6 @@ a.btn:focus {
 
 .banner {
     display: block;
-    margin-top: 30px;
 }
 
 .banner-title,
@@ -389,7 +388,6 @@ a.btn:focus {
     padding-right: 25px;
 }
 
-
 /* Footer */
 footer .container {
     margin-right: auto;
@@ -412,18 +410,16 @@ footer p {
     color: #999;
 }
 
-
 .labs-footer .labs-list a.footer-logo-container {
     margin: 0;
     padding: 0;
 }
 
-
 @media screen and (min-width: 768px) {
     footer .container .row .col-md-4 {
         width: 30%;
     }
-    
+
     footer .container .row .col-sm-4 {
         width: 30%;
     }
@@ -432,11 +428,10 @@ footer p {
     .col-sm-4:last-child {
         width: 40%;
     }
-        
 }
 @media screen and (max-width: 767px) {
-    footer div.footer-category{
-            padding-bottom: 20px;
+    footer div.footer-category {
+        padding-bottom: 20px;
     }
 }
 
@@ -510,7 +505,6 @@ footer p {
     text-transform: uppercase;
     color: #076faf;
 }
-
 
 @media (max-width: 991px) {
     .labs-footer .final-link {
