@@ -1,15 +1,14 @@
 /* Banner */
-.banner-title h1 {
+.content-header .title h1 {
     color: #63aa35;
 }
 
 @media only screen and (min-width: 768px) {
-    .banner-content {
+    .content-header .content {
         width: calc(100% - 287px);
         margin-top: calc(3% - 20px);
     }
 }
-
 
 /* Main Content */
 
@@ -34,7 +33,7 @@ section.about-us {
     margin-bottom: 25px;
 }
 
-.our-aim-header h4{
+.our-aim-header h4 {
     color: #355470;
     font-size: 20px;
     font-weight: 700;
@@ -79,7 +78,8 @@ section.about-us {
         text-align: center;
         align-items: center;
     }
-    .our-aim-img, .our-aim-content {
+    .our-aim-img,
+    .our-aim-content {
         float: none;
     }
     .our-aim-img {
@@ -127,7 +127,7 @@ section.about-us {
 }
 
 .how-we-work-circle:before {
-    content: "";
+    content: '';
     display: block;
     padding-top: 100%;
 }
@@ -138,8 +138,8 @@ section.about-us {
     -moz-background-size: auto 100%;
     -o-background-size: auto 100%;
     background-size: auto 100%;
-    position:absolute;
-    top:0;
+    position: absolute;
+    top: 0;
     right: 0;
     left: 0;
     bottom: 0;
@@ -189,7 +189,8 @@ section.about-us {
     .how-we-work-img {
         min-width: 150px;
     }
-    .how-we-work-circle, .how-we-work-content {
+    .how-we-work-circle,
+    .how-we-work-content {
         float: none;
     }
     .how-we-work-circle {
@@ -213,12 +214,14 @@ section.about-us {
     }
 }
 
-
 /* Stats */
 .about-us-stats {
     margin-top: -40px;
-    background:
-        linear-gradient(rgba(53,84,112,0) 0%, rgba(21,32,42,0.4) 50%,rgba(21,32,42,0.6) 100%),
+    background: linear-gradient(
+            rgba(53, 84, 112, 0) 0%,
+            rgba(21, 32, 42, 0.4) 50%,
+            rgba(21, 32, 42, 0.6) 100%
+        ),
         url(/assets/site/images/about-us-bg.png);
     padding: 80px 0px;
 }
@@ -244,7 +247,8 @@ section.about-us {
     border-bottom: 5px solid #9da7b3;
 }
 
-.stats-block h4, .stats-block p {
+.stats-block h4,
+.stats-block p {
     color: #ffffff;
 }
 
@@ -281,10 +285,11 @@ section.about-us {
         width: 46%;
         margin-left: 8%;
     }
-    .about-us-stats li:nth-child(2n+1) {
-         margin-left: 0%;
+    .about-us-stats li:nth-child(2n + 1) {
+        margin-left: 0%;
     }
-    .about-us-stats li:nth-child(3), .about-us-stats li:nth-child(4) {
+    .about-us-stats li:nth-child(3),
+    .about-us-stats li:nth-child(4) {
         margin-top: 3%;
     }
 }
@@ -356,7 +361,7 @@ section.about-us {
     width: 100%;
 }
 
-.team-item-photo img{
+.team-item-photo img {
     width: 100%;
 }
 
@@ -438,14 +443,13 @@ section.about-us {
         margin-right: 0px;
     }
     .team-item {
-      margin-bottom: 20px;
+        margin-bottom: 20px;
     }
 }
 
-
-
 /* our students */
-.our-student , .past-student {
+.our-student,
+.past-student {
     margin-top: 30px;
     margin-bottom: 80px;
 }
@@ -553,7 +557,7 @@ section.about-us {
 }
 
 @media only screen and (max-width: 740px) {
-    .student-list .student h4{
+    .student-list .student h4 {
         width: 45%;
     }
     .student-list .student ul {
@@ -575,7 +579,8 @@ section.about-us {
 }
 
 @media only screen and (max-width: 525px) {
-    .student-list .student h4, .our-student .student-list .student ul {
+    .student-list .student h4,
+    .our-student .student-list .student ul {
         float: none;
         width: 100%;
     }
@@ -586,10 +591,10 @@ section.about-us {
 
 /* footer */
 a.btn.btn-career {
-    width:260px;
+    width: 260px;
     margin-left: calc(50% - 130px);
 }
-@media only screen and (min-width:1201px) {
+@media only screen and (min-width: 1201px) {
     a.btn.btn-career {
         margin-left: 20px;
     }

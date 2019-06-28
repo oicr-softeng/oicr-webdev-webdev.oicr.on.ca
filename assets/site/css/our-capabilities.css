@@ -1,9 +1,10 @@
-.banner-title h1 {
+/* Banner */
+.content-header .title h1 {
     color: #f87b02;
 }
 
 @media only screen and (min-width: 768px) {
-    .banner-content {
+    .content-header .content {
         width: calc(100% - 460px);
         margin-top: calc(3% - 20px);
     }
@@ -27,7 +28,6 @@
 
 .main-content .row .container {
     padding: 20px 15px 55px;
-
 }
 
 .main-content .row.our-capabilities-header .container {
@@ -39,11 +39,12 @@
     padding: 0px;
 }
 
-.section-content, .section-img {
+.section-content,
+.section-img {
     width: 50%;
 }
 
-.section-content ul{
+.section-content ul {
     padding-left: 0px;
     margin: 15px 0px;
 }
@@ -84,22 +85,28 @@
     color: #ff7c00;
 }
 
-.health-science-research-domain .section-img, .health-science-research-domain .section-content,
-.design-ux .section-content, .design-ux .section-img {
+.health-science-research-domain .section-img,
+.health-science-research-domain .section-content,
+.design-ux .section-content,
+.design-ux .section-img {
     float: right;
 }
 
-.planning-strategy .section-content, .planning-strategy .section-img,
-.development .section-content, .development .section-img {
+.planning-strategy .section-content,
+.planning-strategy .section-img,
+.development .section-content,
+.development .section-img {
     float: left;
 }
 
-.health-science-research-domain .section-img, .design-ux .section-img {
+.health-science-research-domain .section-img,
+.design-ux .section-img {
     padding-top: 25px;
     padding-left: 50px;
 }
 
-.planning-strategy .section-img, .development .section-img {
+.planning-strategy .section-img,
+.development .section-img {
     padding-top: 25px;
     text-align: right;
     padding-right: 70px;
@@ -120,11 +127,13 @@
         width: 30%;
         min-width: 150px;
     }
-    .health-science-research-domain .section-img, .design-ux .section-img {
+    .health-science-research-domain .section-img,
+    .design-ux .section-img {
         padding-left: 20px;
     }
 
-    .planning-strategy .section-img, .development .section-img {
+    .planning-strategy .section-img,
+    .development .section-img {
         padding-right: 40px;
     }
     .section-content {
@@ -136,9 +145,14 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .health-science-research-domain .section-img, .health-science-research-domain .section-content,
-    .design-ux .section-content, .design-ux .section-img, .planning-strategy .section-content, .planning-strategy .section-img,
-    .development .section-content, .development .section-img {
+    .health-science-research-domain .section-img,
+    .health-science-research-domain .section-content,
+    .design-ux .section-content,
+    .design-ux .section-img,
+    .planning-strategy .section-content,
+    .planning-strategy .section-img,
+    .development .section-content,
+    .development .section-img {
         float: none;
     }
     .main-content .row .container {
@@ -155,17 +169,19 @@
     .health-science-research-domain h4 {
         text-align: center;
     }
-    .section-img img{
+    .section-img img {
         padding: 0px;
         margin: auto;
     }
-    .health-science-research-domain .section-img, .design-ux .section-img {
+    .health-science-research-domain .section-img,
+    .design-ux .section-img {
         padding: 0px;
         margin: auto;
         text-align: center;
     }
 
-    .planning-strategy .section-img, .development .section-img {
+    .planning-strategy .section-img,
+    .development .section-img {
         padding: 0px;
         margin: auto;
         text-align: center;
@@ -176,7 +192,8 @@
     .section-content {
         padding: 0px;
     }
-    .section-content ul, .section-content p {
+    .section-content ul,
+    .section-content p {
         padding: 0px 15px;
     }
     .section-content h2 {

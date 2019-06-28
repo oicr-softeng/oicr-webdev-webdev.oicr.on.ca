@@ -1,15 +1,14 @@
 /* Banner */
-.banner-title h1 {
+.content-header .title h1 {
     color: #355470;
 }
 
 @media only screen and (min-width: 768px) {
-    .banner-content {
+    .content-header .content {
         width: calc(100% - 254px);
         margin-top: calc(3% - 20px);
     }
 }
-
 
 /* Main Content */
 .row.careers {
@@ -32,7 +31,8 @@
     padding: 55px 0px;
 }
 
-.job-postings-img, .job-postings {
+.job-postings-img,
+.job-postings {
     float: left;
 }
 
@@ -71,7 +71,9 @@
     display: table;
 }
 
-.job-information1, .job-information2, .job-information3 {
+.job-information1,
+.job-information2,
+.job-information3 {
     width: calc(100% / 3);
     display: table-cell;
 }
@@ -84,7 +86,8 @@
     color: #355470;
 }
 
-.job-information1 p, .job-information1 a {
+.job-information1 p,
+.job-information1 a {
     font-weight: 700;
 }
 
@@ -99,7 +102,9 @@
 }
 
 @media only screen and (max-width: 991px) {
-    .job-information1, .job-information2, .job-information3 {
+    .job-information1,
+    .job-information2,
+    .job-information3 {
         width: 49%;
         display: inline-block;
     }
@@ -113,7 +118,8 @@
     .row.careers-main {
         padding-top: 25px;
     }
-    .job-postings, .job-postings-img {
+    .job-postings,
+    .job-postings-img {
         float: none;
         width: 100%;
     }
@@ -137,7 +143,9 @@
         padding: 10px 0px;
         width: 100%;
     }
-    .job-information1, .job-information2, .job-information3 {
+    .job-information1,
+    .job-information2,
+    .job-information3 {
         display: table-cell;
     }
     .job-information1 {
@@ -157,7 +165,9 @@
     .job-item {
         font-size: 0px;
     }
-    .job-information1, .job-information2, .job-information3 {
+    .job-information1,
+    .job-information2,
+    .job-information3 {
         font-size: 14px;
         width: 50%;
         text-align: center;
@@ -170,19 +180,18 @@
 }
 
 @media only screen and (max-width: 479px) {
-    .job-information1, .job-information2, .job-information3 {
+    .job-information1,
+    .job-information2,
+    .job-information3 {
         width: 100%;
     }
 }
-
-
 
 /* What We Offer */
 .what-we-offer {
     margin-top: 25px;
     margin-bottom: 55px;
 }
-
 
 .teaser-header {
     padding-top: 3px;
@@ -216,51 +225,50 @@
     flex-wrap: wrap;
 }
 
-.what-we-offer ul>li {
+.what-we-offer ul > li {
     width: calc(100% / 3);
     display: block;
     margin-bottom: 30px;
 }
 
-.what-we-offer ul>li:nth-child(1) {
+.what-we-offer ul > li:nth-child(1) {
     padding-right: 30px;
 }
 
-.what-we-offer ul>li:nth-child(2) {
+.what-we-offer ul > li:nth-child(2) {
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.what-we-offer ul>li:nth-child(3) {
+.what-we-offer ul > li:nth-child(3) {
     padding-left: 30px;
 }
 
-.what-we-offer ul>li .teaser {
+.what-we-offer ul > li .teaser {
     height: 100%;
     padding-bottom: 15px;
 }
 
-.what-we-offer ul>li .teaser p {
+.what-we-offer ul > li .teaser p {
     line-height: 1.8em;
     margin-top: 0.8em;
     text-align: left;
 }
 
-.what-we-offer ul>li:nth-child(1) .teaser {
+.what-we-offer ul > li:nth-child(1) .teaser {
     border-bottom: 5px solid #63aa35;
 }
 
-.what-we-offer ul>li:nth-child(2) .teaser {
+.what-we-offer ul > li:nth-child(2) .teaser {
     border-bottom: 5px solid #39a9d4;
 }
 
-.what-we-offer ul>li:nth-child(3) .teaser {
+.what-we-offer ul > li:nth-child(3) .teaser {
     border-bottom: 5px solid #ff7c00;
 }
 
-
 @media only screen and (min-width: 1200px) {
-    .what-we-offer ul>li .teaser {
+    .what-we-offer ul > li .teaser {
     }
 }
 
@@ -269,18 +277,18 @@
         margin-top: 20px;
         padding: 0px 0px;
     }
-    .what-we-offer ul>li:nth-child(n) {
+    .what-we-offer ul > li:nth-child(n) {
         margin: 0%;
         padding: 0%;
         width: 47%;
         margin-bottom: 30px;
     }
-    .what-we-offer ul>li:nth-child(2) {
+    .what-we-offer ul > li:nth-child(2) {
         margin-left: 6%;
-    }   
-    .what-we-offer ul>li .teaser {
     }
-    .what-we-offer ul>li .teaser {
+    .what-we-offer ul > li .teaser {
+    }
+    .what-we-offer ul > li .teaser {
     }
 }
 
@@ -288,7 +296,7 @@
     .what-we-offer ul {
         padding: 0px 0px;
     }
-    .what-we-offer ul>li .teaser {
+    .what-we-offer ul > li .teaser {
     }
     .what-we-offer p.description {
         font-size: 16px;
@@ -296,31 +304,28 @@
 }
 
 @media only screen and (max-width: 608px) {
-    .what-we-offer ul>li .teaser {
+    .what-we-offer ul > li .teaser {
     }
 }
-
 
 @media only screen and (max-width: 530px) {
     .what-we-offer ul {
         margin-top: 0px;
     }
-    .what-we-offer ul>li:nth-child(n) {
+    .what-we-offer ul > li:nth-child(n) {
         margin-left: 0px;
         margin-right: 0px;
         width: 100%;
     }
-    .what-we-offer ul>li .teaser {
+    .what-we-offer ul > li .teaser {
     }
-    .what-we-offer ul>li .teaser h3 {
+    .what-we-offer ul > li .teaser h3 {
         text-align: center;
     }
-    .what-we-offer ul>li .teaser p {
+    .what-we-offer ul > li .teaser p {
     }
     .what-we-offer p.description {
         font-size: 14px;
         margin-bottom: 0px;
     }
 }
-
-

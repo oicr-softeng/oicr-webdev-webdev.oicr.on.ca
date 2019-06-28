@@ -2,7 +2,8 @@ section.search-result {
     background-image: url(/assets/site/images/background-hex.png);
 }
 
-.banner-title h1 {
+/* Banner */
+.content-header .title h1 {
     color: #1d9bcb;
 }
 
@@ -86,8 +87,7 @@ section.search-result {
     display: flex;
 }
 
-
-.input-group > .form-control-search  .glyphicon-remove{
+.input-group > .form-control-search .glyphicon-remove {
     position: absolute;
     top: calc(50% - 7px);
     right: 7px;

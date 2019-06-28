@@ -1,6 +1,12 @@
 /*Nav Bar*/
 nav.navbar {
-  background:  linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 30%, rgba(255,255,255,0.77) 46%, rgba(255,255,255,0.6) 65%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 0.9) 30%,
+        rgba(255, 255, 255, 0.77) 46%,
+        rgba(255, 255, 255, 0.6) 65%,
+        rgba(255, 255, 255, 0) 100%
+    );
     min-height: 150px;
     overflow: hidden;
 }
@@ -8,17 +14,28 @@ nav.navbar {
 @media only screen and (max-width: 1199px) {
     nav.navbar {
         min-height: 180px;
-        background:  linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 20%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.6) 70%, rgba(255,255,255,0) 100%);
+        background: linear-gradient(
+            rgba(255, 255, 255, 1) 0%,
+            rgba(255, 255, 255, 0.9) 20%,
+            rgba(255, 255, 255, 0.9) 50%,
+            rgba(255, 255, 255, 0.6) 70%,
+            rgba(255, 255, 255, 0) 100%
+        );
     }
 }
 
 @media only screen and (max-width: 991px) {
     nav.navbar {
         min-height: 180px;
-        background:  linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 20%, rgba(255,255,255,0.9) 77%, rgba(255,255,255,0.8) 84%, rgba(255,255,255,0) 100%)
+        background: linear-gradient(
+            rgba(255, 255, 255, 1) 0%,
+            rgba(255, 255, 255, 0.9) 20%,
+            rgba(255, 255, 255, 0.9) 77%,
+            rgba(255, 255, 255, 0.8) 84%,
+            rgba(255, 255, 255, 0) 100%
+        );
     }
 }
-
 
 section .row {
     padding: 25px 0px;
@@ -26,42 +43,42 @@ section .row {
 }
 
 /* Banner */
-.banner {
+.content-header {
     position: relative;
 }
 
-.banner-background {
+.content-header-background {
     max-height: 601px;
     position: relative;
     margin-top: -140px;
 }
 
-.banner-background img {
+.content-header-background img {
     width: 100%;
     min-height: 204px;
 }
 
-.banner-background .container {
+.content-header-background .container {
     position: relative;
 }
 
-.banner-main {
+.content-header-main {
     width: 100%;
     position: absolute;
     top: calc(60% - 115px);
 }
-.banner-title h1 {
+.content-header .title h1 {
     color: #ffffff;
     border-right: none;
 }
 
-.banner-content {
+.content-header .content {
     text-align: left;
     float: left;
     margin-left: 0px;
 }
 
-.banner-content p{
+.content-header .content p {
     text-align: left;
     color: #92d2f2;
     font-size: 42px;
@@ -72,25 +89,25 @@ section .row {
     width: 90%;
 }
 
-.banner-content a.btn {
+.content-header .content a.btn {
     margin-left: 30px;
     margin-top: 30px;
 }
 
-.list-btn{
-  background-image: url(../images/icon-grid-grey.svg);
-  color: #ffffff;
-  background-position: left, center;
+.list-btn {
+    background-image: url(../images/icon-grid-grey.svg);
+    color: #ffffff;
+    background-position: left, center;
     -webkit-background-size: 20px;
     -moz-background-size: 20px;
     -o-background-size: 20px;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  float:left;
-  text-decoration: none;
-  height: 20px;
-  padding-left: 30px;
-  margin-top: 30px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    float: left;
+    text-decoration: none;
+    height: 20px;
+    padding-left: 30px;
+    margin-top: 30px;
 }
 
 .list-btn:hover {
@@ -99,63 +116,59 @@ section .row {
 }
 
 @media only screen and (max-width: 1199px) {
-    .banner-background {
+    .content-header-background {
         margin-top: -120px;
     }
-    .banner-main {
+    .content-header-main {
         top: 160px;
     }
-
 }
 
 @media only screen and (max-width: 991px) {
-    .banner-background {
+    .content-header-background {
         margin-top: -85px;
     }
-    .banner-main {
+    .content-header-main {
         top: 100px;
     }
-    .banner-content p {
+    .content-header .content p {
         font-size: 30px;
     }
 }
 
-
 @media only screen and (min-width: 768px) {
-    .banner-content {
+    .content-header .content {
         width: calc(100% - 333px);
     }
-    .banner-main > .container {
+    .content-header-main > .container {
         display: flex;
         align-items: flex-end;
     }
 }
 
-
 @media only screen and (min-width: 992px) {
-    .banner-content {
+    .content-header .content {
         width: calc(100% - 333px);
     }
 }
 
 @media only screen and (min-width: 1200px) {
-
 }
 
 @media only screen and (max-width: 767px) {
-    .banner-main > container {
+    .content-header-main > container {
         display: block;
     }
     nav.navbar {
         min-height: 100px;
     }
-    .banner-background {
+    .content-header-background {
         margin-top: -50px;
     }
-    .banner-main {
+    .content-header-main {
         top: 55px;
     }
-    .banner-title h1 {
+    .content-header .title h1 {
         font-size: 34px;
     }
     a.list-btn {
@@ -164,62 +177,62 @@ section .row {
         left: 41%;
         color: #ffffff;
     }
-    .banner-content {
+    .content-header .content {
         float: none;
         width: 100%;
         margin: 0px;
         padding-top: 0px;
         text-align: center;
     }
-    .banner-content p {
+    .content-header .content p {
         margin: 0px;
         border-left: none;
         padding: 0px;
         font-size: 22px;
         text-align: center;
         display: block;
-    margin-left: auto;
-    margin-right: auto
+        margin-left: auto;
+        margin-right: auto;
     }
-    .banner-content a.btn {
+    .content-header .content a.btn {
         float: none;
         margin-top: 0px;
         margin-top: 10px;
         margin-left: auto;
         margin-right: auto;
     }
-    .row.project{
-        margin-left:15px;
-        margin-right:15px;
+    .row.project {
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
 
 @media only screen and (max-width: 651px) {
-    .banner-main {
+    .content-header-main {
         top: 35px;
     }
-    .banner-title h1 {
+    .content-header .title h1 {
         font-size: 32px;
     }
-    .banner-content p {
+    .content-header .content p {
         font-size: 18px;
     }
     a.list-btn {
         position: absolute;
         bottom: -127px;
-        left:40%;
+        left: 40%;
         color: #ffffff;
     }
 }
 
 @media only screen and (max-width: 577px) {
-    .banner-main {
+    .content-header-main {
         top: 43px;
     }
-    .banner-title h1 {
+    .content-header .title h1 {
         font-size: 30px;
     }
-    .banner-content p {
+    .content-header .content p {
         font-size: 18px;
     }
     a.list-btn {
@@ -231,13 +244,13 @@ section .row {
 }
 
 @media only screen and (max-width: 519px) {
-    .banner-main {
+    .content-header-main {
         top: 20px;
     }
-    .banner-title h1 {
+    .content-header .title h1 {
         font-size: 30px;
     }
-    .banner-content p {
+    .content-header .content p {
         font-size: 18px;
     }
     a.list-btn {
@@ -249,12 +262,12 @@ section .row {
 }
 
 @media only screen and (max-width: 479px) {
-    .banner-background {
+    .content-header-background {
         margin-top: -35px;
         display: flex;
         justify-content: center;
     }
-    .banner-background img {
+    .content-header-background img {
         width: auto;
         height: 204px;
         margin-left: auto;
@@ -263,21 +276,21 @@ section .row {
     nav.navbar {
         min-height: 65px;
     }
-    .banner-main {
+    .content-header-main {
         top: 20px;
     }
-    .banner-content {
+    .content-header .content {
         padding-top: 0px;
         text-align: center;
     }
-    .banner-title h1 {
+    .content-header .title h1 {
         font-size: 30px;
     }
-    .banner-content p {
+    .content-header .content p {
         font-size: 18px;
         text-align: center;
     }
-    .banner-content a.btn {
+    .content-header .content a.btn {
         margin-top: 10px;
         margin-left: 0px;
         padding-top: 4px;
@@ -291,17 +304,14 @@ section .row {
     }
 }
 
-
-
-
 /* Main Content */
 
-section.case-study{
-  background-image: url(../images/background-hex.png);
+section.case-study {
+    background-image: url(../images/background-hex.png);
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
-  background-size: 100%;
+    background-size: 100%;
 }
 
 @media only screen and (max-width: 767px) {
@@ -312,16 +322,16 @@ section.case-study{
 }
 
 .challenge-content {
-  float: left;
-  width: 42%;
+    float: left;
+    width: 42%;
 }
 
 .challenge-carousel {
     position: relative;
-    float:left;
+    float: left;
     width: 55%;
     margin-right: 3%;
-    z-index: 500;
+    z-index: 50;
     margin-top: -70px;
     border-radius: 20px;
     border: 5px solid #e8ecf0;
@@ -372,13 +382,13 @@ section.case-study{
     position: absolute;
     line-height: 80px;
     left: 50%;
-    top:50%;
+    top: 50%;
     margin: -40px 0 0 -40px;
     z-index: 500;
     text-align: center;
     background-color: #63aa35;
     transform: scale(0) rotate(-90deg);
-    transition: all 0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .carousel-clickable:hover .slide-overlay-icon {
@@ -387,8 +397,8 @@ section.case-study{
 
 .slides img {
     width: 100%;
-    border-bottom-left-radius:15px;
-    border-bottom-right-radius:15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .slides img.carousel-img-browser {
@@ -422,7 +432,8 @@ section.case-study{
     border: none;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-next,
+.carousel-control-prev {
     position: absolute;
     top: 50%;
     display: -webkit-box;
@@ -441,15 +452,15 @@ section.case-study{
     height: 50px;
     color: #fff;
     text-align: center;
-    opacity: .9;
+    opacity: 0.9;
 }
 
 .carousel-control-prev {
     left: 0;
     background-image: url(../images/icon-round-arrow-left-bg.svg);
     -webkit-background-size: 40px;
--moz-background-size: 40px;
--o-background-size: 40px;
+    -moz-background-size: 40px;
+    -o-background-size: 40px;
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -464,8 +475,8 @@ section.case-study{
     right: 0;
     background-image: url(../images/icon-round-arrow-right-bg.svg);
     -webkit-background-size: 40px;
--moz-background-size: 40px;
--o-background-size: 40px;
+    -moz-background-size: 40px;
+    -o-background-size: 40px;
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -475,7 +486,6 @@ section.case-study{
 .carousel-control-next:hover {
     background-image: url(../images/icon-round-arrow-right-bg-hover.svg);
 }
-
 
 .challenge.row {
     padding-bottom: 55px;
@@ -505,7 +515,6 @@ section.case-study{
     .challenge-content {
         width: 47%;
     }
-
 }
 
 @media only screen and (max-width: 991px) {
@@ -566,21 +575,21 @@ section.case-study{
         height: auto;
         margin-top: 20px;
     }
-    .challenge-carousel .carousel-indicators li{
+    .challenge-carousel .carousel-indicators li {
         width: 12px;
         height: 12px;
     }
     .carousel-control-prev {
         -webkit-background-size: 30px;
--moz-background-size: 30px;
--o-background-size: 30px;
+        -moz-background-size: 30px;
+        -o-background-size: 30px;
         background-size: 30px;
         width: 30px;
     }
     .carousel-control-next {
         -webkit-background-size: 30px;
--moz-background-size: 30px;
--o-background-size: 30px;
+        -moz-background-size: 30px;
+        -o-background-size: 30px;
         background-size: 30px;
         background-size: 30px;
         width: 30px;
@@ -589,8 +598,13 @@ section.case-study{
 
 /* Testimonial */
 
-.testimonial{
-  background: linear-gradient(rgba(53,84,112,0) 0%, rgba(21,32,42,0.4) 50%,rgba(21,32,42,0.6) 100%), url(../images/about-us-bg.png);
+.testimonial {
+    background: linear-gradient(
+            rgba(53, 84, 112, 0) 0%,
+            rgba(21, 32, 42, 0.4) 50%,
+            rgba(21, 32, 42, 0.6) 100%
+        ),
+        url(../images/about-us-bg.png);
 }
 
 .testimonial-image {
@@ -603,14 +617,13 @@ section.case-study{
 }
 
 .testimonial-content p {
-  color: #ffffff;
-  visibility: hidden;
+    color: #ffffff;
+    visibility: hidden;
 }
 
 .testimonial.row {
     padding: 55px 0px;
 }
-
 
 @media only screen and (max-width: 991px) {
     .testimonial-image {
@@ -625,28 +638,28 @@ section.case-study{
 
 @media only screen and (max-width: 479px) {
     .testimonial-image img {
-        width: 100px
+        width: 100px;
     }
 }
 /* The Solution */
 
-.solution{
+.solution {
 }
 
 .solution-carousel {
-  float:right;
-  width: 55%;
-  margin-left: 3%;
-  margin-top:20px;
-  z-index: 500;
+    float: right;
+    width: 55%;
+    margin-left: 3%;
+    margin-top: 20px;
+    z-index: 500;
     height: auto;
     border: 5px solid #e8ecf0;
     border-radius: 20px;
 }
 
 .solution-content {
-  float: left;
-  width: 42%;
+    float: left;
+    width: 42%;
 }
 .solution-content h2 {
     text-align: left;
@@ -657,9 +670,9 @@ section.case-study{
 }
 
 @media only screen and (max-width: 1199px) {
-  .testimonial-image {
-      padding: 0px 15px;
-  }
+    .testimonial-image {
+        padding: 0px 15px;
+    }
     .solution-carousel {
         width: 50%;
         height: auto;
@@ -688,7 +701,6 @@ section.case-study{
     .solution-content h2 {
         text-align: center;
     }
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -725,14 +737,14 @@ section.case-study{
         height: auto;
         margin-top: 20px;
     }
-    .solution-carousel .carousel-indicators li{
+    .solution-carousel .carousel-indicators li {
         width: 12px;
         height: 12px;
     }
     .carousel-control-prev {
         -webkit-background-size: 30px;
--moz-background-size: 30px;
--o-background-size: 30px;
+        -moz-background-size: 30px;
+        -o-background-size: 30px;
         background-size: 30px;
         background-size: 30px;
         width: 30px;
@@ -740,8 +752,8 @@ section.case-study{
 
     .carousel-control-next {
         -webkit-background-size: 30px;
--moz-background-size: 30px;
--o-background-size: 30px;
+        -moz-background-size: 30px;
+        -o-background-size: 30px;
         background-size: 30px;
         background-size: 30px;
         width: 30px;
@@ -757,80 +769,84 @@ section.case-study{
     }
 }
 
-.previous, .next {
+.previous,
+.next {
     text-transform: uppercase;
     color: #d2d2d2;
     text-decoration: none;
     font-weight: 600;
 }
 
-.previous:hover, .next:hover {
+.previous:hover,
+.next:hover {
     color: #acb3bb;
 }
 
-.previous-project{
+.previous-project {
     display: block;
     height: 50px;
     width: 35%;
     background-image: url(../images/icon-round-arrow-left.svg);
     background-position: left, center;
     -webkit-background-size: 40px;
--moz-background-size: 40px;
--o-background-size: 40px;
+    -moz-background-size: 40px;
+    -o-background-size: 40px;
     background-size: 40px;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     float: left;
     padding-left: 50px;
     padding-top: 13px;
     text-decoration: none;
-
 }
 
-.center-project:hover, .previous-project:hover, .next-project:hover {
+.center-project:hover,
+.previous-project:hover,
+.next-project:hover {
     text-decoration: none;
 }
 
 .center-project:hover {
-    background-image: url(../images/icon-round-grid-hover.svg)
+    background-image: url(../images/icon-round-grid-hover.svg);
 }
 
 .previous-project:hover {
-    background-image: url(../images/icon-round-arrow-left-hover.svg)
+    background-image: url(../images/icon-round-arrow-left-hover.svg);
 }
 
 .next-project:hover {
-    background-image: url(../images/icon-round-arrow-right-hover.svg)
+    background-image: url(../images/icon-round-arrow-right-hover.svg);
 }
 
-.previous-project:hover span, .next-project:hover span {
+.previous-project:hover span,
+.next-project:hover span {
     color: #acb3bb;
 }
 
-.center-project{
+.center-project {
     display: block;
     height: 50px;
-  background-image: url(../images/icon-round-grid.svg);
-  background-position: center, center;
+    background-image: url(../images/icon-round-grid.svg);
+    background-position: center, center;
     -webkit-background-size: 40px;
--moz-background-size: 40px;
--o-background-size: 40px;
-  background-size: 40px;
-  background-repeat:no-repeat;
-  width: 30%;
+    -moz-background-size: 40px;
+    -o-background-size: 40px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    width: 30%;
     float: left;
     text-decoration: none;
 }
-.next-project{
+.next-project {
     display: block;
     height: 50px;
-  width: 35%;
-  background-image: url(../images/icon-round-arrow-right.svg);
-  background-position: right, center;
- -webkit-background-size: 40px;
--moz-background-size: 40px;
--o-background-size: 40px;
-  background-size: 40px;
-    background-repeat:no-repeat;
+    width: 35%;
+    background-image: url(../images/icon-round-arrow-right.svg);
+    background-position: right, center;
+    -webkit-background-size: 40px;
+    -moz-background-size: 40px;
+    -o-background-size: 40px;
+    background-size: 40px;
+    background-repeat: no-repeat;
     float: left;
     padding-right: 50px;
     padding-top: 13px;
@@ -848,32 +864,32 @@ section.case-study{
     }
     .row.project .container {
         padding: 0px;
-    }    
+    }
     .row.project a {
         font-size: 12px;
     }
-    .previous-project{
-         -webkit-background-size: 30px;
--moz-background-size: 30px;
--o-background-size: 30px;
+    .previous-project {
+        -webkit-background-size: 30px;
+        -moz-background-size: 30px;
+        -o-background-size: 30px;
         background-size: 30px;
         padding-left: 35px;
         width: calc(50% - 20px);
     }
     .center-project {
         width: 40px;
-         -webkit-background-size: 30px;
--moz-background-size: 30px;
--o-background-size: 30px;
-  background-size: 30px;
+        -webkit-background-size: 30px;
+        -moz-background-size: 30px;
+        -o-background-size: 30px;
+        background-size: 30px;
     }
     .next-project {
         width: calc(50% - 20px);
         padding-right: 35px;
-         -webkit-background-size: 30px;
--moz-background-size: 30px;
--o-background-size: 30px;
-  background-size: 30px;
+        -webkit-background-size: 30px;
+        -moz-background-size: 30px;
+        -o-background-size: 30px;
+        background-size: 30px;
     }
 }
 
@@ -890,7 +906,7 @@ section.case-study{
     background-color: black;
     z-index: 1001;
     -moz-opacity: 0.8;
-    opacity: .80;
+    opacity: 0.8;
     filter: alpha(opacity=80);
 }
 
@@ -1040,7 +1056,7 @@ section.case-study{
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-inner > .item {
         -webkit-perspective: none;
-              perspective: none;
+        perspective: none;
     }
 }
 

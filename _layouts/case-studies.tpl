@@ -109,20 +109,20 @@ layout: default
 </div>
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="row banner">
+    <div class="row content-header">
         <div class="container">
             <div id="app-git-edit" data-path="{{ page.path }}" data-gitrepo="{{ site.git_repo }}"></div>
         </div>
-      <div class="banner-background">
-        <img src="/assets/site/images/bg-casestudy-{{ page.alias }}.jpg" alt="Banner image 1">
+      <div class="content-header-background">
+        <img src="/assets/site/images/bg-casestudy-{{ page.alias }}.jpg" alt="">
 
-          <div class="banner-main">
+          <div class="content-header-main">
               <div class="container">
-                <div class="banner-title">
+                <div class="title">
                     <h1>{{ page.title }}</h1>
                     <a class="list-btn" href="/our-work">BACK TO LIST</a>
                 </div>
-                <div class="banner-content">
+                <div class="content">
                     <p class="case-study-description">{{ page.project }}</p>
                     <a class="btn" href="{{ page.btn_link }}"><span class="btn-zoom">{{ page.proj_btn }}</span></a>
                 </div>

@@ -11,6 +11,7 @@
 <script type="text/javascript" src="/assets/site/js/particles.min.js"></script>
 <script type="text/javascript" src="/assets/site/js/isotope.pkgd.min.js"></script>
 <script type="text/javascript" src="/assets/core/js/app_default.js"></script>
+<script type="text/javascript" src="/assets/site/js/app.js"></script>
 
 <!-- Simple Pass only, just used to protect against peeking, not secured  
 <script>

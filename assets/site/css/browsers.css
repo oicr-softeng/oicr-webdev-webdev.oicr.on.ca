@@ -1,9 +1,10 @@
-.banner-title h1 {
+/* Banner */
+.content-header .title h1 {
     color: #355470;
 }
 
 @media only screen and (min-width: 768px) {
-    .banner-content {
+    .content-header .content {
         width: calc(100% - 479px);
         margin-top: calc(3% - 20px);
     }
@@ -27,7 +28,6 @@
 
 .main-content .row .container {
     padding: 20px 15px 55px;
-
 }
 
 .main-content .row.browsers-header .container {
@@ -43,7 +43,7 @@
     width: 100%;
 }
 
-.section-content ul{
+.section-content ul {
     padding-left: 0px;
     margin: 15px 0px;
 }
@@ -67,7 +67,6 @@
     margin-bottom: 10px;
 }
 
-
 .support .section-content h2 {
     color: #39a9d4;
 }
@@ -76,18 +75,15 @@
     float: left;
 }
 
-
-
 @media only screen and (max-width: 991px) {
-
-    .health-science-research-domain .section-img, .support .section-img {
+    .health-science-research-domain .section-img,
+    .support .section-img {
         padding-left: 20px;
     }
 
     .section-content {
         width: 100%;
     }
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -105,19 +101,17 @@
         text-align: center;
         margin-top: 0px;
     }
-   
 }
 
 @media only screen and (max-width: 479px) {
     .section-content {
         padding: 0px;
     }
-    .section-content ul, .section-content p {
+    .section-content ul,
+    .section-content p {
         padding: 0px 15px;
     }
     .section-content h2 {
         font-size: 26px;
     }
 }
-
-

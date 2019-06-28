@@ -1,10 +1,10 @@
 /* Banner */
-.banner-title h1 {
+.content-header .title h1 {
     color: #39a9d4;
 }
 
 @media only screen and (min-width: 768px) {
-    .banner-content {
+    .content-header .content {
         width: calc(100% - 303px);
         margin-top: calc(3% - 20px);
     }
@@ -758,7 +758,7 @@ div[id^="webdev-carousel-"] {
     position: absolute;
     top: -7%;
     right: -8%;
-    z-index: 500;
+    z-index: 50;
 }
 
 .teaser-button:before {

@@ -18,14 +18,14 @@ layout: default
                 <div id="app-git-edit" data-path="{{ page.path }}" data-gitrepo="{{ site.git_repo }}"></div>
             </div>
             <div class="container">
-              <div class="banner">
-                <div class="banner-title create-header">
+              <div class="content-header">
+                <div class="title create-header">
                   <h1>{{ page.title_txt }}</h1>
                 </div>
-                <div class="banner-content">
+                <div class="content">
                   <p>{{ page.description_txt }}</p>
                 </div>
-                <div class="banner-wrapper"> </div>
+                <div class="content-wrapper"> </div>
               </div>
 
               <div class="container-fluid">
