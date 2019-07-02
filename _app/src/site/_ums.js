@@ -13,6 +13,8 @@ import UserDashboard from './modules/UserDashboard';
 // Load store.
 const store = require('../site/store').default;
 
+const client = Core.initApolloClient(true, store);
+
 if (window.UMS_CONFIG) UMS.setConfig(window.UMS_CONFIG);
 
 // Get User Session, Invoke once
@@ -22,7 +24,7 @@ UMS.getUserInfo()(store.dispatch);
 const target = document.getElementById('app-user-services');
 if (target) {
     ReactDOM.render(
-        <CoreProvider store={store}>
+        <CoreProvider store={store} client={client}>
             <Router history={hashHistory}>
                 <UMS.Route path="/dashboard" component={UserDashboard} />
                 <UMS.BaseRoutes />
