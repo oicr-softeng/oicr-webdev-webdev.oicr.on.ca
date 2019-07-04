@@ -98,9 +98,10 @@ jQuery(function($) {
         var indicator = carousel.find('.carousel-indicators');
         var prev = carousel.find('.carousel-control-prev');
         var next = carousel.find('.carousel-control-next');
-        indicator.css('top', carousel.width() * 0.712 + 45 + 'px');
-        prev.css('top', carousel.width() * 0.36 + 'px');
-        next.css('top', carousel.width() * 0.36 + 'px');
+        var activeSlide = carousel.find('.item.active .slide-border');
+        console.log(activeSlide, activeSlide.height());
+        prev.css('top', activeSlide.height() * 0.5 + 'px');
+        next.css('top', activeSlide.height() * 0.5 + 'px');
     }
 
     $(document).ready(function() {
