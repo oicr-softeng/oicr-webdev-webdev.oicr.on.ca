@@ -1,0 +1,115 @@
+//
+// Variables
+// --------------------------------------------------
+
+//== Back To Top
+//
+//
+$back-to-top-btn-position-bottom: 24px;
+$back-to-top-btn-font-size: 12px;
+
+$back-to-top-icon-width: 20px;
+$back-to-top-icon-height: 20px;
+$back-to-top-icon-margin-left: 5px;
+$back-to-top-glyphicon-width: 12px;
+
+//Colors
+$text-color: #000000;
+$blue-theme-color: #0070b5;
+$blue-theme-color-light: #0078c9;
+$blue-theme-color-light-hover: #23527c;
+$subtitle-background-color: #eaeaea;
+$grey-background-color: #fafafa;
+$table-background-color: #eaeaea;
+$green-theme-color: #7cce81;
+$dark-green-theme-color: #2e7b33;
+$btn-hover-green-color: #45ab4c;
+$grey-line-color: #cacaca;
+$dark-grey-color: #737373;
+$base-gray: #eaeaea;
+$dark-gray: #737373;
+
+//Typography
+//Font family
+$font-family-sans-serif: 'Avenir LT W01_55 Roman1475520';
+$font-family-title: 'Roboto', sans-serif;
+$font-family-footer: 'Arial';
+$font-size-base: 16px;
+$font-size-base-sm: 16px;
+
+$title-font-size-lg: 60px;
+$title-font-size-md: 26px;
+$subtitle-font-weight: 500;
+$subtitle-font-size: 22px;
+$subtitle-font-size-sm: 16px;
+$text-font-size: 14px;
+
+//Padding
+@mixin bottom-padding($space) {
+    padding-bottom: $space;
+    @media (max-width: 991px) {
+        padding-bottom: 0;
+    }
+}
+
+@mixin top-padding($space) {
+    padding-top: $space;
+    @media (max-width: 991px) {
+        padding-top: 0;
+    }
+}
+
+@mixin right-padding($space) {
+    padding-right: $space;
+    @media (max-width: 991px) {
+        padding-right: 15px;
+    }
+}
+
+@mixin left-padding($space) {
+    padding-left: $space;
+    @media (max-width: 991px) {
+        padding-left: 15px;
+    }
+}
+
+////Borders
+$announcement-box-border: 1px solid $blue-theme-color;
+
+//triangle arrow
+@mixin triangle-arrow($color) {
+    &::after {
+        content: '';
+        display: inline-block;
+        margin-left: 15px;
+        border-top: 5px solid transparent;
+        border-left: 8px solid $color;
+        border-bottom: 5px solid transparent;
+    }
+}
+
+//Links
+$link-font-color: $blue-theme-color;
+
+//Footer Link Styles
+@mixin link_styles($color) {
+    color: $color;
+
+    &:link,
+    &:visited {
+        color: $color;
+    }
+
+    &:active,
+    &:focus,
+    &:hover {
+        color: $color;
+        text-decoration: underline;
+    }
+}
+
+// User Login Nav
+$login-user-nav-background-color: $base-gray;
+
+//Navbar
+$nav-hover-color: $blue-theme-color;

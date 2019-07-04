@@ -1,6 +1,6 @@
 ---
 title: Our Work | OICR WebDev Team
-date_tdt: 2019-06-26T20:08:40.721Z
+date_tdt: 2019-07-03T13:23:41.916Z
 author: Stephanie Lin
 layout: our-work
 permalink: /our-work/
@@ -40,21 +40,21 @@ progress1:
     AO Design a website for researchers who want to learn about OICR’s Adaptive
     Oncology initiative and its research programs, resources and projects, its
     structure and its opportunities, including research mission and vision,
-    leadership, advisors, funders and collaborators.  Design a website (with a
+    leadership, advisors, funders and collaborators. Design a website (with a
     non-heavy CMS style interface) to help AO program/project/resource managers
     (AO managers) participate in AO website activities, with user access (within
-    a manager’s given program/project/resource).  Participate by post/alter own
-    centrally content-moderated by operations.  Posts include open publications,
+    a manager’s given program/project/resource). Participate by post/alter own
+    centrally content-moderated by operations. Posts include open publications,
     open software, open tools, open databases, media, presentations, posters,
-    recorded lectures, talks, events, big ideas/blogs, news, jobs.  Posts also
-    include update contact information, update text info, update members. 
+    recorded lectures, talks, events, big ideas/blogs, news, jobs. Posts also
+    include update contact information, update text info, update members.
     Mechanisms to organize AO Tags and Tags for their program/project/resource.
 progress2:
   title: FACIT Innovation Database Online (FACIT-FIDO)
   content: >-
     FACIT is planning to leverage the framework of OTIS to create an analogous,
     online, searchable tool for its portfolio of investments; this tool will be
-    referred to as FIDO (FACIT’s Innovation Database Online).  Currently,
+    referred to as FIDO (FACIT’s Innovation Database Online). Currently,
     multiple databases exist within FACIT’s file network that capture important
     information on FACIT’s investments. If a team member has a question about a
     particular investment, an email is typically sent to the team, and one (or
@@ -65,8 +65,8 @@ progress3:
   content: >-
     Application Web Development for developing the new Centralized User
     Directory, an infrastructure website and web service performing
-    authentication and distributed user, role-based authorization services for
-    multiple
+    authentication and distributed user, role-based authorization User Managed
+    Services across multiple projects.
 footer-message: 'Do you have a similar project you want to talk to us about? '
 btnOne: CONTACT US
 

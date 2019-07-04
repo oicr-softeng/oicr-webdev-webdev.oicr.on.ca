@@ -6,12 +6,14 @@ import {
     Publications,
     Core,
     UMS,
-    Provider as CoreProvider
+    Provider as CoreProvider,
 } from 'oicr-ui-core';
-import UserDashboard from '../site/modules/UserDashboard';
+import UserDashboard from './modules/UserDashboard';
 
 // Load store.
 const store = require('../site/store').default;
+
+const client = Core.initApolloClient(true, store);
 
 if (window.UMS_CONFIG) UMS.setConfig(window.UMS_CONFIG);
 
@@ -22,7 +24,7 @@ UMS.getUserInfo()(store.dispatch);
 const target = document.getElementById('app-user-services');
 if (target) {
     ReactDOM.render(
-        <CoreProvider store={store}>
+        <CoreProvider store={store} client={client}>
             <Router history={hashHistory}>
                 <UMS.Route path="/dashboard" component={UserDashboard} />
                 <UMS.BaseRoutes />
@@ -55,7 +57,7 @@ if (config.CMUI_ENABLED) {
             <Core.Provider store={store}>
                 <Core.Components.ContentPageWrapper
                     viewDOM={targetEditable.innerHTML}
-                    rootPath={'/user/#/dashboard'}
+                    rootPath="/user/#/dashboard"
                     eventKey={3}
                     path={targetEditable.getAttribute('data-path')}
                     isPublic={targetEditable.getAttribute('data-is-public')}

@@ -11,117 +11,166 @@ body:
         <title>Consent Agreement</title>
         <meta charset="utf-8" />
         <meta content="width=device-width" name="viewport" />
+        <style>
+        @font-face {
+        font-family: [fontFamily];
+        src: url([fontPath]);
+        }
+        </style>
         </head>
-        <body bgcolor="#f9fafb" style="height: 100% !important; margin: 0; padding: 0;">
-        <!-- CONTAINER -->
+        <body
+        bgcolor="#ffffff"
+        style="height: 100% !important; margin: 0; padding: 0;"
+        >
+        <!-- CONTAINER: Header -->
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;" width="100%">
+        <tbody>
         <tr>
-        <td align="center" bgcolor="#f9fafb" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
-        <!-- WRAPPER -->
+        <td align="center" bgcolor="#ffffff" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <!-- EMAIL HEADER -->
         <table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="600">
+        <tbody>
+        <!-- HEADER SITE -->
         <tr>
-        <td bgcolor="#ffffff" style="border-left: solid 1px #ebebeb; border-right: solid 1px #ebebeb; border-top: 4px solid #5a8126; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 16px 20px 10px 20px;">
+        <td align="center" bgcolor="#ffffff" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="600">
+        <tbody>
+        <tr>
+        <td bgcolor="#ffffff" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px; padding-top: 16px; padding-bottom: 21px;">
         <!-- CONTENT: header -->
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+        <tbody>
         <tr>
-        <td align="center" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><a href="https://[base_url]/" style="color: #5a8126; font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; line-height: 21px; text-decoration: underline;" target="_blank">[base_url]</a></td>
+        <td align="center" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <a href="[base_url]" target="_blank" style="color: [primaryColor]; font-family: [fontFamily]; font-weight: normal; font-size: 14px; line-height: 16px; text-decoration: underline;">[base_url]</a>
+        </td>
         </tr>
+        </tbody>
         </table>
         </td>
         </tr>
+        </tbody>
+        </table>
+        </td>
+        </tr>
+        <!-- HEADER IMAGE -->
         <tr>
-        <td bgcolor="#ffffff" style="border-left: solid 1px #ebebeb; border-right: solid 1px #ebebeb; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 20px 10px 20px;">
-        <!-- CONTENT: logo/title -->
+        <td align="center" bgcolor="#ffffff" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border: solid 1px [darkGrayColor]; border-bottom: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+        <tbody>
+        <tr>
+        <td align="center" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 0 0 0;">
+        <img
+        src="[emailHeaderUrl]"
+        alt="[siteName]"
+        border="0"
+        class="fluid-image"
+        style="background-color: #fff; border: 0; color: [primaryColor]; display: block; font-family: [fontFamily]; font-size: 11px; font-weight: normal; height: auto; line-height: 21px; outline: none; padding: 0; text-decoration: none; border-top-left-radius: 10px; border-top-right-radius: 10px;"
+        width=100%
+        />
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        </td>
+        </tr>
+        <!-- HEADER TITLE -->
+        <tr>
+        <td bgcolor="#ffffff" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 5px;background-color: [darkGrayColor];">
+        <!-- CONTENT: header -->
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-        <tr>
-        <td align="center" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 0 0 20px 0;"><img alt="Ontario Institute for Cancer Research" border="0" class="fluid-image" height="98" src="https://oicr.on.ca/wp-content/uploads/2017/01/OICR_Logo.png" style="background-color: #fff; border: 0; color: #5a8126; display: block; font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; height: auto; line-height: 21px; outline: none; padding: 0; text-decoration: none;" width="135" /></td>
+        <tbody><tr>
+        <td align="center" style="color: #ffffff; font-family: [fontFamily]; font-size: 18px; font-weight: bold; line-height: 31px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;">Consent Agreement</td>
         </tr>
-        <tr>
-        <td align="center" style="border-bottom: 2px solid #535353; border-top: 2px solid #535353; color: #5a8126; font-family: Arial, sans-serif; font-size: 22px; line-height: 28px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 12px 0 12px 0;">Consent Agreement</td>
+        </tbody></table>
+        </td>
         </tr>
+        </tbody>
         </table>
         </td>
         </tr>
+        <tbody>
         </table>
-        </td>
-        </tr>
-        </table>
-        <!-- CONTAINER -->
+        <!-- CONTAINER: Body -->
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;" width="100%">
+        <tbody>
         <tr>
-        <td align="center" bgcolor="#f9fafb" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
-        <!-- WRAPPER -->
+        <td align="center" bgcolor="#ffffff" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <!-- EMAIL BODY -->
         <table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="600">
+        <tbody>
         <tr>
-        <td bgcolor="#ffffff" style="border-left: solid 1px #ebebeb; border-right: solid 1px #ebebeb; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 20px 30px 20px;">
-        <!-- CONTENT: body copy -->
+        <td bgcolor="#ffffff" style="border-left: solid 1px [darkGrayColor]; border-right: solid 1px [darkGrayColor]; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px;">
+        <!-- CONTENT -->
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+        <tbody>
         <tr>
-        <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 14px; word-wrap: break-word;">Dear [user_display_name] User,<br />
-        <br />Please download a copy of the Website User Consent Statement at:<br /><a href="webdevff0b3218aaad11e7abc4cec278b6b50a_PRODUCTION_CONSENTPDF_URL" style="color: #5a8126; font-weight: bold; text-decoration: underline;">https://www.dropbox.com/s/4afjlue9mvd9zc8/OICR%20-%20Website%20User%20Consent%20Statement.pdf?dl=1</a></td>
-        </tr>
-        <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word;">
-        <div style="background-color: #f8f8f8; border: 3px solid #e8e8e8; border-radius: 4px; padding: 14px 29px;">
-        <h2 style="color: #5a8126; font-size: 18px; font-weight: normal; line-height: 28px;">Consent Agreement Privacy of Personal and Health Data</h2>
-        <p>Cake pie danish danish gummies. Jujubes lollipop powder. Marzipan brownie toffee. Gingerbread gummi bears dragée sugar plum powder cake.</p>
-        <h3 style="color: #535353;">Topping oat cake cookie.</h3>
-        <p>Jelly-o croissant dessert topping sesame snaps. Bonbon halvah candy oat cake chocolate bar tiramisu macaroon cotton candy. Gummies bonbon candy canes sugar plum. Croissant brownie tart tiramisu lollipop chupa chups chocolate bar. Jelly-o pudding tootsie roll biscuit sugar plum. </p>
-        <h3 style="color: #535353;">Fruitcake candy canes candy candy gingerbread jelly-o soufflé pudding.</h3>
-        <ul>
-        <li>Chupa chups dragée lemon drops marshmallow.</li>
-        <li>Donut tiramisu bonbon macaroon danish.</li>
-        <li>Apple pie cake apple pie oat cake apple pie pie caramels.</li>
-        <li>Cake fruitcake brownie soufflé jelly-o tart.</li>
-        <li>Carrot cake ice cream toffee.</li>
-        </ul>
-        <h3 style="color: #535353;">Donut oat cake chupa chups gummi bears jelly beans liquorice jelly</h3>
-        <p>Gingerbread icing lemon drops caramels gingerbread topping candy canes chupa chups cupcake. Muffin pastry pastry cake. Cheesecake cake icing. Tart tootsie roll ice cream halvah apple pie donut sesame snaps icing donut. Bonbon marzipan carrot cake jujubes ice cream. Liquorice chupa chups tiramisu cotton candy pudding chocolate bar jelly.</p>
-        <h3 style="color: #535353;">Gummi bears chupa chups lollipop cake cupcake cheesecake toffee.</h3>
-        <p>Brownie tiramisu cupcake ice cream. Icing marshmallow tootsie roll apple pie jelly. Chocolate marzipan chupa chups gingerbread soufflé. Carrot cake jelly-o chocolate bar carrot cake. Bear claw sesame snaps jelly. Candy pie tart. Jujubes pastry halvah bonbon chocolate cake caramels jelly toffee gingerbread. Pudding croissant danish gummi bears marzipan lemon drops. Chocolate bar cotton candy dragée marshmallow macaroon carrot cake apple pie chocolate. Candy candy tootsie roll. Sesame snaps jelly icing. Tootsie roll cake brownie gummi bears cheesecake sweet jelly beans chocolate bar powder. Brownie bear claw ice cream sesame snaps. Cookie gingerbread tiramisu marshmallow jelly beans sweet.</p>
-        </div>
-        </td>
-        <tr>
-        <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; line-height: 28px; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 14px; word-wrap: break-word;"> Thank you,<br />
-        <br /><span style="font-weight: bold;">OICR Webdev</span><br /><a href="mailto:webdev@oicr.on.ca" style="color: #5a8126; font-weight: bold; text-decoration: underline;">webdev@oicr.on.ca</a></td>
-        </tr>
-        </table>
-        </td>
-        </tr>
-        </table>
-        </td>
-        </tr>
-        </table>
-        <!-- CONTAINER -->
-        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;" width="100%">
-        <tr>
-        <td align="center" bgcolor="#f9fafb" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
-        <!-- WRAPPER -->
-        <table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="600">
-        <tr>
-        <td bgcolor="#ffffff" style="border-bottom: solid 1px #ebebeb; border-left: solid 1px #ebebeb; border-right: solid 1px #ebebeb; border-top: 1px solid #d5d5d5; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px 20px 10px 20px;">
-        <!-- CONTENT: footer -->
-        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
-        <tr>
-        <td align="center" style="color: #000000; font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; line-height: 21px; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">This email was sent to <a href="mailto:[email_to]" style="color: #5a8126; font-weight: bold; text-decoration: underline;" target="_blank">[email_to]</a><br />
-        <br /> Powered by <a class="apple-links" href="[base_url]" style="color: #5a8126; font-weight: bold; text-decoration: underline;" target="_blank">[base_url]</a>, hosted by <a href="https://[base_url]/" style="color: #5a8126; font-weight: bold; text-decoration: underline;" target="_blank">Ontario Institute for Cancer Research</a><br />
-        <br /><span class="apple-links" style="color: #000000; text-decoration: none;">MaRS Centre | 661 University Ave, Suite 510 | Toronto, Ontario | Canada M5G 0A3</span><br /> © Ontario Institute for Cancer Research. All Rights Reserved.<br />
+        <td align="left" style="-ms-word-wrap: break-word; color: #000000; font-family: [fontFamily]; font-size: 14px; font-weight: normal; line-height: normal; max-width: 558px; mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-wrap: break-word; border-bottom: 1px solid #5A5A5A;">
+        <p style="margin-bottom: 19px; font-size: 16px;">Dear [user_display_name],</p>
+        <p style="margin-bottom: 24px; font-size: 14px; line-height: 21px;">Please click the following to download a copy of the Website User Consent Statement:</p>
+        <a
+        class="mobile-button"
+        href="[consentUrl]"
+        style="-webkit-text-size-adjust: none; background-color: [buttonColor]; border: 1px solid [buttonColor]; border-radius: 3px; border-width: 1px; color: #fff; display: inline-block; font-family: [fontFamily]; font-size: 16px; font-weight: bold; line-height: 42px; padding: 0 30px 0 30px; text-align: center; margin-bottom: 25px;"
+        target="_blank"
+        >Download Consent Statement</a>
+        <p style="margin-bottom: 24px; font-size: 14px; line-height: 21px;">
+        Thank you,
+        <br /><br />
+        <span style="font-weight: bold;">[signatureName]</span>
         <br />
+        <a href="mailto:[signatureEmail]" style="color: [primaryColor]; font-weight: bold; text-decoration: underline;">[signatureEmail]</a>
+        </p>
         </td>
         </tr>
+        </tbody>
         </table>
         </td>
         </tr>
+        </tbody>
         </table>
         </td>
         </tr>
+        </tbody>
         </table>
-        <!-- CONTAINER -->
+        <!-- CONTAINER: Footer -->
         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;" width="100%">
+        <tbody>
         <tr>
-        <td align="center" bgcolor="#f9fafb" height="28" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">&nbsp;</td>
+        <td align="center" bgcolor="#ffffff" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <!-- Email Footer -->
+        <table border="0" cellpadding="0" cellspacing="0" class="wrapper" style="border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; border: solid 1px [darkGrayColor]; border-top: unset; border-collapse: separate !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="600">
+        <tbody>
+        <tr>
+        <td style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 20px; padding-top: 0">
+        <!-- Content: Footer -->
+        <table border="0" cellpadding="0" cellspacing="0" style="background-color: [grayColor]; border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
+        <tbody>
+        <tr>
+        <td align="center" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;color: #000; font-family: [fontFamily]; font-size: 12px; line-height: 21px; padding: 3px 50px">
+        <p style="margin-top: 18px; margin-bottom: 18px; line-height: 18px;">This email was sent to <a href="mailto:[email_to]" style="color: [primaryColor]; font-weight: bold; text-decoration: underline;" target="_blank">[email_to]</a></p>
+        <p style="margin-bottom: 18px; line-height: 18px;">Powered by <a class="apple-links" href="[base_url]" style="color: [primaryColor]; font-weight: bold; text-decoration: underline;" target="_blank">[base_url]</a><span>, hosted by </span><a class="apple-links" href="[hostedByUrl]" style="color: [primaryColor]; font-weight: bold; text-decoration: underline;" target="_blank">[hostedByName]</a></p>
+        <p style="margin-bottom: 18px; line-height: 18px; color: #000000; text-decoration: none; font-weight: normal;">[fullAddress]<br />© [hostedByName]. All Rights Reserved.</p>
+        </td>
         </tr>
+        </tbody>
+        </table>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        <!-- CONTAINER: Empty Padding Bottom -->
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse !important; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;" width="100%">
+        <tbody>
+        <tr>
+        <td align="center" bgcolor="#ffffff" height="28" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">&nbsp;</td>
+        </tr>
+        </tbody>
         </table>
         </body>
         </html>
-
 ---

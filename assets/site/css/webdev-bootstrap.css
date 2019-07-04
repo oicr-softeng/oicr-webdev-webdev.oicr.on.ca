@@ -207,7 +207,7 @@ a.ext span.ext {
 
 .navbar-static-top,
 .navbar-fixed-top {
-    z-index: 500; /* Override bootstrap.css */
+    z-index: 99; /* Override bootstrap.css */
     background: transparent;
     border: none;
 }

@@ -1,0 +1,12 @@
+{
+    // Settings for ESLint + Prettier
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": false // We use "eslint" formatting instead of "editor" for javascript.
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "prettier.disableLanguages": [
+        "js"
+    ],
+}

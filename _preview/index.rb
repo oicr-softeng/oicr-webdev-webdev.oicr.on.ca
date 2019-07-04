@@ -42,16 +42,39 @@ post('/') do
   #Get request data
   data = JSON.parse(request.body.read)
   doc = data["doc"]
-  replaceLayout = data["replaceLayout"]
+  if $configs and $configs[doc['type'].to_sym]
+    typeConfig = $configs[doc['type'].to_sym]
+  else
+    typeConfig = nil
+  end
 
-  #Manipulate layout object.
+  # Replace layouts to customize how it looks like.
+  #################################################
+  replaceLayout = data["replaceLayout"]
+  replaced = false
+
+  # Process Custom Layouts from API call
   if replaceLayout
     if replaceLayout["from"] and replaceLayout["to"]
       site.layouts[replaceLayout["from"]] = site.layouts[replaceLayout["to"]]
+      replaced = true
     end
-  elsif $replaceLayoutFrom and $replaceLayoutTo
-    site.layouts[$replaceLayoutFrom] = site.layouts[$replaceLayoutTo]
   end
+
+  # Process Custom Layouts from configs (Specific Collection Type)
+  if !replaced and $configs and typeConfig
+    if typeConfig[:replaceLayoutFrom] and typeConfig[:replaceLayoutTo]
+      site.layouts[typeConfig[:replaceLayoutFrom]] = site.layouts[typeConfig[:replaceLayoutTo]]
+      replaced = true
+    end
+  end 
+
+  # Process Custom Layour from configs (Default Custom Layouts)
+  if !replaced and $replaceLayoutFrom and $replaceLayoutTo
+    site.layouts[$replaceLayoutFrom] = site.layouts[$replaceLayoutTo]
+    replaced = true
+  end
+  #################################################
 
   # Get collection info.
   collection = site.collections["_" + doc["type"]]
@@ -71,6 +94,11 @@ post('/') do
     end
   end
 
+  # When layout is set, but site does not have this layout
+  unless site.layouts.keys.include? doc["data"]["attributes"]["layout"]
+    halt 400
+  end
+
   #Generate the doc for rendering
   pageDocument = Jekyll::Document.new(root_dir + doc["path"] \
                                  , :site => site, :collection => collection)
@@ -82,10 +110,18 @@ post('/') do
   result = Jekyll::Renderer.new(site, pageDocument, payload).run
 
   #Inject external stylesheets
+  #################################################
   styles = '';
   for $href in $cssInjector
     styles = styles + '<link type="text/css" rel="stylesheet" media="all" href="' + $href +'">'
   end
+  if typeConfig and typeConfig[:cssInjector]
+    for $href in typeConfig[:cssInjector]
+      styles = styles + '<link type="text/css" rel="stylesheet" media="all" href="' + $href +'">'
+    end
+  end
+  
+
   result = styles + result;
 
   result

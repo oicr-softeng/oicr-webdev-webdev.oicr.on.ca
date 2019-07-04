@@ -6,7 +6,6 @@ module.exports = {
     site: [
         './src/site/_all',
         './src/site/libs/spamspan.js',
-        './src/site/libs/our-work.js',
         './src/site/libs/particles.js',
     ],
     //forms: ['./src/core/_forms'],

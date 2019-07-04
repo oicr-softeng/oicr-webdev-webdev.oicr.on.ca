@@ -296,32 +296,32 @@ a.btn:focus {
 
 /* banner */
 
-.banner {
+.content-header {
     display: block;
     margin-top: 30px;
 }
 
-.banner-title,
-.banner-content,
-.banner-wrapper {
+.content-header .title,
+.content-header .content,
+.content-header .content-wrapper {
     position: relative;
     float: left;
     width: auto;
 }
 
-.banner-wrapper {
+.content-header .content-wrapper {
     clear: both;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.banner-content {
+.content-header .content {
     max-width: 100%;
     margin-left: 30px;
     line-height: 2em;
 }
 
-.banner-title h1 {
+.content-header .title h1 {
     font-size: 48px;
     font-weight: 800;
     margin: 10px 0px;
@@ -329,32 +329,32 @@ a.btn:focus {
     border-right: 2px solid #dce1e5;
 }
 
-.banner-content p {
+.content-header .content p {
     font-size: 16px;
     margin-bottom: 0px;
 }
 
 @media only screen and (max-width: 991px) {
-    .banner {
+    .content-header {
         margin-top: 50px;
     }
 }
 
 @media only screen and (max-width: 767px) {
-    .banner {
+    .content-header {
         margin-top: 20px;
         padding: 0px;
     }
-    .banner-title,
-    .banner-content {
+    .content-header .title,
+    .content-header .content {
         float: none;
     }
-    .banner-title h1 {
+    .content-header .title h1 {
         padding: 0px;
         text-align: center;
         border: none;
     }
-    .banner-content {
+    .content-header .content {
         text-align: center;
         width: 100%;
         margin: 0px;
@@ -364,14 +364,14 @@ a.btn:focus {
 }
 
 @media only screen and (max-width: 479px) {
-    .banner-title h1 {
+    .content-header .title h1 {
         font-size: 34px;
     }
-    .banner-content {
+    .content-header .content {
         padding: 15px 15px;
         padding-bottom: 0px;
     }
-    .banner-content p {
+    .content-header .content p {
         font-size: 14px;
         margin-bottom: 0px;
     }
@@ -387,143 +387,4 @@ a.btn:focus {
 #app-git-edit .dropdown > a.btn {
     padding-left: 25px;
     padding-right: 25px;
-}
-
-
-/* Footer */
-footer .container {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-footer a,
-footer a:hover,
-footer a:visited {
-    color: white;
-}
-
-footer p {
-    font-size: 92.3%;
-    line-height: 1.625;
-    margin-top: 0.8125em;
-    margin-bottom: 0.8125em;
-    color: #999;
-}
-
-
-.labs-footer .labs-list a.footer-logo-container {
-    margin: 0;
-    padding: 0;
-}
-
-
-@media screen and (min-width: 768px) {
-    footer .container .row .col-md-4 {
-        width: 30%;
-    }
-    
-    footer .container .row .col-sm-4 {
-        width: 30%;
-    }
-
-    .col-md-4:last-child,
-    .col-sm-4:last-child {
-        width: 40%;
-    }
-        
-}
-@media screen and (max-width: 767px) {
-    footer div.footer-category{
-            padding-bottom: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    footer .labs-footer .labs-list .footer-logo {
-        float: none;
-    }
-
-    footer .labs-footer .labs-list a {
-        margin: 5px 0;
-        padding: 0 8px;
-    }
-
-    footer .labs-footer .labs-list {
-        width: 370px;
-    }
-}
-
-@media (max-width: 400px) {
-    footer .labs-footer .labs-list {
-        width: 320px;
-    }
-}
-
-.labs-footer .labs-list a:first-child {
-    padding-left: none;
-}
-
-.labs-footer .labs-list a:first-child {
-    border-right: none;
-}
-
-.labs-footer .labs-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-}
-
-.labs-footer .labs-list img {
-    width: 50px;
-}
-
-@media (max-width: 768px) {
-    .labs-footer .labs-list img {
-        margin: 10px 0;
-    }
-}
-
-.labs-footer .labs-list .footer-logo {
-    padding: 0;
-    float: left;
-}
-
-.labs-footer .labs-list a {
-    color: #000;
-    font-size: 12px;
-    padding: 0 10px;
-    margin: 14px 0;
-    display: inline-block;
-    border-right: 1px solid #076faf;
-}
-
-.labs-footer .final-link {
-    font-size: 12px;
-    float: right;
-    padding: 12px 8px;
-}
-
-.labs-footer .final-link a {
-    text-transform: uppercase;
-    color: #076faf;
-}
-
-
-@media (max-width: 991px) {
-    .labs-footer .final-link {
-        float: none;
-    }
-}
-
-.labs-footer {
-    background-color: #f2f3f4;
-    border-top: 2px solid #076faf;
-    padding: 15px;
-    font-size: 12px;
-    font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial',
-        'sans-serif';
-    font-weight: 500;
 }
