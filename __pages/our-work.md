@@ -65,8 +65,8 @@ progress3:
   content: >-
     Application Web Development for developing the new Centralized User
     Directory, an infrastructure website and web service performing
-    authentication and distributed user, role-based authorization services for
-    multiple
+    authentication and distributed user, role-based authorization User Managed
+    Services across multiple projects.
 footer-message: 'Do you have a similar project you want to talk to us about? '
 btnOne: CONTACT US
 
