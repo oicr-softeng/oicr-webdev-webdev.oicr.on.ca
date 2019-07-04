@@ -1,0 +1,356 @@
+/* FOOTER Container & Regions
+-------------------------------------------------------------- */
+footer {
+    .container {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    h4 {
+        font-size: 12px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-size: 92.3%;
+        line-height: 1.625;
+        margin-top: 0.8125em;
+        margin-bottom: 0.8125em;
+        color: #999;
+    }
+
+    a {
+        text-decoration: none;
+
+        &:active,
+        &:hover,
+        &:focus,
+        &.active {
+            text-decoration: underline;
+        }
+    }
+}
+
+footer #oicr-labs-footer p:first-child {
+    margin-top: 0;
+}
+
+footer #oicr-labs-footer:nth-child(2) {
+    border-right: 1px solid #404040;
+    border-left: 1px solid #404040;
+}
+
+footer h4.title b {
+    font-size: 110% !important;
+}
+
+footer {
+    b {
+        font-weight: 600;
+    }
+
+    h4 a {
+        font-weight: 600;
+    }
+}
+
+footer .copyright img {
+    vertical-align: bottom;
+}
+
+.labs-footer .labs-list a.footer-logo-container {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    footer {
+        div.footer-category {
+            padding-bottom: 20px;
+        }
+    }
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.page-default {
+    padding-top: 0 !important;
+}
+
+.cud-info-txt {
+    color: #cfcfcf;
+}
+
+.cc-disclaimer-txt {
+    color: #cfcfcf;
+}
+
+/* Labs common Footer
+----------------------------------------------------------- */
+@media (max-width: 768px) {
+    footer .labs-footer .labs-list .footer-logo {
+        float: none;
+    }
+}
+
+.labs-footer {
+    background-color: $subtitle-background-color;
+    border-top: 2px solid $blue-theme-color;
+    padding: 15px 0;
+    font-size: 14px;
+    font-family: 'Avenir LT W01_55 Roman1475520';
+    font-weight: 500;
+
+    .list-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        @media (max-width: 767px) {
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+    .labs-list a:first-child {
+        padding-left: 0;
+    }
+
+    .labs-list a:last-child {
+        border-right: none;
+    }
+
+    .labs-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+
+        .labs-list-links {
+            @media (max-width: 767px) {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                a {
+                    margin: 8px 0;
+                    padding-right: 0;
+                    border: none;
+                }
+            }
+        }
+
+        img {
+            width: 50px;
+            margin: 0 20px 0 0;
+            @media (max-width: 767px) {
+                margin: 0 0 10px 0;
+            }
+        }
+
+        .footer-logo {
+            padding: 0;
+            float: left;
+        }
+
+        a {
+            color: black;
+            font-size: 14px;
+            line-height: 20px;
+            padding: 0 10px 0 0;
+            margin: 12px 5px 12px 0;
+            display: inline-block;
+            border-right: 1px solid $blue-theme-color;
+        }
+    }
+
+    .oicr-funder-footer {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+
+        .ontario-logo {
+            width: 90px;
+            margin: 0 15px 0 0;
+            @media (max-width: 767px) {
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+        .funding-text {
+            color: black;
+            font-size: 12px;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+        }
+    }
+
+    .final-link {
+        font-size: 14px;
+        float: right;
+        padding: 0;
+
+        @media (max-width: 991px) {
+            padding: 13px 0 0;
+        }
+        @media (max-width: 767px) {
+            padding: 13px 0 0;
+        }
+
+        a {
+            text-transform: uppercase;
+            color: $blue-theme-color;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .final-link {
+            float: none;
+        }
+    }
+}
+
+.nextlabs-footer {
+    font-family: 'Avenir LT W01_55 Roman1475520';
+
+    border-top: 1px solid $grey-line-color;
+    font-size: 15px;
+
+    .nextlabs-footer-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 8px 0;
+
+        @media (max-width: 767px) {
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    .footer-top-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+    }
+
+    a.oicr-link {
+        text-transform: uppercase;
+        font-weight: 400;
+        color: $blue-theme-color;
+        padding-right: 25px;
+        margin: 10px 0 5px 0;
+        line-height: 1.428571429;
+
+        @media (max-width: 767px) {
+            padding-right: 0;
+        }
+    }
+
+    a.first {
+        float: left;
+    }
+    .right-element {
+        float: right;
+        padding: 0px 8px;
+        margin: 10px 0;
+        a {
+            color: $blue-theme-color;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .right-element {
+            float: left;
+            padding: 0;
+            margin: 10px 0;
+        }
+    }
+
+    @media (min-width: 768px) {
+        a.oicr-link {
+            float: left;
+        }
+
+        li a {
+            float: left;
+        }
+
+        ul.oicr-list {
+            display: flex;
+            padding: 0;
+        }
+    }
+
+    ul.oicr-list {
+        list-style-type: none;
+        margin: 10px 0 5px 0;
+
+        li a {
+            color: $blue-theme-color;
+            font-size: 15px;
+            font-weight: 900;
+            text-align: center;
+            padding: 0 15px;
+            border-right: 1px solid $blue-theme-color;
+            line-height: 1.428571429;
+        }
+
+        li:first-child {
+            a {
+                padding-left: 0;
+            }
+        }
+
+        li:last-child {
+            a {
+                border-right: none;
+            }
+        }
+
+        @media (max-width: 767px) {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            li {
+                padding: 8px 0;
+            }
+
+            li a {
+                padding: 0;
+                border-right: none;
+            }
+        }
+    }
+}

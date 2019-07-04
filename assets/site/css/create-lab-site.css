@@ -1,36 +1,38 @@
+/* Banner */
 @media only screen and (min-width: 768px) {
-    .banner-content {
+    .content-header .content {
         width: calc(100% - 490px) !important;
         margin-top: calc(3% - 20px);
     }
 }
 
-.banner-title h1 {
+.content-header .title h1 {
     padding-right: 30px !important;
 }
 
-.line-break{
-	border-top: 1px solid #8c8b8b;
+.line-break {
+    border-top: 1px solid #8c8b8b;
 }
 
-#index-links{
+#index-links {
     text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 13px;
 }
 
-ul, li{
-    color: #4A4A4A !important;
+ul,
+li {
+    color: #4a4a4a !important;
     font-size: 14px !important;
 }
 
-#work-with-us-img{
+#work-with-us-img {
     width: 750px;
     border-radius: 0% !important;
 }
 
-.page-bottom{
+.page-bottom {
     background-color: #f2f3f4;
     width: 100%;
     height: 100%;
@@ -38,42 +40,40 @@ ul, li{
     padding-bottom: 5px;
 }
 
-.row-bottom
-{
+.row-bottom {
     display: table;
     width: 55%;
     margin-left: 150px;
     border-spacing: 5px;
 }
-.bottom-col
-{
+.bottom-col {
     display: table-cell;
     padding-left: 25px;
     width: 45%;
 }
 
-.bottom-col-3
-{
+.bottom-col-3 {
     margin-left: 35px;
     width: 255%;
 }
 
-.blog-posts{
+.blog-posts {
     text-align: left !important;
     margin-bottom: 30px !important;
     color: #47afd7 !important;
     font-weight: 700 !important;
 }
 
-b, strong{
+b,
+strong {
     font-weight: bold;
 }
 
-.bold-text{
-   font-weight: bold;
-   line-height: 18px;
-   margin-top: 18px;
-   margin-bottom: 18px;
+.bold-text {
+    font-weight: bold;
+    line-height: 18px;
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
 
 a {
@@ -81,7 +81,7 @@ a {
     text-decoration: none !important;
 }
 
-.create-header{
+.create-header {
     padding-left: 1px;
     padding-right: 10px;
     margin-left: 35px;
@@ -89,7 +89,7 @@ a {
     color: #345570;
 }
 
-.create-page{
+.create-page {
     padding-left: 40px;
     padding-right: 80px;
     margin-right: 20px;
@@ -103,5 +103,5 @@ a {
 }
 
 .list-template strong {
-    color: #F9893B;
+    color: #f9893b;
 }

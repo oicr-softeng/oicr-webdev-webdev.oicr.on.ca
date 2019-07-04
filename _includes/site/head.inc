@@ -14,9 +14,8 @@
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
 
-<link rel="stylesheet" href="/assets/core/css/styles.css?{{ "now" | date: "%s" }}">
-
 <link rel="stylesheet" href="/assets/dist/css/core.bundle.css?{{ "now" | date: "%s" }}">
+<link rel="stylesheet" href="/assets/site/css/styles.css?{{ "now" | date: "%s" }}">
 
 <!-- Bootstrap CSS -->
 <link type="text/css" rel="stylesheet" media="all" href="/assets/core/css/bootstrap.min.css">
