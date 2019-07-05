@@ -99,7 +99,6 @@ jQuery(function($) {
         var prev = carousel.find('.carousel-control-prev');
         var next = carousel.find('.carousel-control-next');
         var activeSlide = carousel.find('.item.active .slide-border');
-        console.log(activeSlide, activeSlide.height());
         prev.css('top', activeSlide.height() * 0.5 + 'px');
         next.css('top', activeSlide.height() * 0.5 + 'px');
     }
