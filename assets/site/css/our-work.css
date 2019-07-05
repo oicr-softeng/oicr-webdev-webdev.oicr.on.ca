@@ -265,9 +265,9 @@ div[id^="webdev-carousel-"] {
 
 
 .carousel-indicators {
-    bottom: auto;
-    left: auto;
-    right: 0px;
+    bottom: 25px;
+    left: 0;
+    right: 0;
     margin: 0px;
     width: 100%;
     text-align: center;  
