@@ -4,6 +4,11 @@ date_tdt: 2019-02-27T15:37:33.915Z
 author: Joseph Yamada
 layout: about-us
 permalink: /about-us/
+redirect_from:
+  - "/aboutus/
+  - "/test/
+  - "/about-us/
+
 published: true
 isPublic_b: true
 date: '2017-03-06 10:00:00 -0500'
