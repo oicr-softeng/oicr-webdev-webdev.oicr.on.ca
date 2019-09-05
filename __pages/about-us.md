@@ -60,15 +60,6 @@ team:
       Loves to work on meaningful outcomes.  Has hired 50+ students while at the
       OICR.
     tag: joseph-yamada
-  - name: Nikita Mor
-    image: /assets/site/images/webdev-team-nikita.png
-    role: UI/UX Designer
-    focus: >-
-      Designs usable, purposeful, and aesthetically appealing products to enable
-      scientists to connect, collaborate, and communicate effectively.
-    expertise: 'UI/UX Design, UX Research, Visual Design.'
-    fun_fact: Loves making films and deep-sea diving.
-    tag: nikita-mor
   - name: Kaman Wu
     image: /assets/site/images/webdev-team-kaman.png
     role: Back-End Web Developer
@@ -114,16 +105,22 @@ our-students:
           school: University of Waterloo
           role: Applications Developer
         - name: Jacqueline Li
-          program: 1st year Computer Science
+          program: Computer Science
           school: University of Waterloo
           role: Content Editor + Themer
-        - name: Amy McCormack
-          program: 1st year Computer Science
-          school: University of Guelph
-          role: Visual Designer + Themer
 past-students:
   title: Credits to Our Team Alumni
   terms:
+    - students:
+        - name: Andrew Chin
+          program: 1st year Computer Science
+          school: University of Waterloo
+          role: Full Stack Developer
+        - name: Sheen Thusso
+          program: Biomedical Engineering
+          school: University of Waterloo
+          role: Web + Content Developer
+      termTitle: Summer 2019
     - students:
         - name: David Chi
           program: 2nd year Computer Science
