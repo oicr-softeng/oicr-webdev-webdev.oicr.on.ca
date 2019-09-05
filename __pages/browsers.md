@@ -5,9 +5,8 @@ author: Joseph Yamada
 layout: browsers
 permalink: /browsers/
 redirect_from:
-  - "/aboutus/"
-  - "/test/"
   - "/about-us/"
+  - "/careers/"
 published: true
 isPublic_b: true
 date: '2017-08-11 10:00:00 -0500'
