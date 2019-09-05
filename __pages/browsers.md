@@ -6,6 +6,7 @@ layout: browsers
 permalink: /browsers/
 redirect_from:
   - "/about-us/"
+  - "/browser-support/"
   - "/careers/"
 published: true
 isPublic_b: true
