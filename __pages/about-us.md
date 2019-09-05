@@ -100,26 +100,30 @@ team:
 our-students:
   title: Our Talented Students
   students: 
-        - name: Yifei Zhang
-          program: 1st year Software Engineering
-          school: University of Waterloo
-          role: Applications Developer
-        - name: Jacqueline Li
-          program: Computer Science
-          school: University of Waterloo
-          role: Content Editor + Themer
-past-students:
-  title: Credits to Our Team Alumni
-  terms:
-    - students:
         - name: Andrew Chin
-          program: 1st year Computer Science
+          program: Computer Science
           school: University of Waterloo
           role: Full Stack Developer
         - name: Sheen Thusso
           program: Biomedical Engineering
           school: University of Waterloo
           role: Web + Content Developer
+past-students:
+  title: Credits to Our Team Alumni
+  terms:
+    - students:
+        - name: Yifei Zhang
+          program: 1st year Software Engineering
+          school: University of Waterloo
+          role: Applications Developer
+        - name: Jacqueline Li
+          program: 1st year Computer Science
+          school: University of Waterloo
+          role: Content Editor + Themer
+        - name: Amy McCormack
+          program: 1st year Computer Science
+          school: University of Guelph
+          role: Visual Designer + Themer
       termTitle: Summer 2019
     - students:
         - name: David Chi
