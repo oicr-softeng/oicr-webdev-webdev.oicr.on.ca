@@ -5,9 +5,9 @@ author: Joseph Yamada
 layout: about-us
 permalink: /about-us/
 redirect_from:
-  - "/aboutus/
-  - "/test/
-  - "/about-us/
+  - "/aboutus/"
+  - "/test/"
+  - "/about-us/"
 
 published: true
 isPublic_b: true
