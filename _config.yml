@@ -143,6 +143,7 @@ markdown: kramdown
 # Jekyll plugins ( also requires to add list in Gemfile )
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Exclude these files when the site is generated.
 exclude:
