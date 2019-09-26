@@ -128,7 +128,7 @@ defaults:
       type: _banner
     values:
       layout: banner
-formsSiteURL: webdevff0b3218aaad11e7abc4cec278b6b50a_JEKYLL_FORMS_HOST
+formsSiteURL: forms.oicr.on.ca
 
 ######################################################################
 # Jekyll Environment Config

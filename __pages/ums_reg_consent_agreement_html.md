@@ -10,11 +10,11 @@ isPublic_b: true
 
 October 22, 2018
 
-In addition to the conditions for the use of personal information specified in the [OICR Terms and Conditions](https://oicr.on.ca/terms-and-conditions/), the webdevff0b3218aaad11e7abc4cec278b6b50a_PRODUCTION_NAME Website, through its forms, collects your personal contact information.
+In addition to the conditions for the use of personal information specified in the [OICR Terms and Conditions](https://oicr.on.ca/terms-and-conditions/), the OICR Webdev Website, through its forms, collects your personal contact information.
 
-Personal contact information is collected for the purpose of contacting you about your form submissions. webdevff0b3218aaad11e7abc4cec278b6b50a_PRODUCTION_NAME will also collect SEO statistics for improving the site’s online presence and impact. If you choose to provide us with additional information about yourself through an email message, any identifying information that you provide will be maintained per stated purpose.
+Personal contact information is collected for the purpose of contacting you about your form submissions. OICR Webdev will also collect SEO statistics for improving the site’s online presence and impact. If you choose to provide us with additional information about yourself through an email message, any identifying information that you provide will be maintained per stated purpose.
 
-webdevff0b3218aaad11e7abc4cec278b6b50a_PRODUCTION_NAME will maintain the security and confidentiality of your personal information. Access to this information will be limited to the webdevff0b3218aaad11e7abc4cec278b6b50a_PRODUCTION_NAME site administrators as per the stated purpose. The information will be retained for the duration of webdevff0b3218aaad11e7abc4cec278b6b50a_PRODUCTION_NAME’ viability and you will be notified if the intended purpose for the collection of this information changes. If the webdevff0b3218aaad11e7abc4cec278b6b50a_PRODUCTION_NAME is no longer viable, all personal information will be destroyed in a confidential and secure manner.
+OICR Webdev will maintain the security and confidentiality of your personal information. Access to this information will be limited to the OICR Webdev site administrators as per the stated purpose. The information will be retained for the duration of OICR Webdev’ viability and you will be notified if the intended purpose for the collection of this information changes. If the OICR Webdev is no longer viable, all personal information will be destroyed in a confidential and secure manner.
 
 Please see the [OICR Terms & Conditions](https://oicr.on.ca/terms-and-conditions/) for further information about the use of your personal information.
 
