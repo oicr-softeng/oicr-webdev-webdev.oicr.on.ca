@@ -25,7 +25,7 @@
                 </div>
                 <!-- Search form -->
                 <div class="webdev-search">
-                    <form class="form-inline" id="cbw-nav-search">
+                    <form class="form-inline" id="cbw-nav-search" action="/search">
                     <div class="form-group">
                         <label class="sr-only" for="keywords"></label>
                         <input type="text" class="form-control" id="cbw-nav-search-keywords" placeholder="Search">
