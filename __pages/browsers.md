@@ -3,7 +3,7 @@ title: Browsers | OICR WebDev Team
 date_tdt: 2018-11-26T21:54:13.537Z
 author: Joseph Yamada
 layout: browsers
-permalink: /browsers/
+permalink: /browsers
 redirect_from:
   - "/about-us/"
   - "/browser-support/"
