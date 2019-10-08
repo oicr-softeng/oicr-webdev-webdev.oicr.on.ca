@@ -106,7 +106,7 @@ var MTIProjectId='971db5ee-f70c-4d68-a104-09abf9a44559';
         var mtiTracking = document.createElement('script');
         mtiTracking.type='text/javascript';
         mtiTracking.async='true';
-         mtiTracking.src='mtiFontTrackingCode.js';
+         mtiTracking.src='/assets/site/js/mtiFontTrackingCode.js';
         (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
    })();
 </script>
