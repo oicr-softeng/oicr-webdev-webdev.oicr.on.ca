@@ -16,29 +16,29 @@ description: "Join a team of experienced professionals with capabilities that ra
 job_postings:
   title: "Job Postings"
   jobs:
-    - title: "UI/UX Designer + Themer" 
+    - title: "Visual Web Designer" 
+      location: MaRS Centre Toronto, Ontario
+      contract: Full-Time
+      posted: 2019-09-24 10:00:00 -0500
+      btn: "APPLY ON RECRUITER.COM"
+      btn_url: "https://www.recruitingsite.com/csbsites/oicr/JobDescription.asp?JobNumber=849785"
+    - title: "Web Content Editor + Client Service" 
       location: MaRS Centre Toronto, Ontario
       contract: UW Co-op Position
-      posted: 2018-09-02 10:00:00 -0500
-      btn: "APPLY ON WATERLOO WORKS (Job ID : 77050)"
+      posted: 2019-09-02 10:00:00 -0500
+      btn: "APPLY ON WATERLOO WORKS (Job ID : 127018)"
       btn_url: "https://waterlooworks.uwaterloo.ca"
-    - title: "Applications Developer (JavaScript)" 
+    - title: "Web Application Engineer (JavaScript)" 
       location: MaRS Centre Toronto, Ontario
       contract: UW Co-op Position
-      posted: 2018-09-02 10:00:00 -0500
-      btn: "APPLY ON WATERLOO WORKS (Job ID : 77049)"
+      posted: 2019-09-02 10:00:00 -0500
+      btn: "APPLY ON WATERLOO WORKS (Job ID : 127017)"
       btn_url: "https://waterlooworks.uwaterloo.ca"
-    - title: "Digital Content Editor + Themer" 
+    - title: "UX Analyst + Visual Designer" 
       location: MaRS Centre Toronto, Ontario
       contract: UW Co-op Position
-      posted: 2018-09-02 10:00:00 -0500
-      btn: "APPLY ON WATERLOO WORKS (Job ID : 77048)"
-      btn_url: "https://waterlooworks.uwaterloo.ca"
-    - title: "DevOps Research Technician" 
-      location: MaRS Centre Toronto, Ontario
-      contract: UW Co-op Position
-      posted: 2018-09-02 10:00:00 -0500
-      btn: "APPLY ON WATERLOO WORKS (Job ID : 77046)"
+      posted: 2019-09-02 10:00:00 -0500
+      btn: "APPLY ON WATERLOO WORKS (Job ID : 127016)"
       btn_url: "https://waterlooworks.uwaterloo.ca"
       
 what_we_offer: "What We Offer"
