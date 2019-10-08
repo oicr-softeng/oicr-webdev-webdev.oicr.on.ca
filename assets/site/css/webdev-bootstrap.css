@@ -64,8 +64,8 @@ html * {
 html,
 body {
     -webkit-text-size-adjust: 100%; /* Fix: iPhone and iPod touch */
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-family: 'Helvetica Neue LT W05_45 Light', sans-serif;
+    font-size: 17px;
     line-height: 1.8em;
 }
 
@@ -815,15 +815,15 @@ li {
 
 /* Module: Place module name here*/
 
-#heading-msg{
+#heading-msg {
     font-size: 14px;
 }
 
-.footer-btn{
-  display: inline-block;
+.footer-btn {
+    display: inline-block;
 }
 
-#footer-btn-blue{
-    background-color: #33546F !important;
+#footer-btn-blue {
+    background-color: #33546f !important;
     border-bottom: 2px solid#557896 !important;
 }
