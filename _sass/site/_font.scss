@@ -144,42 +144,6 @@
             format('truetype');
 }
 @font-face {
-    font-family: 'HarmoniaSans W01';
-    src: url('/assets/site/fonts/a5b66773-6a36-469a-8f45-e08448130bf2.eot?#iefix');
-    src: url('/assets/site/fonts/a5b66773-6a36-469a-8f45-e08448130bf2.eot?#iefix')
-            format('eot'),
-        url('/assets/site/fonts/3ba56aa2-c01d-4bfc-aae4-eac13ee2ebbc.woff2')
-            format('woff2'),
-        url('/assets/site/fonts/51f1c13a-2c9b-4cba-9cbf-93317cbd3e10.woff')
-            format('woff'),
-        url('/assets/site/fonts/7b11ae47-5126-4c06-8f61-fbee4b6a8461.ttf')
-            format('truetype');
-}
-@font-face {
-    font-family: 'Quire Sans W01 Regular';
-    src: url('/assets/site/fonts/3f336c40-b8f6-4978-8bbf-b1f5b3e8977f.eot?#iefix');
-    src: url('/assets/site/fonts/3f336c40-b8f6-4978-8bbf-b1f5b3e8977f.eot?#iefix')
-            format('eot'),
-        url('/assets/site/fonts/0d3131c1-0703-4143-af94-ea35113723d9.woff2')
-            format('woff2'),
-        url('/assets/site/fonts/48b1f64a-1766-4227-a4f9-78ef33e1a83c.woff')
-            format('woff'),
-        url('/assets/site/fonts/58347d6a-47e8-41a1-b858-fe325658bde4.ttf')
-            format('truetype');
-}
-@font-face {
-    font-family: 'Quire Sans W01 Bold';
-    src: url('/assets/site/fonts/918e2d8a-7943-42db-a06e-42028904e327.eot?#iefix');
-    src: url('/assets/site/fonts/918e2d8a-7943-42db-a06e-42028904e327.eot?#iefix')
-            format('eot'),
-        url('/assets/site/fonts/c61bd8da-94af-4b51-a538-544a39ae2238.woff2')
-            format('woff2'),
-        url('/assets/site/fonts/5d3ff9a5-eb33-4dd7-a7dc-3e530f613c49.woff')
-            format('woff'),
-        url('/assets/site/fonts/5b3b150b-d2e8-40ba-8267-d3759a99f225.ttf')
-            format('truetype');
-}
-@font-face {
     font-family: 'Helvetica Neue LT W05_45 Light';
     src: url('/assets/site/fonts/cb0d1e8a-e111-4dbf-82c2-e948aba954c0.eot?#iefix');
     src: url('/assets/site/fonts/cb0d1e8a-e111-4dbf-82c2-e948aba954c0.eot?#iefix')
@@ -189,5 +153,65 @@
         url('/assets/site/fonts/2a34f1f8-d701-4949-b12d-133c1c2636eb.woff')
             format('woff'),
         url('/assets/site/fonts/fdf10d5e-4ce0-45e5-a6c1-5eaff6cb1c11.ttf')
+            format('truetype');
+}
+@font-face {
+    font-family: 'Helvetica Neue LT W05_55 Roman';
+    src: url('/assets/site/fonts/522972a6-5867-47ae-82fc-a7cf9bd5d4d4.eot?#iefix');
+    src: url('/assets/site/fonts/522972a6-5867-47ae-82fc-a7cf9bd5d4d4.eot?#iefix')
+            format('eot'),
+        url('/assets/site/fonts/08b57253-2e0d-4c12-9c57-107f6c67bc49.woff2')
+            format('woff2'),
+        url('/assets/site/fonts/08edde9d-c27b-4731-a27f-d6cd9b01cd06.woff')
+            format('woff'),
+        url('/assets/site/fonts/8f4a1705-214a-4dd0-80b8-72252c37e688.ttf')
+            format('truetype');
+}
+@font-face {
+    font-family: 'Helvetica Neue LT W05_65 Medium';
+    src: url('/assets/site/fonts/5640036d-d549-4f16-b31e-87da78d9e832.eot?#iefix');
+    src: url('/assets/site/fonts/5640036d-d549-4f16-b31e-87da78d9e832.eot?#iefix')
+            format('eot'),
+        url('/assets/site/fonts/240c57a0-fdce-440d-9ce3-85e0cb56f470.woff2')
+            format('woff2'),
+        url('/assets/site/fonts/7802e576-2ffa-4f22-a409-534355fbea79.woff')
+            format('woff'),
+        url('/assets/site/fonts/14d824a2-2a5c-4692-8e30-74f6e177b675.ttf')
+            format('truetype');
+}
+@font-face {
+    font-family: 'Helvetica Neue LT W05_75 Bold';
+    src: url('/assets/site/fonts/4c21ab66-1566-4a85-b310-fbc649985f88.eot?#iefix');
+    src: url('/assets/site/fonts/4c21ab66-1566-4a85-b310-fbc649985f88.eot?#iefix')
+            format('eot'),
+        url('/assets/site/fonts/800da3b0-675f-465f-892d-d76cecbdd5b1.woff2')
+            format('woff2'),
+        url('/assets/site/fonts/7b415a05-784a-4a4c-8c94-67e9288312f5.woff')
+            format('woff'),
+        url('/assets/site/fonts/f07c25ed-2d61-4e44-99ab-a0bc3ec67662.ttf')
+            format('truetype');
+}
+@font-face {
+    font-family: 'Helvetica Neue LT W05_85 Heavy';
+    src: url('/assets/site/fonts/80e123ee-1929-41ec-bf6a-77f92f0d53fe.eot?#iefix');
+    src: url('/assets/site/fonts/80e123ee-1929-41ec-bf6a-77f92f0d53fe.eot?#iefix')
+            format('eot'),
+        url('/assets/site/fonts/7e42a406-9133-48c0-a705-4264ac520b43.woff2')
+            format('woff2'),
+        url('/assets/site/fonts/837750e9-3227-455d-a04e-dc76764aefcf.woff')
+            format('woff'),
+        url('/assets/site/fonts/cbb49e47-093c-4029-b64c-b5ee08064205.ttf')
+            format('truetype');
+}
+@font-face {
+    font-family: 'Helvetica Neue LT W05_95 Black';
+    src: url('/assets/site/fonts/c6d8a5c9-f863-4f17-9c32-355e9e9a98b8.eot?#iefix');
+    src: url('/assets/site/fonts/c6d8a5c9-f863-4f17-9c32-355e9e9a98b8.eot?#iefix')
+            format('eot'),
+        url('/assets/site/fonts/fc4fb6ca-f981-4115-b882-c78e9f08be52.woff2')
+            format('woff2'),
+        url('/assets/site/fonts/6ed03453-f512-45ba-84bf-fe4ea45d5e6a.woff')
+            format('woff'),
+        url('/assets/site/fonts/42f814cb-78f6-46ec-bcc0-3c28842e5ca9.ttf')
             format('truetype');
 }

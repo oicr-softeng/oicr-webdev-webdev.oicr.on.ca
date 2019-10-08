@@ -1276,6 +1276,10 @@ section .row {
     text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
+h1.home-banner-title {
+    
+}
+
 .ums-nav {
     position: absolute;
     width: 100%;
