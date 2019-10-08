@@ -15,7 +15,6 @@
 
 .jumbotron.wrapper .jumbotron-inner {
     position: relative;
-    padding-top: 45px;
 }
 
 .jumbotron-main {
@@ -1151,7 +1150,7 @@ section .row {
     text-align: center;
 }
 
-.logo-activedriver img {    
+.logo-activedriver img {
     max-width: 100%;
     max-height: 100%;
     height: auto;
