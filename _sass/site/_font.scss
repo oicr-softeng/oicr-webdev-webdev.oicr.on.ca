@@ -168,6 +168,18 @@
             format('truetype');
 }
 @font-face {
+    font-family: 'Quire Sans W01 Bold';
+    src: url('/assets/site/fonts/918e2d8a-7943-42db-a06e-42028904e327.eot?#iefix');
+    src: url('/assets/site/fonts/918e2d8a-7943-42db-a06e-42028904e327.eot?#iefix')
+            format('eot'),
+        url('/assets/site/fonts/c61bd8da-94af-4b51-a538-544a39ae2238.woff2')
+            format('woff2'),
+        url('/assets/site/fonts/5d3ff9a5-eb33-4dd7-a7dc-3e530f613c49.woff')
+            format('woff'),
+        url('/assets/site/fonts/5b3b150b-d2e8-40ba-8267-d3759a99f225.ttf')
+            format('truetype');
+}
+@font-face {
     font-family: 'Helvetica Neue LT W05_45 Light';
     src: url('/assets/site/fonts/cb0d1e8a-e111-4dbf-82c2-e948aba954c0.eot?#iefix');
     src: url('/assets/site/fonts/cb0d1e8a-e111-4dbf-82c2-e948aba954c0.eot?#iefix')
