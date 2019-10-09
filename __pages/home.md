@@ -1,75 +1,74 @@
 ---
 layout: home
-title: 'OICR Web Development Team'
+title: "OICR Web Development Team"
 date: 2017-03-06 10:00:00 -0500
-author: Koji Miyauchi
+author: Joseph Yamada
 permalink: /
 published: true
 isPublic_b: true
 
 ########################################
 
-description: 'We design and build websites and web applications that enable OICR to present leading-edge cancer research that engages a global community for collaboration.'
+description: "We design and build websites and web applications that enable OICR to present leading-edge cancer research that engages a global community for collaboration."
 
-btn_banner: 'EXPLORE OUR WORK'
+btn_banner: "EXPLORE OUR WORK"
 
 OMPRN:
-    title: 'Ontario Molecular Pathology Research Network'
-    content: 'Responsive Design & Development for a Canadian Network'
-    nav: 'CASE STUDY'
-    link: '/our-work/case-studies/omprn/'
+    title: "Ontario Molecular Pathology Research Network"
+    content: "Responsive Design & Development for a Canadian Network"
+    nav: "CASE STUDY"
+    link: "/our-work/case-studies/omprn/"
 
 GA:
-    title: 'Global Alliance for Genomics and Health'
-    content: 'Design and Development for a Global Network'
-    nav: 'CASE STUDY'
-    link: '/our-work/case-studies/ga/'
+    title: "Global Alliance for Genomics and Health"
+    content: "Design and Development for a Global Network"
+    nav: "CASE STUDY"
+    link: "/our-work/case-studies/ga/"
 
 GDC:
-    title: 'Genomic Data Commons'
-    content: 'Design and Development for a Website and Data Portal'
-    nav: 'CASE STUDY'
-    link: '/our-work/case-studies/gdc/'
+    title: "Genomic Data Commons"
+    content: "Design and Development for a Website and Data Portal"
+    nav: "CASE STUDY"
+    link: "/our-work/case-studies/gdc/"
 
 ICGC:
-    title: 'International Cancer Genome Consortium'
-    content: 'Design and Development for a Website and Data Portal'
-    nav: 'CASE STUDY'
-    link: '/our-work/case-studies/icgc/'
+    title: "International Cancer Genome Consortium"
+    content: "Design and Development for a Website and Data Portal"
+    nav: "CASE STUDY"
+    link: "/our-work/case-studies/icgc/"
 
-what_we_do: 'What We Do'
+what_we_do: "What We Do"
 
 websites:
-    title: 'Researcher Websites'
-    content: 'We collaborate with OICR-affiliated researchers and their programs, to create solutions to enable teams to succeed online, and keep their focus on their science.'
+    title: "Researcher Websites"
+    content: "We work together with OICR-affiliated researchers and their programs, to create solutions to enable teams to succeed online, and keep their focus on their science."
 
 planning:
-    title: 'Planning & Strategy'
-    content: 'We work to clarify project goals through requirements analysis and meet those goals while minimizing financial and timeline risk for the program.'
+    title: "Planning & Strategy"
+    content: "Rather than out-of-the box features that don't quite fit your project goals, we plan the project aligned to your definition of success, to create a custom solution that works best."
 
 design:
-    title: 'Design & UX'
-    content: "We work with our partners to establish a user-friendly experience and engaging look and feel that resonates with the website's primary users."
+    title: "Design & UX"
+    content: "We work together with subject-matter-experts (you), to shape a user-friendly experience and engaging look and feel that resonates with the website's primary users."
 
 devel:
-    title: 'Development'
-    content: 'We provide a rapid, agile development environment using a modern web technology stack, ensuring applications meet design and device specifications.'
+    title: "Development"
+    content: "We run a rapid, agile development environment based on a modern web technology stack, ensuring applications meet design and device specifications."
 
 about:
-    title: 'About the Team'
+    title: "About the Team"
     content: "Our team is composed of experienced creative and technical members, and we work on the Ontario Institute for Cancer Research's international, national and provincial research websites. These websites support and communicate OICR's research services and deliver the programs' ambitious objectives, and provide an extensive array of user-friendly, informative and operational uses.   
-
     Our solutions have been shaped to provide meaningful outcomes to enable small teams to succeed online.  Our professional experiences include organizational compliance in security, privacy, accessibility, and communications.  We also provide operational maintainance which has shaped our software engineering practices to design truly sustainable systems that with less consumption and software maintenance.  
     "
-    btn: 'MORE ABOUT OUR TEAM'
+    btn: "MORE ABOUT OUR TEAM"
 
 join_the_team:
-    title: 'Work with Us'
-    content: 'Please consider contacting us to learn more about our approaches to enable scientific projects to succeed, and consider sending us an RFP for your next web project, we'd love to help you too.'
+    title: "Work with Us"
+    content: "Please consider contacting us to learn more about our approaches to enable scientific projects to succeed, and consider sending us an RFP for your next web project, we'd love to help you too."
 
-    btn: 'CONTACT US'
+    btn: "CONTACT US"
 
-work: 'Who We Work With'
+work: "Who We Work With"
 
 partners:
     - abbr: oicr
