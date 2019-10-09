@@ -53,7 +53,7 @@ design:
 
 devel:
     title: "Development & Deployment"
-    content: "We work transparently, build using modern static and object-database-driven web technologies with best practices, to meet project scope & cost & organizational compliance, operational goals."
+    content: "We work transparently, build using modern static and object-database-driven web technologies with best practices, to meet project scope & cost & operational goals, and organizational compliance."
 
 about:
     title: "About the Team"
