@@ -22,112 +22,112 @@
 title: OICR-WEBDEV
 
 description: > # this means to ignore newlines until "baseurl:"
-  We design and build websites and web applications that enable OICR to present leading-edge cancer research that engages a global community for collaboration.
+    The OICR-WebDev team designs and builds websites and web applications that enable OICR to present leading-edge cancer research that engages a global community for collaboration.
 
 # Contact Information
 email: webdev@oicr.on.ca
 
 # the subpath of your site, e.g. /blog
-baseurl: ""
+baseurl: ''
 
 # Default permalink for posts
 permalink: /node/:year-:month-:day-:title.html
 
 # Post excerpt tag https://jekyllrb.com/docs/posts/#post-excerpts
-excerpt_separator: "<!--more-->"
+excerpt_separator: '<!--more-->'
 
 ######################################################################
 # Collections setting. https://jekyllrb.com/docs/collections/
 ######################################################################
 
 collections:
-  # Default collections
-  _images:
-    output: true
-  _pages:
-    output: true
-  _privateFiles:
-    output: true
-  _files:
-    output: true
-  _videos:
-    output: true
-  _weblinks:
-    output: true
-  _modules:
-    output: true
-  _emailtpl:
-    output: false
-  _projects:
-    output: false
-  _case-studies:
-    output: true
-  _banner:
-    output: true
+    # Default collections
+    _images:
+        output: true
+    _pages:
+        output: true
+    _privateFiles:
+        output: true
+    _files:
+        output: true
+    _videos:
+        output: true
+    _weblinks:
+        output: true
+    _modules:
+        output: true
+    _emailtpl:
+        output: false
+    _projects:
+        output: false
+    _case-studies:
+        output: true
+    _banner:
+        output: true
 
 defaults:
-  # Default
-  - scope:
-      path: ""
-      type: _weblinks
-    values:
-      layout: weblinks
-      published: true
-  - scope:
-      path: ''
-      type: _modules
-    values:
-      title: ''
-      date_tdt: '2018-07-11T19:36:04.633Z'
-      author: ''
-      layout: default
-      permalink: '/_modules/:name/'
-      published: true
-      isPublic_b: false
-    required: []
-    validate: {}
-    labels:
-      title: Title
-      date_tdt: Date
-      author: Author
-      layout: Layout
-      permalink: Permanent Link
-      published: Published
-      isPublic_b: Public
-  - scope:
-      path: ""
-      type: _files
-    values:
-      layout: files
-      published: true
-  - scope:
-      path: ""
-      type: _privateFiles
-    values:
-      layout: privateFiles
-      published: true
-  - scope:
-      path: ""
-      type: _emailtpl
-    values:
-      layout: emailtpl
-  - scope:
-      path: ""
-      type: _videos
-    values:
-      layout: videos
-      published: true
-  - scope:
-      path: ""
-      type: _images
-    values:
-      layout: images
-      published: true
-  - scope:
-      path: ""
-      type: _banner
-    values:
-      layout: banner
+    # Default
+    - scope:
+          path: ''
+          type: _weblinks
+      values:
+          layout: weblinks
+          published: true
+    - scope:
+          path: ''
+          type: _modules
+      values:
+          title: ''
+          date_tdt: '2018-07-11T19:36:04.633Z'
+          author: ''
+          layout: default
+          permalink: '/_modules/:name/'
+          published: true
+          isPublic_b: false
+      required: []
+      validate: {}
+      labels:
+          title: Title
+          date_tdt: Date
+          author: Author
+          layout: Layout
+          permalink: Permanent Link
+          published: Published
+          isPublic_b: Public
+    - scope:
+          path: ''
+          type: _files
+      values:
+          layout: files
+          published: true
+    - scope:
+          path: ''
+          type: _privateFiles
+      values:
+          layout: privateFiles
+          published: true
+    - scope:
+          path: ''
+          type: _emailtpl
+      values:
+          layout: emailtpl
+    - scope:
+          path: ''
+          type: _videos
+      values:
+          layout: videos
+          published: true
+    - scope:
+          path: ''
+          type: _images
+      values:
+          layout: images
+          published: true
+    - scope:
+          path: ''
+          type: _banner
+      values:
+          layout: banner
 formsSiteURL: forms.oicr.on.ca
 
 ######################################################################
@@ -142,23 +142,22 @@ markdown: kramdown
 
 # Jekyll plugins ( also requires to add list in Gemfile )
 plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
+    - jekyll-feed
+    - jekyll-redirect-from
 
 # Exclude these files when the site is generated.
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - webpack.config.js
-  - .eslint
-  - package.json
-  - npm-debug.log
-  - vendor
-  - docker-compose.yml
-  - start.sh
-  - start-build.sh
-  - start-preview.sh
+    - Gemfile
+    - Gemfile.lock
+    - node_modules
+    - webpack.config.js
+    - .eslint
+    - package.json
+    - npm-debug.log
+    - vendor
+    - docker-compose.yml
+    - start.sh
+    - start-build.sh
+    - start-preview.sh
 
 theme: jekyll-theme-minimal
-
