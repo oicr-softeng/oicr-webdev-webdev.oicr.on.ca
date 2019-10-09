@@ -49,11 +49,11 @@ planning:
 
 design:
     title: "Design & UX"
-    content: "We work together with subject-matter-experts (you), to shape a user-friendly experience and engaging look and feel that resonates with the website's primary users."
+    content: "We work together with subject-matter-experts (partners), to shape a user-friendly experience and engaging look and feel that resonates with the website's primary users."
 
 devel:
-    title: "Development"
-    content: "We run a rapid, agile development environment based on a modern web technology stack, ensuring applications meet design and device specifications."
+    title: "Development & Deployment"
+    content: "We work transparently, build using modern static and object-database-driven web technologies with best practices, to meet project scope & organizational compliance, operational goals."
 
 about:
     title: "About the Team"
