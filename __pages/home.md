@@ -45,11 +45,11 @@ websites:
 
 planning:
     title: "Planning & Strategy"
-    content: "Rather than out-of-the box features that don't quite fit your project goals, we plan the project aligned to your definition of success, to create a custom solution that works best."
+    content: "Rather than out-of-the box features that don't quite fit your project goals, we plan the project aligned to your success, to create a custom designed solution that works best within budget."
 
 design:
     title: "Design & UX"
-    content: "We work together with subject-matter-experts (partners), to shape a user-friendly experience and engaging look and feel that resonates with the website's primary users."
+    content: "We work together with subject-matter-experts (researchers and stakeholders), to shape a user-friendly experience and engaging look and feel that resonates with the website's primary users."
 
 devel:
     title: "Development & Deployment"
