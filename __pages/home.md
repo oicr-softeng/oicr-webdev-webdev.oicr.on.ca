@@ -45,7 +45,7 @@ websites:
 
 planning:
     title: "Planning & Strategy"
-    content: "Rather than out-of-the box features that don't quite fit your project goals, we plan the project aligned to your success, to create a custom designed solution that works best within budget."
+    content: "Rather than out-of-the box features that don't quite fit your project goals, we plan the project aligned to our stakeholder's success, to create a custom designed solution that works best."
 
 design:
     title: "Design & UX"
@@ -53,7 +53,7 @@ design:
 
 devel:
     title: "Development & Deployment"
-    content: "We work transparently, build using modern static and object-database-driven web technologies with best practices, to meet project scope & organizational compliance, operational goals."
+    content: "We work transparently, build using modern static and object-database-driven web technologies with best practices, to meet project scope & cost & organizational compliance, operational goals."
 
 about:
     title: "About the Team"
