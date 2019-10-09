@@ -57,24 +57,16 @@ devel:
 
 about:
     title: 'About the Team'
-    content: "Our team is composed of creative and technical members, working on 20+ projects servicing both OICR's research and corporate programs. We apply rapid and intelligent design analysis, and agile implementation thereby enabling programs to focus on the high-value benefits for their users. We work on OICR's international, national and provincial research websites developing an extensive array of user-friendly, informative and operational websites. These websites support and communicate OICR's research services and deliver the programs' ambitious objectives."
+    content: "Our team is composed of creative and technical members, working with OICR's research and corporate programs to produce successful products that can be used in scientific communitiies. We are creative and collaborative, we design and create custom products aiming for high-quality user experiences for web and mobile, aimed at your user's real purpose towards your project so they can be used without heavy vendor-support.  We are experienced software engineers, and our systems have been tested for organizational compliance (security, privacy, accessibility), but also proven to be extraordinarily sustainable systems, requiring less resources and costly maintenance costs.   We work on OICR's international, national and provincial research websites developing an extensive array of user-friendly, informative and operational websites. These websites support and communicate OICR's research services and deliver the programs' ambitious objectives."
     btn: 'MORE ABOUT OUR TEAM'
 
 join_the_team:
-    title: 'Join the Team'
-    content: 'We are always on the lookout for talented co-op students who help us out for 4-month terms. We have the following positions open:'
-    jobs:
-        - 'Web+Technologies Developer - Toronto, Ontario'
-        - 'Visual Designer + Themer - Toronto, Ontario'
+    title: 'Work with Us'
+    content: 'We have an "open-door policy" to assist both OICR groups and non-OICR (Cancer-affiliated) groups.  With a wide toolbox of features that can be combined to produce high-quality results quickly, please consider contacting us to learn more, or sending us an RFP for your project.'
 
-    btn: 'MORE ABOUT CAREERS'
+    btn: 'CONTACT US'
 
 work: 'Who We Work With'
-
-footer-heading: Interested in Collaborating?
-footer-message: 'We welcome OICR-Affiliated Research Programs to contact us for services and resources: '
-btnOne: CONTACT US
-btnTwo: CREATE LAB SITE
 
 partners:
     - abbr: oicr
