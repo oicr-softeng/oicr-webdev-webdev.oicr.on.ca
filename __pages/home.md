@@ -57,12 +57,14 @@ devel:
 
 about:
     title: 'About the Team'
-    content: "Our team is composed of creative and technical members, working with OICR's research and corporate programs to produce successful products that can be used in scientific communitiies. We are creative and collaborative, we design and create custom products aiming for high-quality user experiences for web and mobile, aimed at your user's real purpose towards your project.  We are experienced software engineers, and our systems have been tested for organizational compliance (security, privacy, accessibility), but also proven to be extraordinarily sustainable systems, requiring less resources and costly maintenance costs / heavy vendor-support.   We work on OICR's international, national and provincial research websites developing an extensive array of user-friendly, informative and operational websites. These websites support and communicate OICR's research services and deliver the programs' ambitious objectives."
+    content: "The OICR-WebDev team is composed of experienced creative and technical members, and we work on the Ontario Institute for Cancer Research's international, national and provincial research websites. These websites support and communicate OICR's research services and deliver the programs' ambitious objectives, and provide an extensive array of user-friendly, informative and operational uses.
+    .   
+    "
     btn: 'MORE ABOUT OUR TEAM'
 
 join_the_team:
     title: 'Work with Us'
-    content: 'We have an "open-door policy" to assist research in both OICR groups and non-OICR (Cancer-affiliated) groups.  With a wide toolbox of features that can be combined to produce high-quality results quickly so that you succeed in your important research mission, please consider contacting us to learn more, or sending us an RFP for your project.'
+    content: 'We are experienced software engineers too and our systems have been tested for organizational compliance (security, privacy, accessibility), but also proven to be extraordinarily long-term sustainable systems, running with less resources and costly maintenance costs / heavy vendor-support.  Please consider contacting us to learn more, or sending us an RFP for your next project.'
 
     btn: 'CONTACT US'
 
