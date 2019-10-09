@@ -57,13 +57,15 @@ devel:
 
 about:
     title: 'About the Team'
-    content: "The OICR-WebDev team is composed of experienced creative and technical members, and we work on the Ontario Institute for Cancer Research's international, national and provincial research websites. These websites support and communicate OICR's research services and deliver the programs' ambitious objectives, and provide an extensive array of user-friendly, informative and operational uses.   
+    content: "Our team is composed of experienced creative and technical members, and we work on the Ontario Institute for Cancer Research's international, national and provincial research websites. These websites support and communicate OICR's research services and deliver the programs' ambitious objectives, and provide an extensive array of user-friendly, informative and operational uses.   
+
+    Our solutions have been shaped to provide meaningful outcomes to enable small teams to succeed online.  Our professional experiences include organizational compliance in security, privacy, accessibility, and communications.  We also provide operational maintainance which has shaped our software engineering practices to design truly sustainable systems that with less consumption and software maintenance.  
     "
     btn: 'MORE ABOUT OUR TEAM'
 
 join_the_team:
     title: 'Work with Us'
-    content: 'We are experienced software engineers too and our systems have been tested for organizational compliance (security, privacy, accessibility), but also proven to be extraordinarily long-term sustainable systems, running with less resources and costly maintenance costs / heavy vendor-support.  Please consider contacting us to learn more, or sending us an RFP for your next project.'
+    content: 'Please consider contacting us to learn more about our approaches to enable scientific projects to succeed, and consider sending us an RFP for your next web project, we'd love to help you too.'
 
     btn: 'CONTACT US'
 
