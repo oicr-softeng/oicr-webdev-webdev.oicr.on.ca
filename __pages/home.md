@@ -57,8 +57,7 @@ devel:
 
 about:
     title: 'About the Team'
-    content: "The OICR-WebDev team is composed of experienced creative and technical members, and we work on the Ontario Institute for Cancer Research's international, national and provincial research websites. These websites support and communicate OICR's research services and deliver the programs' ambitious objectives, and provide an extensive array of user-friendly, informative and operational uses.
-    .   
+    content: "The OICR-WebDev team is composed of experienced creative and technical members, and we work on the Ontario Institute for Cancer Research's international, national and provincial research websites. These websites support and communicate OICR's research services and deliver the programs' ambitious objectives, and provide an extensive array of user-friendly, informative and operational uses.   
     "
     btn: 'MORE ABOUT OUR TEAM'
 
