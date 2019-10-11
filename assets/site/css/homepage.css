@@ -144,10 +144,11 @@
 }
 
 .circle-inner {
-    -webkit-background-size: auto 100%;
-    -moz-background-size: auto 100%;
-    -o-background-size: auto 100%;
-    background-size: auto 100%;
+    -webkit-background-size: auto 200%;
+    -moz-background-size: auto 200%;
+    -o-background-size: auto 200%;
+    background-size: auto 200%;
+    background-position-x: -40px;
     position: absolute;
     top: 0;
     right: 0;
