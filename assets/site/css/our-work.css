@@ -443,6 +443,7 @@ div[id^="webdev-carousel-"] {
 .filter-item a{
     text-decoration: none;
     color: #4d4d4d;
+    font-size: 18px;
 }
 
 
@@ -580,6 +581,7 @@ div[id^="webdev-carousel-"] {
     color: #355470;
     font-weight: 700;
     font-size: 18px;
+    font-family: 'Helvetica Neue LT W05_65 Medium';
 }
 
 .work-item-content p {
