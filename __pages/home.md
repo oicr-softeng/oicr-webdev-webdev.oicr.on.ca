@@ -23,7 +23,7 @@ PALAB:
     title: "Phillip Awadalla Lab"
     content: "Design & Development for Canadian Researcher's Lab"
     nav: "CASE STUDY"
-    link: "/our-work/case-studies/palab/"
+    link: "/our-work/case-studies/al"
 
 GA:
     title: "Global Alliance for Genomics and Health"
