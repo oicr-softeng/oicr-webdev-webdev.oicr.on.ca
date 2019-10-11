@@ -130,7 +130,13 @@ partners:
     - abbr: activedriver
       logo: /assets/site/images/activedriverDB_logo.png
       website: https://www.activedriverdb.org/
-    - abbr: genomecdic
-      logo: /assets/site/images/genomecdic_logo.png
-      website: https://genome-cdic.ca/
+    - abbr: oicr-ao
+      logo: /assets/site/images/logo-oicr-ao.png
+      website: https://ao.oicr.on.ca/
+    - abbr: oicr-labs
+      logo: /assets/site/images/logo-oicr-labs.png
+      website: https://labs.oicr.on.ca/    
+    - abbr: oicr-genomics
+      logo: /assets/site/images/logo-oicr-genomics.png
+      website: https://genomics.oicr.on.ca/   
 ---
