@@ -171,7 +171,7 @@
 }
 
 .slide4 .circle-inner {
-    background-image: url(../images/homepage-gallery-icgc.jpg);
+    background-image: url(../images/homepage-gallery-palab.jpg);
 }
 
 .circle-inner img {
@@ -1036,7 +1036,6 @@ section .row {
 .about-us .about-us-join a.btn {
     margin-left: 30px;
     position: absolute;
-    bottom: 0;
 }
 
 .about-us .about-us-join .about-us-join-content {

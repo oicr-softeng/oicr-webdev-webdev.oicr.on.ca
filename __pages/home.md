@@ -19,23 +19,23 @@ OMPRN:
     nav: "CASE STUDY"
     link: "/our-work/case-studies/omprn/"
 
+PALAB:
+    title: "Phillip Awadalla Lab"
+    content: "Design & Development for Canadian Researcher's Lab"
+    nav: "CASE STUDY"
+    link: "/our-work/case-studies/palab/"
+
 GA:
     title: "Global Alliance for Genomics and Health"
-    content: "Design and Development for a Global Network"
+    content: "Design & Development for Canada's participation in responsible genomic data sharing"
     nav: "CASE STUDY"
     link: "/our-work/case-studies/ga/"
 
 GDC:
     title: "Genomic Data Commons"
-    content: "Design and Development for a Website and Data Portal"
+    content: "Design & Development for a Canada's participation in genomic data harmonization"
     nav: "CASE STUDY"
     link: "/our-work/case-studies/gdc/"
-
-ICGC:
-    title: "International Cancer Genome Consortium"
-    content: "Design and Development for a Website and Data Portal"
-    nav: "CASE STUDY"
-    link: "/our-work/case-studies/icgc/"
 
 what_we_do: "What We Do"
 
@@ -130,4 +130,7 @@ partners:
     - abbr: activedriver
       logo: /assets/site/images/activedriverDB_logo.png
       website: https://www.activedriverdb.org/
+    - abbr: genomecdic
+      logo: /assets/site/images/genomecdic_logo.png
+      website: https://genome-cdic.ca/
 ---

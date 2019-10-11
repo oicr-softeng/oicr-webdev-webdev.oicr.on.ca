@@ -68,6 +68,7 @@ a.btn:focus {
     background-position: calc(100% - 25px) 50%;
     display: block;
     transition: all 0.3s;
+    font-family: 'Helvetica Neue LT W05_65 Medium';
 }
 
 .btn:hover .btn-zoom {
