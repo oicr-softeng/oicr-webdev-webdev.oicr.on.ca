@@ -58,13 +58,12 @@ devel:
 about:
     title: "About the Team"
     content: "Our team is composed of experienced creative and technical members, and we work on the Ontario Institute for Cancer Research's international, national and provincial research websites. These websites support and communicate OICR's research services and deliver the programs' ambitious objectives, and provide an extensive array of user-friendly, informative and operational uses.   
-    Our solutions have been shaped to provide meaningful outcomes to enable small teams to succeed online.  Our professional experiences include organizational compliance in security, privacy, accessibility, and communications.  We also provide operational maintainance which has shaped our software engineering practices to design truly sustainable systems that with less consumption and software maintenance.  
     "
     btn: "MORE ABOUT OUR TEAM"
 
 join_the_team:
     title: "Work with Us"
-    content: "Please consider contacting us to learn more about our approaches to enable scientific projects to succeed, and consider sending us an RFP for your next web project, we'd love to help you too."
+    content: "Please consider contacting us for your project, and consider sending us an RFP for your next web project, we'd love to help you too.  Our solutions have been shaped to provide meaningful outcomes to enable small teams to succeed online.  Our professional experiences include organizational compliance in security, privacy, accessibility, and communications.  We also provide operational maintainance which has shaped our software engineering practices to design truly sustainable systems that with less consumption and software maintenance."
 
     btn: "CONTACT US"
 
