@@ -60,15 +60,14 @@ team:
       Loves to work on meaningful outcomes.  Has hired 50+ students while at the
       OICR.
     tag: joseph-yamada
-  - name: Nikita Mor
-    image: /assets/site/images/webdev-team-nikita.png
-    role: UI/UX Designer
+  - name: Mona Li
+    image: /assets/site/images/mona-li.jpg
+    role: Visual Web Designer
     focus: >-
-      Designs usable, purposeful, and aesthetically appealing products to enable
-      scientists to connect, collaborate, and communicate effectively.
-    expertise: 'UI/UX Design, UX Research, Visual Design.'
-    fun_fact: Loves making films and deep-sea diving.
-    tag: nikita-mor
+      Specializes in solving complex knowledge translation problems with high-quality UI/UX design for websites.
+    expertise: Visual Storytelling; Medical/Scientific Communication; Patient/Health Education; Human Behaviour; 2D Illustration & Design
+    fun_fact: Loves her pet lizard.
+    tag: mona-li
   - name: Kaman Wu
     image: /assets/site/images/webdev-team-kaman.png
     role: Back-End Web Developer
