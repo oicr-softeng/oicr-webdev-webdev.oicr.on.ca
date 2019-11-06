@@ -33,10 +33,10 @@ challenge:
     - "/assets/site/images/case-studies/omprn/OMPRN-the-challenge5.jpg"
 
 
-testimonial:
-  quote: ""
-  title: ""
-  institution: ""
+testimonial: 
+  quote: "It has been my pleasure working with the OICR WebDev team on the OMPRN website. Joseph Yamada and his team are approachable, collaborative, and exceedingly helpful. WebDev and monthly hosting fees are also very reasonable. Overall, I appreciate the valuable work done for OMPRN by OICR WebDev!"
+  title: "Kyster Nanan"
+  institution: "Project Manager, OMPRN"
 
 solution:
   title: "The Solution"
