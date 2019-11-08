@@ -18,7 +18,7 @@ general-oicr_list:
     - item_txt: 'Policies'
       link_txt: 'https://oicr.on.ca/oicr-policies-and-procedures/'
     - item_txt: 'Viewing Files'
-      link_txt: 'http://webdev.oicr.on.ca/browsers/'
+      link_txt: 'http://webdev.oicr.on.ca/browsers'
 
 final-link_list:
     - item_txt: 'OICR-WEBDEV'

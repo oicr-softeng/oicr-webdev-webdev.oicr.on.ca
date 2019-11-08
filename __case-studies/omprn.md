@@ -33,20 +33,17 @@ challenge:
       be mobile friendly to accommodate the busy lifestyles of researchers who
       are frequently traveling.
   slides:
-    - /assets/site/images/case-studies/omprn/OMPRN-the-challenge1.jpg
-    - /assets/site/images/case-studies/omprn/OMPRN-the-challenge2.jpg
-    - /assets/site/images/case-studies/omprn/OMPRN-the-challenge3.jpg
-    - /assets/site/images/case-studies/omprn/OMPRN-the-challenge4.jpg
-    - /assets/site/images/case-studies/omprn/OMPRN-the-challenge5.jpg
-testimonial:
-  quote: >-
-    It has been my pleasure working with the OICR WebDev team on the OMPRN
-    website. Joseph Yamada and his team are approachable, collaborative, and
-    exceedingly helpful. WebDev and monthly hosting fees are also very
-    reasonable. Overall, I appreciate the valuable work done for OMPRN by OICR
-    WebDev!
-  title: Project Manager
-  institution: OMPRN
+    - "/assets/site/images/case-studies/omprn/OMPRN-the-challenge1.jpg"
+    - "/assets/site/images/case-studies/omprn/OMPRN-the-challenge2.jpg"
+    - "/assets/site/images/case-studies/omprn/OMPRN-the-challenge3.jpg"
+    - "/assets/site/images/case-studies/omprn/OMPRN-the-challenge4.jpg"
+    - "/assets/site/images/case-studies/omprn/OMPRN-the-challenge5.jpg"
+
+testimonial: 
+  quote: "It has been my pleasure working with the OICR WebDev team on the OMPRN website. Joseph Yamada and his team are approachable, collaborative, and exceedingly helpful. WebDev and monthly hosting fees are also very reasonable. Overall, I appreciate the valuable work done for OMPRN by OICR WebDev!"
+  title: "Kyster Nanan"
+  institution: "Project Manager, OMPRN"
+
 solution:
   title: The Solution
   content:
