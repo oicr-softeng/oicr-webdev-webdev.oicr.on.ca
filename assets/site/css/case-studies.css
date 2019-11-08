@@ -613,12 +613,10 @@ section.case-study {
 
 .testimonial-content {
     padding-left: 15px;
-    visibility: hidden;
 }
 
 .testimonial-content p {
     color: #ffffff;
-    visibility: hidden;
 }
 
 .testimonial.row {
