@@ -15,7 +15,6 @@
 
 .jumbotron.wrapper .jumbotron-inner {
     position: relative;
-    padding-top: 45px;
 }
 
 .jumbotron-main {
@@ -145,10 +144,11 @@
 }
 
 .circle-inner {
-    -webkit-background-size: auto 100%;
-    -moz-background-size: auto 100%;
-    -o-background-size: auto 100%;
-    background-size: auto 100%;
+    -webkit-background-size: auto 200%;
+    -moz-background-size: auto 200%;
+    -o-background-size: auto 200%;
+    background-size: auto 200%;
+    background-position-x: -40px;
     position: absolute;
     top: 0;
     right: 0;
@@ -172,7 +172,7 @@
 }
 
 .slide4 .circle-inner {
-    background-image: url(../images/homepage-gallery-icgc.jpg);
+    background-image: url(../images/homepage-gallery-palab.jpg);
 }
 
 .circle-inner img {
@@ -222,9 +222,9 @@
 }
 
 .circle2-content {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6em;
-    margin: 16% 12% 15% 20%;
+    margin: 12% 14% 20% 19%;
 }
 
 .circle2-content a.project {
@@ -1037,7 +1037,6 @@ section .row {
 .about-us .about-us-join a.btn {
     margin-left: 30px;
     position: absolute;
-    bottom: 0;
 }
 
 .about-us .about-us-join .about-us-join-content {
@@ -1151,7 +1150,7 @@ section .row {
     text-align: center;
 }
 
-.logo-activedriver img {    
+.logo-activedriver img {
     max-width: 100%;
     max-height: 100%;
     height: auto;
@@ -1275,6 +1274,10 @@ section .row {
 .home-banner-title,
 .caption-thumb-content > p {
     text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1.home-banner-title {
+    font-family: 'Helvetica Neue LT W05_75 Bold';
 }
 
 .ums-nav {

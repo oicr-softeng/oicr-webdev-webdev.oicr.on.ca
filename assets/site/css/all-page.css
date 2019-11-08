@@ -68,6 +68,7 @@ a.btn:focus {
     background-position: calc(100% - 25px) 50%;
     display: block;
     transition: all 0.3s;
+    font-family: 'Helvetica Neue LT W05_65 Medium';
 }
 
 .btn:hover .btn-zoom {
@@ -234,8 +235,8 @@ a.btn:focus {
 
 .webdev-login .btn-default:link,
 .webdev-login .btn-default:visited {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-family: 'Helvetica Neue LT W05_45 Light', sans-serif;
+    font-size: 17px;
     font-weight: 600;
     line-height: 20px;
     padding: 10px 20px;

@@ -95,9 +95,9 @@ layout: default
                                         <div class="circle2">
                                             <div class="circle2-inner">
                                                 <div class="circle2-content">
-                                                    <a class="project" href="{{ page.ICGC.link }}">{{ page.ICGC.title }}</a>
-                                                    <p>{{ page.ICGC.content }}</p>
-                                                    <a class="callout" href="{{ page.ICGC.link }}">{{ page.ICGC.nav }}</a>
+                                                    <a class="project" href="{{ page.PALAB.link }}">{{ page.PALAB.title }}</a>
+                                                    <p>{{ page.PALAB.content }}</p>
+                                                    <a class="callout" href="{{ page.PALAB.link }}">{{ page.PALAB.nav }}</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -215,12 +215,8 @@ layout: default
                                     <div class="about-us-join-content">
                                         <h3>{{ page.join_the_team.title }}</h3>
                                         <p>{{ page.join_the_team.content }}</p>
-                                        <ul> {% for list in d.job_postings.jobs %}
-                                            <li><a class="white-link" href="/careers/">{{ list.title }}  &raquo;</a></li>{% endfor %}
-
-                                        </ul>
                                     </div>
-                                    <a class="btn" href="/careers/"><span class="btn-zoom">{{ page.join_the_team.btn }}</span></a>
+                                    <a class="btn" href="/contact-us/"><span class="btn-zoom">{{ page.join_the_team.btn }}</span></a>
                                 </div>
                             </div>
                         </div>

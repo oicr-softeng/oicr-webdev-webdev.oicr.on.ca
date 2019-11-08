@@ -27,3 +27,14 @@
 <link type="text/css" rel="stylesheet" media="all" href="/assets/site/css/all-page.css" >
 
 <script src="/assets/site/js/env_theme.js?{{ "now" | date: "%s" }}"></script>
+
+<script type="text/javascript">
+var MTIProjectId='971db5ee-f70c-4d68-a104-09abf9a44559';
+ (function() {
+        var mtiTracking = document.createElement('script');
+        mtiTracking.type='text/javascript';
+        mtiTracking.async='true';
+         mtiTracking.src='/assets/site/js/mtiFontTrackingCode.js';
+        (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+   })();
+</script>

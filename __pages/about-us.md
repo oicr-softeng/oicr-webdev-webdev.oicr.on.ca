@@ -4,6 +4,11 @@ date_tdt: 2019-02-27T15:37:33.915Z
 author: Joseph Yamada
 layout: about-us
 permalink: /about-us/
+redirect_from:
+  - "/aboutus/"
+  - "/test/"
+  - "/about-us/"
+
 published: true
 isPublic_b: true
 date: '2017-03-06 10:00:00 -0500'
@@ -37,7 +42,7 @@ stats:
   team: 5-10 People
   work: 50+ Projects
   productivity: ~4000 Tasks
-  outreach: 70K+ Users
+  outreach: 10K+ Users
 meet_the_team:
   title: Meet the Team
   description: >-
@@ -108,6 +113,18 @@ team:
 our-students:
   title: Our Talented Students
   students: 
+        - name: Andrew Chin
+          program: Computer Science
+          school: University of Waterloo
+          role: Full Stack Developer
+        - name: Sheen Thusso
+          program: Biomedical Engineering
+          school: University of Waterloo
+          role: Web + Content Developer
+past-students:
+  title: Credits to Our Team Alumni
+  terms:
+    - students:
         - name: Yifei Zhang
           program: 1st year Software Engineering
           school: University of Waterloo
@@ -120,9 +137,7 @@ our-students:
           program: 1st year Computer Science
           school: University of Guelph
           role: Visual Designer + Themer
-past-students:
-  title: Credits to Our Team Alumni
-  terms:
+      termTitle: Summer 2019
     - students:
         - name: David Chi
           program: 2nd year Computer Science
