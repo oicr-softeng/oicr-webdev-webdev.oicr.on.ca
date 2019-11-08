@@ -42,7 +42,7 @@ stats:
   team: 5-10 People
   work: 50+ Projects
   productivity: ~4000 Tasks
-  outreach: 70K+ Users
+  outreach: 10K+ Users
 meet_the_team:
   title: Meet the Team
   description: >-
