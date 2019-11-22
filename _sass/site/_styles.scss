@@ -1,2 +1,76 @@
 @import './modules/banner';
 @import './modules/footer';
+
+
+// 404 Error Page Styles
+.text-container.col-xs-10.col-sm-9.col-md-3 {
+    display: inline-block; 
+    line-height: 20px;
+    padding-top: 100px; 
+    margin-left: 15px;
+    text-align: left;
+}
+#sock-img {
+    padding-top: 50px; 
+    padding-right: 10px; 
+    display: flex; 
+    display: inline-block;
+    margin-left: 100px; 
+    max-width: 100%; 
+    height: auto;
+}
+
+#page-title {
+    font-weight: 800;
+    padding: 5px;
+}
+@media screen and (max-width: 1200px) {
+    .text-container.col-xs-10.col-sm-9.col-md-3 {
+        margin-left: 100px;
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .text-container.col-xs-10.col-sm-9.col-md-3 {
+        margin-left: 50px;
+        padding-top: 40px;
+    }
+    #page-title {
+        text-align: center;
+    }
+    #sock-img { 
+        margin-left: 50px;
+    }
+
+}
+@media screen and (max-width: 479px) {
+    #sock-img {
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
+        padding: 20px;
+    }
+    .text-container.col-xs-10.col-sm-9.col-md-3 {
+        padding: 10px 30px 10px 10px;
+        margin-left: 40px;
+    }
+    #page-title {
+        font-size: 30px;
+        text-align: center;
+    }
+} 
+@media screen and (max-width: 370px)  {
+    #sock-img {
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
+        padding-top: 5px;
+    }
+    .text-container.col-xs-10.col-sm-9.col-md-3 {
+        padding: 10px 30px 10px 10px;
+    }
+    #page-title {
+        font-size: 30px;
+        text-align: center;
+    }
+}
