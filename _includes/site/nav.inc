@@ -13,7 +13,7 @@
                 </button>
             </div>
         </div><!-- .navbar-header -->
-
+        {% unless page.title == '404 - Page Not Found' %}
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
             <nav role="navigation">
@@ -50,5 +50,6 @@
                 </div>
             </nav>
         </div><!-- .navbar-collapse -->
+        {% endunless %}
     </div><!-- .container -->
 </nav><!-- .navbar -->
