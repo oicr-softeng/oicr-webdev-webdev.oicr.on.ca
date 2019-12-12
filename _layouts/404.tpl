@@ -5,7 +5,7 @@ layout: default
     <div class="header-404-container">
         <div class="row">
             <div class="col-xs-12" style="display: flex; justify-content: center;">
-                <h1 id="page-title">404 - Page Not Found</h1>
+                <h1 id="page-title">{{ page.title }}</h1>
             </div>
         </div>
     </div>
