@@ -13,7 +13,7 @@
                 </button>
             </div>
         </div><!-- .navbar-header -->
-        {% unless page.title == '404 - Page Not Found' %}
+        {% unless page.layout == 404 %}
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
             <nav role="navigation">
@@ -34,7 +34,6 @@
                     </button>
                     </form>
                 </div>
-
                 <div class="region region-navbar">
                     <!-- Main menu -->
                     <div class="menu-main-menu">
