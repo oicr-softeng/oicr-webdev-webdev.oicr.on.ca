@@ -113,6 +113,18 @@ team:
 our-students:
   title: Our Talented Students
   students: 
+        - name: Kairui Zeng
+          program: Computer Science
+          school: University of Waterloo
+          role: Full Stack Developer
+        - name: Emily Anas
+          program: Computer Science
+          school: University of Waterloo
+          role: UX Analyst & Visual Designer
+past-students:
+  title: Credits to Our Team Alumni
+  terms:
+    - students:
         - name: Andrew Chin
           program: Computer Science
           school: University of Waterloo
@@ -121,9 +133,7 @@ our-students:
           program: Biomedical Engineering
           school: University of Waterloo
           role: Web + Content Developer
-past-students:
-  title: Credits to Our Team Alumni
-  terms:
+      termTitle: Fall 2019
     - students:
         - name: Yifei Zhang
           program: 1st year Software Engineering
