@@ -16,29 +16,23 @@ description: "Join a team of experienced professionals with capabilities that ra
 job_postings:
   title: "Job Postings"
   jobs:
-    - title: "Visual Web Designer" 
-      location: MaRS Centre Toronto, Ontario
-      contract: Full-Time
-      posted: 2019-09-24 10:00:00 -0500
-      btn: "APPLY ON RECRUITER.COM"
-      btn_url: "https://www.recruitingsite.com/csbsites/oicr/JobDescription.asp?JobNumber=849785"
     - title: "Web Content Editor + Client Service" 
       location: MaRS Centre Toronto, Ontario
       contract: UW Co-op Position
       posted: 2019-09-02 10:00:00 -0500
-      btn: "APPLY ON WATERLOO WORKS (Job ID : 127018)"
+      btn: "APPLY ON WATERLOO WORKS (Job ID : 144360)"
       btn_url: "https://waterlooworks.uwaterloo.ca"
-    - title: "Web Application Engineer (JavaScript)" 
+    - title: "Web Application Engineering (JavaScript)" 
       location: MaRS Centre Toronto, Ontario
       contract: UW Co-op Position
       posted: 2019-09-02 10:00:00 -0500
-      btn: "APPLY ON WATERLOO WORKS (Job ID : 127017)"
+      btn: "APPLY ON WATERLOO WORKS (Job ID : 144361)"
       btn_url: "https://waterlooworks.uwaterloo.ca"
     - title: "UX Analyst + Visual Designer" 
       location: MaRS Centre Toronto, Ontario
       contract: UW Co-op Position
       posted: 2019-09-02 10:00:00 -0500
-      btn: "APPLY ON WATERLOO WORKS (Job ID : 127016)"
+      btn: "APPLY ON WATERLOO WORKS (Job ID : 144362)"
       btn_url: "https://waterlooworks.uwaterloo.ca"
       
 what_we_offer: "What We Offer"
