@@ -19,19 +19,19 @@ job_postings:
     - title: "Web Content Editor + Client Service" 
       location: MaRS Centre Toronto, Ontario
       contract: UW Co-op Position
-      posted: 2019-09-02 10:00:00 -0500
+      posted: 2020-01-06 10:00:00 -0500
       btn: "APPLY ON WATERLOO WORKS (Job ID : 144360)"
       btn_url: "https://waterlooworks.uwaterloo.ca"
     - title: "Web Application Engineering (JavaScript)" 
       location: MaRS Centre Toronto, Ontario
       contract: UW Co-op Position
-      posted: 2019-09-02 10:00:00 -0500
+      posted: 2020-01-06 10:00:00 -0500
       btn: "APPLY ON WATERLOO WORKS (Job ID : 144361)"
       btn_url: "https://waterlooworks.uwaterloo.ca"
     - title: "UX Analyst + Visual Designer" 
       location: MaRS Centre Toronto, Ontario
       contract: UW Co-op Position
-      posted: 2019-09-02 10:00:00 -0500
+      posted: 2020-01-06 10:00:00 -0500
       btn: "APPLY ON WATERLOO WORKS (Job ID : 144362)"
       btn_url: "https://waterlooworks.uwaterloo.ca"
       
