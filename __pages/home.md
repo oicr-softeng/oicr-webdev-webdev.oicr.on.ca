@@ -137,5 +137,14 @@ partners:
       website: https://labs.oicr.on.ca/    
     - abbr: oicr-genomics
       logo: /assets/site/images/logo-oicr-genomics.png
-      website: https://genomics.oicr.on.ca/   
+      website: https://genomics.oicr.on.ca/
+    - abbr: oicr-tgl
+      logo: /assets/site/images/logo-tgl.svg
+      website: https://tgl.oicr.on.ca/
+    - abbr: oicr-trc
+      logo: /assets/site/images/logo-trc.svg
+      website: https://trc.oicr.on.ca/
+    - abbr: oicr-yr
+      logo: /assets/site/images/logo-yr.png
+      website: http://reimandlab.org/
 ---
