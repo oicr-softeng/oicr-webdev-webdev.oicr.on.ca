@@ -113,6 +113,14 @@ team:
 our-students:
   title: Our Talented Students
   students: 
+        - name: Jeremy Sun
+          program: 1st year Computer Science
+          school: University of Waterloo
+          role: Web Application Engineer (Javascript)
+past-students:
+  title: Credits to Our Team Alumni
+  terms:
+    - students:
         - name: Kairui Zeng
           program: Computer Science
           school: University of Waterloo
@@ -121,9 +129,7 @@ our-students:
           program: Computer Science
           school: University of Waterloo
           role: UX Analyst & Visual Designer
-past-students:
-  title: Credits to Our Team Alumni
-  terms:
+      termTitle: Winter 2020
     - students:
         - name: Andrew Chin
           program: Computer Science
