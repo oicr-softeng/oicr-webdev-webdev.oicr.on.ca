@@ -19,7 +19,7 @@
     "d3-tip": "^0.9.1",
     "extract-text-webpack-plugin": "^3.0.0",
     "git-diff": "^2.0.6",
-    "highcharts": "^6.1.1",
+    "highcharts": "^8.2.0",
     "intl": "^1.2.5",
     "jsrsasign": "^8.0.12",
     "jwt-decode": "^2.2.0",
